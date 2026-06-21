@@ -32,28 +32,36 @@
   header h1 { font-size: 22px; font-weight: 700; letter-spacing: -0.5px; }
   header p { color: var(--gray-4); font-size: 12px; margin-top: 4px; }
 
-  /* ── List view ── */
-  #list-view {}
+  /* ── List view — session-grouped card feed ── */
+  .session-group { margin-bottom: 34px; }
+  .session-header { margin-bottom: 14px; padding-bottom: 8px; border-bottom: 1px solid var(--gray-2); }
+  .session-name { font-size: 18px; font-weight: 700; letter-spacing: -0.3px; }
+  .session-date { font-size: 12px; color: var(--gray-4); margin-top: 2px; }
 
-  table { width: 100%; border-collapse: collapse; }
-  thead th {
-    text-align: left; font-size: 11px; font-weight: 600; text-transform: uppercase;
-    letter-spacing: 0.06em; color: var(--gray-4); padding: 8px 10px;
-    border-bottom: 1px solid var(--gray-2); white-space: nowrap;
+  .vote-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; }
+
+  .vote-card {
+    display: flex; flex-direction: column; gap: 10px;
+    border: 1px solid var(--gray-2); border-radius: 8px; padding: 14px;
+    background: #fff; cursor: pointer; transition: border-color 0.12s, box-shadow 0.12s;
   }
-  tbody tr { cursor: pointer; border-bottom: 1px solid var(--gray-2); }
-  tbody tr:hover { background: var(--gray-1); }
-  tbody tr.active { background: var(--gray-1); }
-  td { padding: 10px 10px; vertical-align: middle; }
-  .td-date { color: var(--gray-4); white-space: nowrap; font-size: 12px; width: 88px; }
-  .td-title { font-weight: 500; }
-  .td-proposer { color: var(--gray-4); font-size: 12px; width: 130px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 130px; }
-  .td-bar { width: 100px; }
-  .td-result { width: 110px; text-align: right; }
+  .vote-card:hover { border-color: var(--gray-3); box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05); }
 
-  /* mini stacked bar in table */
-  .mini-bar { display: flex; height: 6px; border-radius: 3px; overflow: hidden; gap: 1px; }
-  .mini-bar span { display: block; }
+  .vote-card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; }
+  .vote-card-title { font-size: 13px; font-weight: 600; line-height: 1.35; }
+  .vote-card-mark {
+    flex-shrink: 0; width: 22px; height: 22px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 700;
+  }
+  .vote-card-mark.accepted { background: #e6f4ec; color: var(--green); }
+  .vote-card-mark.rejected { background: #fce8e6; color: var(--red); }
+  .vote-card-mark.unknown { background: var(--gray-2); color: var(--gray-4); }
+
+  .vote-card-bar { display: flex; height: 8px; border-radius: 4px; overflow: hidden; }
+  .vote-card-bar span { display: block; }
+  .vote-card-proposer { font-size: 11px; color: var(--gray-4); }
+
+  /* stacked-bar segment colours (shared) */
   .seg-za { background: var(--vote-za); }
   .seg-protiv { background: var(--vote-protiv); }
   .seg-suzdrzani { background: var(--vote-suzdrzani); }
@@ -171,18 +179,7 @@
 
   <!-- LIST VIEW -->
   <div id="list-view">
-    <table>
-      <thead>
-        <tr>
-          <th class="td-date">Datum</th>
-          <th>Naslov</th>
-          <th class="td-proposer">Predlagatelj</th>
-          <th class="td-bar">Za / Protiv</th>
-          <th class="td-result">Rezultat</th>
-        </tr>
-      </thead>
-      <tbody id="vote-list"></tbody>
-    </table>
+    <div id="vote-list"></div>
   </div>
 
   <!-- DETAIL VIEW -->
@@ -215,6 +212,11 @@ function capitalize(s) {
   return s.charAt(0).toUpperCase() + s.slice(1);
 }
 
+// Capitalize the first letter of each word (for session headings).
+function titleCase(s) {
+  return String(s ?? '').replace(/(^|\s)(\p{L})/gu, (_, sp, ch) => sp + ch.toUpperCase());
+}
+
 function esc(s) {
   return String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 }
@@ -225,10 +227,11 @@ function badge(result) {
   return `<span class="badge ${cls}">${label}</span>`;
 }
 
-function miniBar(t) {
+// Full-width stacked tally bar for a card.
+function cardBar(t) {
   const total = t.za + t.protiv + t.suzdrzani + t.odsutni || 1;
-  const pct = k => (t[k] / total * 100).toFixed(1);
-  return `<div class="mini-bar">
+  const pct = k => (t[k] / total * 100).toFixed(2);
+  return `<div class="vote-card-bar">
     <span class="seg-za" style="width:${pct('za')}%"></span>
     <span class="seg-protiv" style="width:${pct('protiv')}%"></span>
     <span class="seg-suzdrzani" style="width:${pct('suzdrzani')}%"></span>
@@ -236,22 +239,53 @@ function miniBar(t) {
   </div>`;
 }
 
-// ── List view ─────────────────────────────────────────────────────────────────
+function voteCard(v, i) {
+  const mark = v.result === 'prihvaceno' ? '✓' : v.result === 'odbijeno' ? '✗' : '–';
+  const markClass = v.result === 'prihvaceno' ? 'accepted' : v.result === 'odbijeno' ? 'rejected' : 'unknown';
+  const markTitle = v.result === 'prihvaceno' ? 'Prihvaćeno' : v.result === 'odbijeno' ? 'Odbijeno' : 'Nepoznato';
+  const proposer = v.proposer_name
+    ? `<div class="vote-card-proposer">Predlagatelj: ${esc(capitalize(v.proposer_name))}</div>` : '';
+  return `
+    <article class="vote-card" data-idx="${i}">
+      <div class="vote-card-top">
+        <div class="vote-card-title">${esc(capitalize(v.title))}</div>
+        <div class="vote-card-mark ${markClass}" title="${markTitle}">${mark}</div>
+      </div>
+      ${cardBar(v.tally)}
+      ${proposer}
+    </article>`;
+}
+
+// ── List view — cards grouped by session + sitting day ──────────────────────────
 
 function renderList() {
-  const tbody = document.getElementById('vote-list');
-  tbody.innerHTML = votes.map((v, i) => `
-    <tr data-idx="${i}">
-      <td class="td-date">${fmt(v.date)}</td>
-      <td class="td-title">${capitalize(v.title)}</td>
-      <td class="td-proposer" title="${v.proposer_name || ''}">${v.proposer_name ? capitalize(v.proposer_name) : '—'}</td>
-      <td class="td-bar">${miniBar(v.tally)}</td>
-      <td class="td-result">${badge(v.result)}</td>
-    </tr>
+  // votes are already sorted newest-first; group consecutive ones by session+date.
+  const groups = [];
+  let cur = null;
+  votes.forEach((v, i) => {
+    const key = `${v.session}|${v.date}`;
+    if (!cur || cur.key !== key) {
+      cur = { key, session: v.session, date: v.date, items: [] };
+      groups.push(cur);
+    }
+    cur.items.push({ v, i });
+  });
+
+  const container = document.getElementById('vote-list');
+  container.innerHTML = groups.map(g => `
+    <section class="session-group">
+      <header class="session-header">
+        <div class="session-name">${esc(titleCase(g.session)) || 'Glasanje'}</div>
+        <div class="session-date">${fmt(g.date)}</div>
+      </header>
+      <div class="vote-cards">
+        ${g.items.map(({ v, i }) => voteCard(v, i)).join('')}
+      </div>
+    </section>
   `).join('');
 
-  tbody.querySelectorAll('tr').forEach(tr => {
-    tr.addEventListener('click', () => showDetail(+tr.dataset.idx));
+  container.querySelectorAll('.vote-card').forEach(card => {
+    card.addEventListener('click', () => showDetail(+card.dataset.idx));
   });
 }
 
@@ -531,7 +565,7 @@ async function loadData() {
 
 loadData().catch(e => {
   document.getElementById('vote-list').innerHTML =
-    `<tr><td colspan="5" style="color:#c0392b;padding:20px">Greška pri učitavanju podataka: ${e.message}</td></tr>`;
+    `<div style="color:#c0392b;padding:20px">Greška pri učitavanju podataka: ${e.message}</div>`;
 });
 </script>
 </body>
