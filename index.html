@@ -38,7 +38,7 @@
   .session-name { font-size: 18px; font-weight: 700; letter-spacing: -0.3px; }
   .session-date { font-size: 12px; color: var(--gray-4); margin-top: 2px; }
 
-  .vote-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; }
+  .vote-cards { display: grid; grid-template-columns: 1fr; gap: 12px; }
 
   .vote-card {
     display: flex; flex-direction: column; gap: 10px;
@@ -323,7 +323,7 @@ function buildDetail(v) {
 
     <div class="eli5">
       <div class="eli5-label">Što ovo znači?</div>
-      <div class="eli5-text">${v.summary || 'Sažetak nije dostupan.'}</div>
+      <div class="eli5-text">${v.summary ? esc(v.summary) : 'Sažetak nije dostupan.'}</div>
     </div>
 
     <div class="section vote-section">
