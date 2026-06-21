@@ -107,54 +107,46 @@
     color: var(--gray-4); margin-bottom: 12px; padding-bottom: 6px; border-bottom: 1px solid var(--gray-2);
   }
 
-  /* Sekcija A — total bar */
-  .total-bar-wrap { margin-bottom: 10px; }
-  .total-bar { display: flex; height: 20px; border-radius: 3px; overflow: hidden; gap: 2px; }
-  .total-bar span { display: block; transition: opacity 0.15s; }
+  /* Shared vote legend */
   .total-bar-legend { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 8px; }
   .legend-item { display: flex; align-items: center; gap: 5px; font-size: 12px; color: var(--gray-4); }
   .legend-dot { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
   .legend-item strong { color: var(--fg); }
 
-  .club-contrib { margin-top: 10px; }
-  .contrib-group { margin-bottom: 6px; }
-  .contrib-label { font-size: 11px; font-weight: 600; color: var(--gray-4); margin-bottom: 3px; }
-  .contrib-clubs { display: flex; flex-wrap: wrap; gap: 4px; }
-  .contrib-chip {
-    font-size: 11px; padding: 1px 7px; border-radius: 20px;
-    border: 1px solid var(--gray-2); white-space: nowrap;
-  }
-
-  /* Sekcija B — per-club bars */
-  .club-row {
-    display: grid; grid-template-columns: 110px 1fr 80px;
-    align-items: center; gap: 10px; padding: 6px 0;
-    border-bottom: 1px solid var(--gray-2); cursor: pointer;
-  }
-  .club-row:last-child { border-bottom: none; }
-  .club-row:hover .club-name { text-decoration: underline; }
-  .club-name { font-size: 12px; font-weight: 600; border-left: 3px solid var(--gray-3); padding-left: 8px; }
-  .club-bar-wrap { position: relative; }
-  .club-bar { display: flex; height: 14px; border-radius: 2px; overflow: hidden; gap: 1px; }
-  .club-bar span { display: block; }
-  .club-counts { font-size: 11px; color: var(--gray-4); text-align: right; white-space: nowrap; }
-
-  /* Sekcija C — MP grid */
-  .mp-grid-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 6px; }
+  /* Master section header */
+  .mp-grid-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px;
+    padding-bottom: 6px; border-bottom: 1px solid var(--gray-2); }
   .mp-grid-reset { font-size: 11px; color: var(--gray-4); cursor: pointer; border: none; background: none; padding: 0; }
   .mp-grid-reset:hover { color: var(--fg); }
-  .mp-groups { display: flex; flex-direction: column; gap: 14px; }
-  .mp-group {}
-  .mp-group-label {
-    font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em;
-    color: var(--gray-4); margin-bottom: 5px; border-left: 3px solid var(--gray-3);
-    padding-left: 7px;
-  }
-  /* Sekcija C — hemicycle seating chart */
+
+  /* Hemicycle seating chart */
   .hemicycle-wrap { display: flex; justify-content: center; }
   .hemicycle { width: 100%; max-width: 540px; height: auto; }
   .hemicycle circle { transition: opacity 0.15s; cursor: default; }
   .seating-empty { color: var(--gray-3); font-size: 13px; padding: 16px 0; text-align: center; }
+
+  /* Distribution bar — one cell per MP */
+  .cell-bar-wrap { max-width: 540px; margin: 14px auto 0; }
+  .cell-bar { display: flex; height: 22px; border-radius: 3px; overflow: hidden; }
+  .cell { flex: 1 1 0; min-width: 0; transition: opacity 0.15s;
+    box-shadow: inset -1px 0 0 rgba(255, 255, 255, 0.4); }
+
+  /* Club pills */
+  .pills-hint { font-size: 11px; color: var(--gray-3); text-align: center; margin-top: 16px; }
+  .club-pills { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; margin-top: 8px; }
+  .club-pill {
+    display: inline-flex; align-items: center; gap: 6px; cursor: pointer;
+    font-size: 12px; font-weight: 600; color: var(--fg); font-family: inherit;
+    background: #fff; border: 1px solid var(--gray-2); border-radius: 20px; padding: 3px 10px 3px 8px;
+    transition: background 0.12s, border-color 0.12s;
+  }
+  .club-pill:hover { border-color: var(--gray-3); }
+  .club-pill.active { background: var(--gray-1); border-color: var(--gray-4); }
+  .pill-dot { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
+  .pill-count { color: var(--gray-3); font-weight: 500; }
+  .club-pill.active .pill-count { color: var(--fg); }
+  .selection-summary { text-align: center; margin-top: 12px; font-size: 13px; color: var(--gray-4); }
+  .selection-summary strong { color: var(--fg); }
 </style>
 </head>
 <body>
@@ -196,7 +188,7 @@ const SEAT_COLOR = { for: '#2d8a4e', against: '#c0392b', abstain: '#888', absent
 const SEAT_VOTE_LABEL = { for: 'Za', against: 'Protiv', abstain: 'Suzdržan', absent: 'Odsutan', 'did not vote': 'Nije glasao' };
 
 let votes = [];
-let activeClubFilter = null;
+const activeClubs = new Set();   // club_slugs currently highlighted in the detail view
 
 // ── Helpers ──────────────────────────────────────────────────────────────────
 
@@ -254,7 +246,7 @@ function renderList() {
 
 function showDetail(idx) {
   const v = votes[idx];
-  activeClubFilter = null;
+  activeClubs.clear();
 
   document.getElementById('list-view').style.display = 'none';
   const dv = document.getElementById('detail-view');
@@ -264,48 +256,8 @@ function showDetail(idx) {
 }
 
 function buildDetail(v) {
-  const total = v.tally.za + v.tally.protiv + v.tally.suzdrzani + v.tally.odsutni || 1;
-  const pct = k => (v.tally[k] / total * 100).toFixed(1);
-
   const dotColor = v.proposer_color || '#ccc';
   const proposerLabel = v.proposer_name ? capitalize(v.proposer_name) : capitalize(v.proposer_type);
-
-  // Sekcija A legend
-  const contribGroups = ['za', 'protiv', 'suzdrzani', 'odsutni']
-    .filter(k => v.tally[k] > 0)
-    .map(k => {
-      const clubs = v.by_club
-        .filter(c => c[k] > 0)
-        .map(c => `<span class="contrib-chip" style="border-color:${c.club_color || '#e8e8e8'}">${c.club} (${c[k]})</span>`)
-        .join('');
-      return clubs ? `<div class="contrib-group">
-        <div class="contrib-label">${VOTE_LABELS[k]}: <strong>${v.tally[k]}</strong></div>
-        <div class="contrib-clubs">${clubs}</div>
-      </div>` : '';
-    }).join('');
-
-  // Sekcija B
-  const clubRows = v.by_club
-    .filter(c => (c.za + c.protiv + c.suzdrzani + c.odsutni) > 0)
-    .map(c => {
-      const ct = c.za + c.protiv + c.suzdrzani + c.odsutni || 1;
-      const cp = k => (c[k] / ct * 100).toFixed(1);
-      return `<div class="club-row" data-club="${c.club_slug}">
-        <div class="club-name" style="border-left-color:${c.club_color || '#ccc'}">${c.club}</div>
-        <div class="club-bar-wrap">
-          <div class="club-bar">
-            <span class="seg-za" style="width:${cp('za')}%"></span>
-            <span class="seg-protiv" style="width:${cp('protiv')}%"></span>
-            <span class="seg-suzdrzani" style="width:${cp('suzdrzani')}%"></span>
-            <span class="seg-odsutni" style="width:${cp('odsutni')}%"></span>
-          </div>
-        </div>
-        <div class="club-counts">${c.za}·${c.protiv}·${c.suzdrzani}·${c.odsutni}</div>
-      </div>`;
-    }).join('');
-
-  // Sekcija C
-  const seatingHtml = buildSeating(v, null);
 
   return `
     <div class="detail-header">
@@ -334,45 +286,78 @@ function buildDetail(v) {
     </div>
 
     <div class="section">
-      <div class="section-label">A — Ukupno glasovanje</div>
-      <div class="total-bar-wrap">
-        <div class="total-bar">
-          <span class="seg-za" style="width:${pct('za')}%"></span>
-          <span class="seg-protiv" style="width:${pct('protiv')}%"></span>
-          <span class="seg-suzdrzani" style="width:${pct('suzdrzani')}%"></span>
-          <span class="seg-odsutni" style="width:${pct('odsutni')}%"></span>
-        </div>
-        <div class="total-bar-legend">
-          ${['za','protiv','suzdrzani','odsutni'].map(k => `
-            <div class="legend-item">
-              <span class="legend-dot" style="background:${VOTE_COLORS[k]}"></span>
-              ${VOTE_LABELS[k]}: <strong>${v.tally[k]}</strong>
-            </div>`).join('')}
-        </div>
-      </div>
-      <div class="club-contrib">${contribGroups}</div>
-    </div>
-
-    <div class="section">
-      <div class="section-label">B — Po klubu <small style="font-weight:400;text-transform:none;letter-spacing:0">(kliknite klub za filtriranje zastupnika)</small></div>
-      <div id="club-rows">${clubRows}</div>
-    </div>
-
-    <div class="section">
       <div class="mp-grid-header">
-        <div class="section-label" style="margin:0">C — Raspored u Saboru</div>
-        <button class="mp-grid-reset" id="mp-reset" style="display:none">Prikaži sve</button>
+        <div class="section-label" style="margin:0">Glasovanje</div>
+        <button class="mp-grid-reset" id="mp-reset" style="display:none">Poništi odabir</button>
       </div>
-      <div class="hemicycle-wrap" id="mp-grid">${seatingHtml}</div>
-      <div class="total-bar-legend" style="justify-content:center;margin-top:6px">
+
+      <div class="hemicycle-wrap" id="seating">${buildSeating(v, activeClubs)}</div>
+
+      <div class="cell-bar-wrap" id="cellbar">${buildCellBar(v, activeClubs)}</div>
+
+      <div class="total-bar-legend" style="justify-content:center;margin-top:8px">
         ${['za','protiv','suzdrzani','odsutni'].map(k => `
           <div class="legend-item">
             <span class="legend-dot" style="border-radius:50%;background:${VOTE_COLORS[k]}"></span>
-            ${VOTE_LABELS[k]}
+            ${VOTE_LABELS[k]}: <strong>${v.tally[k]}</strong>
           </div>`).join('')}
       </div>
+
+      <div class="pills-hint">Odaberite klub(ove) za isticanje glasova</div>
+      <div class="club-pills" id="club-pills">${buildClubPills(v, activeClubs)}</div>
+      <div id="selection-summary">${selectionSummary(v, activeClubs)}</div>
     </div>
   `;
+}
+
+// Combined tally for the currently selected clubs (drives the readout line).
+function selectionSummary(v, selected) {
+  if (!selected.size) return '';
+  const t = { za: 0, protiv: 0, suzdrzani: 0, odsutni: 0 };
+  const names = [];
+  v.by_club.filter(c => selected.has(c.club_slug)).forEach(c => {
+    t.za += c.za; t.protiv += c.protiv; t.suzdrzani += c.suzdrzani; t.odsutni += c.odsutni;
+    names.push(c.club);
+  });
+  return `<div class="selection-summary"><strong>${esc(names.join(', '))}</strong> — `
+    + `${t.za} za · ${t.protiv} protiv · ${t.suzdrzani} suzdržani · ${t.odsutni} odsutni</div>`;
+}
+
+// One pill per club; toggles membership in the active selection.
+function buildClubPills(v, selected) {
+  return v.by_club
+    .filter(c => (c.za + c.protiv + c.suzdrzani + c.odsutni) > 0)
+    .map(c => {
+      const total = c.za + c.protiv + c.suzdrzani + c.odsutni;
+      const active = selected.has(c.club_slug) ? ' active' : '';
+      return `<button class="club-pill${active}" data-club="${esc(c.club_slug)}">
+        <span class="pill-dot" style="background:${c.club_color || '#ccc'}"></span>
+        ${esc(c.club)} <span class="pill-count">${total}</span>
+      </button>`;
+    }).join('');
+}
+
+// Distribution bar: one cell per MP, grouped by vote (so it still reads as the
+// overall split), ordered by club within each group. Cells of unselected clubs
+// dim when a selection is active — revealing a club's spread across the options.
+function buildCellBar(v, selected) {
+  const clubIdx = new Map(v.by_club.map((c, i) => [c.club_slug, i]));
+  const optOrder = { for: 0, against: 1, abstain: 2, absent: 3, 'did not vote': 3 };
+  const mps = v.by_mp.slice().sort((a, b) => {
+    const oa = optOrder[a.vote] ?? 4, ob = optOrder[b.vote] ?? 4;
+    if (oa !== ob) return oa - ob;
+    return (clubIdx.get(a.club_slug) ?? 999) - (clubIdx.get(b.club_slug) ?? 999);
+  });
+  if (!mps.length) return '';
+
+  const cells = mps.map(mp => {
+    const color = SEAT_COLOR[mp.vote] || '#d8d8d8';
+    const dim = selected.size && !selected.has(mp.club_slug);
+    const label = SEAT_VOTE_LABEL[mp.vote] || '—';
+    return `<span class="cell" style="background:${color};opacity:${dim ? 0.12 : 1}" `
+      + `title="${esc(mp.mp_name)} — ${esc(mp.club || 'Nezavisni')} · ${label}"></span>`;
+  }).join('');
+  return `<div class="cell-bar">${cells}</div>`;
 }
 
 // Generate a parliament-style hemicycle layout for `n` seats: concentric rows,
@@ -419,7 +404,8 @@ function seatGeometry(n) {
 
 // Top-down view of the chamber: one dot per MP, coloured by their vote,
 // clubs sitting together as contiguous wedges (coalition-first, sweeping left→right).
-function buildSeating(v, filterClubSlug) {
+// `selected` is a Set of club_slugs to highlight (others dim); empty = show all.
+function buildSeating(v, selected) {
   // Order MPs by club so each club forms a contiguous wedge.
   const order = v.by_club.map(c => c.club_slug);
   const byClub = new Map();
@@ -451,7 +437,7 @@ function buildSeating(v, filterClubSlug) {
     const x = cx + s.r * S * Math.cos(s.theta);
     const y = cy - s.r * S * Math.sin(s.theta);
     const color = SEAT_COLOR[mp.vote] || '#d8d8d8';
-    const dim = filterClubSlug && mp.club_slug !== filterClubSlug;
+    const dim = selected.size && !selected.has(mp.club_slug);
     const club = mp.club || 'Nezavisni';
     const label = SEAT_VOTE_LABEL[mp.vote] || '—';
     return `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${seatPx.toFixed(1)}" `
@@ -464,26 +450,30 @@ function buildSeating(v, filterClubSlug) {
     + `${circles}</svg>`;
 }
 
+// Re-render the parts that respond to the club selection.
+function rerenderSelection(v) {
+  document.getElementById('seating').innerHTML = buildSeating(v, activeClubs);
+  document.getElementById('cellbar').innerHTML = buildCellBar(v, activeClubs);
+  document.getElementById('selection-summary').innerHTML = selectionSummary(v, activeClubs);
+  document.querySelectorAll('.club-pill').forEach(p =>
+    p.classList.toggle('active', activeClubs.has(p.dataset.club)));
+  document.getElementById('mp-reset').style.display = activeClubs.size ? 'inline' : 'none';
+}
+
 function bindDetailEvents(v) {
-  // Club rows → filter MP grid
-  document.querySelectorAll('.club-row').forEach(row => {
-    row.addEventListener('click', () => {
-      const slug = row.dataset.club;
-      if (activeClubFilter === slug) {
-        activeClubFilter = null;
-        document.getElementById('mp-reset').style.display = 'none';
-      } else {
-        activeClubFilter = slug;
-        document.getElementById('mp-reset').style.display = 'inline';
-      }
-      document.getElementById('mp-grid').innerHTML = buildSeating(v, activeClubFilter);
+  // Club pills → toggle highlight on seating + bar (multi-select)
+  document.querySelectorAll('.club-pill').forEach(pill => {
+    pill.addEventListener('click', () => {
+      const slug = pill.dataset.club;
+      if (activeClubs.has(slug)) activeClubs.delete(slug);
+      else activeClubs.add(slug);
+      rerenderSelection(v);
     });
   });
 
   document.getElementById('mp-reset')?.addEventListener('click', () => {
-    activeClubFilter = null;
-    document.getElementById('mp-reset').style.display = 'none';
-    document.getElementById('mp-grid').innerHTML = buildSeating(v, null);
+    activeClubs.clear();
+    rerenderSelection(v);
   });
 }
 
