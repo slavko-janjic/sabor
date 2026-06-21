@@ -1,0 +1,42 @@
+name: Refresh Sabor data
+
+# Regenerates /data from the Parladata API. Each data change becomes a commit,
+# i.e. a historical snapshot of Sabor state on that date.
+
+on:
+  schedule:
+    - cron: '0 4 * * 1'   # every Monday 04:00 UTC
+  workflow_dispatch:        # allow manual runs from the Actions tab
+
+permissions:
+  contents: write           # needed to push refreshed data
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch latest votes (current + previous year)
+        run: node scripts/fetch.mjs
+
+      - name: Commit & push if vote data changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Only commit when an actual year file changed — ignore manifest-only
+          # timestamp churn in index.json so we don't create empty snapshots.
+          if [ -n "$(git status --porcelain -- 'data/[0-9][0-9][0-9][0-9].json')" ]; then
+            git add data/
+            git commit -m "Auto-refresh Sabor data ($(date -u +%Y-%m-%d))"
+            git push
+          else
+            echo "No vote changes — skipping commit."
+            git checkout -- data/ 2>/dev/null || true
+          fi
