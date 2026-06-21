@@ -113,10 +113,10 @@
   .legend-dot { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
   .legend-item strong { color: var(--fg); }
 
-  /* Master section header */
-  .mp-grid-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px;
-    padding-bottom: 6px; border-bottom: 1px solid var(--gray-2); }
-  .mp-grid-reset { font-size: 11px; color: var(--gray-4); cursor: pointer; border: none; background: none; padding: 0; }
+  /* Master vote section — reset sits top-right, no title/divider */
+  .vote-section { position: relative; }
+  .mp-grid-reset { position: absolute; top: 0; right: 0; z-index: 2;
+    font-size: 11px; color: var(--gray-4); cursor: pointer; border: none; background: none; padding: 0; }
   .mp-grid-reset:hover { color: var(--fg); }
 
   /* Hemicycle seating chart */
@@ -125,15 +125,21 @@
   .hemicycle circle { transition: opacity 0.15s; cursor: default; }
   .seating-empty { color: var(--gray-3); font-size: 13px; padding: 16px 0; text-align: center; }
 
-  /* Distribution bar — one cell per MP */
-  .cell-bar-wrap { max-width: 540px; margin: 14px auto 0; }
+  /* Distribution bar — one cell per MP. Full width on desktop. */
+  .cell-bar-wrap { margin: 14px 0 0; }
   .cell-bar { display: flex; height: 22px; border-radius: 3px; overflow: hidden; }
   .cell { flex: 1 1 0; min-width: 0; transition: opacity 0.15s;
     box-shadow: inset -1px 0 0 rgba(255, 255, 255, 0.4); }
 
+  /* Mobile: per-option stacked bars (hidden on desktop) */
+  .cell-bars--split { display: none; }
+  .split-row { margin-bottom: 12px; }
+  .split-row:last-child { margin-bottom: 0; }
+  .split-label { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--gray-4); margin-bottom: 4px; }
+  .split-label strong { color: var(--fg); }
+
   /* Club pills */
-  .pills-hint { font-size: 11px; color: var(--gray-3); text-align: center; margin-top: 16px; }
-  .club-pills { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; margin-top: 8px; }
+  .club-pills { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; margin-top: 18px; }
   .club-pill {
     display: inline-flex; align-items: center; gap: 6px; cursor: pointer;
     font-size: 12px; font-weight: 600; color: var(--fg); font-family: inherit;
@@ -147,6 +153,13 @@
   .club-pill.active .pill-count { color: var(--fg); }
   .selection-summary { text-align: center; margin-top: 12px; font-size: 13px; color: var(--gray-4); }
   .selection-summary strong { color: var(--fg); }
+
+  /* Mobile: swap the combined bar for stacked per-option bars */
+  @media (max-width: 600px) {
+    .cell-bar.cell-bar--combined { display: none; }
+    .cell-bars--split { display: block; }
+    .total-bar-legend { display: none; }   /* split-row labels replace it */
+  }
 </style>
 </head>
 <body>
@@ -270,12 +283,6 @@ function buildDetail(v) {
         </span>
         <div class="detail-result-row">
           ${badge(v.result)}
-          <span class="tally-text">
-            <strong>${v.tally.za}</strong> za ·
-            <strong>${v.tally.protiv}</strong> protiv ·
-            <strong>${v.tally.suzdrzani}</strong> suzdržani ·
-            <strong>${v.tally.odsutni}</strong> odsutni
-          </span>
         </div>
       </div>
     </div>
@@ -285,11 +292,8 @@ function buildDetail(v) {
       <div class="eli5-text">${v.summary || 'Sažetak nije dostupan.'}</div>
     </div>
 
-    <div class="section">
-      <div class="mp-grid-header">
-        <div class="section-label" style="margin:0">Glasovanje</div>
-        <button class="mp-grid-reset" id="mp-reset" style="display:none">Poništi odabir</button>
-      </div>
+    <div class="section vote-section">
+      <button class="mp-grid-reset" id="mp-reset" style="display:none">Poništi odabir</button>
 
       <div class="hemicycle-wrap" id="seating">${buildSeating(v, activeClubs)}</div>
 
@@ -303,7 +307,6 @@ function buildDetail(v) {
           </div>`).join('')}
       </div>
 
-      <div class="pills-hint">Odaberite klub(ove) za isticanje glasova</div>
       <div class="club-pills" id="club-pills">${buildClubPills(v, activeClubs)}</div>
       <div id="selection-summary">${selectionSummary(v, activeClubs)}</div>
     </div>
@@ -340,9 +343,12 @@ function buildClubPills(v, selected) {
 // Distribution bar: one cell per MP, grouped by vote (so it still reads as the
 // overall split), ordered by club within each group. Cells of unselected clubs
 // dim when a selection is active — revealing a club's spread across the options.
+// Renders two layouts; CSS shows the combined bar on desktop, the per-option
+// split bars on mobile.
 function buildCellBar(v, selected) {
   const clubIdx = new Map(v.by_club.map((c, i) => [c.club_slug, i]));
   const optOrder = { for: 0, against: 1, abstain: 2, absent: 3, 'did not vote': 3 };
+  const optKey = { for: 'za', against: 'protiv', abstain: 'suzdrzani', absent: 'odsutni', 'did not vote': 'odsutni' };
   const mps = v.by_mp.slice().sort((a, b) => {
     const oa = optOrder[a.vote] ?? 4, ob = optOrder[b.vote] ?? 4;
     if (oa !== ob) return oa - ob;
@@ -350,14 +356,32 @@ function buildCellBar(v, selected) {
   });
   if (!mps.length) return '';
 
-  const cells = mps.map(mp => {
+  const cell = mp => {
     const color = SEAT_COLOR[mp.vote] || '#d8d8d8';
     const dim = selected.size && !selected.has(mp.club_slug);
     const label = SEAT_VOTE_LABEL[mp.vote] || '—';
     return `<span class="cell" style="background:${color};opacity:${dim ? 0.12 : 1}" `
       + `title="${esc(mp.mp_name)} — ${esc(mp.club || 'Nezavisni')} · ${label}"></span>`;
+  };
+
+  // Desktop: one combined full-width bar.
+  const combined = `<div class="cell-bar cell-bar--combined">${mps.map(cell).join('')}</div>`;
+
+  // Mobile: one labelled bar per vote option, stacked.
+  const rows = ['za', 'protiv', 'suzdrzani', 'odsutni'].map(k => {
+    const members = mps.filter(mp => optKey[mp.vote] === k);
+    if (!members.length) return '';
+    return `<div class="split-row">
+      <div class="split-label">
+        <span class="legend-dot" style="border-radius:50%;background:${VOTE_COLORS[k]}"></span>
+        ${VOTE_LABELS[k]}: <strong>${members.length}</strong>
+      </div>
+      <div class="cell-bar cell-bar--split">${members.map(cell).join('')}</div>
+    </div>`;
   }).join('');
-  return `<div class="cell-bar">${cells}</div>`;
+  const split = `<div class="cell-bars--split">${rows}</div>`;
+
+  return combined + split;
 }
 
 // Generate a parliament-style hemicycle layout for `n` seats: concentric rows,
