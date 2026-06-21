@@ -57,6 +57,14 @@
   .vote-card-mark.rejected { background: #fce8e6; color: var(--red); }
   .vote-card-mark.unknown { background: var(--gray-2); color: var(--gray-4); }
 
+  .vote-card-summary-icon {
+    flex-shrink: 0; width: 20px; height: 20px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    background: #e3f2fd; color: #1976d2; cursor: help; margin-left: 6px;
+    transition: background 0.12s, color 0.12s;
+  }
+  .vote-card:hover .vote-card-summary-icon { background: #bbdefb; color: #1565c0; }
+
   .vote-card-bar { display: flex; height: 8px; border-radius: 4px; overflow: hidden; }
   .vote-card-bar span { display: block; }
   .vote-card-proposer { font-size: 11px; color: var(--gray-4); }
@@ -184,12 +192,19 @@
 
   <!-- DETAIL VIEW -->
   <div id="detail-view">
-    <button class="back-btn" id="back-btn">← Natrag na popis</button>
+    <button class="back-btn" id="back-btn"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M10 12L6 8l4-4" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg> Natrag na popis</button>
     <div id="detail-content"></div>
   </div>
 </div>
 
 <script>
+const ICONS = {
+  check: `<svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M2.5 7.5l3 3 6-7" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
+  x:     `<svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M3 3l8 8M11 3l-8 8" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/></svg>`,
+  minus: `<svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M3 7h8" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/></svg>`,
+  doc:   `<svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M3 1.5h5.5L11 4v8.5H3z" stroke="currentColor" stroke-width="1.25" stroke-linejoin="round"/><path d="M8.5 1.5V4H11" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/><path d="M5 6.5h4M5 8.5h4M5 10.5h2" stroke="currentColor" stroke-width="1.25" stroke-linecap="round"/></svg>`,
+};
+
 const VOTE_LABELS = { za: 'Za', protiv: 'Protiv', suzdrzani: 'Suzdržani', odsutni: 'Odsutni / Nije glasao' };
 const VOTE_COLORS = { za: '#2d8a4e', protiv: '#c0392b', suzdrzani: '#888', odsutni: '#d8d8d8' };
 const MP_CLASS = { for: 'za', against: 'protiv', abstain: 'abstain', absent: 'absent', 'did not vote': 'absent' };
@@ -240,16 +255,20 @@ function cardBar(t) {
 }
 
 function voteCard(v, i) {
-  const mark = v.result === 'prihvaceno' ? '✓' : v.result === 'odbijeno' ? '✗' : '–';
+  const mark = v.result === 'prihvaceno' ? ICONS.check : v.result === 'odbijeno' ? ICONS.x : ICONS.minus;
   const markClass = v.result === 'prihvaceno' ? 'accepted' : v.result === 'odbijeno' ? 'rejected' : 'unknown';
   const markTitle = v.result === 'prihvaceno' ? 'Prihvaćeno' : v.result === 'odbijeno' ? 'Odbijeno' : 'Nepoznato';
   const proposer = v.proposer_name
     ? `<div class="vote-card-proposer">Predlagatelj: ${esc(capitalize(v.proposer_name))}</div>` : '';
+  const summaryIcon = v.summary ? `<div class="vote-card-summary-icon" title="Dostupan je sažetak">${ICONS.doc}</div>` : '';
   return `
     <article class="vote-card" data-idx="${i}">
       <div class="vote-card-top">
         <div class="vote-card-title">${esc(capitalize(v.title))}</div>
-        <div class="vote-card-mark ${markClass}" title="${markTitle}">${mark}</div>
+        <div style="display: flex; align-items: center; gap: 6px;">
+          ${summaryIcon}
+          <div class="vote-card-mark ${markClass}" title="${markTitle}">${mark}</div>
+        </div>
       </div>
       ${cardBar(v.tally)}
       ${proposer}
