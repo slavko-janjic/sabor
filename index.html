@@ -367,14 +367,15 @@ function buildCellBar(v, selected) {
   // Desktop: one combined full-width bar.
   const combined = `<div class="cell-bar cell-bar--combined">${mps.map(cell).join('')}</div>`;
 
-  // Mobile: one labelled bar per vote option, stacked. Each bar's width is
-  // proportional to its share of all MPs, so the lengths encode the scale
-  // (and every member cell ends up the same pixel width across bars).
-  const total = mps.length || 1;
-  const rows = ['za', 'protiv', 'suzdrzani', 'odsutni'].map(k => {
-    const members = mps.filter(mp => optKey[mp.vote] === k);
+  // Mobile: one labelled bar per vote option, stacked. Bars are scaled to the
+  // largest option (it fills the full width, the rest scale relative to it), so
+  // the lengths show how many voted each way. Member cells stay a uniform width.
+  const groups = ['za', 'protiv', 'suzdrzani', 'odsutni']
+    .map(k => ({ k, members: mps.filter(mp => optKey[mp.vote] === k) }));
+  const maxCount = Math.max(1, ...groups.map(g => g.members.length));
+  const rows = groups.map(({ k, members }) => {
     if (!members.length) return '';
-    const pct = (members.length / total * 100).toFixed(2);
+    const pct = (members.length / maxCount * 100).toFixed(2);
     return `<div class="split-row">
       <div class="split-label">
         <span class="legend-dot" style="border-radius:50%;background:${VOTE_COLORS[k]}"></span>
