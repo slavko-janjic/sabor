@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sabor — Glasanja</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #fff;
+    --fg: #111;
+    --gray-1: #f5f5f5;
+    --gray-2: #e8e8e8;
+    --gray-3: #aaa;
+    --gray-4: #666;
+    --green: #2d8a4e;
+    --red: #c0392b;
+    --vote-za: #2d8a4e;
+    --vote-protiv: #c0392b;
+    --vote-suzdrzani: #888;
+    --vote-odsutni: #d8d8d8;
+    --radius: 4px;
+    --font: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  body { font-family: var(--font); background: var(--bg); color: var(--fg); font-size: 14px; line-height: 1.5; }
+
+  /* ── Layout ── */
+  .app { max-width: 960px; margin: 0 auto; padding: 32px 20px; }
+  header { border-bottom: 2px solid var(--fg); padding-bottom: 16px; margin-bottom: 24px; }
+  header h1 { font-size: 22px; font-weight: 700; letter-spacing: -0.5px; }
+  header p { color: var(--gray-4); font-size: 12px; margin-top: 4px; }
+
+  /* ── List view ── */
+  #list-view {}
+
+  table { width: 100%; border-collapse: collapse; }
+  thead th {
+    text-align: left; font-size: 11px; font-weight: 600; text-transform: uppercase;
+    letter-spacing: 0.06em; color: var(--gray-4); padding: 8px 10px;
+    border-bottom: 1px solid var(--gray-2); white-space: nowrap;
+  }
+  tbody tr { cursor: pointer; border-bottom: 1px solid var(--gray-2); }
+  tbody tr:hover { background: var(--gray-1); }
+  tbody tr.active { background: var(--gray-1); }
+  td { padding: 10px 10px; vertical-align: middle; }
+  .td-date { color: var(--gray-4); white-space: nowrap; font-size: 12px; width: 88px; }
+  .td-title { font-weight: 500; }
+  .td-proposer { color: var(--gray-4); font-size: 12px; width: 130px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 130px; }
+  .td-bar { width: 100px; }
+  .td-result { width: 110px; text-align: right; }
+
+  /* mini stacked bar in table */
+  .mini-bar { display: flex; height: 6px; border-radius: 3px; overflow: hidden; gap: 1px; }
+  .mini-bar span { display: block; }
+  .seg-za { background: var(--vote-za); }
+  .seg-protiv { background: var(--vote-protiv); }
+  .seg-suzdrzani { background: var(--vote-suzdrzani); }
+  .seg-odsutni { background: var(--vote-odsutni); }
+
+  /* result badge */
+  .badge {
+    display: inline-block; font-size: 10px; font-weight: 700; letter-spacing: 0.05em;
+    text-transform: uppercase; padding: 2px 7px; border-radius: 3px;
+  }
+  .badge-prihvaceno { background: #e6f4ec; color: var(--green); }
+  .badge-odbijeno { background: #fce8e6; color: var(--red); }
+  .badge-nepoznato { background: var(--gray-2); color: var(--gray-4); }
+
+  /* ── Detail view ── */
+  #detail-view { display: none; }
+  #detail-view.visible { display: block; }
+
+  .back-btn {
+    background: none; border: none; cursor: pointer; font-size: 13px;
+    color: var(--gray-4); padding: 0; margin-bottom: 20px; display: flex; align-items: center; gap: 6px;
+  }
+  .back-btn:hover { color: var(--fg); }
+
+  .detail-header { margin-bottom: 24px; }
+  .detail-meta { font-size: 12px; color: var(--gray-4); margin-bottom: 6px; }
+  .detail-title { font-size: 22px; font-weight: 700; letter-spacing: -0.4px; line-height: 1.3; margin-bottom: 12px; }
+  .detail-proposer-row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 12px; }
+  .proposer-chip {
+    display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 600;
+    border: 1px solid var(--gray-2); border-radius: 20px; padding: 3px 10px 3px 7px;
+  }
+  .proposer-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--gray-3); flex-shrink: 0; }
+  .detail-result-row { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .detail-result-row .badge { font-size: 12px; padding: 4px 10px; }
+  .tally-text { font-size: 13px; color: var(--gray-4); }
+  .tally-text strong { color: var(--fg); }
+
+  /* ELI5 */
+  .eli5 {
+    background: var(--gray-1); border-left: 3px solid var(--gray-2);
+    border-radius: var(--radius); padding: 14px 16px; margin-bottom: 24px;
+  }
+  .eli5-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--gray-4); margin-bottom: 6px; }
+  .eli5-text { font-style: italic; color: var(--gray-4); font-size: 13px; }
+
+  /* ── Breakdown sections ── */
+  .section { margin-bottom: 28px; }
+  .section-label {
+    font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em;
+    color: var(--gray-4); margin-bottom: 12px; padding-bottom: 6px; border-bottom: 1px solid var(--gray-2);
+  }
+
+  /* Sekcija A — total bar */
+  .total-bar-wrap { margin-bottom: 10px; }
+  .total-bar { display: flex; height: 20px; border-radius: 3px; overflow: hidden; gap: 2px; }
+  .total-bar span { display: block; transition: opacity 0.15s; }
+  .total-bar-legend { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 8px; }
+  .legend-item { display: flex; align-items: center; gap: 5px; font-size: 12px; color: var(--gray-4); }
+  .legend-dot { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
+  .legend-item strong { color: var(--fg); }
+
+  .club-contrib { margin-top: 10px; }
+  .contrib-group { margin-bottom: 6px; }
+  .contrib-label { font-size: 11px; font-weight: 600; color: var(--gray-4); margin-bottom: 3px; }
+  .contrib-clubs { display: flex; flex-wrap: wrap; gap: 4px; }
+  .contrib-chip {
+    font-size: 11px; padding: 1px 7px; border-radius: 20px;
+    border: 1px solid var(--gray-2); white-space: nowrap;
+  }
+
+  /* Sekcija B — per-club bars */
+  .club-row {
+    display: grid; grid-template-columns: 110px 1fr 80px;
+    align-items: center; gap: 10px; padding: 6px 0;
+    border-bottom: 1px solid var(--gray-2); cursor: pointer;
+  }
+  .club-row:last-child { border-bottom: none; }
+  .club-row:hover .club-name { text-decoration: underline; }
+  .club-name { font-size: 12px; font-weight: 600; border-left: 3px solid var(--gray-3); padding-left: 8px; }
+  .club-bar-wrap { position: relative; }
+  .club-bar { display: flex; height: 14px; border-radius: 2px; overflow: hidden; gap: 1px; }
+  .club-bar span { display: block; }
+  .club-counts { font-size: 11px; color: var(--gray-4); text-align: right; white-space: nowrap; }
+
+  /* Sekcija C — MP grid */
+  .mp-grid-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 6px; }
+  .mp-grid-reset { font-size: 11px; color: var(--gray-4); cursor: pointer; border: none; background: none; padding: 0; }
+  .mp-grid-reset:hover { color: var(--fg); }
+  .mp-groups { display: flex; flex-direction: column; gap: 14px; }
+  .mp-group {}
+  .mp-group-label {
+    font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em;
+    color: var(--gray-4); margin-bottom: 5px; border-left: 3px solid var(--gray-3);
+    padding-left: 7px;
+  }
+  .mp-squares { display: flex; flex-wrap: wrap; gap: 3px; }
+  .mp-sq {
+    width: 14px; height: 14px; border-radius: 2px; cursor: default;
+    position: relative;
+  }
+  .mp-sq.za { background: var(--vote-za); }
+  .mp-sq.protiv { background: var(--vote-protiv); }
+  .mp-sq.abstain { background: var(--vote-suzdrzani); }
+  .mp-sq.absent { background: var(--vote-odsutni); border: 1px solid var(--gray-2); }
+  .mp-sq[title]:hover::after {
+    content: attr(title);
+    position: absolute; bottom: 18px; left: 50%; transform: translateX(-50%);
+    background: var(--fg); color: var(--bg);
+    font-size: 11px; padding: 3px 7px; border-radius: 3px; white-space: nowrap;
+    pointer-events: none; z-index: 10;
+  }
+</style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <h1>Sabor — Glasanja</h1>
+    <p>Hrvatski sabor · 10. saziv · podaci: <a href="https://parlametar.hr" target="_blank">parlametar.hr</a></p>
+  </header>
+
+  <!-- LIST VIEW -->
+  <div id="list-view">
+    <table>
+      <thead>
+        <tr>
+          <th class="td-date">Datum</th>
+          <th>Naslov</th>
+          <th class="td-proposer">Predlagatelj</th>
+          <th class="td-bar">Za / Protiv</th>
+          <th class="td-result">Rezultat</th>
+        </tr>
+      </thead>
+      <tbody id="vote-list"></tbody>
+    </table>
+  </div>
+
+  <!-- DETAIL VIEW -->
+  <div id="detail-view">
+    <button class="back-btn" id="back-btn">← Natrag na popis</button>
+    <div id="detail-content"></div>
+  </div>
+</div>
+
+<script>
+const VOTE_LABELS = { za: 'Za', protiv: 'Protiv', suzdrzani: 'Suzdržani', odsutni: 'Odsutni / Nije glasao' };
+const VOTE_COLORS = { za: '#2d8a4e', protiv: '#c0392b', suzdrzani: '#888', odsutni: '#d8d8d8' };
+const MP_CLASS = { for: 'za', against: 'protiv', abstain: 'abstain', absent: 'absent', 'did not vote': 'absent' };
+
+let votes = [];
+let activeClubFilter = null;
+
+// ── Helpers ──────────────────────────────────────────────────────────────────
+
+function fmt(date) {
+  const d = new Date(date);
+  return d.toLocaleDateString('hr-HR', { day: '2-digit', month: '2-digit', year: 'numeric' });
+}
+
+function capitalize(s) {
+  if (!s) return '';
+  return s.charAt(0).toUpperCase() + s.slice(1);
+}
+
+function badge(result) {
+  const map = { prihvaceno: ['badge-prihvaceno', 'Prihvaćeno'], odbijeno: ['badge-odbijeno', 'Odbijeno'], nepoznato: ['badge-nepoznato', 'Nepoznato'] };
+  const [cls, label] = map[result] || map.nepoznato;
+  return `<span class="badge ${cls}">${label}</span>`;
+}
+
+function miniBar(t) {
+  const total = t.za + t.protiv + t.suzdrzani + t.odsutni || 1;
+  const pct = k => (t[k] / total * 100).toFixed(1);
+  return `<div class="mini-bar">
+    <span class="seg-za" style="width:${pct('za')}%"></span>
+    <span class="seg-protiv" style="width:${pct('protiv')}%"></span>
+    <span class="seg-suzdrzani" style="width:${pct('suzdrzani')}%"></span>
+    <span class="seg-odsutni" style="width:${pct('odsutni')}%"></span>
+  </div>`;
+}
+
+// ── List view ─────────────────────────────────────────────────────────────────
+
+function renderList() {
+  const tbody = document.getElementById('vote-list');
+  tbody.innerHTML = votes.map((v, i) => `
+    <tr data-idx="${i}">
+      <td class="td-date">${fmt(v.date)}</td>
+      <td class="td-title">${capitalize(v.title)}</td>
+      <td class="td-proposer" title="${v.proposer_name || ''}">${v.proposer_name ? capitalize(v.proposer_name) : '—'}</td>
+      <td class="td-bar">${miniBar(v.tally)}</td>
+      <td class="td-result">${badge(v.result)}</td>
+    </tr>
+  `).join('');
+
+  tbody.querySelectorAll('tr').forEach(tr => {
+    tr.addEventListener('click', () => showDetail(+tr.dataset.idx));
+  });
+}
+
+// ── Detail view ───────────────────────────────────────────────────────────────
+
+function showDetail(idx) {
+  const v = votes[idx];
+  activeClubFilter = null;
+
+  document.getElementById('list-view').style.display = 'none';
+  const dv = document.getElementById('detail-view');
+  dv.classList.add('visible');
+  dv.querySelector('#detail-content').innerHTML = buildDetail(v);
+  bindDetailEvents(v);
+}
+
+function buildDetail(v) {
+  const total = v.tally.za + v.tally.protiv + v.tally.suzdrzani + v.tally.odsutni || 1;
+  const pct = k => (v.tally[k] / total * 100).toFixed(1);
+
+  const dotColor = v.proposer_color || '#ccc';
+  const proposerLabel = v.proposer_name ? capitalize(v.proposer_name) : capitalize(v.proposer_type);
+
+  // Sekcija A legend
+  const contribGroups = ['za', 'protiv', 'suzdrzani', 'odsutni']
+    .filter(k => v.tally[k] > 0)
+    .map(k => {
+      const clubs = v.by_club
+        .filter(c => c[k] > 0)
+        .map(c => `<span class="contrib-chip" style="border-color:${c.club_color || '#e8e8e8'}">${c.club} (${c[k]})</span>`)
+        .join('');
+      return clubs ? `<div class="contrib-group">
+        <div class="contrib-label">${VOTE_LABELS[k]}: <strong>${v.tally[k]}</strong></div>
+        <div class="contrib-clubs">${clubs}</div>
+      </div>` : '';
+    }).join('');
+
+  // Sekcija B
+  const clubRows = v.by_club
+    .filter(c => (c.za + c.protiv + c.suzdrzani + c.odsutni) > 0)
+    .map(c => {
+      const ct = c.za + c.protiv + c.suzdrzani + c.odsutni || 1;
+      const cp = k => (c[k] / ct * 100).toFixed(1);
+      return `<div class="club-row" data-club="${c.club_slug}">
+        <div class="club-name" style="border-left-color:${c.club_color || '#ccc'}">${c.club}</div>
+        <div class="club-bar-wrap">
+          <div class="club-bar">
+            <span class="seg-za" style="width:${cp('za')}%"></span>
+            <span class="seg-protiv" style="width:${cp('protiv')}%"></span>
+            <span class="seg-suzdrzani" style="width:${cp('suzdrzani')}%"></span>
+            <span class="seg-odsutni" style="width:${cp('odsutni')}%"></span>
+          </div>
+        </div>
+        <div class="club-counts">${c.za}·${c.protiv}·${c.suzdrzani}·${c.odsutni}</div>
+      </div>`;
+    }).join('');
+
+  // Sekcija C
+  const mpGroupsHtml = buildMpGrid(v, null);
+
+  return `
+    <div class="detail-header">
+      <div class="detail-meta">${v.session} · ${fmt(v.date)}</div>
+      <div class="detail-title">${capitalize(v.title)}</div>
+      <div class="detail-proposer-row">
+        <span class="proposer-chip">
+          <span class="proposer-dot" style="background:${dotColor}"></span>
+          ${proposerLabel}
+        </span>
+        <div class="detail-result-row">
+          ${badge(v.result)}
+          <span class="tally-text">
+            <strong>${v.tally.za}</strong> za ·
+            <strong>${v.tally.protiv}</strong> protiv ·
+            <strong>${v.tally.suzdrzani}</strong> suzdržani ·
+            <strong>${v.tally.odsutni}</strong> odsutni
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="eli5">
+      <div class="eli5-label">Što ovo znači?</div>
+      <div class="eli5-text">${v.summary || 'Sažetak nije dostupan.'}</div>
+    </div>
+
+    <div class="section">
+      <div class="section-label">A — Ukupno glasovanje</div>
+      <div class="total-bar-wrap">
+        <div class="total-bar">
+          <span class="seg-za" style="width:${pct('za')}%"></span>
+          <span class="seg-protiv" style="width:${pct('protiv')}%"></span>
+          <span class="seg-suzdrzani" style="width:${pct('suzdrzani')}%"></span>
+          <span class="seg-odsutni" style="width:${pct('odsutni')}%"></span>
+        </div>
+        <div class="total-bar-legend">
+          ${['za','protiv','suzdrzani','odsutni'].map(k => `
+            <div class="legend-item">
+              <span class="legend-dot" style="background:${VOTE_COLORS[k]}"></span>
+              ${VOTE_LABELS[k]}: <strong>${v.tally[k]}</strong>
+            </div>`).join('')}
+        </div>
+      </div>
+      <div class="club-contrib">${contribGroups}</div>
+    </div>
+
+    <div class="section">
+      <div class="section-label">B — Po klubu <small style="font-weight:400;text-transform:none;letter-spacing:0">(kliknite klub za filtriranje zastupnika)</small></div>
+      <div id="club-rows">${clubRows}</div>
+    </div>
+
+    <div class="section">
+      <div class="mp-grid-header">
+        <div class="section-label" style="margin:0">C — Po zastupniku</div>
+        <button class="mp-grid-reset" id="mp-reset" style="display:none">Prikaži sve</button>
+      </div>
+      <div class="mp-groups" id="mp-grid">${mpGroupsHtml}</div>
+    </div>
+  `;
+}
+
+function buildMpGrid(v, filterClubSlug) {
+  const clubOrder = [...new Set(v.by_club.map(c => c.club_slug))];
+  const grouped = {};
+  v.by_mp.forEach(mp => {
+    const slug = mp.club_slug || '__none__';
+    if (!grouped[slug]) grouped[slug] = { label: mp.club || 'Nezavisni', color: mp.club_color, mps: [] };
+    grouped[slug].mps.push(mp);
+  });
+
+  return clubOrder
+    .filter(slug => {
+      if (filterClubSlug && slug !== filterClubSlug) return false;
+      return grouped[slug]?.mps.length > 0;
+    })
+    .map(slug => {
+      const g = grouped[slug];
+      if (!g) return '';
+      const color = g.color || '#ccc';
+      const squares = g.mps.map(mp => {
+        const cls = MP_CLASS[mp.vote] || 'absent';
+        const label = mp.vote === 'for' ? 'Za' : mp.vote === 'against' ? 'Protiv' : mp.vote === 'abstain' ? 'Suzdržan' : 'Odsutan';
+        return `<div class="mp-sq ${cls}" title="${mp.mp_name}: ${label}"></div>`;
+      }).join('');
+      return `<div class="mp-group">
+        <div class="mp-group-label" style="border-left-color:${color}">${g.label}</div>
+        <div class="mp-squares">${squares}</div>
+      </div>`;
+    }).join('');
+}
+
+function bindDetailEvents(v) {
+  // Club rows → filter MP grid
+  document.querySelectorAll('.club-row').forEach(row => {
+    row.addEventListener('click', () => {
+      const slug = row.dataset.club;
+      if (activeClubFilter === slug) {
+        activeClubFilter = null;
+        document.getElementById('mp-reset').style.display = 'none';
+      } else {
+        activeClubFilter = slug;
+        document.getElementById('mp-reset').style.display = 'inline';
+      }
+      document.getElementById('mp-grid').innerHTML = buildMpGrid(v, activeClubFilter);
+    });
+  });
+
+  document.getElementById('mp-reset')?.addEventListener('click', () => {
+    activeClubFilter = null;
+    document.getElementById('mp-reset').style.display = 'none';
+    document.getElementById('mp-grid').innerHTML = buildMpGrid(v, null);
+  });
+}
+
+// ── Back button ───────────────────────────────────────────────────────────────
+
+document.getElementById('back-btn').addEventListener('click', () => {
+  document.getElementById('detail-view').classList.remove('visible');
+  document.getElementById('detail-content').innerHTML = '';
+  document.getElementById('list-view').style.display = '';
+});
+
+// ── Bootstrap ─────────────────────────────────────────────────────────────────
+
+// Load the manifest, then pull every year file it lists and merge newest-first.
+async function loadData() {
+  const manifest = await fetch('data/index.json').then(r => r.json());
+  const years = manifest.years.map(y => y.year);
+  const lists = await Promise.all(
+    years.map(y => fetch(`data/${y}.json`).then(r => r.json()))
+  );
+  votes = lists.flat().sort((a, b) =>
+    b.date.localeCompare(a.date) || Number(b.vote_id) - Number(a.vote_id)
+  );
+  renderList();
+}
+
+loadData().catch(e => {
+  document.getElementById('vote-list').innerHTML =
+    `<tr><td colspan="5" style="color:#c0392b;padding:20px">Greška pri učitavanju podataka: ${e.message}</td></tr>`;
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Local Claude settings (personal, not shared)
+.claude/settings.local.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs / temp
+*.log
