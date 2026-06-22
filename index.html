@@ -4,70 +4,174 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Sabor — Glasanja</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<script>
+  // Apply saved theme / density / text-size before first paint to avoid a flash.
+  try {
+    var d = document.documentElement, ls = localStorage;
+    d.setAttribute('data-theme', ls.getItem('sabor.theme') || 'auto');
+    d.setAttribute('data-density', ls.getItem('sabor.density') || 'standard');
+    d.setAttribute('data-fontsize', ls.getItem('sabor.fontsize') || 'standard');
+  } catch (e) {}
+</script>
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
   :root {
-    --bg: #fff;
-    --fg: #111;
-    --gray-1: #f5f5f5;
-    --gray-2: #e8e8e8;
-    --gray-3: #aaa;
-    --gray-4: #666;
+    --bg: #f6f3ec;
+    --fg: #2b2926;
+    --gray-1: #efeadf;
+    --gray-2: #e0dacd;
+    --gray-3: #b3aa98;
+    --gray-4: #716c5f;
     --green: #2d8a4e;
     --red: #c0392b;
     --vote-za: #2d8a4e;
     --vote-protiv: #c0392b;
     --vote-suzdrzani: #888;
     --vote-odsutni: #d8d8d8;
+    --badge-pass-bg: #bfe2c8; --badge-pass-fg: #1d6637;
+    --badge-rej-bg: #f1ccc6;  --badge-rej-fg: #a23529;
+    --badge-unk-bg: #e3ddd0;  --badge-unk-fg: #6f6a5d;
+    --cell-sep: rgba(255, 255, 255, 0.45);
+    --scrim: rgba(17, 17, 17, 0.32);
     --radius: 4px;
     --font: 'Inter', system-ui, -apple-system, sans-serif;
+    --font-display: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+    --font-mono: 'Space Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+    --maxw: 1200px;
+
+    /* Type scale multiplier — driven by the text-size setting */
+    --font-scale: 1;
+
+    /* Spacing scale — driven by the density setting (Standardno baseline) */
+    --page-pad-top: 48px;
+    --page-pad-x: 24px;
+    --page-pad-bottom: 64px;
+    --group-gap: 44px;
+    --session-header-mb: 18px;
+    --cards-gap: 16px;
+    --card-pad-y: 20px;
+    --card-pad-x: 22px;
+    --card-gap: 14px;
   }
 
-  body { font-family: var(--font); background: var(--bg); color: var(--fg); font-size: 14px; line-height: 1.5; }
+  /* ── Dark theme — warm, never pure black/white. Explicit dark + auto follows the OS. ── */
+  :root[data-theme="dark"] {
+    --bg: #1e1c19;
+    --fg: #e9e4d8;
+    --gray-1: #2a2723;
+    --gray-2: #3a352e;
+    --gray-3: #6f685b;
+    --gray-4: #a59d8c;
+    --vote-za: #3c9e5e;
+    --vote-protiv: #d24b3c;
+    --vote-suzdrzani: #8a8475;
+    --vote-odsutni: #423c33;
+    --badge-pass-bg: #23402c; --badge-pass-fg: #8fd3a3;
+    --badge-rej-bg: #43221d;  --badge-rej-fg: #e6a89f;
+    --badge-unk-bg: #322e27;  --badge-unk-fg: #a59d8c;
+    --cell-sep: rgba(0, 0, 0, 0.4);
+    --scrim: rgba(0, 0, 0, 0.5);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root[data-theme="auto"] {
+      --bg: #1e1c19;
+      --fg: #e9e4d8;
+      --gray-1: #2a2723;
+      --gray-2: #3a352e;
+      --gray-3: #6f685b;
+      --gray-4: #a59d8c;
+      --vote-za: #3c9e5e;
+      --vote-protiv: #d24b3c;
+      --vote-suzdrzani: #8a8475;
+      --vote-odsutni: #423c33;
+      --badge-pass-bg: #23402c; --badge-pass-fg: #8fd3a3;
+      --badge-rej-bg: #43221d;  --badge-rej-fg: #e6a89f;
+      --badge-unk-bg: #322e27;  --badge-unk-fg: #a59d8c;
+      --cell-sep: rgba(0, 0, 0, 0.4);
+      --scrim: rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  /* Density steps — override the spacing scale */
+  :root[data-density="compact"] {
+    --page-pad-top: 32px; --page-pad-bottom: 48px;
+    --group-gap: 30px; --session-header-mb: 12px; --cards-gap: 10px;
+    --card-pad-y: 14px; --card-pad-x: 16px; --card-gap: 10px;
+  }
+  :root[data-density="spacious"] {
+    --page-pad-top: 68px; --page-pad-bottom: 88px;
+    --group-gap: 64px; --session-header-mb: 26px; --cards-gap: 24px;
+    --card-pad-y: 28px; --card-pad-x: 30px; --card-gap: 18px;
+  }
+
+  /* Text-size steps — override the type scale */
+  :root[data-fontsize="small"] { --font-scale: 0.9; }
+  :root[data-fontsize="large"] { --font-scale: 1.14; }
+
+  body {
+    font-family: var(--font); background: var(--bg); color: var(--fg);
+    font-size: calc(15px * var(--font-scale)); line-height: 1.55;
+    -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-rendering: optimizeLegibility;
+  }
 
   /* ── Layout ── */
-  .app { max-width: 960px; margin: 0 auto; padding: 32px 20px; }
-  header { border-bottom: 2px solid var(--fg); padding-bottom: 16px; margin-bottom: 24px; }
-  header h1 { font-size: 22px; font-weight: 700; letter-spacing: -0.5px; }
-  header p { color: var(--gray-4); font-size: 12px; margin-top: 4px; }
-
-  /* ── List view — session-grouped card feed ── */
-  .session-group { margin-bottom: 34px; }
-  .session-header { margin-bottom: 14px; padding-bottom: 8px; border-bottom: 1px solid var(--gray-2); }
-  .session-name { font-size: 18px; font-weight: 700; letter-spacing: -0.3px; }
-  .session-date { font-size: 12px; color: var(--gray-4); margin-top: 2px; }
-
-  .vote-cards { display: grid; grid-template-columns: 1fr; gap: 12px; }
-
-  .vote-card {
-    display: flex; flex-direction: column; gap: 10px;
-    border: 1px solid var(--gray-2); border-radius: 8px; padding: 14px;
-    background: #fff; cursor: pointer; transition: border-color 0.12s, box-shadow 0.12s;
+  /* Full-bleed header band: the 1px divider spans the whole page, content stays centred. */
+  .site-header { border-bottom: 1px solid var(--fg); }
+  .site-header-inner {
+    max-width: var(--maxw); margin: 0 auto;
+    padding: var(--page-pad-top) var(--page-pad-x) 20px;
+    display: flex; align-items: flex-start; justify-content: space-between; gap: 16px;
   }
-  .vote-card:hover { border-color: var(--gray-3); box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05); }
+  .header-text { min-width: 0; }
+  .site-header h1 { font-family: var(--font-display); font-size: calc(clamp(34px, 5.4vw, 52px) * var(--font-scale)); font-weight: 700; letter-spacing: -0.025em; line-height: 1.05; }
+  .site-header p { font-family: var(--font-mono); color: var(--gray-4); font-size: 12px; margin-top: 12px; letter-spacing: -0.01em; }
+  .site-header p a { color: inherit; }
 
-  .vote-card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; }
-  .vote-card-title { font-size: 13px; font-weight: 600; line-height: 1.35; }
-  .vote-card-mark {
-    flex-shrink: 0; width: 22px; height: 22px; border-radius: 50%;
-    display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 700;
+  .app { max-width: var(--maxw); margin: 0 auto; padding: 32px var(--page-pad-x) var(--page-pad-bottom); }
+
+  /* Settings gear */
+  .settings-btn {
+    flex-shrink: 0; width: 40px; height: 40px; margin-top: 4px;
+    display: inline-flex; align-items: center; justify-content: center;
+    border: 1px solid var(--gray-2); background: transparent;
+    color: var(--gray-4); cursor: pointer; transition: color 0.12s, border-color 0.12s, background 0.12s;
   }
-  .vote-card-mark.accepted { background: #e6f4ec; color: var(--green); }
-  .vote-card-mark.rejected { background: #fce8e6; color: var(--red); }
-  .vote-card-mark.unknown { background: var(--gray-2); color: var(--gray-4); }
+  .settings-btn:hover { color: var(--fg); border-color: var(--gray-3); background: var(--gray-1); }
 
-  .vote-card-summary-icon {
-    flex-shrink: 0; width: 20px; height: 20px; border-radius: 50%;
-    display: flex; align-items: center; justify-content: center;
-    background: #e3f2fd; color: #1976d2; cursor: help; margin-left: 6px;
-    transition: background 0.12s, color 0.12s;
+  /* ── List view — session-grouped vote table ── */
+  .session-group { margin-bottom: var(--group-gap); }
+  .session-header { margin-bottom: var(--session-header-mb); }
+  .session-name { font-family: var(--font-display); font-size: calc(clamp(20px, 2.6vw, 26px) * var(--font-scale)); font-weight: 600; letter-spacing: -0.015em; }
+  .session-date { font-family: var(--font-mono); font-size: 12px; color: var(--gray-4); margin-top: 4px; letter-spacing: -0.01em; }
+
+  /* Vote table — bordered list of stacked rows, hairline separators, sharp corners */
+  .vote-table { border: 1px solid var(--gray-2); }
+
+  .vote-row {
+    display: flex; flex-direction: column; gap: 12px;
+    padding: calc(var(--card-pad-y) * 2) 40px; border-bottom: 1px solid var(--gray-2);
+    cursor: pointer; transition: background 0.12s;
   }
-  .vote-card:hover .vote-card-summary-icon { background: #bbdefb; color: #1565c0; }
+  .vote-row:last-child { border-bottom: none; }
+  .vote-row:hover { background: var(--gray-1); }
+  .vote-row-title { font-size: calc(17px * var(--font-scale)); font-weight: 600; line-height: 1.4; letter-spacing: -0.01em; }
+  .vote-row-proposer { font-family: var(--font-mono); font-size: calc(11px * var(--font-scale)); color: var(--gray-4); margin-top: 5px; letter-spacing: -0.01em; }
 
-  .vote-card-bar { display: flex; height: 8px; border-radius: 4px; overflow: hidden; }
-  .vote-card-bar span { display: block; }
-  .vote-card-proposer { font-size: 11px; color: var(--gray-4); }
+  /* Result bar sits under the title, full row width */
+  .vote-row-bar { display: flex; height: 8px; overflow: hidden; }
+  .vote-row-bar span { display: block; }
+
+  .load-more {
+    display: block; width: 100%; margin-top: 24px; padding: 15px;
+    font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.04em; text-transform: uppercase;
+    color: var(--gray-4); background: transparent; border: 1px solid var(--gray-2); cursor: pointer;
+    transition: background 0.12s, color 0.12s, border-color 0.12s;
+  }
+  .load-more:hover { background: var(--gray-1); color: var(--fg); border-color: var(--gray-3); }
 
   /* stacked-bar segment colours (shared) */
   .seg-za { background: var(--vote-za); }
@@ -80,9 +184,9 @@
     display: inline-block; font-size: 10px; font-weight: 700; letter-spacing: 0.05em;
     text-transform: uppercase; padding: 2px 7px; border-radius: 3px;
   }
-  .badge-prihvaceno { background: #e6f4ec; color: var(--green); }
-  .badge-odbijeno { background: #fce8e6; color: var(--red); }
-  .badge-nepoznato { background: var(--gray-2); color: var(--gray-4); }
+  .badge-prihvaceno { background: var(--badge-pass-bg); color: var(--badge-pass-fg); }
+  .badge-odbijeno { background: var(--badge-rej-bg); color: var(--badge-rej-fg); }
+  .badge-nepoznato { background: var(--badge-unk-bg); color: var(--badge-unk-fg); }
 
   /* ── Detail view ── */
   #detail-view { display: none; }
@@ -95,8 +199,8 @@
   .back-btn:hover { color: var(--fg); }
 
   .detail-header { margin-bottom: 24px; }
-  .detail-meta { font-size: 12px; color: var(--gray-4); margin-bottom: 6px; }
-  .detail-title { font-size: 22px; font-weight: 700; letter-spacing: -0.4px; line-height: 1.3; margin-bottom: 12px; }
+  .detail-meta { font-family: var(--font-mono); font-size: 12px; color: var(--gray-4); margin-bottom: 8px; letter-spacing: -0.01em; }
+  .detail-title { font-family: var(--font-display); font-size: calc(clamp(26px, 4vw, 34px) * var(--font-scale)); font-weight: 700; letter-spacing: -0.02em; line-height: 1.2; margin-bottom: 14px; }
   .detail-proposer-row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 12px; }
   .proposer-chip {
     display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 600;
@@ -113,13 +217,13 @@
     background: var(--gray-1); border-left: 3px solid var(--gray-2);
     border-radius: var(--radius); padding: 14px 16px; margin-bottom: 24px;
   }
-  .eli5-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--gray-4); margin-bottom: 6px; }
-  .eli5-text { font-style: italic; color: var(--gray-4); font-size: 13px; }
+  .eli5-label { font-family: var(--font-mono); font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--gray-4); margin-bottom: 6px; }
+  .eli5-text { font-style: italic; color: var(--gray-4); font-size: calc(13px * var(--font-scale)); }
 
   /* ── Breakdown sections ── */
   .section { margin-bottom: 28px; }
   .section-label {
-    font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em;
+    font-family: var(--font-mono); font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em;
     color: var(--gray-4); margin-bottom: 12px; padding-bottom: 6px; border-bottom: 1px solid var(--gray-2);
   }
 
@@ -127,7 +231,7 @@
   .total-bar-legend { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 8px; }
   .legend-item { display: flex; align-items: center; gap: 5px; font-size: 12px; color: var(--gray-4); }
   .legend-dot { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
-  .legend-item strong { color: var(--fg); }
+  .legend-item strong { color: var(--fg); font-family: var(--font-mono); font-weight: 700; }
 
   /* Master vote section — reset sits top-right, no title/divider */
   .vote-section { position: relative; }
@@ -138,53 +242,111 @@
   /* Hemicycle seating chart */
   .hemicycle-wrap { display: flex; justify-content: center; }
   .hemicycle { width: 100%; max-width: 540px; height: auto; }
-  .hemicycle circle { transition: opacity 0.15s; cursor: default; }
+  .hemicycle circle { transition: opacity 0.15s; cursor: default; stroke: var(--bg); }
   .seating-empty { color: var(--gray-3); font-size: 13px; padding: 16px 0; text-align: center; }
 
   /* Distribution bar — one cell per MP. Full width on desktop. */
   .cell-bar-wrap { margin: 14px 0 0; }
   .cell-bar { display: flex; height: 22px; border-radius: 3px; overflow: hidden; }
   .cell { flex: 1 1 0; min-width: 0; transition: opacity 0.15s;
-    box-shadow: inset -1px 0 0 rgba(255, 255, 255, 0.4); }
+    box-shadow: inset -1px 0 0 var(--cell-sep); }
 
   /* Mobile: per-option stacked bars (hidden on desktop) */
   .cell-bars--split { display: none; }
   .split-row { margin-bottom: 12px; }
   .split-row:last-child { margin-bottom: 0; }
   .split-label { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--gray-4); margin-bottom: 4px; }
-  .split-label strong { color: var(--fg); }
+  .split-label strong { color: var(--fg); font-family: var(--font-mono); font-weight: 700; }
 
   /* Club pills */
   .club-pills { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; margin-top: 18px; }
   .club-pill {
     display: inline-flex; align-items: center; gap: 6px; cursor: pointer;
     font-size: 12px; font-weight: 600; color: var(--fg); font-family: inherit;
-    background: #fff; border: 1px solid var(--gray-2); border-radius: 20px; padding: 3px 10px 3px 8px;
+    background: transparent; border: 1px solid var(--gray-2); border-radius: 20px; padding: 3px 10px 3px 8px;
     transition: background 0.12s, border-color 0.12s;
   }
   .club-pill:hover { border-color: var(--gray-3); }
   .club-pill.active { background: var(--gray-1); border-color: var(--gray-4); }
   .pill-dot { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
-  .pill-count { color: var(--gray-3); font-weight: 500; }
+  .pill-count { color: var(--gray-3); font-weight: 400; font-family: var(--font-mono); }
   .club-pill.active .pill-count { color: var(--fg); }
   .selection-summary { text-align: center; margin-top: 12px; font-size: 13px; color: var(--gray-4); }
   .selection-summary strong { color: var(--fg); }
+
+  /* ── Settings (slide-over panel) ── */
+  .settings-overlay {
+    position: fixed; inset: 0; background: var(--scrim);
+    opacity: 0; visibility: hidden; transition: opacity 0.18s, visibility 0.18s; z-index: 40;
+  }
+  .settings-overlay.open { opacity: 1; visibility: visible; }
+
+  .settings-panel {
+    position: fixed; top: 0; right: 0; height: 100%; width: 380px; max-width: 86vw;
+    background: var(--bg); border-left: 1px solid var(--gray-2);
+    box-shadow: -8px 0 30px rgba(0, 0, 0, 0.08);
+    transform: translateX(100%); transition: transform 0.22s ease; z-index: 41;
+    display: flex; flex-direction: column; padding: 22px 22px 28px;
+  }
+  .settings-overlay.open .settings-panel { transform: translateX(0); }
+
+  .settings-head {
+    display: flex; align-items: center; justify-content: space-between;
+    padding-bottom: 16px; margin-bottom: 22px; border-bottom: 1px solid var(--gray-2);
+  }
+  .settings-title { font-family: var(--font-display); font-size: 18px; font-weight: 600; letter-spacing: -0.01em; }
+  .settings-close {
+    width: 30px; height: 30px; display: inline-flex; align-items: center; justify-content: center;
+    border: none; background: none; color: var(--gray-4); cursor: pointer; border-radius: 7px;
+  }
+  .settings-close:hover { color: var(--fg); background: var(--gray-1); }
+
+  .settings-group { margin-bottom: 24px; }
+  .settings-group-label {
+    font-family: var(--font-mono); font-size: 11px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.06em; color: var(--gray-4); margin-bottom: 10px;
+  }
+
+  .seg {
+    display: grid; grid-auto-flow: column; grid-auto-columns: 1fr;
+    border: 1px solid var(--gray-2); overflow: hidden;
+  }
+  .seg button {
+    font-family: inherit; font-size: 13px; font-weight: 500; color: var(--gray-4);
+    background: transparent; border: none; border-right: 1px solid var(--gray-2);
+    padding: 9px 6px; cursor: pointer; transition: background 0.12s, color 0.12s;
+  }
+  .seg button:last-child { border-right: none; }
+  .seg button:hover { background: var(--gray-1); color: var(--fg); }
+  .seg button.active { background: var(--fg); color: var(--bg); }
+
+  /* Larger screens: a touch more horizontal padding + scaled base size */
+  @media (min-width: 768px) {
+    body { font-size: calc(16px * var(--font-scale)); }
+    :root { --page-pad-x: 32px; }
+  }
 
   /* Mobile: swap the combined bar for stacked per-option bars */
   @media (max-width: 600px) {
     .cell-bar.cell-bar--combined { display: none; }
     .cell-bars--split { display: block; }
     .total-bar-legend { display: none; }   /* split-row labels replace it */
+    .vote-row { padding-left: 14px; padding-right: 14px; }
   }
 </style>
 </head>
 <body>
-<div class="app">
-  <header>
-    <h1>Sabor — Glasanja</h1>
-    <p>Hrvatski sabor · 10. saziv · podaci: <a href="https://parlametar.hr" target="_blank">parlametar.hr</a></p>
-  </header>
+<header class="site-header">
+  <div class="site-header-inner">
+    <div class="header-text">
+      <h1>Sabor — Glasanja</h1>
+      <p>Hrvatski sabor · 10. saziv · podaci: <a href="https://parlametar.hr" target="_blank">parlametar.hr</a></p>
+    </div>
+    <button class="settings-btn" id="settings-btn" aria-label="Postavke" title="Postavke"></button>
+  </div>
+</header>
 
+<div class="app">
   <!-- LIST VIEW -->
   <div id="list-view">
     <div id="vote-list"></div>
@@ -197,22 +359,61 @@
   </div>
 </div>
 
+<!-- SETTINGS PANEL -->
+<div class="settings-overlay" id="settings-overlay">
+  <aside class="settings-panel" role="dialog" aria-modal="true" aria-label="Postavke">
+    <div class="settings-head">
+      <div class="settings-title">Postavke</div>
+      <button class="settings-close" id="settings-close" aria-label="Zatvori"></button>
+    </div>
+
+    <div class="settings-group">
+      <div class="settings-group-label">Tema</div>
+      <div class="seg" id="seg-theme">
+        <button data-theme="light">Svijetla</button>
+        <button data-theme="auto">Automatska</button>
+        <button data-theme="dark">Tamna</button>
+      </div>
+    </div>
+
+    <div class="settings-group">
+      <div class="settings-group-label">Gustoća prikaza</div>
+      <div class="seg" id="seg-density">
+        <button data-density="compact">Zbijeno</button>
+        <button data-density="standard">Standardno</button>
+        <button data-density="spacious">Prozračno</button>
+      </div>
+    </div>
+
+    <div class="settings-group">
+      <div class="settings-group-label">Veličina teksta</div>
+      <div class="seg" id="seg-fontsize">
+        <button data-fontsize="small">Manja</button>
+        <button data-fontsize="standard">Standardna</button>
+        <button data-fontsize="large">Veća</button>
+      </div>
+    </div>
+
+  </aside>
+</div>
+
 <script>
 const ICONS = {
-  check: `<svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M2.5 7.5l3 3 6-7" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
-  x:     `<svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M3 3l8 8M11 3l-8 8" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/></svg>`,
-  minus: `<svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M3 7h8" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/></svg>`,
-  doc:   `<svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M3 1.5h5.5L11 4v8.5H3z" stroke="currentColor" stroke-width="1.25" stroke-linejoin="round"/><path d="M8.5 1.5V4H11" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/><path d="M5 6.5h4M5 8.5h4M5 10.5h2" stroke="currentColor" stroke-width="1.25" stroke-linecap="round"/></svg>`,
+  gear:  `<svg width="19" height="19" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.6"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 11-2.83 2.83l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 11-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 11-2.83-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 110-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 112.83-2.83l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 114 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 112.83 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 110 4h-.09a1.65 1.65 0 00-1.51 1z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
+  close: `<svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3.5 3.5l9 9M12.5 3.5l-9 9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>`,
 };
 
 const VOTE_LABELS = { za: 'Za', protiv: 'Protiv', suzdrzani: 'Suzdržani', odsutni: 'Odsutni / Nije glasao' };
-const VOTE_COLORS = { za: '#2d8a4e', protiv: '#c0392b', suzdrzani: '#888', odsutni: '#d8d8d8' };
+const VOTE_COLORS = { za: 'var(--vote-za)', protiv: 'var(--vote-protiv)', suzdrzani: 'var(--vote-suzdrzani)', odsutni: 'var(--vote-odsutni)' };
 const MP_CLASS = { for: 'za', against: 'protiv', abstain: 'abstain', absent: 'absent', 'did not vote': 'absent' };
-// Seat fill + label keyed by the raw API vote option (for the seating chart).
-const SEAT_COLOR = { for: '#2d8a4e', against: '#c0392b', abstain: '#888', absent: '#d8d8d8', 'did not vote': '#d8d8d8' };
+// Seat fill keyed by the raw API vote option (CSS vars so the chart follows the theme).
+const SEAT_COLOR = { for: 'var(--vote-za)', against: 'var(--vote-protiv)', abstain: 'var(--vote-suzdrzani)', absent: 'var(--vote-odsutni)', 'did not vote': 'var(--vote-odsutni)' };
 const SEAT_VOTE_LABEL = { for: 'Za', against: 'Protiv', abstain: 'Suzdržan', absent: 'Odsutan', 'did not vote': 'Nije glasao' };
 
 let votes = [];
+const SESSIONS_INITIAL = 4, SESSIONS_STEP = 4;   // session groups shown, grows on "Učitaj više"
+let listVisible = SESSIONS_INITIAL;
+let listScrollY = 0;             // remember feed scroll position while a detail is open
 const activeClubs = new Set();   // club_slugs currently highlighted in the detail view
 
 // ── Helpers ──────────────────────────────────────────────────────────────────
@@ -242,43 +443,36 @@ function badge(result) {
   return `<span class="badge ${cls}">${label}</span>`;
 }
 
-// Full-width stacked tally bar for a card.
-function cardBar(t) {
+// Stacked tally bar for a table row. Segment order encodes the outcome: the
+// leading colour is green when the vote passed, red when it was rejected.
+function rowBar(t, result) {
   const total = t.za + t.protiv + t.suzdrzani + t.odsutni || 1;
   const pct = k => (t[k] / total * 100).toFixed(2);
-  return `<div class="vote-card-bar">
-    <span class="seg-za" style="width:${pct('za')}%"></span>
-    <span class="seg-protiv" style="width:${pct('protiv')}%"></span>
-    <span class="seg-suzdrzani" style="width:${pct('suzdrzani')}%"></span>
-    <span class="seg-odsutni" style="width:${pct('odsutni')}%"></span>
-  </div>`;
+  const seg = { za: 'seg-za', protiv: 'seg-protiv', suzdrzani: 'seg-suzdrzani', odsutni: 'seg-odsutni' };
+  const order = result === 'odbijeno'
+    ? ['protiv', 'za', 'suzdrzani', 'odsutni']   // rejected → red leads
+    : ['za', 'protiv', 'suzdrzani', 'odsutni'];  // passed / unknown → green leads
+  return `<div class="vote-row-bar">${order
+    .map(k => `<span class="${seg[k]}" style="width:${pct(k)}%"></span>`).join('')}</div>`;
 }
 
-function voteCard(v, i) {
-  const mark = v.result === 'prihvaceno' ? ICONS.check : v.result === 'odbijeno' ? ICONS.x : ICONS.minus;
-  const markClass = v.result === 'prihvaceno' ? 'accepted' : v.result === 'odbijeno' ? 'rejected' : 'unknown';
-  const markTitle = v.result === 'prihvaceno' ? 'Prihvaćeno' : v.result === 'odbijeno' ? 'Odbijeno' : 'Nepoznato';
+function voteRow(v, i) {
   const proposer = v.proposer_name
-    ? `<div class="vote-card-proposer">Predlagatelj: ${esc(capitalize(v.proposer_name))}</div>` : '';
-  const summaryIcon = v.summary ? `<div class="vote-card-summary-icon" title="Dostupan je sažetak">${ICONS.doc}</div>` : '';
+    ? `<div class="vote-row-proposer">${esc(capitalize(v.proposer_name))}</div>` : '';
   return `
-    <article class="vote-card" data-idx="${i}">
-      <div class="vote-card-top">
-        <div class="vote-card-title">${esc(capitalize(v.title))}</div>
-        <div style="display: flex; align-items: center; gap: 6px;">
-          ${summaryIcon}
-          <div class="vote-card-mark ${markClass}" title="${markTitle}">${mark}</div>
-        </div>
+    <div class="vote-row" data-idx="${i}">
+      <div class="vote-row-main">
+        <div class="vote-row-title">${esc(capitalize(v.title))}</div>
+        ${proposer}
       </div>
-      ${cardBar(v.tally)}
-      ${proposer}
-    </article>`;
+      ${rowBar(v.tally, v.result)}
+    </div>`;
 }
 
-// ── List view — cards grouped by session + sitting day ──────────────────────────
+// ── List view — votes grouped by session + sitting day, paged ────────────────────
 
-function renderList() {
-  // votes are already sorted newest-first; group consecutive ones by session+date.
+// votes are already sorted newest-first; group consecutive ones by session+date.
+function groupBySession() {
   const groups = [];
   let cur = null;
   votes.forEach((v, i) => {
@@ -289,22 +483,34 @@ function renderList() {
     }
     cur.items.push({ v, i });
   });
+  return groups;
+}
+
+function renderList() {
+  const groups = groupBySession();
+  const shown = groups.slice(0, listVisible);
 
   const container = document.getElementById('vote-list');
-  container.innerHTML = groups.map(g => `
+  container.innerHTML = shown.map(g => `
     <section class="session-group">
-      <header class="session-header">
+      <div class="session-header">
         <div class="session-name">${esc(titleCase(g.session)) || 'Glasanje'}</div>
         <div class="session-date">${fmt(g.date)}</div>
-      </header>
-      <div class="vote-cards">
-        ${g.items.map(({ v, i }) => voteCard(v, i)).join('')}
+      </div>
+      <div class="vote-table">
+        ${g.items.map(({ v, i }) => voteRow(v, i)).join('')}
       </div>
     </section>
-  `).join('');
+  `).join('')
+    + (groups.length > listVisible
+        ? `<button class="load-more" id="load-more">Učitaj više sjednica</button>` : '');
 
-  container.querySelectorAll('.vote-card').forEach(card => {
-    card.addEventListener('click', () => showDetail(+card.dataset.idx));
+  container.querySelectorAll('.vote-row').forEach(row => {
+    row.addEventListener('click', () => showDetail(+row.dataset.idx));
+  });
+  document.getElementById('load-more')?.addEventListener('click', () => {
+    listVisible += SESSIONS_STEP;
+    renderList();
   });
 }
 
@@ -313,12 +519,14 @@ function renderList() {
 function showDetail(idx) {
   const v = votes[idx];
   activeClubs.clear();
+  listScrollY = window.scrollY;   // remember where we were in the feed
 
   document.getElementById('list-view').style.display = 'none';
   const dv = document.getElementById('detail-view');
   dv.classList.add('visible');
   dv.querySelector('#detail-content').innerHTML = buildDetail(v);
   bindDetailEvents(v);
+  window.scrollTo(0, 0);          // detail always opens at the top
 }
 
 function buildDetail(v) {
@@ -341,7 +549,7 @@ function buildDetail(v) {
     </div>
 
     <div class="eli5">
-      <div class="eli5-label">Što ovo znači?</div>
+      <div class="eli5-label">AI generirani sažetak</div>
       <div class="eli5-text">${v.summary ? esc(v.summary) : 'Sažetak nije dostupan.'}</div>
     </div>
 
@@ -410,7 +618,7 @@ function buildCellBar(v, selected) {
   if (!mps.length) return '';
 
   const cell = mp => {
-    const color = SEAT_COLOR[mp.vote] || '#d8d8d8';
+    const color = SEAT_COLOR[mp.vote] || 'var(--vote-odsutni)';
     const dim = selected.size && !selected.has(mp.club_slug);
     const label = SEAT_VOTE_LABEL[mp.vote] || '—';
     return `<span class="cell" style="background:${color};opacity:${dim ? 0.12 : 1}" `
@@ -518,12 +726,12 @@ function buildSeating(v, selected) {
     const s = seats[i];
     const x = cx + s.r * S * Math.cos(s.theta);
     const y = cy - s.r * S * Math.sin(s.theta);
-    const color = SEAT_COLOR[mp.vote] || '#d8d8d8';
+    const color = SEAT_COLOR[mp.vote] || 'var(--vote-odsutni)';
     const dim = selected.size && !selected.has(mp.club_slug);
     const club = mp.club || 'Nezavisni';
     const label = SEAT_VOTE_LABEL[mp.vote] || '—';
     return `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${seatPx.toFixed(1)}" `
-      + `fill="${color}" stroke="#fff" stroke-width="0.6" opacity="${dim ? 0.12 : 1}">`
+      + `style="fill:${color}" stroke-width="0.6" opacity="${dim ? 0.12 : 1}">`
       + `<title>${esc(mp.mp_name)} — ${esc(club)} · ${label}</title></circle>`;
   }).join('');
 
@@ -565,7 +773,67 @@ document.getElementById('back-btn').addEventListener('click', () => {
   document.getElementById('detail-view').classList.remove('visible');
   document.getElementById('detail-content').innerHTML = '';
   document.getElementById('list-view').style.display = '';
+  window.scrollTo(0, listScrollY);   // restore the feed where the user left off
 });
+
+// ── Settings (density + text size, persisted to localStorage) ────────────────────
+
+const SETTINGS = {
+  theme:    { key: 'sabor.theme',    values: ['light', 'auto', 'dark'],           def: 'auto',     attr: 'data-theme' },
+  density:  { key: 'sabor.density',  values: ['compact', 'standard', 'spacious'], def: 'standard', attr: 'data-density' },
+  fontsize: { key: 'sabor.fontsize', values: ['small', 'standard', 'large'],     def: 'standard', attr: 'data-fontsize' },
+};
+
+function readSetting(s) {
+  let v = null;
+  try { v = localStorage.getItem(s.key); } catch (_) {}
+  return s.values.includes(v) ? v : s.def;
+}
+
+// Apply a setting to <html> and reflect it on its segmented control.
+function applySetting(name) {
+  const s = SETTINGS[name];
+  const v = readSetting(s);
+  document.documentElement.setAttribute(s.attr, v);
+  document.querySelectorAll(`#seg-${name} button`).forEach(b =>
+    b.classList.toggle('active', b.dataset[name] === v));
+}
+
+function setSetting(name, value) {
+  const s = SETTINGS[name];
+  if (!s.values.includes(value)) return;
+  try { localStorage.setItem(s.key, value); } catch (_) {}
+  applySetting(name);
+}
+
+function initSettings() {
+  document.getElementById('settings-btn').innerHTML = ICONS.gear;
+  document.getElementById('settings-close').innerHTML = ICONS.close;
+
+  applySetting('theme');
+  applySetting('density');
+  applySetting('fontsize');
+
+  const overlay = document.getElementById('settings-overlay');
+  const close = () => overlay.classList.remove('open');
+
+  document.getElementById('settings-btn').addEventListener('click', () => overlay.classList.add('open'));
+  document.getElementById('settings-close').addEventListener('click', close);
+  overlay.addEventListener('click', e => { if (e.target === overlay) close(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') close(); });
+
+  document.getElementById('seg-density').addEventListener('click', e => {
+    const b = e.target.closest('button'); if (b) setSetting('density', b.dataset.density);
+  });
+  document.getElementById('seg-fontsize').addEventListener('click', e => {
+    const b = e.target.closest('button'); if (b) setSetting('fontsize', b.dataset.fontsize);
+  });
+  document.getElementById('seg-theme').addEventListener('click', e => {
+    const b = e.target.closest('button'); if (b) setSetting('theme', b.dataset.theme);
+  });
+}
+
+initSettings();
 
 // ── Bootstrap ─────────────────────────────────────────────────────────────────
 
