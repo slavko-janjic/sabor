@@ -123,19 +123,41 @@
   .site-header { border-bottom: 1px solid var(--fg); }
   .site-header-inner {
     max-width: var(--maxw); margin: 0 auto;
-    padding: var(--page-pad-top) var(--page-pad-x) 20px;
-    display: flex; align-items: flex-start; justify-content: space-between; gap: 16px;
+    padding: 0 var(--page-pad-x);
+    display: flex; align-items: stretch; gap: 0; min-height: 112px;
   }
-  .header-text { min-width: 0; }
-  .site-header h1 { font-family: var(--font-display); font-size: calc(clamp(34px, 5.4vw, 52px) * var(--font-scale)); font-weight: 700; letter-spacing: -0.025em; line-height: 1.05; }
-  .site-header p { font-family: var(--font-mono); color: var(--gray-4); font-size: 12px; margin-top: 12px; letter-spacing: -0.01em; }
-  .site-header p a { color: inherit; }
+  .header-brand { display: flex; flex-direction: column; justify-content: center; min-width: 0; }
+  .wordmark { font-family: var(--font-display); font-size: calc(clamp(26px, 4vw, 34px) * var(--font-scale)); font-weight: 700; letter-spacing: 0.05em; line-height: 1; }
+  .brand-sub { font-family: var(--font-mono); color: var(--gray-4); font-size: 11px; margin-top: 8px; letter-spacing: -0.01em; }
+  .brand-sub a { color: inherit; }
+
+  /* Main nav — full-height Fontshare-style cells divided by hairlines, active cell inverted */
+  .main-nav { display: flex; align-self: stretch; margin-left: auto; }
+  .nav-link {
+    display: flex; align-items: center; justify-content: center;
+    min-width: 116px; padding: 0 22px;
+    font-family: var(--font-mono); font-size: 12px; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.06em;
+    color: var(--gray-4); background: transparent;
+    border: none; border-left: 1px solid var(--gray-2); cursor: pointer;
+    transition: background 0.12s, color 0.12s;
+  }
+  .main-nav .nav-link:last-child { border-right: 1px solid var(--gray-2); }
+  .nav-link:hover { color: var(--fg); background: var(--gray-1); }
+  .nav-link.active, .nav-link.active:hover { color: var(--bg); background: var(--fg); }
+  .nav-link--disabled, .nav-link:disabled { color: var(--gray-3); opacity: 0.55; cursor: default; }
+  .nav-link--disabled:hover { color: var(--gray-3); background: transparent; }
 
   .app { max-width: var(--maxw); margin: 0 auto; padding: 32px var(--page-pad-x) var(--page-pad-bottom); }
 
+  /* Empty-section placeholder (e.g. Zastupnici before the scorecard lands) */
+  .section-placeholder { padding: 96px 0; text-align: center; }
+  .placeholder-title { font-family: var(--font-display); font-size: 26px; font-weight: 600; letter-spacing: -0.01em; margin-bottom: 10px; }
+  .placeholder-text { font-family: var(--font-mono); font-size: 13px; color: var(--gray-4); letter-spacing: -0.01em; }
+
   /* Settings gear */
   .settings-btn {
-    flex-shrink: 0; width: 40px; height: 40px; margin-top: 4px;
+    flex-shrink: 0; width: 40px; height: 40px; align-self: center; margin-left: 16px;
     display: inline-flex; align-items: center; justify-content: center;
     border: 1px solid var(--gray-2); background: transparent;
     color: var(--gray-4); cursor: pointer; transition: color 0.12s, border-color 0.12s, background 0.12s;
@@ -274,6 +296,32 @@
   .selection-summary { text-align: center; margin-top: 12px; font-size: 13px; color: var(--gray-4); }
   .selection-summary strong { color: var(--fg); }
 
+  /* ── Zastupnici scorecard ── */
+  .scorecard-summary { font-family: var(--font-mono); font-size: 12px; color: var(--gray-4); margin-bottom: 18px; letter-spacing: -0.01em; }
+  .mp-table { width: 100%; border-collapse: collapse; border: 1px solid var(--gray-2); }
+  .mp-table th, .mp-table td { text-align: left; padding: 11px 16px; border-bottom: 1px solid var(--gray-2); vertical-align: middle; }
+  .mp-table tbody tr:last-child td { border-bottom: none; }
+  .mp-table tbody tr:hover { background: var(--gray-1); }
+  .sc-th {
+    font-family: var(--font-mono); font-size: 10px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.06em; color: var(--gray-4); white-space: nowrap;
+  }
+  .sc-th[data-key] { cursor: pointer; user-select: none; }
+  .sc-th[data-key]:hover { color: var(--fg); }
+  td.sc-name { font-size: 14px; font-weight: 600; letter-spacing: -0.01em; }
+  .name-abbr { display: none; }
+  td.sc-club { font-size: 13px; color: var(--gray-4); }
+  .club-dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 7px; vertical-align: middle; }
+  .sc-part { width: 210px; }
+  .part-cell { display: flex; align-items: center; gap: 10px; }
+  .part-bar { flex: 1; height: 7px; background: var(--gray-2); border-radius: 4px; overflow: hidden; min-width: 56px; }
+  .part-bar > span { display: block; height: 100%; background: var(--fg); border-radius: 4px; }
+  .part-pct { font-family: var(--font-mono); font-size: 12px; font-weight: 700; min-width: 40px; text-align: right; }
+  th.sc-num, td.sc-num { width: 60px; text-align: right; white-space: nowrap; padding-left: 8px; padding-right: 16px; }
+  td.sc-num { font-family: var(--font-mono); font-size: 12px; }
+  .rz-za { color: var(--vote-za); } .rz-protiv { color: var(--vote-protiv); }
+  .rz-suzdrzani { color: var(--gray-4); } .rz-nije { color: var(--gray-3); }
+
   /* ── Settings (slide-over panel) ── */
   .settings-overlay {
     position: fixed; inset: 0; background: var(--scrim);
@@ -332,16 +380,37 @@
     .cell-bars--split { display: block; }
     .total-bar-legend { display: none; }   /* split-row labels replace it */
     .vote-row { padding-left: 14px; padding-right: 14px; }
+
+    /* Header: brand + gear on row 1, nav cells full-width on row 2 */
+    .site-header-inner { flex-wrap: wrap; align-items: center; min-height: 0; padding-top: 28px; }
+    .settings-btn { align-self: center; margin-left: auto; }
+    .main-nav { order: 3; width: 100%; margin: 22px 0 0; border-top: 1px solid var(--gray-2); }
+    .nav-link { flex: 1; min-width: 0; padding: 14px 8px; }
+    .main-nav .nav-link:first-child { border-left: none; }
+    .main-nav .nav-link:last-child { border-right: none; }
+
+    /* Scorecard: drop the Z/P/S/N columns + the bar, abbreviate surnames */
+    .mp-table th.sc-num, .mp-table td.sc-num { display: none; }
+    .mp-table th, .mp-table td { padding: 10px 10px; }
+    .sc-part { width: 1%; white-space: nowrap; }
+    .part-bar { display: none; }
+    .name-full { display: none; }
+    .name-abbr { display: inline; }
   }
 </style>
 </head>
 <body>
 <header class="site-header">
   <div class="site-header-inner">
-    <div class="header-text">
-      <h1>Sabor — Glasanja</h1>
-      <p>Hrvatski sabor · 10. saziv · podaci: <a href="https://parlametar.hr" target="_blank">parlametar.hr</a></p>
+    <div class="header-brand">
+      <h1 class="wordmark">SABOR</h1>
+      <p class="brand-sub">10. saziv · <a href="https://parlametar.hr" target="_blank">parlametar.hr</a></p>
     </div>
+    <nav class="main-nav" id="main-nav" aria-label="Glavna navigacija">
+      <button class="nav-link active" data-section="glasanja">Glasanja</button>
+      <button class="nav-link" data-section="zastupnici">Zastupnici</button>
+      <button class="nav-link nav-link--disabled" data-section="klubovi" disabled aria-disabled="true" title="Uskoro">Klubovi</button>
+    </nav>
     <button class="settings-btn" id="settings-btn" aria-label="Postavke" title="Postavke"></button>
   </div>
 </header>
@@ -356,6 +425,11 @@
   <div id="detail-view">
     <button class="back-btn" id="back-btn"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M10 12L6 8l4-4" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg> Natrag na popis</button>
     <div id="detail-content"></div>
+  </div>
+
+  <!-- ZASTUPNICI SECTION (participation scorecard) -->
+  <div id="zastupnici-view" style="display:none">
+    <div id="scorecard"></div>
   </div>
 </div>
 
@@ -776,6 +850,129 @@ document.getElementById('back-btn').addEventListener('click', () => {
   window.scrollTo(0, listScrollY);   // restore the feed where the user left off
 });
 
+// ── Section nav (Glasanja / Zastupnici / Klubovi) ──────────────────────────────
+
+// Top-level sections. Glasanja = the feed (list + detail); Zastupnici = the
+// participation scorecard; Klubovi is disabled. Switching resets any open detail.
+function showSection(name) {
+  document.getElementById('detail-view').classList.remove('visible');
+  document.getElementById('detail-content').innerHTML = '';
+  document.getElementById('list-view').style.display = name === 'glasanja' ? '' : 'none';
+  document.getElementById('zastupnici-view').style.display = name === 'zastupnici' ? '' : 'none';
+  if (name === 'zastupnici') renderScorecard();
+  document.querySelectorAll('.nav-link').forEach(b =>
+    b.classList.toggle('active', b.dataset.section === name));
+  window.scrollTo(0, 0);
+}
+
+document.getElementById('main-nav').addEventListener('click', e => {
+  const b = e.target.closest('.nav-link');
+  if (!b || b.disabled) return;
+  showSection(b.dataset.section);
+});
+
+// ── Zastupnici scorecard — per-MP participation, aggregated client-side ─────────
+
+// Participation = (za + protiv + suzdržan) / votes-while-seated. The denominator is
+// the number of votes the MP appears in (was seated for), NOT all votes — so MPs
+// with a partial term aren't penalised for ballots before/after their tenure.
+// Honest labelling: this is voting participation, never physical attendance; the
+// non-voting bucket is "nije glasovao", not "odsutan".
+let scorecardRows = null;
+function computeScorecard() {
+  if (scorecardRows) return scorecardRows;
+  if (!votes.length) return [];
+  const m = new Map();
+  for (const v of votes) {
+    if (!v.by_mp) continue;
+    for (const mp of v.by_mp) {
+      let r = m.get(mp.mp_slug);
+      if (!r) { r = { name: mp.mp_name, club: null, club_color: null, lastDate: '',
+                      seated: 0, cast: 0, za: 0, protiv: 0, suzdrzan: 0, nije: 0 }; m.set(mp.mp_slug, r); }
+      r.seated++;
+      if (mp.vote === 'for') { r.cast++; r.za++; }
+      else if (mp.vote === 'against') { r.cast++; r.protiv++; }
+      else if (mp.vote === 'abstain') { r.cast++; r.suzdrzan++; }
+      else r.nije++;
+      if (v.date >= r.lastDate) { r.lastDate = v.date; r.club = mp.club; r.club_color = mp.club_color; }
+    }
+  }
+  scorecardRows = [...m.values()].map(r => ({ ...r, part: r.seated ? r.cast / r.seated : 0 }));
+  return scorecardRows;
+}
+
+let scSort = { key: 'part', dir: -1 };   // default: participation, high → low
+
+// "Krešimir Ačkar" → "Krešimir A." ; "Ana Puž Kukuljan" → "Ana P. K." (mobile only).
+function abbreviateName(full) {
+  const parts = String(full || '').trim().split(/\s+/);
+  if (parts.length < 2) return full;
+  return parts[0] + ' ' + parts.slice(1).map(p => p[0].toUpperCase() + '.').join(' ');
+}
+
+function scRow(r) {
+  const pct = Math.round(r.part * 100);
+  const club = r.club || 'Nezavisni';
+  const color = r.club_color || 'var(--gray-3)';
+  return `<tr class="mp-row">
+    <td class="sc-name"><span class="name-full">${esc(r.name)}</span><span class="name-abbr">${esc(abbreviateName(r.name))}</span></td>
+    <td class="sc-club"><span class="club-dot" style="background:${esc(color)}"></span>${esc(club)}</td>
+    <td class="sc-part">
+      <div class="part-cell" title="${r.cast} / ${r.seated} glasovanja">
+        <span class="part-bar"><span style="width:${pct}%"></span></span>
+        <span class="part-pct">${pct}%</span>
+      </div>
+    </td>
+    <td class="sc-num rz-za">${r.za}</td>
+    <td class="sc-num rz-protiv">${r.protiv}</td>
+    <td class="sc-num rz-suzdrzani">${r.suzdrzan}</td>
+    <td class="sc-num rz-nije">${r.nije}</td>
+  </tr>`;
+}
+
+function renderScorecard() {
+  const el = document.getElementById('scorecard');
+  if (!el) return;
+  const rows = computeScorecard().slice();
+  if (!rows.length) { el.innerHTML = '<div class="section-placeholder"><div class="placeholder-text">Učitavanje…</div></div>'; return; }
+
+  const { key, dir } = scSort;
+  rows.sort((a, b) => {
+    if (key === 'name' || key === 'club') {
+      const av = (a[key] || '').toLowerCase(), bv = (b[key] || '').toLowerCase();
+      return av < bv ? -dir : av > bv ? dir : 0;
+    }
+    return (a[key] - b[key]) * dir;
+  });
+  const avg = Math.round(rows.reduce((s, r) => s + r.part, 0) / rows.length * 100);
+  const arrow = k => key === k ? (dir === 1 ? ' ▲' : ' ▼') : '';
+
+  el.innerHTML = `
+    <div class="scorecard-summary">${rows.length} zastupnika · prosječno sudjelovanje ${avg}%</div>
+    <table class="mp-table">
+      <thead><tr>
+        <th class="sc-th sc-name" data-key="name">Zastupnik${arrow('name')}</th>
+        <th class="sc-th sc-club" data-key="club">Klub${arrow('club')}</th>
+        <th class="sc-th sc-part" data-key="part">Sudjelovanje${arrow('part')}</th>
+        <th class="sc-th sc-num" data-key="za" title="Za">Z${arrow('za')}</th>
+        <th class="sc-th sc-num" data-key="protiv" title="Protiv">P${arrow('protiv')}</th>
+        <th class="sc-th sc-num" data-key="suzdrzan" title="Suzdržani">S${arrow('suzdrzan')}</th>
+        <th class="sc-th sc-num" data-key="nije" title="Nije glasovao">N${arrow('nije')}</th>
+      </tr></thead>
+      <tbody>${rows.map(scRow).join('')}</tbody>
+    </table>`;
+}
+
+// Sort when a column header is clicked.
+document.getElementById('scorecard').addEventListener('click', e => {
+  const th = e.target.closest('.sc-th[data-key]');
+  if (!th) return;
+  const key = th.dataset.key;
+  if (scSort.key === key) scSort.dir *= -1;
+  else scSort = { key, dir: (key === 'name' || key === 'club') ? 1 : -1 };
+  renderScorecard();
+});
+
 // ── Settings (density + text size, persisted to localStorage) ────────────────────
 
 const SETTINGS = {
@@ -848,6 +1045,7 @@ async function loadData() {
     b.date.localeCompare(a.date) || Number(b.vote_id) - Number(a.vote_id)
   );
   renderList();
+  if (document.getElementById('zastupnici-view').style.display !== 'none') renderScorecard();
 }
 
 loadData().catch(e => {
