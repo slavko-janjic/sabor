@@ -338,6 +338,14 @@
   .mp-card { background: var(--bg); padding: 16px 18px; }
   .mp-card-label { font-family: var(--font-mono); font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--gray-4); margin-bottom: 9px; }
   .mp-card-value { font-family: var(--font-display); font-size: 25px; font-weight: 700; letter-spacing: -0.01em; line-height: 1; }
+  /* MP about/bio */
+  .mp-header { display: flex; gap: 18px; align-items: center; }
+  .mp-photo { width: 88px; height: 88px; border-radius: 8px; object-fit: cover; flex-shrink: 0; background: var(--gray-1); }
+  .mp-about { display: flex; flex-direction: column; gap: 7px; }
+  .about-row { display: flex; gap: 10px; font-size: 14px; align-items: baseline; }
+  .about-k { font-family: var(--font-mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--gray-4); min-width: 134px; flex-shrink: 0; }
+  .about-odbori { margin: 8px 0 0; padding-left: 18px; font-size: 13px; color: var(--gray-4); }
+  .about-odbori li { margin-bottom: 3px; }
 
   /* ── Settings (slide-over panel) ── */
   .settings-overlay {
@@ -509,6 +517,7 @@ const SEAT_VOTE_LABEL = { for: 'Za', against: 'Protiv', abstain: 'Suzdržan/a', 
 
 let votes = [];
 let expenses = null;   // per-MP 2025 work expenses (Sabor), keyed by mp_slug
+let mpInfo = null;      // per-MP scraped bio (photo, party, izborna, committees), keyed by mp_slug
 const SESSIONS_INITIAL = 4, SESSIONS_STEP = 4;   // session groups shown, grows on "Učitaj više"
 let listVisible = SESSIONS_INITIAL;
 let listScrollY = 0;             // remember feed scroll position while a detail is open
@@ -1098,6 +1107,7 @@ function buildMpProfile(slug) {
   const eur = n => n.toLocaleString('hr-HR', { style: 'currency', currency: 'EUR', maximumFractionDigits: 0 });
 
   const exp = expenses && expenses.by_mp[slug];
+  const info = mpInfo && mpInfo.by_mp[slug];
 
   // Dashboard: the headline stats as a hairline-bordered grid of cards.
   const cards = [
@@ -1126,13 +1136,32 @@ function buildMpProfile(slug) {
     </div>`;
   }
 
+  // About — scraped bio (photo is in the header; party / izborna / committees here).
+  let aboutSection = '';
+  if (info) {
+    const rows = [['Stranka', info.stranka], ['Izborna jedinica', info.izborna], ['Mandat od', info.mandat]]
+      .filter(([, v]) => v).map(([k, v]) => `<div class="about-row"><span class="about-k">${k}</span><span>${esc(v)}</span></div>`).join('');
+    const odbori = (info.odbori || []).length
+      ? `<div class="about-k" style="margin-top:16px;display:block">Dužnosti u saboru</div><ul class="about-odbori">${info.odbori.map(o => `<li>${esc(o)}</li>`).join('')}</ul>` : '';
+    aboutSection = `
+    <div class="section">
+      <div class="section-label">O zastupniku</div>
+      <div class="mp-about">${rows}</div>
+      ${odbori}
+      ${info.source ? `<div class="mp-subnote" style="margin-top:12px"><a href="${esc(info.source)}" target="_blank" rel="noopener">Profil na sabor.hr ↗</a></div>` : ''}
+    </div>`;
+  }
+
   return `
-    <div class="detail-header">
-      <div class="detail-meta">${fmt(r.firstDate)} – ${fmt(r.lastDate)} · ${r.seated} glasovanja</div>
-      <div class="detail-title">${esc(r.name)}</div>
-      <div class="detail-proposer-row">
-        <span class="proposer-chip"><span class="proposer-dot" style="background:${esc(color)}"></span>${esc(club)}</span>
-        ${r.active ? '' : `<span class="badge badge-nepoznato">Mandat do ${fmt(r.lastDate)}</span>`}
+    <div class="detail-header mp-header">
+      ${info && info.photo ? `<img class="mp-photo" src="${esc(info.photo)}" alt="${esc(r.name)}" loading="lazy">` : ''}
+      <div>
+        <div class="detail-meta">${fmt(r.firstDate)} – ${fmt(r.lastDate)} · ${r.seated} glasovanja</div>
+        <div class="detail-title">${esc(r.name)}</div>
+        <div class="detail-proposer-row">
+          <span class="proposer-chip"><span class="proposer-dot" style="background:${esc(color)}"></span>${esc(club)}</span>
+          ${r.active ? '' : `<span class="badge badge-nepoznato">Mandat do ${fmt(r.lastDate)}</span>`}
+        </div>
       </div>
     </div>
 
@@ -1158,6 +1187,7 @@ function buildMpProfile(slug) {
       ${(govPct !== null || cohPct !== null) ? `<div class="mp-subnote" style="margin-top:14px">${govPct !== null ? `Podržava <strong>${govPct}%</strong> vladinih prijedloga (ZA na ${x.govZa} od ${x.govCast})` : ''}${(govPct !== null && cohPct !== null) ? ' · ' : ''}${cohPct !== null ? `s klubom <strong>${cohPct}%</strong>, protiv ${x.broke}×` : ''}</div>` : ''}
     </div>
 
+    ${aboutSection}
     ${expBreakdown}
   `;
 }
@@ -1250,6 +1280,7 @@ async function loadData() {
   // so they don't inflate the seating chart / cell-bar / Nezavisni count.
   for (const v of votes) if (v.by_mp) v.by_mp = v.by_mp.filter(m => m.mp_slug);
   expenses = await fetch('data/expenses_2025.json').then(r => r.json()).catch(() => null);
+  mpInfo = await fetch('data/mp_info.json').then(r => r.json()).catch(() => null);
   renderList();
   if (document.getElementById('zastupnici-view').style.display !== 'none') renderScorecard();
 }
