@@ -1,0 +1,102 @@
+{
+  "_README": "Editable club lookup for the 10th Sabor, keyed by club_slug. 'bloc' (vlada/oporba) set from the HDZ-led coalition (HDZ, DP, HSLS, HNS, HSU + aligned minorities/independents embedded in the 'NZ' clubs) cross-checked against each club's voting alignment with HDZ on contested votes — the five vlada clubs all sit at 100%. NOTE: the SDSS club (~34% with HDZ) and the HSS/GLS/Orešković club (~2%) vote with the opposition despite party-level expectations, so they're oporba; HDS sits inside the HDZ club; IDS is opposition but unusually HDZ-friendly (~86%). 'parties' for joint clubs is best-effort. Consumers must ignore any key starting with '_'.",
+
+  "979-klub-zastupnika-hrvatske-demokratske-zajednice": {
+    "acronym": "HDZ",
+    "name": "Klub zastupnika Hrvatske demokratske zajednice",
+    "color": "#1523FF",
+    "bloc": "vlada",
+    "parties": ["HDZ"]
+  },
+  "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske": {
+    "acronym": "SDP",
+    "name": "Klub zastupnika Socijaldemokratske partije Hrvatske",
+    "color": "#F04118",
+    "bloc": "oporba",
+    "parties": ["SDP"]
+  },
+  "972-klub-zastupnika-mozemo": {
+    "acronym": "Možemo!",
+    "name": "Klub zastupnika Možemo!",
+    "color": "#1DE900",
+    "bloc": "oporba",
+    "parties": ["Možemo!"]
+  },
+  "957-klub-zastupnika-domovinskog-pokreta": {
+    "acronym": "DP",
+    "name": "Klub zastupnika Domovinskog pokreta",
+    "color": "#06637D",
+    "bloc": "vlada",
+    "parties": ["DP"]
+  },
+  "1043-klub-zastupnika-mosta-i-nezavisnog-zastupnika-josipa-jurcevica": {
+    "acronym": "Most",
+    "name": "Klub zastupnika Mosta i nezavisnog zastupnika Josipa Jurčevića",
+    "color": "#00E1E7",
+    "bloc": "oporba",
+    "parties": ["Most"]
+  },
+  "1130-klub-zastupnika-centra-nezavisne-platforme-sjevera-i-graansko-liberalnog-saveza": {
+    "acronym": "Centar / NPS / GLS",
+    "name": "Klub zastupnika Centra, Nezavisne platforme Sjevera i Građansko-liberalnog saveza",
+    "color": "#FFF600",
+    "bloc": "oporba",
+    "parties": ["Centar", "NPS", "GLS"]
+  },
+  "1172-klub-zastupnika-dom-i-nacionalno-okupljanje-i-hrvatski-suverenisti": {
+    "acronym": "DOMiNO / HS",
+    "name": "Klub zastupnika Dom i nacionalno okupljanje i Hrvatski suverenisti",
+    "color": "#09A2CC",
+    "bloc": "oporba",
+    "parties": ["DOMiNO", "HS"]
+  },
+  "1136-klub-zastupnika-istarskog-demokratskog-sabora-ids-primorsko-goranskog-saveza-pgs-unije-kvarnera-unija-i-istarske-stranke-umirovljenika-partito-istriano-dei-pensionati-isu-pip": {
+    "acronym": "IDS / PGS / Unija / ISU",
+    "name": "Klub zastupnika IDS-a, PGS-a, Unije Kvarnera i Istarske stranke umirovljenika (ISU-PIP)",
+    "color": "#49A343",
+    "bloc": "oporba",
+    "parties": ["IDS", "PGS", "Unija", "ISU"]
+  },
+  "969-klub-zastupnika-samostalne-demokratske-srpske-stranke": {
+    "acronym": "SDSS",
+    "name": "Klub zastupnika Samostalne demokratske srpske stranke",
+    "color": "#9D26CC",
+    "bloc": "oporba",
+    "parties": ["SDSS"]
+  },
+  "1049-klub-zastupnika-hrvatske-socijalno-liberalne-stranke-i-nezavisnog-zastupnika-vladimira-bileka": {
+    "acronym": "HSLS",
+    "name": "Klub zastupnika Hrvatske socijalno-liberalne stranke i nezavisnog zastupnika Vladimira Bileka",
+    "color": "#9F9E54",
+    "bloc": "vlada",
+    "parties": ["HSLS"]
+  },
+  "1135-klub-nezavisnih-zastupnika": {
+    "acronym": "Klub NZ",
+    "name": "Klub nezavisnih zastupnika",
+    "color": "#E890FF",
+    "bloc": "oporba",
+    "parties": []
+  },
+  "1137-klub-zastupnika-hrvatske-narodne-stranke-i-nezavisnih-zastupnika": {
+    "acronym": "HNS",
+    "name": "Klub zastupnika Hrvatske narodne stranke i nezavisnih zastupnika",
+    "color": "#CCB899",
+    "bloc": "vlada",
+    "parties": ["HNS"]
+  },
+  "1134-klub-zastupnika-hrvatske-seljacke-stranke-graansko-liberalnog-saveza-i-dalije-oreskovic-i-stranke-s-imenom-i-prezimenom": {
+    "acronym": "HSS / GLS / SIP",
+    "name": "Klub zastupnika HSS-a, Građansko-liberalnog saveza i Dalije Orešković (Stranka s imenom i prezimenom)",
+    "color": "#FFA500",
+    "bloc": "oporba",
+    "parties": ["HSS", "GLS", "SIP"]
+  },
+  "1145-klub-zastupnika-nezavisni-i-hsu": {
+    "acronym": "NZ / HSU",
+    "name": "Klub zastupnika Nezavisni i HSU",
+    "color": "#CDCCCF",
+    "bloc": "vlada",
+    "parties": ["HSU"]
+  }
+}

@@ -310,6 +310,9 @@
   .sc-th[data-key]:hover { color: var(--fg); }
   td.sc-name { font-size: 14px; font-weight: 600; letter-spacing: -0.01em; }
   .name-abbr { display: none; }
+  .mp-term { display: block; font-family: var(--font-mono); font-size: 10px; font-weight: 400; color: var(--gray-3); margin-top: 3px; letter-spacing: -0.01em; }
+  .mp-row--inactive { opacity: 0.5; }
+  .mp-row--inactive:hover { opacity: 1; }
   td.sc-club { font-size: 13px; color: var(--gray-4); }
   .club-dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 7px; vertical-align: middle; }
   .sc-part { width: 210px; }
@@ -321,6 +324,12 @@
   td.sc-num { font-family: var(--font-mono); font-size: 12px; }
   .rz-za { color: var(--vote-za); } .rz-protiv { color: var(--vote-protiv); }
   .rz-suzdrzani { color: var(--gray-4); } .rz-nije { color: var(--gray-3); }
+
+  /* MP profile */
+  .mp-table tbody tr.mp-row { cursor: pointer; }
+  .mp-bignum { font-family: var(--font-display); font-size: 40px; font-weight: 700; letter-spacing: -0.02em; line-height: 1; }
+  .mp-subnote { font-size: 13px; color: var(--gray-4); margin-top: 8px; }
+  .mp-subnote strong { color: var(--fg); }
 
   /* ── Settings (slide-over panel) ── */
   .settings-overlay {
@@ -430,6 +439,12 @@
   <!-- ZASTUPNICI SECTION (participation scorecard) -->
   <div id="zastupnici-view" style="display:none">
     <div id="scorecard"></div>
+  </div>
+
+  <!-- MP PROFILE (reached from a scorecard row) -->
+  <div id="mp-view" style="display:none">
+    <button class="back-btn" id="mp-back-btn"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M10 12L6 8l4-4" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg> Natrag na zastupnike</button>
+    <div id="mp-content"></div>
   </div>
 </div>
 
@@ -657,13 +672,18 @@ function selectionSummary(v, selected) {
     t.za += c.za; t.protiv += c.protiv; t.suzdrzani += c.suzdrzani; t.odsutni += c.odsutni;
     names.push(c.club);
   });
+  if (selected.has('__none__')) {   // club-less members have no by_club row — tally from by_mp
+    const k = { for: 'za', against: 'protiv', abstain: 'suzdrzani', absent: 'odsutni', 'did not vote': 'odsutni' };
+    v.by_mp.filter(m => !m.club_slug).forEach(m => { t[k[m.vote] ?? 'odsutni']++; });
+    names.push('Nezavisni');
+  }
   return `<div class="selection-summary"><strong>${esc(names.join(', '))}</strong> — `
     + `${t.za} za · ${t.protiv} protiv · ${t.suzdrzani} suzdržani · ${t.odsutni} odsutni</div>`;
 }
 
 // One pill per club; toggles membership in the active selection.
 function buildClubPills(v, selected) {
-  return v.by_club
+  const pills = v.by_club
     .filter(c => (c.za + c.protiv + c.suzdrzani + c.odsutni) > 0)
     .map(c => {
       const total = c.za + c.protiv + c.suzdrzani + c.odsutni;
@@ -672,7 +692,19 @@ function buildClubPills(v, selected) {
         <span class="pill-dot" style="background:${c.club_color || '#ccc'}"></span>
         ${esc(c.club)} <span class="pill-count">${total}</span>
       </button>`;
-    }).join('');
+    });
+  // Synthetic pill for club-less ("Nezavisni") members so they're filterable too.
+  // They have no by_club row, so key the selection on the '__none__' sentinel that
+  // buildSeating/buildCellBar use for MPs without a club_slug.
+  const indep = v.by_mp.filter(m => !m.club_slug).length;
+  if (indep) {
+    const active = selected.has('__none__') ? ' active' : '';
+    pills.push(`<button class="club-pill${active}" data-club="__none__">
+        <span class="pill-dot" style="background:var(--gray-3)"></span>
+        Nezavisni <span class="pill-count">${indep}</span>
+      </button>`);
+  }
+  return pills.join('');
 }
 
 // Distribution bar: one cell per MP, grouped by vote (so it still reads as the
@@ -693,7 +725,7 @@ function buildCellBar(v, selected) {
 
   const cell = mp => {
     const color = SEAT_COLOR[mp.vote] || 'var(--vote-odsutni)';
-    const dim = selected.size && !selected.has(mp.club_slug);
+    const dim = selected.size && !selected.has(mp.club_slug || '__none__');
     const label = SEAT_VOTE_LABEL[mp.vote] || '—';
     return `<span class="cell" style="background:${color};opacity:${dim ? 0.12 : 1}" `
       + `title="${esc(mp.mp_name)} — ${esc(mp.club || 'Nezavisni')} · ${label}"></span>`;
@@ -801,7 +833,7 @@ function buildSeating(v, selected) {
     const x = cx + s.r * S * Math.cos(s.theta);
     const y = cy - s.r * S * Math.sin(s.theta);
     const color = SEAT_COLOR[mp.vote] || 'var(--vote-odsutni)';
-    const dim = selected.size && !selected.has(mp.club_slug);
+    const dim = selected.size && !selected.has(mp.club_slug || '__none__');
     const club = mp.club || 'Nezavisni';
     const label = SEAT_VOTE_LABEL[mp.vote] || '—';
     return `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${seatPx.toFixed(1)}" `
@@ -857,6 +889,7 @@ document.getElementById('back-btn').addEventListener('click', () => {
 function showSection(name) {
   document.getElementById('detail-view').classList.remove('visible');
   document.getElementById('detail-content').innerHTML = '';
+  document.getElementById('mp-view').style.display = 'none';
   document.getElementById('list-view').style.display = name === 'glasanja' ? '' : 'none';
   document.getElementById('zastupnici-view').style.display = name === 'zastupnici' ? '' : 'none';
   if (name === 'zastupnici') renderScorecard();
@@ -883,12 +916,16 @@ function computeScorecard() {
   if (scorecardRows) return scorecardRows;
   if (!votes.length) return [];
   const m = new Map();
+  let maxDate = '';
   for (const v of votes) {
-    if (!v.by_mp) continue;
+    if (!v.by_mp || !v.by_mp.length) continue;
+    if (v.date > maxDate) maxDate = v.date;   // latest sitting day with a roster
     for (const mp of v.by_mp) {
+      if (!mp.mp_slug) continue;   // skip null-id phantom entries (a dup of the real slug)
       let r = m.get(mp.mp_slug);
-      if (!r) { r = { name: mp.mp_name, club: null, club_color: null, lastDate: '',
+      if (!r) { r = { name: mp.mp_name, slug: mp.mp_slug, club: null, club_color: null, firstDate: v.date, lastDate: '',
                       seated: 0, cast: 0, za: 0, protiv: 0, suzdrzan: 0, nije: 0 }; m.set(mp.mp_slug, r); }
+      if (v.date < r.firstDate) r.firstDate = v.date;
       r.seated++;
       if (mp.vote === 'for') { r.cast++; r.za++; }
       else if (mp.vote === 'against') { r.cast++; r.protiv++; }
@@ -897,7 +934,9 @@ function computeScorecard() {
       if (v.date >= r.lastDate) { r.lastDate = v.date; r.club = mp.club; r.club_color = mp.club_color; }
     }
   }
-  scorecardRows = [...m.values()].map(r => ({ ...r, part: r.seated ? r.cast / r.seated : 0 }));
+  // active = still in the latest roster; otherwise the member's term has ended.
+  // participation stays cast/seated, so a former member keeps their term attendance.
+  scorecardRows = [...m.values()].map(r => ({ ...r, part: r.seated ? r.cast / r.seated : 0, active: r.lastDate === maxDate }));
   return scorecardRows;
 }
 
@@ -914,8 +953,9 @@ function scRow(r) {
   const pct = Math.round(r.part * 100);
   const club = r.club || 'Nezavisni';
   const color = r.club_color || 'var(--gray-3)';
-  return `<tr class="mp-row">
-    <td class="sc-name"><span class="name-full">${esc(r.name)}</span><span class="name-abbr">${esc(abbreviateName(r.name))}</span></td>
+  const term = r.active ? '' : `<span class="mp-term" title="Zadnje glasovanje">do ${fmt(r.lastDate)}</span>`;
+  return `<tr class="mp-row${r.active ? '' : ' mp-row--inactive'}" data-slug="${esc(r.slug)}">
+    <td class="sc-name"><span class="name-full">${esc(r.name)}</span><span class="name-abbr">${esc(abbreviateName(r.name))}</span>${term}</td>
     <td class="sc-club"><span class="club-dot" style="background:${esc(color)}"></span>${esc(club)}</td>
     <td class="sc-part">
       <div class="part-cell" title="${r.cast} / ${r.seated} glasovanja">
@@ -966,11 +1006,141 @@ function renderScorecard() {
 // Sort when a column header is clicked.
 document.getElementById('scorecard').addEventListener('click', e => {
   const th = e.target.closest('.sc-th[data-key]');
-  if (!th) return;
-  const key = th.dataset.key;
-  if (scSort.key === key) scSort.dir *= -1;
-  else scSort = { key, dir: (key === 'name' || key === 'club') ? 1 : -1 };
-  renderScorecard();
+  if (th) {
+    const key = th.dataset.key;
+    if (scSort.key === key) scSort.dir *= -1;
+    else scSort = { key, dir: (key === 'name' || key === 'club') ? 1 : -1 };
+    renderScorecard();
+    return;
+  }
+  const row = e.target.closest('.mp-row[data-slug]');
+  if (row) showMpProfile(row.dataset.slug);
+});
+
+// ── MP profile (reached from a scorecard row) ──────────────────────────────────
+
+// Extra per-MP stats the scorecard doesn't compute: government-proposal support
+// and club cohesion. Single pass over the votes the MP appears in.
+function mpExtras(slug) {
+  let govCast = 0, govZa = 0, govTotal = 0, cohWith = 0, cohTotal = 0, broke = 0;
+  for (const v of votes) {
+    if (!v.by_mp) continue;
+    const e = v.by_mp.find(m => m.mp_slug === slug);
+    if (!e) continue;
+    if (v.proposer_type === 'vlada') { govTotal++; if (e.vote !== 'absent') { govCast++; if (e.vote === 'for') govZa++; } }
+    if (e.vote !== 'absent' && v.by_club) {
+      const cl = v.by_club.find(c => c.club_slug === e.club_slug);
+      if (cl) {
+        const maj = [['for', cl.za], ['against', cl.protiv], ['abstain', cl.suzdrzani]].sort((a, b) => b[1] - a[1])[0];
+        if (maj[1] > 0) { cohTotal++; if (e.vote === maj[0]) cohWith++; else broke++; }
+      }
+    }
+  }
+  return { govCast, govZa, govTotal, cohWith, cohTotal, broke };
+}
+
+// Hemicycle showing where this MP sits — chamber coloured by club, their seat
+// highlighted. Uses the roster of the MP's most recent vote (works for former MPs).
+function buildMpSeating(slug) {
+  const recent = votes.find(v => v.by_mp && v.by_mp.some(m => m.mp_slug === slug));
+  if (!recent) return '';
+  const order = recent.by_club.map(c => c.club_slug);
+  const byClub = new Map();
+  recent.by_mp.forEach(mp => {
+    const s = mp.club_slug || '__none__';
+    if (!byClub.has(s)) byClub.set(s, []);
+    byClub.get(s).push(mp);
+  });
+  const ordered = [];
+  order.forEach(s => { if (byClub.has(s)) { ordered.push(...byClub.get(s)); byClub.delete(s); } });
+  byClub.forEach(arr => ordered.push(...arr));
+  const n = ordered.length;
+  if (!n) return '';
+  const { seats, outerR, b } = seatGeometry(n);
+  seats.sort((a, c) => c.theta - a.theta);
+  const pad = 6, S = 150 / outerR;
+  const W = 2 * outerR * S + pad * 2, H = outerR * S + pad * 2, cx = W / 2, cy = H - pad, seatPx = b * S;
+  const circles = ordered.map((mp, i) => {
+    const s = seats[i];
+    const x = cx + s.r * S * Math.cos(s.theta), y = cy - s.r * S * Math.sin(s.theta);
+    const me = mp.mp_slug === slug;
+    const color = mp.club_color || 'var(--gray-3)';
+    const rad = me ? seatPx + 2 : seatPx;
+    return `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${rad.toFixed(1)}" style="fill:${color}" `
+      + `opacity="${me ? 1 : 0.4}" ${me ? 'stroke="var(--fg)" stroke-width="1.3"' : ''}>`
+      + `<title>${esc(mp.mp_name)} — ${esc(mp.club || 'Nezavisni')}${me ? ' (ovaj zastupnik)' : ''}</title></circle>`;
+  }).join('');
+  return `<svg class="hemicycle" viewBox="0 0 ${W.toFixed(0)} ${H.toFixed(0)}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Položaj zastupnika u Saboru">${circles}</svg>`;
+}
+
+function buildMpProfile(slug) {
+  const r = computeScorecard().find(x => x.slug === slug);
+  if (!r) return '<div class="section-placeholder"><div class="placeholder-text">Nepoznat zastupnik.</div></div>';
+  const x = mpExtras(slug);
+  const ranked = computeScorecard().slice().sort((a, b) => b.part - a.part);
+  const rank = ranked.findIndex(a => a.slug === slug) + 1;
+  const pct = Math.round(r.part * 100);
+  const club = r.club || 'Nezavisni';
+  const color = r.club_color || 'var(--gray-3)';
+  const govPct = x.govCast ? Math.round(100 * x.govZa / x.govCast) : null;
+  const cohPct = x.cohTotal ? Math.round(100 * x.cohWith / x.cohTotal) : null;
+  const t = r.za + r.protiv + r.suzdrzan + r.nije || 1;
+  const seg = (k, val) => `<span class="seg-${k}" style="width:${val / t * 100}%"></span>`;
+
+  return `
+    <div class="detail-header">
+      <div class="detail-meta">${fmt(r.firstDate)} – ${fmt(r.lastDate)} · ${r.seated} glasovanja</div>
+      <div class="detail-title">${esc(r.name)}</div>
+      <div class="detail-proposer-row">
+        <span class="proposer-chip"><span class="proposer-dot" style="background:${esc(color)}"></span>${esc(club)}</span>
+        ${r.active ? '' : `<span class="badge badge-nepoznato">Bivši zastupnik · do ${fmt(r.lastDate)}</span>`}
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-label">Sudjelovanje</div>
+      <div class="mp-bignum">${pct}%</div>
+      <div class="mp-subnote">glasovao na <strong>${r.cast}</strong> od <strong>${r.seated}</strong> glasovanja · ${rank}. od ${ranked.length} po sudjelovanju</div>
+    </div>
+
+    <div class="section">
+      <div class="section-label">Položaj u Saboru</div>
+      <div class="hemicycle-wrap">${buildMpSeating(slug)}</div>
+    </div>
+
+    <div class="section">
+      <div class="section-label">Kako glasa</div>
+      <div class="vote-row-bar" style="height:10px;border-radius:3px;overflow:hidden">
+        ${seg('za', r.za)}${seg('protiv', r.protiv)}${seg('suzdrzani', r.suzdrzan)}${seg('odsutni', r.nije)}
+      </div>
+      <div class="total-bar-legend" style="margin-top:10px">
+        <div class="legend-item"><span class="legend-dot" style="background:var(--vote-za)"></span>Za: <strong>${r.za}</strong></div>
+        <div class="legend-item"><span class="legend-dot" style="background:var(--vote-protiv)"></span>Protiv: <strong>${r.protiv}</strong></div>
+        <div class="legend-item"><span class="legend-dot" style="background:var(--vote-suzdrzani)"></span>Suzdržan: <strong>${r.suzdrzan}</strong></div>
+        <div class="legend-item"><span class="legend-dot" style="background:var(--vote-odsutni)"></span>Nije glasao: <strong>${r.nije}</strong></div>
+      </div>
+      ${govPct === null ? '' : `<div class="mp-subnote" style="margin-top:14px">Podržava <strong>${govPct}%</strong> vladinih prijedloga <span style="color:var(--gray-3)">(ZA na ${x.govZa} od ${x.govCast})</span></div>`}
+    </div>
+
+    ${cohPct === null ? '' : `
+    <div class="section">
+      <div class="section-label">Klubska disciplina</div>
+      <div class="mp-subnote">Glasao s većinom kluba <strong>${cohPct}%</strong> · protiv kluba <strong>${x.broke}×</strong></div>
+    </div>`}
+  `;
+}
+
+function showMpProfile(slug) {
+  document.getElementById('zastupnici-view').style.display = 'none';
+  document.getElementById('mp-view').style.display = '';
+  document.getElementById('mp-content').innerHTML = buildMpProfile(slug);
+  window.scrollTo(0, 0);
+}
+
+document.getElementById('mp-back-btn').addEventListener('click', () => {
+  document.getElementById('mp-view').style.display = 'none';
+  document.getElementById('zastupnici-view').style.display = '';
+  window.scrollTo(0, 0);
 });
 
 // ── Settings (density + text size, persisted to localStorage) ────────────────────
@@ -1044,6 +1214,9 @@ async function loadData() {
   votes = lists.flat().sort((a, b) =>
     b.date.localeCompare(a.date) || Number(b.vote_id) - Number(a.vote_id)
   );
+  // Drop null-id phantom entries (Parladata dups of a real slug) from every roster,
+  // so they don't inflate the seating chart / cell-bar / Nezavisni count.
+  for (const v of votes) if (v.by_mp) v.by_mp = v.by_mp.filter(m => m.mp_slug);
   renderList();
   if (document.getElementById('zastupnici-view').style.display !== 'none') renderScorecard();
 }
