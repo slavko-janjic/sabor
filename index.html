@@ -264,8 +264,36 @@
   /* Hemicycle seating chart */
   .hemicycle-wrap { display: flex; justify-content: center; }
   .hemicycle { width: 100%; max-width: 540px; height: auto; }
-  .hemicycle circle { transition: opacity 0.15s; cursor: default; stroke: var(--bg); }
+  .hemicycle circle { transition: opacity 0.15s, transform 0.1s; cursor: default; stroke: var(--bg); }
+  /* Tappable seats: pointer cursor, gentle pop + outline on hover/focus. */
+  .hemicycle circle.seat { cursor: pointer; transform-box: fill-box; transform-origin: center; }
+  .hemicycle circle.seat:hover { transform: scale(1.5); stroke: var(--fg); stroke-width: 1; }
+  .hemicycle circle.seat:focus-visible { outline: none; stroke: var(--fg); stroke-width: 1.4; }
   .seating-empty { color: var(--gray-3); font-size: 13px; padding: 16px 0; text-align: center; }
+
+  /* Sticky "back to vote" pill — slides up after tapping a seat into an MP profile. */
+  .mp-return-bar {
+    position: fixed; left: 50%; bottom: 24px; z-index: 60;
+    transform: translate(-50%, 160%); transition: transform 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+    display: flex; align-items: stretch;
+    background: var(--fg); color: var(--bg);
+    border-radius: 999px; box-shadow: 0 8px 28px var(--scrim);
+    font-family: var(--font-mono); font-size: 12px; font-weight: 700;
+    letter-spacing: 0.04em; overflow: hidden;
+  }
+  .mp-return-bar.show { transform: translate(-50%, 0); }
+  .mp-return-bar button {
+    background: transparent; border: none; color: inherit; cursor: pointer;
+    font: inherit; letter-spacing: inherit; display: inline-flex; align-items: center;
+    transition: background 0.12s;
+  }
+  .mp-return-bar .mp-return-go { gap: 8px; padding: 13px 20px; text-transform: uppercase; }
+  .mp-return-bar .mp-return-go:hover { background: rgba(127, 127, 127, 0.25); }
+  .mp-return-bar .mp-return-x {
+    padding: 0 16px; border-left: 1px solid rgba(127, 127, 127, 0.45);
+    font-size: 16px; line-height: 1;
+  }
+  .mp-return-bar .mp-return-x:hover { background: rgba(127, 127, 127, 0.25); }
 
   /* Distribution bar — one cell per MP. Full width on desktop. */
   .cell-bar-wrap { margin: 14px 0 0; }
@@ -463,6 +491,15 @@
     <button class="back-btn" id="mp-back-btn"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M10 12L6 8l4-4" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg> Natrag na zastupnike</button>
     <div id="mp-content"></div>
   </div>
+
+  <!-- Sticky return pill — appears when an MP profile is opened from a vote's seating chart -->
+  <div class="mp-return-bar" id="mp-return-bar" role="region" aria-label="Povratak na glasanje">
+    <button class="mp-return-go" id="mp-return-go" type="button">
+      <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M10 12L6 8l4-4" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Natrag na glasanje
+    </button>
+    <button class="mp-return-x" id="mp-return-x" type="button" aria-label="Odbaci">×</button>
+  </div>
 </div>
 
 <!-- SETTINGS PANEL -->
@@ -522,6 +559,8 @@ let mpInfo = null;      // per-MP scraped bio (photo, party, izborna, committees
 const SESSIONS_INITIAL = 4, SESSIONS_STEP = 4;   // session groups shown, grows on "Učitaj više"
 let listVisible = SESSIONS_INITIAL;
 let listScrollY = 0;             // remember feed scroll position while a detail is open
+let activeVoteIdx = -1;          // index of the currently open vote (for seat → MP → back)
+let mpReturn = null;             // { idx, scrollY } return path when an MP is opened from a vote
 const activeClubs = new Set();   // club_slugs currently highlighted in the detail view
 
 // ── Helpers ──────────────────────────────────────────────────────────────────
@@ -626,6 +665,7 @@ function renderList() {
 
 function showDetail(idx) {
   const v = votes[idx];
+  activeVoteIdx = idx;
   activeClubs.clear();
   listScrollY = window.scrollY;   // remember where we were in the feed
 
@@ -855,7 +895,14 @@ function buildSeating(v, selected) {
     const dim = selected.size && !selected.has(mp.club_slug || '__none__');
     const club = mp.club || 'Nezavisni';
     const label = SEAT_VOTE_LABEL[mp.vote] || '—';
-    return `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${seatPx.toFixed(1)}" `
+    // Seats with a known MP become tappable → that MP's profile. Phantom/null-id
+    // entries stay non-interactive (no slug to navigate to).
+    const slug = mp.mp_slug;
+    const interactive = slug
+      ? ` class="seat" data-mp="${esc(slug)}" tabindex="0" role="button" `
+        + `aria-label="${esc(mp.mp_name)} — ${esc(club)}"`
+      : '';
+    return `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${seatPx.toFixed(1)}"${interactive} `
       + `style="fill:${color}" stroke-width="0.6" opacity="${dim ? 0.12 : 1}">`
       + `<title>${esc(mp.mp_name)} — ${esc(club)} · ${label}</title></circle>`;
   }).join('');
@@ -890,6 +937,22 @@ function bindDetailEvents(v) {
     activeClubs.clear();
     rerenderSelection(v);
   });
+
+  // Tap a seat → open that MP's profile, remembering this vote so we can slide
+  // up a "back to glasanje" pill. Delegated so it survives seating re-renders.
+  const seating = document.getElementById('seating');
+  const openSeat = el => {
+    const slug = el?.dataset.mp;
+    if (!slug) return;
+    openMpFromVote(slug);
+  };
+  seating?.addEventListener('click', e => openSeat(e.target.closest('.seat')));
+  seating?.addEventListener('keydown', e => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      const seat = e.target.closest('.seat');
+      if (seat) { e.preventDefault(); openSeat(seat); }
+    }
+  });
 }
 
 // ── Back button ───────────────────────────────────────────────────────────────
@@ -906,6 +969,7 @@ document.getElementById('back-btn').addEventListener('click', () => {
 // Top-level sections. Glasanja = the feed (list + detail); Zastupnici = the
 // participation scorecard; Klubovi is disabled. Switching resets any open detail.
 function showSection(name) {
+  hideMpReturn();
   document.getElementById('detail-view').classList.remove('visible');
   document.getElementById('detail-content').innerHTML = '';
   document.getElementById('mp-view').style.display = 'none';
@@ -1206,17 +1270,50 @@ function buildMpProfile(slug) {
 }
 
 function showMpProfile(slug) {
+  // Hide every other top-level view — this is reachable from the scorecard AND
+  // from a vote's seating chart, so both the list and an open detail must close.
   document.getElementById('zastupnici-view').style.display = 'none';
+  document.getElementById('list-view').style.display = 'none';
+  const dv = document.getElementById('detail-view');
+  dv.classList.remove('visible');
   document.getElementById('mp-view').style.display = '';
   document.getElementById('mp-content').innerHTML = buildMpProfile(slug);
   window.scrollTo(0, 0);
 }
 
-document.getElementById('mp-back-btn').addEventListener('click', () => {
+// Open an MP profile from inside a vote, arming the sticky "back to glasanje" pill.
+function openMpFromVote(slug) {
+  mpReturn = { idx: activeVoteIdx, scrollY: window.scrollY };
+  showMpProfile(slug);
+  document.getElementById('mp-return-bar').classList.add('show');
+}
+
+// Re-open the vote the MP profile was reached from, restoring scroll + club selection.
+function returnToVote() {
+  if (!mpReturn || mpReturn.idx < 0) return;
+  const { idx, scrollY } = mpReturn;
+  hideMpReturn();
   document.getElementById('mp-view').style.display = 'none';
-  document.getElementById('zastupnici-view').style.display = '';
-  window.scrollTo(0, 0);
-});
+  document.getElementById('list-view').style.display = 'none';
+  const dv = document.getElementById('detail-view');
+  dv.classList.add('visible');
+  const v = votes[idx];
+  dv.querySelector('#detail-content').innerHTML = buildDetail(v);
+  bindDetailEvents(v);
+  window.scrollTo(0, scrollY || 0);
+}
+
+function hideMpReturn() {
+  mpReturn = null;
+  document.getElementById('mp-return-bar').classList.remove('show');
+}
+
+document.getElementById('mp-return-go').addEventListener('click', returnToVote);
+document.getElementById('mp-return-x').addEventListener('click', hideMpReturn);
+
+// Top back always returns to the Zastupnici list (the MP's "home" section). The
+// contextual path back to a vote is the sticky pill, not this button.
+document.getElementById('mp-back-btn').addEventListener('click', () => showSection('zastupnici'));
 
 // ── Settings (density + text size, persisted to localStorage) ────────────────────
 
