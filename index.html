@@ -1149,7 +1149,13 @@ function buildMpSeating(slug) {
     const me = mp.mp_slug === slug;
     const color = mp.club_color || 'var(--gray-3)';
     const rad = me ? seatPx + 2 : seatPx;
-    return `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${rad.toFixed(1)}" style="fill:${color}" `
+    // Tap any other MP's seat → jump to their profile (the current MP's own seat
+    // isn't interactive — you're already here).
+    const interactive = mp.mp_slug && !me
+      ? ` class="seat" data-mp="${esc(mp.mp_slug)}" tabindex="0" role="button" `
+        + `aria-label="${esc(mp.mp_name)} — ${esc(mp.club || 'Nezavisni')}"`
+      : '';
+    return `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${rad.toFixed(1)}"${interactive} style="fill:${color}" `
       + `opacity="${me ? 1 : 0.4}" ${me ? 'stroke="var(--fg)" stroke-width="1.3"' : ''}>`
       + `<title>${esc(mp.mp_name)} — ${esc(mp.club || 'Nezavisni')}${me ? ' (ovaj zastupnik)' : ''}</title></circle>`;
   }).join('');
@@ -1310,6 +1316,19 @@ function hideMpReturn() {
 
 document.getElementById('mp-return-go').addEventListener('click', returnToVote);
 document.getElementById('mp-return-x').addEventListener('click', hideMpReturn);
+
+// Tap another MP's seat in the profile hemicycle → switch to their profile.
+// mpReturn is left untouched, so a "back to glasanje" pill still points at the
+// original vote even after hopping between MPs.
+const mpView = document.getElementById('mp-view');
+const openMpSeat = el => { const s = el?.dataset.mp; if (s) showMpProfile(s); };
+mpView.addEventListener('click', e => openMpSeat(e.target.closest('.seat')));
+mpView.addEventListener('keydown', e => {
+  if (e.key === 'Enter' || e.key === ' ') {
+    const seat = e.target.closest('.seat');
+    if (seat) { e.preventDefault(); openMpSeat(seat); }
+  }
+});
 
 // Top back always returns to the Zastupnici list (the MP's "home" section). The
 // contextual path back to a vote is the sticky pill, not this button.
