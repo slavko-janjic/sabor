@@ -346,6 +346,7 @@
   .about-k { font-family: var(--font-mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--gray-4); min-width: 134px; flex-shrink: 0; }
   .about-odbori { margin: 8px 0 0; padding-left: 18px; font-size: 13px; color: var(--gray-4); }
   .about-odbori li { margin-bottom: 3px; }
+  .mp-zivotopis { font-size: 14px; line-height: 1.6; color: var(--fg); margin: 0 0 18px; }
 
   /* ── Settings (slide-over panel) ── */
   .settings-overlay {
@@ -1108,6 +1109,16 @@ function buildMpProfile(slug) {
 
   const exp = expenses && expenses.by_mp[slug];
   const info = mpInfo && mpInfo.by_mp[slug];
+  // Gender-correct label picker (m / f / neutral fallback), from the scraped Rođen/Rođena.
+  const gw = (m, f, neutral) => info && info.gender === 'm' ? m : info && info.gender === 'f' ? f : neutral;
+
+  // Salary estimate: osnovica €1015 × koeficijent by role. Committee chairs (6.42) come
+  // from the scraped duties; the Speaker (9.76) and the 5 current deputy speakers (7.14)
+  // aren't in that block, so they're matched by slug. Everyone else is a regular MP (5.27).
+  const placaCoef = /jandrokovic/i.test(slug) ? 9.76
+    : /(reiner|penava|radin|glasovac|jaksic)/i.test(slug) ? 7.14
+    : (info && info.duznosti && /\bPredsjednik (?!Hrvatskoga)/i.test(info.duznosti)) ? 6.42 : 5.27;
+  const placa = Math.round(1015 * placaCoef);
 
   // Dashboard: the headline stats as a hairline-bordered grid of cards.
   const cards = [
@@ -1116,6 +1127,7 @@ function buildMpProfile(slug) {
     ['Troškovi 2025.', exp ? eur(exp.ukupno) : '—'],
     ['Podrška vladi', govPct === null ? '—' : govPct + '%'],
     ['Klubska disciplina', cohPct === null ? '—' : cohPct + '%'],
+    ['Plaća (procj.)', eur(placa)],
   ];
   const dashboard = `<div class="mp-dashboard">${cards.map(([l, v]) =>
     `<div class="mp-card"><div class="mp-card-label">${l}</div><div class="mp-card-value">${v}</div></div>`).join('')}</div>`;
@@ -1146,6 +1158,7 @@ function buildMpProfile(slug) {
     aboutSection = `
     <div class="section">
       <div class="section-label">O zastupniku</div>
+      ${info.zivotopis ? `<p class="mp-zivotopis">${esc(info.zivotopis)}</p>` : ''}
       <div class="mp-about">${rows}</div>
       ${odbori}
       ${info.source ? `<div class="mp-subnote" style="margin-top:12px"><a href="${esc(info.source)}" target="_blank" rel="noopener">Profil na sabor.hr ↗</a></div>` : ''}
@@ -1160,13 +1173,13 @@ function buildMpProfile(slug) {
         <div class="detail-title">${esc(r.name)}</div>
         <div class="detail-proposer-row">
           <span class="proposer-chip"><span class="proposer-dot" style="background:${esc(color)}"></span>${esc(club)}</span>
-          ${r.active ? '' : `<span class="badge badge-nepoznato">Mandat do ${fmt(r.lastDate)}</span>`}
+          ${r.active ? '' : `<span class="badge badge-nepoznato">${gw('Bivši zastupnik', 'Bivša zastupnica', 'Bivši/a zastupnik/ca')} · do ${fmt(r.lastDate)}</span>`}
         </div>
       </div>
     </div>
 
     ${dashboard}
-    <div class="mp-subnote" style="margin:-18px 0 28px">${rank}. od ${ranked.length} po sudjelovanju</div>
+    <div class="mp-subnote" style="margin:-18px 0 28px">${rank}. od ${ranked.length} po sudjelovanju · plaća je bruto procjena (osnovica €1.015 × koeficijent, bez staža)</div>
 
     <div class="section">
       <div class="section-label">Položaj u Saboru</div>
@@ -1181,8 +1194,8 @@ function buildMpProfile(slug) {
       <div class="total-bar-legend" style="margin-top:10px">
         <div class="legend-item"><span class="legend-dot" style="background:var(--vote-za)"></span>Za: <strong>${r.za}</strong></div>
         <div class="legend-item"><span class="legend-dot" style="background:var(--vote-protiv)"></span>Protiv: <strong>${r.protiv}</strong></div>
-        <div class="legend-item"><span class="legend-dot" style="background:var(--vote-suzdrzani)"></span>Suzdržan/a: <strong>${r.suzdrzan}</strong></div>
-        <div class="legend-item"><span class="legend-dot" style="background:var(--vote-odsutni)"></span>Nije glasovao/la: <strong>${r.nije}</strong></div>
+        <div class="legend-item"><span class="legend-dot" style="background:var(--vote-suzdrzani)"></span>${gw('Suzdržan', 'Suzdržana', 'Suzdržan/a')}: <strong>${r.suzdrzan}</strong></div>
+        <div class="legend-item"><span class="legend-dot" style="background:var(--vote-odsutni)"></span>${gw('Nije glasovao', 'Nije glasala', 'Nije glasovao/la')}: <strong>${r.nije}</strong></div>
       </div>
       ${(govPct !== null || cohPct !== null) ? `<div class="mp-subnote" style="margin-top:14px">${govPct !== null ? `Podržava <strong>${govPct}%</strong> vladinih prijedloga (ZA na ${x.govZa} od ${x.govCast})` : ''}${(govPct !== null && cohPct !== null) ? ' · ' : ''}${cohPct !== null ? `s klubom <strong>${cohPct}%</strong>, protiv ${x.broke}×` : ''}</div>` : ''}
     </div>

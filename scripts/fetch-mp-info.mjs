@@ -42,13 +42,21 @@ const linksIn = b => [...b.matchAll(/<a[^>]*>([^<]+)<\/a>/g)].map(a => clean(a[1
 
 function parse(html) {
   const photo = (html.match(/<img src="(\/sites\/default\/files\/uploads[^"]+)"/) || [])[1] || null;
+  const duz = blockAfter(html, 'Dužnosti u saboru');
   const mandat = (clean(blockAfter(html, 'Početak obnašanja zastupničkog mandata')).match(/\d{2}\.\d{2}\.\d{4}\./) || [])[0] || null;
+  // Resume / biography sits in <div class="zivotopis"><p>…</p></div>; its first word
+  // ("Rođen"/"Rođena") also gives gender.
+  const zivotopis = clean((html.match(/<div class="zivotopis">([\s\S]*?)<\/div>/i) || [])[1] || '') || null;
+  const gender = zivotopis ? (/^Rođena\b/.test(zivotopis) ? 'f' : /^Rođen\b/.test(zivotopis) ? 'm' : null) : null;
   return {
     photo: photo ? BASE + photo : null,
     stranka: linksIn(blockAfter(html, 'Stranačka pripadnost'))[0] || null,
     izborna: linksIn(blockAfter(html, 'Izborna jedinica'))[0] || null,
     mandat,
-    odbori: linksIn(blockAfter(html, 'Dužnosti u saboru')),
+    gender,
+    zivotopis,
+    odbori: linksIn(duz),
+    duznosti: clean(duz) || null,   // role-bearing duties text (for the salary coefficient)
   };
 }
 

@@ -1,11 +1,13 @@
 {
-  "scraped": "2026-06-23",
+  "scraped": "2026-06-24",
   "by_mp": {
     "840-kresimir-ackar": {
       "photo": "https://www.sabor.hr/sites/default/files/uploads/sabor/2024-07-19/182044/A%C4%8Dkar%2C%20Kre%C5%A1imir.jpeg",
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "I. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 31. kolovoza 1983. u Zagrebu. Završio Filozofsko-teološki studij pri Katoličkom bogoslovnom fakultetu Sveučilišta u Zagrebu (VSS - magistar teologije).",
       "odbori": [
         "Odbora za predstavke i pritužbe",
         "Odbora za međuparlamentarnu suradnju",
@@ -13,6 +15,7 @@
         "Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini NATO-a",
         "Savjeta Javne ustanove Spomen-područja Jasenovac iz reda zastupnika"
       ],
+      "duznosti": "Član Odbora za predstavke i pritužbe (od 24.05.2024.) Član Odbora za međuparlamentarnu suradnju (od 24.05.2024.) Član Odbora za informiranje, informatizaciju i medije (od 24.01.2025.) Član Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini NATO-a (od 24.05.2024.) Član Savjeta Javne ustanove Spomen-područja Jasenovac iz reda zastupnika (od 12.07.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/ackar-kresimir-11-saziv"
     },
     "873-mirela-ahmetovic": {
@@ -20,11 +23,14 @@
       "stranka": "Socijaldemokratska partija Hrvatske",
       "izborna": "VIII. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena je 4. kolovoza 1981. u Rijeci. Diplomirala na Fakultetu za menadžment u turizmu i ugostiteljstvu, Opatija Sveučilišta u Rijeci, magistrirala na Ekonomskom fakultetu Sveučilišta u Rijeci (VSS - diplomirana ekonomistica, magistrica društvenih znanosti u polju ekonomije).",
       "odbori": [
         "Odbora za gospodarstvo",
         "Odbora za informiranje, informatizaciju i medije",
         "Nacionalnog vijeća za praćenje provedbe Strategije sprječavanja korupcije"
       ],
+      "duznosti": "Članica Odbora za gospodarstvo (od 24.05.2024.) Članica Odbora za informiranje, informatizaciju i medije (od 24.05.2024.) Predsjednica Nacionalnog vijeća za praćenje provedbe Strategije sprječavanja korupcije (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/ahmetovic-mirela-11-saziv"
     },
     "1006-barbara-antolic-vupora": {
@@ -32,9 +38,12 @@
       "stranka": "Socijaldemokratska partija Hrvatske",
       "izborna": "III. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena je 18. prosinca 1968. u Celju (Slovenija). Završila Srednjoškolski centar \"Gabriel Santo\" u Varaždinu (SSS - suradnica u općeobrazovnom procesu).",
       "odbori": [
         "Odbora za ljudska prava i prava nacionalnih manjina"
       ],
+      "duznosti": "Članica Odbora za ljudska prava i prava nacionalnih manjina (od 21.06.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/antolic-vupora-barbara-11-saziv"
     },
     "1368-jasenka-augustan-pentek": {
@@ -42,11 +51,14 @@
       "stranka": "Socijaldemokratska partija Hrvatske",
       "izborna": "III. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena 22. srpnja 1974. u Zagrebu. Na Ekonomskom fakultetu Sveučilišta u Zagrebu stekla zvanje stručne prvostupnice ekonomije (VŠS - bacc. oec).",
       "odbori": [
         "Odbora za prostorno uređenje i graditeljstvo",
         "Odbora za regionalni razvoj i fondove Europske unije",
         "Odbora za ravnopravnost spolova"
       ],
+      "duznosti": "Potpredsjednica Odbora za prostorno uređenje i graditeljstvo (od 24.05.2024.) Članica Odbora za regionalni razvoj i fondove Europske unije (od 24.05.2024.) Članica Odbora za ravnopravnost spolova (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/augustan-pentek-jasenka-11-saziv"
     },
     "1487-ante-babic": {
@@ -54,11 +66,14 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "IX. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen 17. rujna 1973. godine u Zadru. Završio Pravni fakultet Sveučilišta u Rijeci (VSS - diplomirani pravnik).",
       "odbori": [
         "Odbora za zakonodavstvo",
         "Odbora za unutarnju politiku i nacionalnu sigurnost",
         "Odbora za pravosuđe"
       ],
+      "duznosti": "Član Odbora za zakonodavstvo (od 16.05.2024.) Član Odbora za unutarnju politiku i nacionalnu sigurnost (od 24.05.2024.) Član Odbora za pravosuđe (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/babic-ante-11-saziv-0"
     },
     "934-damir-bakic": {
@@ -66,10 +81,13 @@
       "stranka": "Možemo! – Politička platforma",
       "izborna": "I. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 16. prosinca 1957. u Sisku. Na Prirodoslovno-matematičkom fakultetu Sveučilišta u Zagrebu završio studij matematike gdje je magistrirao te doktorirao (VSS - diplomirani inženjer matematike, doktor prirodnih znanosti u polju matematike, sveučilišni nastavnik).",
       "odbori": [
         "Odbora za obrazovanje, znanost i kulturu",
         "Odbora za financije i državni proračun"
       ],
+      "duznosti": "Potpredsjednik Odbora za obrazovanje, znanost i kulturu (od 24.05.2024.) Član Odbora za financije i državni proračun (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/bakic-damir-11-saziv"
     },
     "1372-ivica-baksa": {
@@ -77,10 +95,13 @@
       "stranka": "Nezavisna platforma Sjevera",
       "izborna": "III. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 27. prosinca 1983. u Čakovcu. Završio Tehničku industrijsko-obrtničku školu Čakovec (SSS - tehničar cestovnog prometa).",
       "odbori": [
         "Odbora za zdravstvo i socijalnu politiku",
         "Odbora za pomorstvo, promet i infrastrukturu"
       ],
+      "duznosti": "Član Odbora za zdravstvo i socijalnu politiku (od 24.05.2024.) Član Odbora za pomorstvo, promet i infrastrukturu (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/baksa-ivica-11-saziv"
     },
     "1007-boska-ban": {
@@ -88,11 +109,14 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "III. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena je 6. studenoga 1981. u Čakovcu. Završila specijalistički diplomski stručni studij Menadžment turizma i sporta na Međimurskom veleučilištu u Čakovcu (VSS - magistra ekonomije).",
       "odbori": [
         "Odbora za međuparlamentarnu suradnju",
         "Odbora za lokalnu i područnu (regionalnu) samoupravu",
         "Izaslanstva Hrvatskoga sabora u Parlamentarnoj dimenziji Srednjoeuropske inicijative"
       ],
+      "duznosti": "Članica Odbora za međuparlamentarnu suradnju (od 21.06.2024.) Članica Odbora za lokalnu i područnu (regionalnu) samoupravu (od 24.05.2024.) Zamjenica člana Izaslanstva Hrvatskoga sabora u Parlamentarnoj dimenziji Srednjoeuropske inicijative (od 21.06.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/ban-vlahek-boska-11-saziv"
     },
     "954-nikolina-baradic": {
@@ -100,6 +124,8 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "IX. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena je 22. srpnja 1990. u Šibeniku. Završila Medicinsku školu Ante Kuzmanića Zadar. (VŠS - sveučilišna prvostupnica sestrinstva).",
       "odbori": [
         "Odbora za zdravstvo i socijalnu politiku",
         "Odbora za obitelj, mlade i sport",
@@ -107,6 +133,7 @@
         "Odbora za međuparlamentarnu suradnju",
         "Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Mediterana"
       ],
+      "duznosti": "Članica Odbora za zdravstvo i socijalnu politiku (od 24.05.2024.) Članica Odbora za obitelj, mlade i sport (od 24.05.2024.) Članica Odbora za izbor, imenovanja i upravne poslove (od 16.05.2024.) Članica Odbora za međuparlamentarnu suradnju (od 24.05.2024.) Voditeljica Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Mediterana (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/baradic-nikolina-11-saziv"
     },
     "953-nevenko-barbaric": {
@@ -114,11 +141,14 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "XI. izborna jedinica",
       "mandat": "20.09.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 24. kolovoza 1962. u Klobuku, Bosna i Hercegovina. Završio Građevinski fakultet Sveučilišta u Mostaru, Bosna i Hercegovina (VSS - diplomirani inženjer građevine).",
       "odbori": [
         "Odbora za Hrvate izvan Republike Hrvatske",
         "Odbora za ratne veterane",
         "Odbora za regionalni razvoj i fondove Europske unije"
       ],
+      "duznosti": "Član Odbora za Hrvate izvan Republike Hrvatske (od 11.10.2024.) Član Odbora za ratne veterane (od 11.10.2024.) Član Odbora za regionalni razvoj i fondove Europske unije (od 15.11.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/barbaric-nevenko-11-saziv"
     },
     "1527-damir-barbir": {
@@ -126,11 +156,14 @@
       "stranka": "Centar",
       "izborna": "X. izborna jedinica",
       "mandat": "24.10.2025.",
+      "gender": "m",
+      "zivotopis": "Rođen 11. siječnja 1984. u Puli. Diplomirao na Pravnom fakultetu za privredu i pravosuđe u Novom Sadu, Republika Srbija (VSS - diplomirani pravnik).",
       "odbori": [
         "Odbora za zakonodavstvo",
         "Odbora za ljudska prava i prava nacionalnih manjina",
         "Odbora za prostorno uređenje i graditeljstvo"
       ],
+      "duznosti": "Član Odbora za zakonodavstvo (od 21.11.2025.) Član Odbora za ljudska prava i prava nacionalnih manjina (od 21.11.2025.) Član Odbora za prostorno uređenje i graditeljstvo (od 21.11.2025.)",
       "source": "https://www.sabor.hr/hr/zastupnici/barbir-damir-11-saziv"
     },
     "981-danica-baricevic": {
@@ -138,6 +171,8 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "X. izborna jedinica",
       "mandat": "17.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena 17. srpnja 1972. u Mytlefordu, Australija. Završila DOBA Fakultet za primjenjive poslovne i društvene studije Maribor, Slovenija. (VSS - magistrica marketinga i prodaje).",
       "odbori": [
         "Odbora za financije i državni proračun",
         "Odbora za gospodarstvo",
@@ -148,6 +183,7 @@
         "Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Organizacije za europsku sigurnost i suradnju (OESS)",
         "Državnog povjerenstva za procjenu šteta od prirodnih nepogoda iz reda zastupnika"
       ],
+      "duznosti": "Članica Odbora za financije i državni proračun (od 12.07.2024.) Članica Odbora za gospodarstvo (od 12.07.2024.) Članica Odbora za turizam (od 24.05.2024.) Članica Odbora za rad, mirovinski sustav i socijalno partnerstvo (od 24.05.2024.) Članica Odbora za međuparlamentarnu suradnju (od 24.05.2024.) Članica Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Unije za Mediteran (od 24.05.2024.) Zamjenica člana Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Organizacije za europsku sigurnost i suradnju (OESS) (od 12.07.2024.) Članica Državnog povjerenstva za procjenu šteta od prirodnih nepogoda iz reda zastupnika (od 12.07.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/baricevic-danica-11-saziv"
     },
     "926-arsen-bauk": {
@@ -155,6 +191,8 @@
       "stranka": "Socijaldemokratska partija Hrvatske",
       "izborna": "I. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 7. veljače 1973. u Supetru na otoku Braču. Završio Prirodoslovno-matematički fakultet Sveučilišta u Zagrebu (VSS - profesor matematike i informatike).",
       "odbori": [
         "Odbora za obranu",
         "Odbora za Ustav, Poslovnik i politički sustav",
@@ -162,6 +200,7 @@
         "Odbora za međuparlamentarnu suradnju",
         "Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini SEECP-a"
       ],
+      "duznosti": "Predsjednik Odbora za obranu (od 24.05.2024.) Član Odbora za Ustav, Poslovnik i politički sustav (od 11.10.2024.) Član Odbora za izbor, imenovanja i upravne poslove (od 16.05.2024.) Član Odbora za međuparlamentarnu suradnju (od 21.06.2024.) Voditelj Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini SEECP-a (od 21.06.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/bauk-arsen-11-saziv"
     },
     "980-vesna-bedekovic": {
@@ -169,12 +208,15 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "IV. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena je 22. veljače 1966. u Bjelovaru. Diplomirala na Pedagoškom fakultetu Sveučilišta u Osijeku. Na Filozofskom fakultetu Sveučilišta u Zagrebu stekla doktorat u području društvenih znanosti - polje pedagogije (VSS - doktorica društvenih znanosti, izvanredna profesorica).",
       "odbori": [
         "Odbora za obrazovanje, znanost i kulturu",
         "Odbora za europske poslove",
         "Odbora za informiranje, informatizaciju i medije",
         "Odbora za ravnopravnost spolova"
       ],
+      "duznosti": "Predsjednica Odbora za obrazovanje, znanost i kulturu (od 24.05.2024.) Članica Odbora za europske poslove (od 24.05.2024.) Članica Odbora za informiranje, informatizaciju i medije (od 24.05.2024.) Članica Odbora za ravnopravnost spolova (od 12.07.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/bedekovic-vesna-11-saziv"
     },
     "903-sandra-bencic": {
@@ -182,11 +224,14 @@
       "stranka": "Možemo! – Politička platforma",
       "izborna": "I. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena je 28. siječnja 1978. u Zaboku. Završila Pravni fakultet Sveučilišta u Zagrebu (VSS - diplomirana pravnica).",
       "odbori": [
         "Odbora za Ustav, Poslovnik i politički sustav",
         "Odbora za unutarnju politiku i nacionalnu sigurnost",
         "Odbora za poljoprivredu"
       ],
+      "duznosti": "Članica Odbora za Ustav, Poslovnik i politički sustav (od 16.05.2024.) Članica Odbora za unutarnju politiku i nacionalnu sigurnost (od 12.07.2024.) Članica Odbora za poljoprivredu (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/bencic-sandra-11-saziv"
     },
     "973-vladimir-bilek": {
@@ -194,11 +239,14 @@
       "stranka": "nezavisni zastupnici",
       "izborna": "XII. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen 10. srpnja 1979. u Pakracu. Završio je Međunarodno sveučilište Libertas (VŠS - sveučilišni prvostupnik međunarodnih odnosa).",
       "odbori": [
         "Odbora za ljudska prava i prava nacionalnih manjina",
         "Odbora za regionalni razvoj i fondove Europske unije",
         "Nacionalnog vijeća za vode iz reda zastupnika"
       ],
+      "duznosti": "Član Odbora za ljudska prava i prava nacionalnih manjina (od 21.06.2024.) Član Odbora za regionalni razvoj i fondove Europske unije (od 24.05.2024.) Član Nacionalnog vijeća za vode iz reda zastupnika (od 12.07.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/bilek-vladimir-11-saziv"
     },
     "1389-dubravko-bilic": {
@@ -206,12 +254,15 @@
       "stranka": "Nezavisna platforma Sjevera",
       "izborna": "III. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 3. rujna 1969. u Banjaluci, BiH. Završio Filozofski fakultet u Zagrebu (VSS - profesor hrvatskog jezika).",
       "odbori": [
         "Odbora za regionalni razvoj i fondove Europske unije",
         "Odbora za europske poslove",
         "Odbora za turizam",
         "Nacionalnog vijeća za vode iz reda zastupnika"
       ],
+      "duznosti": "Potpredsjednik Odbora za regionalni razvoj i fondove Europske unije (od 24.05.2024.) Član Odbora za europske poslove (od 24.05.2024.) Član Odbora za turizam (od 24.05.2024.) Član Nacionalnog vijeća za vode iz reda zastupnika (od 12.07.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/bilic-dubravko-11-saziv"
     },
     "1376-sanja-bjezancevic": {
@@ -219,12 +270,15 @@
       "stranka": "Socijaldemokratska partija Hrvatske",
       "izborna": "IV. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena je 18. siječnja 1987. u Đakovu. Završila Poslijediplomski interdisciplinarni sveučilišni studij Europski studiji Sveučilišta Josipa Jurja Strossmayera u Osijeku (VSS - doktorat u području društvenih znanosti).",
       "odbori": [
         "Odbora za ljudska prava i prava nacionalnih manjina",
         "Odbora za europske poslove",
         "Odbora za međuparlamentarnu suradnju",
         "Izaslanstva Hrvatskoga sabora u Parlamentarnoj dimenziji Srednjoeuropske inicijative"
       ],
+      "duznosti": "Potpredsjednica Odbora za ljudska prava i prava nacionalnih manjina (od 27.06.2025.) Članica Odbora za europske poslove (od 24.05.2024.) Članica Odbora za međuparlamentarnu suradnju (od 21.06.2024.) Zamjenica člana Izaslanstva Hrvatskoga sabora u Parlamentarnoj dimenziji Srednjoeuropske inicijative (od 21.06.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/bjezancevic-sanja-11-saziv"
     },
     "1371-danijela-blazanovic": {
@@ -232,6 +286,8 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "VI. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena je 23. listopada 1975. u Mostaru, BiH. Završila Pravni fakultet Sveučilišta u Mostaru (VSS - diplomirana pravnica).",
       "odbori": [
         "Odbora za zakonodavstvo",
         "Odbora za pravosuđe",
@@ -241,6 +297,7 @@
         "Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Vijeća Europe",
         "Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini SEECP-a"
       ],
+      "duznosti": "Članica Odbora za zakonodavstvo (od 24.05.2024.) Članica Odbora za pravosuđe (od 24.05.2024.) Članica Odbora za Hrvate izvan Republike Hrvatske (od 24.05.2024.) Članica Odbora za međuparlamentarnu suradnju (od 21.06.2024.) Članica Odbora za ravnopravnost spolova (od 24.05.2024.) Zamjenica člana Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Vijeća Europe (od 15.11.2024.) Zamjenica člana Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini SEECP-a (od 21.06.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/blazanovic-danijela-11-saziv"
     },
     "922-anamarija-blazevic": {
@@ -248,6 +305,8 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "V. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena je 18. kolovoza 1979. u Pakracu. Završila specijalistički diplomski stručni studij Trgovinsko poslovanje na Veleučilištu u Požegi. (Stručna specijalistica ekonomije, struč. spec. oec.).",
       "odbori": [
         "Odbora za financije i državni proračun",
         "Odbora za obitelj, mlade i sport",
@@ -256,6 +315,7 @@
         "Odbora za informiranje, informatizaciju i medije",
         "Izaslanstva Hrvatskoga sabora u Parlamentarnoj dimenziji Srednjoeuropske inicijative"
       ],
+      "duznosti": "Članica Odbora za financije i državni proračun (od 06.06.2025.) Članica Odbora za obitelj, mlade i sport (od 24.05.2024.) Članica Odbora za regionalni razvoj i fondove Europske unije (od 20.02.2026.) Članica Odbora za međuparlamentarnu suradnju (od 24.05.2024.) Članica Odbora za informiranje, informatizaciju i medije (od 06.06.2025.) Članica Izaslanstva Hrvatskoga sabora u Parlamentarnoj dimenziji Srednjoeuropske inicijative (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/blazevic-anamarija-11-saziv"
     },
     "1526-maria-blazina": {
@@ -263,10 +323,13 @@
       "stranka": "Socijaldemokratska partija Hrvatske",
       "izborna": "VIII. izborna jedinica",
       "mandat": "26.09.2025.",
+      "gender": "f",
+      "zivotopis": "Rođena je 18. studenoga 1975. u Luzernu, Švicarska. Završila studij kemijskog inženjerstva na Fakultetu kemijskog inženjerstva i tehnologije Sveučilišta u Zagrebu te doktorski studij oceanografije na Prirodoslovno-matematičkom fakultetu Sveučilišta u Zagrebu (VSS - magistra kemijskog inženjerstva; doktorat u području prirodnih znanosti, polje geofizika).",
       "odbori": [
         "Odbora za obitelj, mlade i sport",
         "Odbora za zaštitu okoliša i prirode"
       ],
+      "duznosti": "Članica Odbora za obitelj, mlade i sport (od 21.11.2025.) Članica Odbora za zaštitu okoliša i prirode (od 24.10.2025.)",
       "source": "https://www.sabor.hr/hr/zastupnici/blazina-maria-11-saziv"
     },
     "964-josip-boric": {
@@ -274,12 +337,15 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "VIII. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen 23. listopada 1972. u Rabu. Završio Visoku učiteljsku školu u Rijeci (VŠS - nastavnik razredne nastave).",
       "odbori": [
         "Odbora za informiranje, informatizaciju i medije",
         "Odbora za Ustav, Poslovnik i politički sustav",
         "Odbora za turizam",
         "Odbora za pomorstvo, promet i infrastrukturu"
       ],
+      "duznosti": "Predsjednik Odbora za informiranje, informatizaciju i medije (od 24.05.2024.) Član Odbora za Ustav, Poslovnik i politički sustav (od 16.05.2024.) Član Odbora za turizam (od 13.12.2024.) Član Odbora za pomorstvo, promet i infrastrukturu (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/boric-josip-11-saziv"
     },
     "956-rada-boric": {
@@ -287,12 +353,15 @@
       "stranka": "Možemo! – Politička platforma",
       "izborna": "VI. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena je 11. rujna 1951. u Zagrebu. Na Filozofskom fakultetu Sveučilišta u Zagrebu završila studij hrvatskog jezika i književnosti i komparativne književnosti te poslijediplomski studij književnosti (VSS - profesorica hrvatskoga jezika i književnosti, magistra književnosti - magisterij u području humanističkih znanosti, polje filologija; umirovljenica).",
       "odbori": [
         "Odbora za izbor, imenovanja i upravne poslove",
         "Odbora za međuparlamentarnu suradnju",
         "Odbora za ravnopravnost spolova",
         "Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Vijeća Europe"
       ],
+      "duznosti": "Članica Odbora za izbor, imenovanja i upravne poslove (od 24.05.2024.) Članica Odbora za međuparlamentarnu suradnju (od 24.05.2024.) Članica Odbora za ravnopravnost spolova (od 24.05.2024.) Zamjenica člana Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Vijeća Europe (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/boric-rada-11-saziv"
     },
     "869-ivan-budalic": {
@@ -300,11 +369,14 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "X. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 12. srpnja 1971. u Imotskom. Završio srednju tehničku školu u Imotskom. (SSS - elektrotehničar).",
       "odbori": [
         "Odbora za obranu",
         "Odbora za pomorstvo, promet i infrastrukturu",
         "Odbora za predstavke i pritužbe"
       ],
+      "duznosti": "Član Odbora za obranu (od 24.05.2024.) Član Odbora za pomorstvo, promet i infrastrukturu (od 15.07.2025.) Član Odbora za predstavke i pritužbe (od 06.06.2025.)",
       "source": "https://www.sabor.hr/hr/zastupnici/budalic-ivan-11-saziv"
     },
     "1391-ivan-bugarin": {
@@ -312,10 +384,13 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "IX. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 25. veljače 1980. u Sinju. Završio Fakultet elektrotehnike, strojarstva i brodogradnje u Splitu (VSS - diplomirani inženjer elektrotehnike).",
       "odbori": [
         "Odbora za gospodarstvo",
         "Odbora za prostorno uređenje i graditeljstvo"
       ],
+      "duznosti": "Član Odbora za gospodarstvo (od 24.05.2024.) Član Odbora za prostorno uređenje i graditeljstvo (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/bugarin-ivan-11-saziv"
     },
     "996-majda-buric": {
@@ -323,12 +398,15 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "VII. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena 9. prosinca 1979. u Rijeci. Završila Filozofski fakultet Sveučilišta u Rijeci (VSS - profesorica hrvatskoga jezika i književnosti).",
       "odbori": [
         "Odbora za europske poslove",
         "Odbora za rad, mirovinski sustav i socijalno partnerstvo",
         "Odbora za obrazovanje, znanost i kulturu",
         "Odbora za regionalni razvoj i fondove Europske unije"
       ],
+      "duznosti": "Potpredsjednica Odbora za europske poslove (od 12.07.2024.) Članica Odbora za rad, mirovinski sustav i socijalno partnerstvo (od 24.05.2024.) Članica Odbora za obrazovanje, znanost i kulturu (od 24.05.2024.) Članica Odbora za regionalni razvoj i fondove Europske unije (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/buric-majda-11-saziv"
     },
     "844-zdravka-busic": {
@@ -336,6 +414,8 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "II. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena 6. rujna 1950. u Imotskom. Na Sveučilištu Case Western Reserve Cleveland, savezna država Ohio (SAD) završila magistarski znanstveni studij bibliotekarstva i informatike (VSS - magistrica informacijskih i komunikacijskih znanosti u polju arhivistike i dokumentalistike i u polju knjižničarstva).",
       "odbori": [
         "Odbora za Hrvate izvan Republike Hrvatske",
         "Odbora za europske poslove",
@@ -344,6 +424,7 @@
         "Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Vijeća Europe",
         "Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini NATO-a"
       ],
+      "duznosti": "Predsjednica Odbora za Hrvate izvan Republike Hrvatske (od 24.05.2024.) Članica Odbora za europske poslove (od 12.07.2024.) Članica Odbora za vanjsku politiku (od 24.05.2024.) Članica Odbora za međuparlamentarnu suradnju (od 24.05.2024.) Članica Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Vijeća Europe (od 24.05.2024.) Članica Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini NATO-a (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/busic-zdravka-11-saziv"
     },
     "1381-anita-curis-krok": {
@@ -351,10 +432,13 @@
       "stranka": "Socijaldemokratska partija Hrvatske",
       "izborna": "III. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena je 15. prosinca 1986. u Zaboku. Završila je Pravni fakultet Sveučilišta u Zagrebu (VSS - magistra socijalne politike).",
       "odbori": [
         "Odbora za obitelj, mlade i sport",
         "Odbora za lokalnu i područnu (regionalnu) samoupravu"
       ],
+      "duznosti": "Članica Odbora za obitelj, mlade i sport (od 24.05.2024.) Članica Odbora za lokalnu i područnu (regionalnu) samoupravu (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/curis-krok-anita-11-saziv"
     },
     "1382-kresimir-cabaj": {
@@ -362,9 +446,12 @@
       "stranka": "Dom i nacionalno okupljanje",
       "izborna": "IV. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen 29. listopada 1971. u Osijeku. Diplomirao na Filozofskom fakultetu Sveučilišta Josipa Jurja Strossmayera u Osijeku (VSS - profesor engleskog jezika i književnosti i povijesti; nastavnik u osnovnoj školi).",
       "odbori": [
         "Odbora za Hrvate izvan Republike Hrvatske"
       ],
+      "duznosti": "Član Odbora za Hrvate izvan Republike Hrvatske (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/cabaj-kresimir-11-saziv"
     },
     "955-pero-cosic": {
@@ -372,11 +459,14 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "V. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 27. listopada 1959. u Buhovu (Bosna i Hercegovina). Završio Građevinski fakultet Sveučilišta u Zagrebu (VSS - diplomirani inženjer građevinarstva).",
       "odbori": [
         "Odbora za izbor, imenovanja i upravne poslove",
         "Odbora za zaštitu okoliša i prirode",
         "Odbora za pomorstvo, promet i infrastrukturu"
       ],
+      "duznosti": "Predsjednik Odbora za izbor, imenovanja i upravne poslove (od 16.05.2024.) Član Odbora za zaštitu okoliša i prirode (od 24.05.2024.) Član Odbora za pomorstvo, promet i infrastrukturu (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/cosic-pero-11-saziv"
     },
     "1392-ivan-dabo": {
@@ -384,11 +474,14 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "VII. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen 11. travnja 1957. u Novalji. Završio Savezni centar za unapređivanje ugostiteljstva Opatija (visokokvalificirani kuhar ugostiteljske struke).",
       "odbori": [
         "Odbora za turizam",
         "Odbora za obitelj, mlade i sport",
         "Odbora za pomorstvo, promet i infrastrukturu"
       ],
+      "duznosti": "Član Odbora za turizam (od 24.05.2024.) Član Odbora za obitelj, mlade i sport (od 24.05.2024.) Član Odbora za pomorstvo, promet i infrastrukturu (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/dabo-ivan-11-saziv"
     },
     "1384-josip-dabro": {
@@ -396,7 +489,10 @@
       "stranka": "Domovinski pokret",
       "izborna": "V. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen 5. siječnja 1983. u Beogradu, Republika Srbija. Diplomirao na Edukacijskom fakultetu Univerziteta u Travniku, Bosna i Hercegovina (magistar opće kineziologije).",
       "odbori": [],
+      "duznosti": null,
       "source": "https://www.sabor.hr/hr/zastupnici/dabro-josip-11-saziv"
     },
     "927-ante-deur": {
@@ -404,12 +500,15 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "II. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 13. lipnja 1970. u Šibeniku. Završio Građevinsku tehničku školu u Rijeci (SSS - građevinski tehničar).",
       "odbori": [
         "Odbora za obranu",
         "Odbora za unutarnju politiku i nacionalnu sigurnost",
         "Odbora za ratne veterane",
         "Mandatno-imunitetnog povjerenstva"
       ],
+      "duznosti": "Potpredsjednik Odbora za obranu (od 24.05.2024.) Član Odbora za unutarnju politiku i nacionalnu sigurnost (od 24.05.2024.) Član Odbora za ratne veterane (od 24.05.2024.) Član Mandatno-imunitetnog povjerenstva (od 12.07.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/deur-ante-11-saziv"
     },
     "1383-dalibor-domitrovic": {
@@ -417,11 +516,14 @@
       "stranka": "Socijaldemokratska partija Hrvatske",
       "izborna": "VII. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 1. svibnja 1972. u Ogulinu. Završio je Tehnički fakultet Sveučilišta u Rijeci (VŠS - inženjer strojarstva).",
       "odbori": [
         "Odbora za gospodarstvo",
         "Odbora za ratne veterane",
         "Odbora za regionalni razvoj i fondove Europske unije"
       ],
+      "duznosti": "Član Odbora za gospodarstvo (od 24.05.2024.) Član Odbora za ratne veterane (od 24.05.2024.) Član Odbora za regionalni razvoj i fondove Europske unije (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/domitrovic-dalibor-11-saziv"
     },
     "1385-irena-dragic": {
@@ -429,6 +531,8 @@
       "stranka": "Socijaldemokratska partija Hrvatske",
       "izborna": "IX. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena 14. ožujka 1967. u Otočcu. Na Sveučilištu u Zadru stekla stručno zvanje profesorice hrvatskoga jezika (VSS).",
       "odbori": [
         "Odbora za rad, mirovinski sustav i socijalno partnerstvo",
         "Odbora za Hrvate izvan Republike Hrvatske",
@@ -436,6 +540,7 @@
         "Odbora za međuparlamentarnu suradnju",
         "Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Mediterana"
       ],
+      "duznosti": "Članica Odbora za rad, mirovinski sustav i socijalno partnerstvo (od 24.05.2024.) Članica Odbora za Hrvate izvan Republike Hrvatske (od 19.06.2026.) Članica Odbora za ratne veterane (od 24.05.2024.) Članica Odbora za međuparlamentarnu suradnju (od 21.06.2024.) Zamjenica člana Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Mediterana (od 21.06.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/dragic-irena-11-saziv"
     },
     "861-josip-akic": {
@@ -443,11 +548,14 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "IV. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 2. studenoga 1960. u Pitomači. Završio Centar za energetiku i procesnu tehniku u Zagrebu (SSS – stručni radnik rudarsko-naftne struke).",
       "odbori": [
         "Odbora za ratne veterane",
         "Odbora za obranu",
         "Odbora za poljoprivredu"
       ],
+      "duznosti": "Predsjednik Odbora za ratne veterane (od 24.05.2024.) Član Odbora za obranu (od 24.05.2024.) Član Odbora za poljoprivredu (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/dakic-josip-11-saziv"
     },
     "1234-sasa-ujic": {
@@ -455,12 +563,15 @@
       "stranka": "Socijaldemokratska partija Hrvatske",
       "izborna": "VIII. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 5. prosinca 1981. u Rijeci. Završio je Ekonomski fakultet Sveučilišta u Rijeci (VSS-specijalist marketing menadžmenta).",
       "odbori": [
         "Odbora za Ustav, Poslovnik i politički sustav",
         "Odbora za međuparlamentarnu suradnju",
         "Izvršnog odbora Nacionalne grupe Hrvatskoga sabora pri Interparlamentarnoj uniji",
         "Državnog sudbenog vijeća iz reda zastupnika"
       ],
+      "duznosti": "Potpredsjednik Odbora za Ustav, Poslovnik i politički sustav (od 24.05.2024.) Član Odbora za međuparlamentarnu suradnju (od 21.06.2024.) Predsjednik Izvršnog odbora Nacionalne grupe Hrvatskoga sabora pri Interparlamentarnoj uniji (od 21.06.2024.) Član Državnog sudbenog vijeća iz reda zastupnika (od 27.06.2025.)",
       "source": "https://www.sabor.hr/hr/zastupnici/dujic-sasa-11-saziv"
     },
     "871-mato-frankovic": {
@@ -468,11 +579,14 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "X. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 23. veljače 1982. u Dubrovniku. Stekao inozemnu visokoškolsku kvalifikaciju Associate in Applied Science završetkom dvogodišnjeg studijskog programa Management u turizmu na Rochester Institute of Technology u saveznoj državi New York, Sjedinjene Američke Države te diplomu magistra međunarodnih odnosa i diplomacije na Sveučilištu Libertas u Zagrebu (magistar međunarodnih odnosa i diplomacije, univ. mag. rel. int.).",
       "odbori": [
         "Odbora za turizam",
         "Odbora za međuparlamentarnu suradnju",
         "Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Vijeća Europe"
       ],
+      "duznosti": "Član Odbora za turizam (od 24.05.2024.) Član Odbora za međuparlamentarnu suradnju (od 24.05.2024.) Član Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Vijeća Europe (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/frankovic-mato-11-saziv"
     },
     "1393-veselko-gabricevic": {
@@ -480,11 +594,14 @@
       "stranka": "Hrvatska stranka umirovljenika",
       "izborna": "VII. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 29. rujna 1948. u Trilju. Završio Vojnu akademiju u Beogradu (VSS - magistar vojnih znanosti).",
       "odbori": [
         "Odbora za rad, mirovinski sustav i socijalno partnerstvo",
         "Odbora za obranu",
         "Odbora za ratne veterane"
       ],
+      "duznosti": "Potpredsjednik Odbora za rad, mirovinski sustav i socijalno partnerstvo (od 24.05.2024.) Član Odbora za obranu (od 24.05.2024.) Član Odbora za ratne veterane (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/gabricevic-veselko-11-saziv"
     },
     "919-sabina-glasovac": {
@@ -492,10 +609,13 @@
       "stranka": "Socijaldemokratska partija Hrvatske",
       "izborna": "IX. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena je 20. svibnja 1978. u Našicama. Završila Filozofski fakultet u Zadru Sveučilišta u Splitu (VSS - profesorica engleskog i njemačkog jezika i književnosti).",
       "odbori": [
         "Odbora za unutarnju politiku i nacionalnu sigurnost",
         "Odbora za obranu"
       ],
+      "duznosti": "potpredsjednica Sabora (od 24.05.2024.) Članica Odbora za unutarnju politiku i nacionalnu sigurnost (od 11.10.2024.) Članica Odbora za obranu (od 12.07.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/glasovac-sabina-11-saziv"
     },
     "1394-zeljko-glavic": {
@@ -503,11 +623,14 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "V. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 20. listopada 1954. u Požegi. Završio Medicinski fakultet Sveučilišta u Zagrebu (VSS - doktor medicinskih znanosti - dr.sc.).",
       "odbori": [
         "Odbora za zdravstvo i socijalnu politiku",
         "Odbora za zaštitu okoliša i prirode",
         "Odbora za obrazovanje, znanost i kulturu"
       ],
+      "duznosti": "Član Odbora za zdravstvo i socijalnu politiku (od 24.05.2024.) Član Odbora za zaštitu okoliša i prirode (od 06.06.2025.) Član Odbora za obrazovanje, znanost i kulturu (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/glavic-zeljko-11-saziv"
     },
     "1141-zoran-gregurovic": {
@@ -515,10 +638,13 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "III. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen 19. listopada 1978. u Zagrebu. Završio Zdravstveno veleučilište Zagreb - Stručni studij radiološke tehnologije (VŠS - inženjer medicinske radiologije).",
       "odbori": [
         "Odbora za obitelj, mlade i sport",
         "Odbora za lokalnu i područnu (regionalnu) samoupravu"
       ],
+      "duznosti": "Član Odbora za obitelj, mlade i sport (od 24.05.2024.) Član Odbora za lokalnu i područnu (regionalnu) samoupravu (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/gregurovic-zoran-11-saziv"
     },
     "1420-mislav-herman": {
@@ -526,11 +652,14 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "VI. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 21. ožujka 1977. u Zagrebu. Završio Medicinski fakultet Sveučilišta u Zagrebu (VSS - doktor znanosti, docent, doktor medicine).",
       "odbori": [
         "Odbora za zdravstvo i socijalnu politiku",
         "Odbora za zakonodavstvo",
         "Odbora za obrazovanje, znanost i kulturu"
       ],
+      "duznosti": "Potpredsjednik Odbora za zdravstvo i socijalnu politiku (od 24.05.2024.) Član Odbora za zakonodavstvo (od 12.07.2024.) Član Odbora za obrazovanje, znanost i kulturu (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/herman-mislav-11-saziv"
     },
     "1373-armin-hodzic": {
@@ -538,11 +667,14 @@
       "stranka": "nezavisni zastupnici",
       "izborna": "XII. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 10. veljače 1996. u Zagrebu. Završio Fakultet političkih znanosti Sveučilišta u Zagrebu (VSS - magistar politologije).",
       "odbori": [
         "Odbora za Ustav, Poslovnik i politički sustav",
         "Odbora za ljudska prava i prava nacionalnih manjina",
         "Odbora za informiranje, informatizaciju i medije"
       ],
+      "duznosti": "Član Odbora za Ustav, Poslovnik i politički sustav (od 16.05.2024.) Član Odbora za ljudska prava i prava nacionalnih manjina (od 21.06.2024.) Član Odbora za informiranje, informatizaciju i medije (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/hodzic-armin-11-saziv"
     },
     "916-dario-hrebak": {
@@ -550,11 +682,14 @@
       "stranka": "Hrvatska socijalno-liberalna stranka",
       "izborna": "II. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 11. rujna 1981. u Bjelovaru. Diplomirao na Visokoj policijskoj školi u Zagrebu (VSS - diplomirani kriminalist).",
       "odbori": [
         "Odbora za unutarnju politiku i nacionalnu sigurnost",
         "Odbora za međuparlamentarnu suradnju",
         "Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini NATO-a"
       ],
+      "duznosti": "Član Odbora za unutarnju politiku i nacionalnu sigurnost (od 24.05.2024.) Član Odbora za međuparlamentarnu suradnju (od 24.05.2024.) Voditelj Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini NATO-a (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/hrebak-dario-11-saziv"
     },
     "1396-kristina-ikic-banicek": {
@@ -562,12 +697,15 @@
       "stranka": "Socijaldemokratska partija Hrvatske",
       "izborna": "VII. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena je 22. rujna 1975. u Sisku. Završila Hrvatske studije Sveučilišta u Zagrebu (VSS - diplomirana kroatologinja/diplomirana sociologinja).",
       "odbori": [
         "Odbora za međuparlamentarnu suradnju",
         "Odbora za pravosuđe",
         "Odbora za prostorno uređenje i graditeljstvo",
         "Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Vijeća Europe"
       ],
+      "duznosti": "Predsjednica Odbora za međuparlamentarnu suradnju (od 24.05.2024.) Članica Odbora za pravosuđe (od 21.11.2025.) Članica Odbora za prostorno uređenje i graditeljstvo (od 24.05.2024.) Članica Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Vijeća Europe (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/ikic-banicek-kristina-11-saziv"
     },
     "918-misel-jaksic": {
@@ -575,11 +713,14 @@
       "stranka": "Socijaldemokratska partija Hrvatske",
       "izborna": "IV. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 23. svibnja 1986. u Koprivnici. Završio Ekonomski fakultet Sveučilišta u Zagrebu (VSS - diplomirani ekonomist).",
       "odbori": [
         "Odbora za vanjsku politiku",
         "Odbora za unutarnju politiku i nacionalnu sigurnost",
         "Odbora za pravosuđe"
       ],
+      "duznosti": "potpredsjednik Sabora (od 27.06.2025.) Član Odbora za vanjsku politiku (od 11.10.2024.) Član Odbora za unutarnju politiku i nacionalnu sigurnost (od 24.05.2024.) Član Odbora za pravosuđe (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/jaksic-misel-11-saziv"
     },
     "938-gordan-jandrokovic": {
@@ -587,7 +728,10 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "II. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 2. kolovoza 1967. u Bjelovaru. Završio Fakultet političkih znanosti i Fakultet građevinskih znanosti Sveučilišta u Zagrebu (VSS – diplomirani politolog, VŠS - inženjer građevine).",
       "odbori": [],
+      "duznosti": null,
       "source": "https://www.sabor.hr/hr/zastupnici/jandrokovic-gordan-11-saziv"
     },
     "958-robert-jankovics": {
@@ -595,12 +739,15 @@
       "stranka": "nezavisni zastupnici",
       "izborna": "XII. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 16. kolovoza 1975. u Osijeku. Završio Fakultet organizacije i informatike u Varaždinu, Sveučilište u Zagrebu (VŠS - inženjer informatike).",
       "odbori": [
         "Mandatno-imunitetnog povjerenstva",
         "Odbora za financije i državni proračun",
         "Odbora za ljudska prava i prava nacionalnih manjina",
         "Nadzornog odbora Hrvatske banke za obnovu i razvitak iz reda zastupnika"
       ],
+      "duznosti": "Predsjednik Mandatno-imunitetnog povjerenstva (od 16.05.2024.) Član Odbora za financije i državni proračun (od 24.05.2024.) Član Odbora za ljudska prava i prava nacionalnih manjina (od 21.06.2024.) Zamjenik člana Nadzornog odbora Hrvatske banke za obnovu i razvitak iz reda zastupnika (od 12.07.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/jankovics-robert-11-saziv"
     },
     "849-dragana-jeckov": {
@@ -608,10 +755,13 @@
       "stranka": "Samostalna demokratska srpska stranka",
       "izborna": "XII. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena je 8. srpnja 1976. u Vinkovcima. Završila Fakultet za obrazovanje diplomiranih pravnika i diplomiranih ekonomista za rukovodeće kadrove na Privrednoj akademiji u Novome Sadu, Srbija (VSS - diplomirana pravnica).",
       "odbori": [
         "Odbora za poljoprivredu",
         "Odbora za ljudska prava i prava nacionalnih manjina"
       ],
+      "duznosti": "Potpredsjednica Odbora za poljoprivredu (od 24.05.2024.) Članica Odbora za ljudska prava i prava nacionalnih manjina (od 21.06.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/jeckov-dragana-11-saziv"
     },
     "1358-ljubica-jembrih": {
@@ -619,6 +769,8 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "III. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena je 31. listopada 1974. u Zagrebu. (SSS - samostalna knjigovotkinja).",
       "odbori": [
         "Odbora za zdravstvo i socijalnu politiku",
         "Odbora za prostorno uređenje i graditeljstvo",
@@ -626,6 +778,7 @@
         "Odbora za međuparlamentarnu suradnju",
         "Izaslanstva Hrvatskoga sabora u Parlamentarnoj dimenziji Srednjoeuropske inicijative"
       ],
+      "duznosti": "Članica Odbora za zdravstvo i socijalnu politiku (od 24.05.2024.) Članica Odbora za prostorno uređenje i graditeljstvo (od 24.05.2024.) Članica Odbora za poljoprivredu (od 20.02.2026.) Članica Odbora za međuparlamentarnu suradnju (od 24.05.2024.) Zamjenica člana Izaslanstva Hrvatskoga sabora u Parlamentarnoj dimenziji Srednjoeuropske inicijative (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/jembrih-ljubica-11-saziv"
     },
     "1386-tomislav-josic": {
@@ -633,6 +786,8 @@
       "stranka": "Domovinski pokret",
       "izborna": "II. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen 27. veljače 1964. u Ilači. Završio srednju medicinsku školu \"Matija Antun Reljković\" u Vinkovcima; (SSS - medicinski tehničar).",
       "odbori": [
         "Odbora za ravnopravnost spolova",
         "Odbora za obranu",
@@ -640,6 +795,7 @@
         "Odbora za zaštitu okoliša i prirode",
         "Nadzornog odbora Hrvatske banke za obnovu i razvitak iz reda zastupnika"
       ],
+      "duznosti": "Potpredsjednik Odbora za ravnopravnost spolova (od 21.02.2025.) Član Odbora za obranu (od 24.05.2024.) Član Odbora za ratne veterane (od 24.05.2024.) Član Odbora za zaštitu okoliša i prirode (od 06.12.2024.) Zamjenik člana Nadzornog odbora Hrvatske banke za obnovu i razvitak iz reda zastupnika (od 21.02.2025.)",
       "source": "https://www.sabor.hr/hr/zastupnici/josic-tomislav-11-saziv"
     },
     "1369-josip-jurcevic": {
@@ -647,11 +803,14 @@
       "stranka": "nezavisni zastupnici",
       "izborna": "VII. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen 19. travnja 1951. u Studencima kod Imotskog. Na Filozofskom fakultetu Sveučilišta u Zagrebu diplomirao povijest i filozofiju te magistrirao i doktorirao (VSS - doktorat u području humanističkih znanosti).",
       "odbori": [
         "Odbora za unutarnju politiku i nacionalnu sigurnost",
         "Odbora za ratne veterane",
         "Odbora za informiranje, informatizaciju i medije"
       ],
+      "duznosti": "Član Odbora za unutarnju politiku i nacionalnu sigurnost (od 06.06.2025.) Član Odbora za ratne veterane (od 24.05.2024.) Član Odbora za informiranje, informatizaciju i medije (od 06.06.2025.)",
       "source": "https://www.sabor.hr/hr/zastupnici/jurcevic-josip-11-saziv"
     },
     "986-branka-juricev-martincev": {
@@ -659,6 +818,8 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "IX. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena je 13. studenoga 1965. u Šibeniku. Završila Ekonomski fakultet Sveučilišta u Splitu (VSS - diplomirana ekonomistica).",
       "odbori": [
         "Odbora za unutarnju politiku i nacionalnu sigurnost",
         "Odbora za turizam",
@@ -667,6 +828,7 @@
         "Izvršnog odbora Nacionalne grupe Hrvatskoga sabora pri Interparlamentarnoj uniji",
         "Nadzornog odbora Hrvatske banke za obnovu i razvitak iz reda zastupnika"
       ],
+      "duznosti": "Potpredsjednica Odbora za unutarnju politiku i nacionalnu sigurnost (od 20.09.2024.) Članica Odbora za turizam (od 24.05.2024.) Članica Odbora za izbor, imenovanja i upravne poslove (od 24.05.2024.) Članica Odbora za međuparlamentarnu suradnju (od 21.06.2024.) Potpredsjednica Izvršnog odbora Nacionalne grupe Hrvatskoga sabora pri Interparlamentarnoj uniji (od 21.06.2024.) Članica Nadzornog odbora Hrvatske banke za obnovu i razvitak iz reda zastupnika (od 12.07.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/juricev-martincev-branka-11-saziv"
     },
     "872-veljko-kajtazi": {
@@ -674,11 +836,14 @@
       "stranka": "nezavisni zastupnici",
       "izborna": "XII. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 14. veljače 1960. u Kosovskoj Mitrovici (Kosovo). Završio Višu tehničku školu u Prištini (Kosovo), Višu trenersku školu u Splitu i Vojnu akademiju u Sarajevu (Bosna i Hercegovina), (VŠS - inženjer elektrotehnike).",
       "odbori": [
         "Odbora za predstavke i pritužbe",
         "Odbora za ljudska prava i prava nacionalnih manjina",
         "Savjeta za robne zalihe iz reda zastupnika"
       ],
+      "duznosti": "Potpredsjednik Odbora za predstavke i pritužbe (od 24.05.2024.) Član Odbora za ljudska prava i prava nacionalnih manjina (od 21.06.2024.) Član Savjeta za robne zalihe iz reda zastupnika (od 12.07.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/kajtazi-veljko-11-saziv"
     },
     "1395-goran-kaniski": {
@@ -686,11 +851,14 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "III. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen 22. ožujka 1976. u Varaždinu. Završio Sveučilišni studij održive mobilnosti i logistike na Sveučilištu Sjever u Varaždinu (VSS - inženjer održive mobilnosti i logistike).",
       "odbori": [
         "Odbora za unutarnju politiku i nacionalnu sigurnost",
         "Odbora za gospodarstvo",
         "Odbora za prostorno uređenje i graditeljstvo"
       ],
+      "duznosti": "Član Odbora za unutarnju politiku i nacionalnu sigurnost (od 24.05.2024.) Član Odbora za gospodarstvo (od 24.05.2024.) Član Odbora za prostorno uređenje i graditeljstvo (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/kaniski-goran-11-saziv"
     },
     "944-krunoslav-katicic": {
@@ -698,11 +866,14 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "II. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 8. veljače 1969. u Zagrebu. Završio Pravni fakultet Sveučilišta u Zagrebu (VSS - diplomirani pravnik).",
       "odbori": [
         "Odbora za zakonodavstvo",
         "Odbora za Ustav, Poslovnik i politički sustav",
         "Odbora za izbor, imenovanja i upravne poslove"
       ],
+      "duznosti": "Predsjednik Odbora za zakonodavstvo (od 16.05.2024.) Član Odbora za Ustav, Poslovnik i politički sustav (od 16.05.2024.) Član Odbora za izbor, imenovanja i upravne poslove (od 16.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/katicic-krunoslav-11-saziv"
     },
     "1001-ivana-kekin": {
@@ -710,10 +881,13 @@
       "stranka": "Možemo! – Politička platforma",
       "izborna": "I. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena 24. siječnja 1984. u Zagrebu. Završila Medicinski fakultet Sveučilišta u Zagrebu (VSS - doktorica medicine, psihijatrica, specijalistica psihijatrije, subspecijalistica psihoterapije; doktorat u području biomedicine i zdravstva u polju kliničkih medicinskih znanosti, grana psihijatrija).",
       "odbori": [
         "Odbora za zdravstvo i socijalnu politiku",
         "Odbora za ljudska prava i prava nacionalnih manjina"
       ],
+      "duznosti": "Predsjednica Odbora za zdravstvo i socijalnu politiku (od 24.05.2024.) Članica Odbora za ljudska prava i prava nacionalnih manjina (od 21.06.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/kekin-ivana-11-saziv"
     },
     "880-tomislav-klaric": {
@@ -721,12 +895,15 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "VIII. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 31. ožujka 1964. u Rijeci. Završio Medicinsku školu u Rijeci i Školu za željeznički promet u Zagrebu (SSS - zubarski tehničar; prometni tehničar).",
       "odbori": [
         "Odbora za prostorno uređenje i graditeljstvo",
         "Odbora za lokalnu i područnu (regionalnu) samoupravu",
         "Nacionalnog vijeća za praćenje provedbe Strategije sprječavanja korupcije",
         "Nacionalnog vijeća za vode iz reda zastupnika"
       ],
+      "duznosti": "Član Odbora za prostorno uređenje i graditeljstvo (od 24.05.2024.) Član Odbora za lokalnu i područnu (regionalnu) samoupravu (od 24.05.2024.) Potpredsjednik Nacionalnog vijeća za praćenje provedbe Strategije sprječavanja korupcije (od 24.05.2024.) Predsjednik Nacionalnog vijeća za vode iz reda zastupnika (od 12.07.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/klaric-tomislav-11-saziv"
     },
     "899-darko-klasic": {
@@ -734,11 +911,14 @@
       "stranka": "Hrvatska socijalno-liberalna stranka",
       "izborna": "I. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 24. listopada 1968. u Zagrebu. Završio Visoku zdravstvenu školu u Zagrebu (VŠS - stručni prvostupnik radiološke tehnologije, bacc. radiol .techn.).",
       "odbori": [
         "Odbora za obranu",
         "Odbora za zdravstvo i socijalnu politiku",
         "Nacionalnog vijeća za vode iz reda zastupnika"
       ],
+      "duznosti": "Član Odbora za obranu (od 24.05.2024.) Član Odbora za zdravstvo i socijalnu politiku (od 24.05.2024.) Član Nacionalnog vijeća za vode iz reda zastupnika (od 12.07.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/klasic-darko-11-saziv"
     },
     "883-anton-kliman": {
@@ -746,10 +926,13 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "VIII. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 9. lipnja 1967. u Puli. Završio stručni studij poslovne ekonomije na Ekonomskom fakultetu Sveučilišta u Zagrebu (VŠS - viši ekonomist za unutarnju i vanjsku trgovinu).",
       "odbori": [
         "Odbora za turizam",
         "Odbora za financije i državni proračun"
       ],
+      "duznosti": "Potpredsjednik Odbora za turizam (od 24.05.2024.) Član Odbora za financije i državni proračun (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/kliman-anton-11-saziv"
     },
     "877-ljubomir-kolarek": {
@@ -757,11 +940,14 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "III. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 7. rujna 1967. u Prelogu. Završio Veterinarski fakultet u Zagrebu (VSS - doktor veterinarske medicine).",
       "odbori": [
         "Odbora za ljudska prava i prava nacionalnih manjina",
         "Odbora za zaštitu okoliša i prirode",
         "Odbora za poljoprivredu"
       ],
+      "duznosti": "Član Odbora za ljudska prava i prava nacionalnih manjina (od 21.06.2024.) Član Odbora za zaštitu okoliša i prirode (od 24.05.2024.) Član Odbora za poljoprivredu (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/kolarek-ljubomir-11-saziv"
     },
     "1004-magdalena-komes": {
@@ -769,11 +955,14 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "VII. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena 21. travnja 1980. u Sisku. Završila Pravni fakultet Sveučilišta u Zagrebu (VSS - diplomirana pravnica).",
       "odbori": [
         "Odbora za gospodarstvo",
         "Odbora za pravosuđe",
         "Odbora za ravnopravnost spolova"
       ],
+      "duznosti": "Članica Odbora za gospodarstvo (od 24.05.2024.) Članica Odbora za pravosuđe (od 24.05.2024.) Članica Odbora za ravnopravnost spolova (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/komes-magdalena-11-saziv"
     },
     "1529-martin-kordic": {
@@ -781,11 +970,14 @@
       "stranka": "Hrvatski suverenisti",
       "izborna": "V. izborna jedinica",
       "mandat": "21.11.2025.",
+      "gender": "m",
+      "zivotopis": "Rođen je 17. siječnja 1975. u Vinkovcima. Završio Tehničku školu Ruđera Boškovića Vinkovci (SSS - građevinski tehničar).",
       "odbori": [
         "Odbora za Hrvate izvan Republike Hrvatske",
         "Odbora za izbor, imenovanja i upravne poslove",
         "Nacionalnog vijeća za vode iz reda zastupnika"
       ],
+      "duznosti": "Član Odbora za Hrvate izvan Republike Hrvatske (od 29.01.2026.) Član Odbora za izbor, imenovanja i upravne poslove (od 29.01.2026.) Član Nacionalnog vijeća za vode iz reda zastupnika (od 29.01.2026.)",
       "source": "https://www.sabor.hr/hr/zastupnici/kordic-martin-11-saziv"
     },
     "1400-sandra-krpan": {
@@ -793,6 +985,8 @@
       "stranka": "Socijaldemokratska partija Hrvatske",
       "izborna": "VII. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena je 5. travnja 1974. u Eppingenu (Savezna Republika Njemačka). Završila Pedagoški fakultet Sveučilišta u Rijeci (VSS - profesorica hrvatskoga jezika i književnosti).",
       "odbori": [
         "Odbora za izbor, imenovanja i upravne poslove",
         "Odbora za obrazovanje, znanost i kulturu",
@@ -800,6 +994,7 @@
         "Odbora za ravnopravnost spolova",
         "Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Organizacije za europsku sigurnost i suradnju (OESS)"
       ],
+      "duznosti": "Potpredsjednica Odbora za izbor, imenovanja i upravne poslove (od 24.05.2024.) Članica Odbora za obrazovanje, znanost i kulturu (od 15.07.2025.) Članica Odbora za međuparlamentarnu suradnju (od 21.06.2024.) Članica Odbora za ravnopravnost spolova (od 24.05.2024.) Zamjenica člana Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Organizacije za europsku sigurnost i suradnju (OESS) (od 21.06.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/krpan-sandra-11-saziv"
     },
     "1005-andro-krstulovic-opara": {
@@ -807,6 +1002,8 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "X. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 22. svibnja 1967. u Splitu. Završio Filozofski fakultet Sveučilišta u Zagrebu (VSS - diplomirani povjesničar umjetnosti i arheolog).",
       "odbori": [
         "Odbora za vanjsku politiku",
         "Odbora za europske poslove",
@@ -814,6 +1011,7 @@
         "Odbora za međuparlamentarnu suradnju",
         "Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Mediterana"
       ],
+      "duznosti": "Predsjednik Odbora za vanjsku politiku (od 24.05.2024.) Član Odbora za europske poslove (od 24.05.2024.) Član Odbora za obrazovanje, znanost i kulturu (od 24.05.2024.) Član Odbora za međuparlamentarnu suradnju (od 24.05.2024.) Zamjenik člana Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Mediterana (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/krstulovic-opara-andro-11-saziv"
     },
     "928-ante-kujundzic": {
@@ -821,7 +1019,10 @@
       "stranka": "Most",
       "izborna": "X. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 31. siječnja 1984. u Splitu. Završio Katolički bogoslovni fakultet Sveučilišta u Splitu (VSS - profesor vjeronauka).",
       "odbori": [],
+      "duznosti": null,
       "source": "https://www.sabor.hr/hr/zastupnici/kujundzic-ante-11-saziv"
     },
     "1387-ivica-kukavica": {
@@ -829,12 +1030,15 @@
       "stranka": "Domovinski pokret",
       "izborna": "X. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 12. prosinca 1970. u Imotskom. Završio Kineziološki fakultet u Zagrebu (VŠS - viši stručni trener).",
       "odbori": [
         "Odbora za europske poslove",
         "Odbora za unutarnju politiku i nacionalnu sigurnost",
         "Odbora za izbor, imenovanja i upravne poslove",
         "Nacionalnog vijeća za vode iz reda zastupnika"
       ],
+      "duznosti": "Član Odbora za europske poslove (od 24.05.2024.) Član Odbora za unutarnju politiku i nacionalnu sigurnost (od 24.05.2024.) Član Odbora za izbor, imenovanja i upravne poslove (od 11.10.2024.) Član Nacionalnog vijeća za vode iz reda zastupnika (od 13.12.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/kukavica-ivica-11-saziv"
     },
     "1249-zeljko-lackovic": {
@@ -842,12 +1046,15 @@
       "stranka": "stranka Nezavisni",
       "izborna": "IV. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 17. travnja 1971. u Đurđevcu. Završio Pravni fakultet Sveučilišta u Zagrebu (VSS - magistar prava).",
       "odbori": [
         "Odbora za zaštitu okoliša i prirode",
         "Odbora za Ustav, Poslovnik i politički sustav",
         "Odbora za pravosuđe",
         "Državnog sudbenog vijeća iz reda zastupnika"
       ],
+      "duznosti": "Potpredsjednik Odbora za zaštitu okoliša i prirode (od 24.05.2024.) Član Odbora za Ustav, Poslovnik i politički sustav (od 16.05.2024.) Član Odbora za pravosuđe (od 24.05.2024.) Član Državnog sudbenog vijeća iz reda zastupnika (od 12.07.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/lackovic-zeljko-11-saziv"
     },
     "920-boris-lalovac": {
@@ -855,10 +1062,13 @@
       "stranka": "Socijaldemokratska partija Hrvatske",
       "izborna": "II. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 16. studenoga 1976. u Splitu. Završio Fakultetu za turizam i vanjsku trgovinu u Dubrovniku Sveučilišta u Splitu te magistrirao financije i fiskalnu politiku na Ekonomskom fakultetu Sveučilišta u Zagrebu (VSS - diplomirani ekonomist, magistar u području društvenih znanosti, polje ekonomije).",
       "odbori": [
         "Odbora za financije i državni proračun",
         "Odbora za predstavke i pritužbe"
       ],
+      "duznosti": "Predsjednik Odbora za financije i državni proračun (od 24.05.2024.) Član Odbora za predstavke i pritužbe (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/lalovac-boris-11-saziv"
     },
     "1491-ivica-ledenko": {
@@ -866,7 +1076,10 @@
       "stranka": "Most",
       "izborna": "IX. izborna jedinica",
       "mandat": "21.06.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen 24. lipnja 1971. u Šibeniku. Diplomirao na Fakultetu prometnih znanosti Sveučilišta u Zagrebu (VSS - diplomirani inženjer prometa).",
       "odbori": [],
+      "duznosti": null,
       "source": "https://www.sabor.hr/hr/zastupnici/ledenko-ivica-11-saziv"
     },
     "1388-dubravka-lipovac-pehar": {
@@ -874,12 +1087,15 @@
       "stranka": "Domovinski pokret",
       "izborna": "V. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena 19. studenog 1976. u Slavonskom Brodu. Završila Ekonomski fakultet Sveučilišta Josipa Jurja Strossmayera u Osijeku (VSS – diplomirana ekonomistica).",
       "odbori": [
         "Odbora za regionalni razvoj i fondove Europske unije",
         "Odbora za rad, mirovinski sustav i socijalno partnerstvo",
         "Odbora za poljoprivredu",
         "Državnog povjerenstva za procjenu šteta od prirodnih nepogoda iz reda zastupnika"
       ],
+      "duznosti": "Predsjednica Odbora za regionalni razvoj i fondove Europske unije (od 21.02.2025.) Članica Odbora za rad, mirovinski sustav i socijalno partnerstvo (od 24.05.2024.) Članica Odbora za poljoprivredu (od 24.05.2024.) Članica Državnog povjerenstva za procjenu šteta od prirodnih nepogoda iz reda zastupnika (od 12.07.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/lipovac-pehar-dubravka-11-saziv"
     },
     "1416-marija-lugaric": {
@@ -887,11 +1103,14 @@
       "stranka": "Socijaldemokratska partija Hrvatske",
       "izborna": "VI. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena je 5. lipnja 1978. u Zagrebu. Završila Filozofski fakultet u Zagrebu, Pedagogijske znanosti (VSS – diplomirana učiteljica).",
       "odbori": [
         "Odbora za ravnopravnost spolova",
         "Odbora za zakonodavstvo",
         "Odbora za obrazovanje, znanost i kulturu"
       ],
+      "duznosti": "Predsjednica Odbora za ravnopravnost spolova (od 24.05.2024.) Članica Odbora za zakonodavstvo (od 16.05.2024.) Članica Odbora za obrazovanje, znanost i kulturu (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/lugaric-marija-11-saziv"
     },
     "977-ljubica-lukacic": {
@@ -899,12 +1118,15 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "I. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena je 5. siječnja 1966. u Ivancu Križevačkom. Završila Pravni fakultet Sveučilišta u Zagrebu (VSS – diplomirana pravnica).",
       "odbori": [
         "Odbora za zakonodavstvo",
         "Odbora za rad, mirovinski sustav i socijalno partnerstvo",
         "Odbora za zdravstvo i socijalnu politiku",
         "Odbora za ravnopravnost spolova"
       ],
+      "duznosti": "Članica Odbora za zakonodavstvo (od 16.05.2024.) Članica Odbora za rad, mirovinski sustav i socijalno partnerstvo (od 24.05.2024.) Članica Odbora za zdravstvo i socijalnu politiku (od 24.05.2024.) Članica Odbora za ravnopravnost spolova (od 20.02.2026.)",
       "source": "https://www.sabor.hr/hr/zastupnici/lukacic-ljubica-11-saziv"
     },
     "1401-sanda-livia-maduna": {
@@ -912,6 +1134,8 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "V. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena 26. siječnja 1993. u Slavonskom Brodu. Završila Veleučilište u Slavonskom Brodu (VSS - magistra ekonomije), i Kineziološki fakultet Sveučilišta u Zagrebu (prvostupnica trenerske struke - bacc.cin.).",
       "odbori": [
         "Odbora za financije i državni proračun",
         "Odbora za obitelj, mlade i sport",
@@ -920,6 +1144,7 @@
         "Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Mediterana",
         "Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini SEECP-a"
       ],
+      "duznosti": "Članica Odbora za financije i državni proračun (od 24.05.2024.) Članica Odbora za obitelj, mlade i sport (od 24.05.2024.) Članica Odbora za međuparlamentarnu suradnju (od 24.05.2024.) Članica Odbora za ravnopravnost spolova (od 24.05.2024.) Zamjenica člana Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Mediterana (od 24.05.2024.) Zamjenica člana Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini SEECP-a (od 21.06.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/maduna-sanda-livia-11-saziv"
     },
     "1012-ivan-malenica": {
@@ -927,6 +1152,8 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "IX. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 21. srpnja 1985. u Šibeniku. Diplomirao na Pravnom fakultetu Sveučilišta u Splitu (VSS - diplomirani pravnik, doktor znanosti).",
       "odbori": [
         "Odbora za Ustav, Poslovnik i politički sustav",
         "Odbora za pravosuđe",
@@ -934,6 +1161,7 @@
         "Izvršnog odbora Nacionalne grupe Hrvatskoga sabora pri Interparlamentarnoj uniji",
         "Državnoodvjetničkog vijeća iz reda zastupnika"
       ],
+      "duznosti": "Predsjednik Odbora za Ustav, Poslovnik i politički sustav (od 16.05.2024.) Član Odbora za pravosuđe (od 24.05.2024.) Član Odbora za međuparlamentarnu suradnju (od 21.06.2024.) Član Izvršnog odbora Nacionalne grupe Hrvatskoga sabora pri Interparlamentarnoj uniji (od 21.06.2024.) Član Državnoodvjetničkog vijeća iz reda zastupnika (od 12.07.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/malenica-ivan-11-saziv"
     },
     "949-marin-mandaric": {
@@ -941,11 +1169,14 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "IV. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen 17. studenoga 1984. u Osijeku. Završio Ekonomski fakultet u Osijeku Sveučilišta Josipa Jurja Strossmayera u Osijeku (VSS - diplomirani ekonomist).",
       "odbori": [
         "Odbora za turizam",
         "Odbora za predstavke i pritužbe",
         "Odbora za lokalnu i područnu (regionalnu) samoupravu"
       ],
+      "duznosti": "Član Odbora za turizam (od 24.05.2024.) Član Odbora za predstavke i pritužbe (od 24.05.2024.) Član Odbora za lokalnu i područnu (regionalnu) samoupravu (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/mandaric-marin-11-saziv"
     },
     "1402-damir-mandic": {
@@ -953,12 +1184,15 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "VII. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 20. srpnja 1973. u Stuttgartu, Njemačka. Diplomirao na Katoličkom bogoslovnom fakultetu Sveučilišta u Zagrebu (VSS - diplomirani teolog).",
       "odbori": [
         "Odbora za Hrvate izvan Republike Hrvatske",
         "Odbora za zaštitu okoliša i prirode",
         "Odbora za lokalnu i područnu (regionalnu) samoupravu",
         "Nacionalnog vijeća za vode iz reda zastupnika"
       ],
+      "duznosti": "Član Odbora za Hrvate izvan Republike Hrvatske (od 24.05.2024.) Član Odbora za zaštitu okoliša i prirode (od 24.05.2024.) Član Odbora za lokalnu i područnu (regionalnu) samoupravu (od 24.05.2024.) Član Nacionalnog vijeća za vode iz reda zastupnika (od 12.07.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/mandic-damir-11-saziv"
     },
     "1407-ivana-markovic": {
@@ -966,10 +1200,13 @@
       "stranka": "Socijaldemokratska partija Hrvatske",
       "izborna": "X. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena je 6. ožujka 1979. u Supetru. Završila Ekonomski fakultet u Splitu (VSS - magistra ekonomije).",
       "odbori": [
         "Odbora za pomorstvo, promet i infrastrukturu",
         "Odbora za vanjsku politiku"
       ],
+      "duznosti": "Potpredsjednica Odbora za pomorstvo, promet i infrastrukturu (od 24.05.2024.) Članica Odbora za vanjsku politiku (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/markovic-ivana-11-saziv"
     },
     "1406-miroslav-markovic": {
@@ -977,9 +1214,12 @@
       "stranka": "Socijaldemokratska partija Hrvatske",
       "izborna": "III. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 6. veljače 1971. u Varaždinu. Završio Fakultet organizacije i informatike u Varaždinu Sveučilišta u Zagrebu (VSS - magistar informatike).",
       "odbori": [
         "Odbora za lokalnu i područnu (regionalnu) samoupravu"
       ],
+      "duznosti": "Član Odbora za lokalnu i područnu (regionalnu) samoupravu (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/markovic-miroslav-11-saziv"
     },
     "992-nikola-mazar": {
@@ -987,6 +1227,8 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "V. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 12. svibnja 1980. u Vukovaru. Završio Pravni fakultet Sveučilišta Josipa Jurja Strossmayera u Osijeku (VSS - magistar prava).",
       "odbori": [
         "Odbora za pravosuđe",
         "Odbora za Ustav, Poslovnik i politički sustav",
@@ -995,6 +1237,7 @@
         "Odbora za informiranje, informatizaciju i medije",
         "Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Organizacije za europsku sigurnost i suradnju (OESS)"
       ],
+      "duznosti": "Potpredsjednik Odbora za pravosuđe (od 24.05.2024.) Član Odbora za Ustav, Poslovnik i politički sustav (od 16.05.2024.) Član Odbora za zakonodavstvo (od 16.05.2024.) Član Odbora za međuparlamentarnu suradnju (od 24.05.2024.) Član Odbora za informiranje, informatizaciju i medije (od 24.05.2024.) Član Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Organizacije za europsku sigurnost i suradnju (OESS) (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/mazar-nikola-11-saziv"
     },
     "1492-ivica-mesic": {
@@ -1002,12 +1245,15 @@
       "stranka": "Domovinski pokret",
       "izborna": "II. izborna jedinica",
       "mandat": "12.07.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen 18. studenoga 1981. u Zagrebu. Diplomirao na Pravnom fakultetu Sveučilišta u Zagrebu (VSS - diplomirani pravnik; odvjetnik).",
       "odbori": [
         "Odbora za gospodarstvo",
         "Odbora za vanjsku politiku",
         "Odbora za zdravstvo i socijalnu politiku",
         "Mandatno-imunitetnog povjerenstva"
       ],
+      "duznosti": "Predsjednik Odbora za gospodarstvo (od 24.01.2025.) Član Odbora za vanjsku politiku (od 12.07.2024.) Član Odbora za zdravstvo i socijalnu politiku (od 12.07.2024.) Član Mandatno-imunitetnog povjerenstva (od 06.12.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/mesic-ivica-11-saziv"
     },
     "1403-dalibor-milan": {
@@ -1015,9 +1261,12 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "X. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 28. studenoga 1977. u Metkoviću. Diplomirao na Pravnom fakultetu Sveučilišta u Splitu (VSS - diplomirani pravnik).",
       "odbori": [
         "Odbora za predstavke i pritužbe"
       ],
+      "duznosti": "Član Odbora za predstavke i pritužbe (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/milan-dalibor-11-saziv"
     },
     "1408-mario-milinkovic": {
@@ -1025,12 +1274,15 @@
       "stranka": "Socijaldemokratska partija Hrvatske",
       "izborna": "V. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen 16. veljače 1987. u Vinkovcima. Završio preddiplomski stručni studij elektrotehnike - smjer Informatika na Fakultetu elektrotehnike, računarstva i informacijskih tehnologija Osijek Sveučilišta Josipa Jurja Strossmayera u Osijeku (VŠS - stručni prvostupnik (baccalaureus) inženjer elektrotehnike, bacc. ing. el.).",
       "odbori": [
         "Mandatno-imunitetnog povjerenstva",
         "Odbora za zaštitu okoliša i prirode",
         "Odbora za poljoprivredu",
         "Nacionalnog vijeća za vode iz reda zastupnika"
       ],
+      "duznosti": "Potpredsjednik Mandatno-imunitetnog povjerenstva (od 21.02.2025.) Član Odbora za zaštitu okoliša i prirode (od 24.05.2024.) Član Odbora za poljoprivredu (od 24.05.2024.) Član Nacionalnog vijeća za vode iz reda zastupnika (od 12.07.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/milinkovic-mario-11-saziv"
     },
     "1065-jelena-milos": {
@@ -1038,11 +1290,14 @@
       "stranka": "Možemo! – Politička platforma",
       "izborna": "II. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena 5. kolovoza 1986. u Sinju. Na Filozofskom fakultetu Sveučilišta u Zagrebu završila sveučilišne diplomske studije francuskog jezika i književnosti te anglistike (VSS - magistra edukacije francuskog jezika i književnosti; magistra engleskog jezika i književnosti).",
       "odbori": [
         "Odbora za europske poslove",
         "Odbora za vanjsku politiku",
         "Odbora za rad, mirovinski sustav i socijalno partnerstvo"
       ],
+      "duznosti": "Predsjednica Odbora za europske poslove (od 24.05.2024.) Članica Odbora za vanjsku politiku (od 24.10.2025.) Članica Odbora za rad, mirovinski sustav i socijalno partnerstvo (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/milos-jelena-11-saziv"
     },
     "1497-predrag-misic": {
@@ -1050,12 +1305,15 @@
       "stranka": "nezavisni zastupnici",
       "izborna": "IX. izborna jedinica",
       "mandat": "20.09.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen 3. veljače 1966. u Vinkovcima. Završio Srednjoškolski centar \"Edvard Kardelj\" u Vukovaru (SSS - kvalificirani tesar).",
       "odbori": [
         "Odbora za ljudska prava i prava nacionalnih manjina",
         "Odbora za obitelj, mlade i sport",
         "Odbora za ratne veterane",
         "Nacionalnog vijeća za praćenje provedbe Strategije sprječavanja korupcije"
       ],
+      "duznosti": "Član Odbora za ljudska prava i prava nacionalnih manjina (od 11.10.2024.) Član Odbora za obitelj, mlade i sport (od 21.02.2025.) Član Odbora za ratne veterane (od 11.10.2024.) Član Nacionalnog vijeća za praćenje provedbe Strategije sprječavanja korupcije (od 21.02.2025.)",
       "source": "https://www.sabor.hr/hr/zastupnici/misic-predrag-11-saziv"
     },
     "912-stipo-mlinaric": {
@@ -1063,10 +1321,13 @@
       "stranka": "Domovinski pokret",
       "izborna": "X. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 4. lipnja 1969. u Vukovaru. Završio Strukovnu školu \"Edvard Kardelj\" u Vukovaru (SSS - obućarski tehničar).",
       "odbori": [
         "Odbora za pomorstvo, promet i infrastrukturu",
         "Odbora za predstavke i pritužbe"
       ],
+      "duznosti": "Predsjednik Odbora za pomorstvo, promet i infrastrukturu (od 24.05.2024.) Član Odbora za predstavke i pritužbe (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/mlinaric-stipo-11-saziv"
     },
     "1520-matej-mostarac": {
@@ -1074,10 +1335,13 @@
       "stranka": "Socijaldemokratska partija Hrvatske",
       "izborna": "VII. izborna jedinica",
       "mandat": "06.06.2025.",
+      "gender": "m",
+      "zivotopis": "Rođen 18. studenoga 1987. u Rijeci. Završio Srednju školu za elektrotehniku i računalstvo u Rijeci (SSS - tehničar za elektroniku).",
       "odbori": [
         "Odbora za prostorno uređenje i graditeljstvo",
         "Mandatno-imunitetnog povjerenstva"
       ],
+      "duznosti": "Član Odbora za prostorno uređenje i graditeljstvo (od 20.02.2026.) Član Mandatno-imunitetnog povjerenstva (od 15.07.2025.)",
       "source": "https://www.sabor.hr/hr/zastupnici/mostarac-matej-11-saziv"
     },
     "911-anka-mrak-taritas": {
@@ -1085,11 +1349,14 @@
       "stranka": "Građansko-liberalni savez",
       "izborna": "II. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena je 24. studenoga 1959. u Bjelovaru. Završila Arhitektonski fakultet Sveučilišta u Zagrebu (VSS - diplomirana inženjerka arhitekture).",
       "odbori": [
         "Odbora za vanjsku politiku",
         "Odbora za turizam",
         "Odbora za obitelj, mlade i sport"
       ],
+      "duznosti": "Potpredsjednica Odbora za vanjsku politiku (od 29.05.2026.) Članica Odbora za turizam (od 24.05.2024.) Članica Odbora za obitelj, mlade i sport (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/mrak-taritas-anka-11-saziv"
     },
     "1365-dubravka-novak": {
@@ -1097,11 +1364,14 @@
       "stranka": "Možemo! – Politička platforma",
       "izborna": "III. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena 13. prosinca 1965. u Varaždinu. Završila Filozofski fakultet Sveučilišta u Zagrebu, Odsjek Čakovec (VŠS - nastavnica razredne nastave)",
       "odbori": [
         "Odbora za obitelj, mlade i sport",
         "Odbora za Hrvate izvan Republike Hrvatske",
         "Odbora za predstavke i pritužbe"
       ],
+      "duznosti": "Članica Odbora za obitelj, mlade i sport (od 24.05.2024.) Članica Odbora za Hrvate izvan Republike Hrvatske (od 24.05.2024.) Članica Odbora za predstavke i pritužbe (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/novak-dubravka-11-saziv"
     },
     "905-dalija-oreskovic": {
@@ -1109,11 +1379,14 @@
       "stranka": "Dalija Orešković i ljudi s imenom i prezimenom",
       "izborna": "I. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena je 18. lipnja 1977. u Zagrebu. Završila Pravni fakultet Sveučilišta u Zagrebu (VSS - diplomirana pravnica).",
       "odbori": [
         "Odbora za pravosuđe",
         "Nacionalnog vijeća za praćenje provedbe Strategije sprječavanja korupcije",
         "Državnog povjerenstva za procjenu šteta od prirodnih nepogoda iz reda zastupnika"
       ],
+      "duznosti": "Članica Odbora za pravosuđe (od 24.05.2024.) Članica Nacionalnog vijeća za praćenje provedbe Strategije sprječavanja korupcije (od 24.05.2024.) Članica Državnog povjerenstva za procjenu šteta od prirodnih nepogoda iz reda zastupnika (od 12.07.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/oreskovic-dalija-11-saziv"
     },
     "1404-josip-ostrogovic": {
@@ -1121,12 +1394,15 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "VIII. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 21. studenoga 1978. u Rijeci. Završio Ekonomski fakultet Sveučilišta u Rijeci (VSS - magistar ekonomije).",
       "odbori": [
         "Odbora za financije i državni proračun",
         "Odbora za prostorno uređenje i graditeljstvo",
         "Odbora za pomorstvo, promet i infrastrukturu",
         "Državnog povjerenstva za procjenu šteta od prirodnih nepogoda iz reda zastupnika"
       ],
+      "duznosti": "Član Odbora za financije i državni proračun (od 20.02.2026.) Član Odbora za prostorno uređenje i graditeljstvo (od 24.05.2024.) Član Odbora za pomorstvo, promet i infrastrukturu (od 24.05.2024.) Član Državnog povjerenstva za procjenu šteta od prirodnih nepogoda iz reda zastupnika (od 12.07.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/ostrogovic-josip-11-saziv"
     },
     "1366-dalibor-paus": {
@@ -1134,11 +1410,14 @@
       "stranka": "Istarski demokratski sabor",
       "izborna": "VIII. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 18.03.1973. u Puli. Završio Prirodoslovno-matematički fakultet Sveučilišta u Zagrebu (VSS - profesor matematike).",
       "odbori": [
         "Odbora za gospodarstvo",
         "Odbora za pomorstvo, promet i infrastrukturu",
         "Odbora za lokalnu i područnu (regionalnu) samoupravu"
       ],
+      "duznosti": "Član Odbora za gospodarstvo (od 21.06.2024.) Član Odbora za pomorstvo, promet i infrastrukturu (od 21.06.2024.) Član Odbora za lokalnu i područnu (regionalnu) samoupravu (od 21.06.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/paus-dalibor-11-saziv"
     },
     "966-marko-pavic": {
@@ -1146,12 +1425,15 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "VI. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 18. lipnja 1979. u Zagrebu. Diplomirao te magistrirao fiziku na Prirodoslovno-matematičkom fakultetu Sveučilišta u Zagrebu (VSS - diplomirani inženjer fizike, magistar prirodnih znanosti u polju geofizike).",
       "odbori": [
         "Odbora za obrazovanje, znanost i kulturu",
         "Odbora za regionalni razvoj i fondove Europske unije",
         "Odbora za međuparlamentarnu suradnju",
         "Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Vijeća Europe"
       ],
+      "duznosti": "Član Odbora za obrazovanje, znanost i kulturu (od 24.05.2024.) Član Odbora za regionalni razvoj i fondove Europske unije (od 24.05.2024.) Član Odbora za međuparlamentarnu suradnju (od 24.05.2024.) Voditelj Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Vijeća Europe (od 12.07.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/pavic-marko-11-saziv"
     },
     "939-ivan-penava": {
@@ -1159,7 +1441,10 @@
       "stranka": "Domovinski pokret",
       "izborna": "V. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 31. prosinca 1974. u Vukovaru. Završio Kineziološki fakultet Sveučilišta u Zagrebu (VSS - diplomirani kineziolog).",
       "odbori": [],
+      "duznosti": "potpredsjednik Sabora (od 16.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/penava-ivan-11-saziv"
     },
     "1375-loris-persuric": {
@@ -1167,7 +1452,10 @@
       "stranka": "Istarski demokratski sabor",
       "izborna": "VIII. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 3. ožujka 1980. u Puli. Završio Građevinski fakultet Sveučilišta u Rijeci (VSS - magistar inženjer građevinarstva).",
       "odbori": [],
+      "duznosti": null,
       "source": "https://www.sabor.hr/hr/zastupnici/persuric-loris-11-saziv"
     },
     "878-marijana-petir": {
@@ -1175,6 +1463,8 @@
       "stranka": "nezavisni zastupnici",
       "izborna": "VII. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena je 4. listopada 1975. u Kutini. Diplomirala na Prirodoslovno-matematičkom fakultetu Sveučilišta u Zagrebu i Katoličko-bogoslovnom fakultetu Sveučilišta u Zagrebu (VSS - profesorica biologije, teologinja). Pri Katoličko-bogoslovnom fakultetu Sveučilišta u Zagrebu završila poslijediplomski specijalistički studij pod nazivom \"Management neprofitnih organizacija i socijalno zagovaranje\" (sveučilišna specijalistica managementa neprofitnih organizacija i socijalnog zagovaranja - univ. spec. act. soc.).",
       "odbori": [
         "Odbora za poljoprivredu",
         "Odbora za europske poslove",
@@ -1182,6 +1472,7 @@
         "Odbora za međuparlamentarnu suradnju",
         "Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Vijeća Europe"
       ],
+      "duznosti": "Predsjednica Odbora za poljoprivredu (od 24.05.2024.) Članica Odbora za europske poslove (od 24.05.2024.) Članica Odbora za vanjsku politiku (od 24.05.2024.) Članica Odbora za međuparlamentarnu suradnju (od 24.05.2024.) Zamjenica člana Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Vijeća Europe (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/petir-marijana-11-saziv"
     },
     "931-bozo-petrov": {
@@ -1189,10 +1480,13 @@
       "stranka": "Most",
       "izborna": "X. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 16. listopada 1979. u Metkoviću. Diplomirao, magistrirao te doktorirao na Medicinskom fakultetu Sveučilišta u Mostaru, BiH (VSS - doktor medicine, psihijatar, doktorat u području biomedicine i zdravstva u polju kliničkih medicinskih znanosti, grana psihijatrija).",
       "odbori": [
         "Odbora za Ustav, Poslovnik i politički sustav",
         "Odbora za zdravstvo i socijalnu politiku"
       ],
+      "duznosti": "Član Odbora za Ustav, Poslovnik i politički sustav (od 24.05.2024.) Član Odbora za zdravstvo i socijalnu politiku (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/petrov-bozo-11-saziv"
     },
     "1409-boris-pilizota": {
@@ -1200,11 +1494,14 @@
       "stranka": "Socijaldemokratska partija Hrvatske",
       "izborna": "IV. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 4. veljače 1978. u Osijeku. Završio Ekonomski fakultet u Osijeku Sveučilišta Josipa Jurja Strossmayera u Osijeku (VSS - magistar u području društvenih znanosti, polje ekonomije).",
       "odbori": [
         "Odbora za gospodarstvo",
         "Odbora za financije i državni proračun",
         "Nadzornog odbora Hrvatske banke za obnovu i razvitak iz reda zastupnika"
       ],
+      "duznosti": "Potpredsjednik Odbora za gospodarstvo (od 27.06.2025.) Član Odbora za financije i državni proračun (od 24.05.2024.) Član Nadzornog odbora Hrvatske banke za obnovu i razvitak iz reda zastupnika (od 12.07.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/pilizota-boris-11-saziv"
     },
     "1374-drazenka-polovic": {
@@ -1212,6 +1509,8 @@
       "stranka": "Možemo! – Politička platforma",
       "izborna": "VII. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena 23. srpnja 1960. u Karlovcu. Završila Filozofski fakultet Sveučilišta u Zagrebu (VSS - profesorica filozofije i komparativne književnosti).",
       "odbori": [
         "Odbora za ratne veterane",
         "Odbora za međuparlamentarnu suradnju",
@@ -1219,6 +1518,7 @@
         "Izaslanstva Hrvatskoga sabora u Parlamentarnoj dimenziji Srednjoeuropske inicijative",
         "Savjeta za robne zalihe iz reda zastupnika"
       ],
+      "duznosti": "Članica Odbora za ratne veterane (od 24.05.2024.) Članica Odbora za međuparlamentarnu suradnju (od 24.05.2024.) Članica Odbora za ravnopravnost spolova (od 24.05.2024.) Članica Izaslanstva Hrvatskoga sabora u Parlamentarnoj dimenziji Srednjoeuropske inicijative (od 24.05.2024.) Članica Savjeta za robne zalihe iz reda zastupnika (od 15.12.2025.)",
       "source": "https://www.sabor.hr/hr/zastupnici/polovic-drazenka-11-saziv"
     },
     "948-marijana-puljak": {
@@ -1226,6 +1526,8 @@
       "stranka": "Centar",
       "izborna": "I. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena je 19. kolovoza 1971. u Splitu. Završila Fakultet elektrotehnike, strojarstva i brodogradnje Sveučilišta u Splitu (VSS - diplomirana inženjerka elektrotehnike).",
       "odbori": [
         "Odbora za financije i državni proračun",
         "Odbora za gospodarstvo",
@@ -1233,6 +1535,7 @@
         "Odbora za međuparlamentarnu suradnju",
         "Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Vijeća Europe"
       ],
+      "duznosti": "Članica Odbora za financije i državni proračun (od 24.05.2024.) Članica Odbora za gospodarstvo (od 29.05.2026.) Članica Odbora za obrazovanje, znanost i kulturu (od 24.05.2024.) Članica Odbora za međuparlamentarnu suradnju (od 24.05.2024.) Zamjenica člana Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Vijeća Europe (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/puljak-marijana-11-saziv"
     },
     "1413-dario-pusic": {
@@ -1240,11 +1543,14 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "XI. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 22. srpnja 1985. u Mostaru (Bosna i Hercegovina). Završio Fakultet za tehničke studije Sveučilišta u Travniku, Bosna i Hercegovina (VŠS - prvostupnik inženjer građevine).",
       "odbori": [
         "Odbora za vanjsku politiku",
         "Odbora za Hrvate izvan Republike Hrvatske",
         "Odbora za regionalni razvoj i fondove Europske unije"
       ],
+      "duznosti": "Član Odbora za vanjsku politiku (od 15.11.2024.) Član Odbora za Hrvate izvan Republike Hrvatske (od 24.05.2024.) Član Odbora za regionalni razvoj i fondove Europske unije (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/pusic-dario-11-saziv"
     },
     "1410-ana-puz-kukuljan": {
@@ -1252,6 +1558,8 @@
       "stranka": "Socijaldemokratska partija Hrvatske",
       "izborna": "VIII. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena 20. siječnja 1985. u Rijeci. Završila Fakultet za menadžment u turizmu i ugostiteljstvu u Opatiji, Sveučilišta u Rijeci (VSS - univ.mag.)",
       "odbori": [
         "Odbora za turizam",
         "Odbora za pomorstvo, promet i infrastrukturu",
@@ -1259,6 +1567,7 @@
         "Odbora za međuparlamentarnu suradnju",
         "Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Unije za Mediteran"
       ],
+      "duznosti": "Članica Odbora za turizam (od 24.05.2024.) Članica Odbora za pomorstvo, promet i infrastrukturu (od 24.05.2024.) Članica Odbora za predstavke i pritužbe (od 24.05.2024.) Članica Odbora za međuparlamentarnu suradnju (od 21.06.2024.) Članica Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Unije za Mediteran (od 21.06.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/puz-kukuljan-ana-11-saziv"
     },
     "887-ivan-radic": {
@@ -1266,9 +1575,12 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "IV. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 15. lipnja 1987. u Osijeku. Završio Ekonomski fakultet Osijek Sveučilišta Josipa Jurja Strossmayera u Osijeku (VSS - magistar ekonomije, mag. oec.).",
       "odbori": [
         "Odbora za predstavke i pritužbe"
       ],
+      "duznosti": "Član Odbora za predstavke i pritužbe (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/radic-ivan-11-saziv"
     },
     "864-furio-radin": {
@@ -1276,11 +1588,14 @@
       "stranka": "nezavisni zastupnici",
       "izborna": "XII. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 1. lipnja 1950. u Puli. Završio Filozofski fakultet Sveučilišta u Zagrebu (VSS - diplomirani psiholog; doktorat u polju društvenih znanosti - polje psihologije).",
       "odbori": [
         "Odbora za ljudska prava i prava nacionalnih manjina",
         "Odbora za međuparlamentarnu suradnju",
         "Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Organizacije za europsku sigurnost i suradnju (OESS)"
       ],
+      "duznosti": "potpredsjednik Sabora (od 16.05.2024.) Član Odbora za ljudska prava i prava nacionalnih manjina (od 21.06.2024.) Član Odbora za međuparlamentarnu suradnju (od 24.05.2024.) Član Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Organizacije za europsku sigurnost i suradnju (OESS) (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/radin-furio-11-saziv"
     },
     "1380-dusica-radojcic": {
@@ -1288,12 +1603,15 @@
       "stranka": "Možemo! – Politička platforma",
       "izborna": "VIII. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena 19. siječnja 1963. u Puli. Završila Fakultet političkih znanosti Sveučilišta u Zagrebu (VSS - diplomirana politologinja).",
       "odbori": [
         "Odbora za zaštitu okoliša i prirode",
         "Odbora za zakonodavstvo",
         "Odbora za turizam",
         "Državnog povjerenstva za procjenu šteta od prirodnih nepogoda iz reda zastupnika"
       ],
+      "duznosti": "Predsjednica Odbora za zaštitu okoliša i prirode (od 24.05.2024.) Članica Odbora za zakonodavstvo (od 24.05.2024.) Članica Odbora za turizam (od 24.05.2024.) Članica Državnog povjerenstva za procjenu šteta od prirodnih nepogoda iz reda zastupnika (od 12.07.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/radojcic-dusica-11-saziv"
     },
     "961-sanja-radolovic": {
@@ -1301,10 +1619,13 @@
       "stranka": "Socijaldemokratska partija Hrvatske",
       "izborna": "VIII. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena je 7. studenoga 1987. u Puli. Završila Fakultet ekonomije i turizma Sveučilišta Jurja Dobrile u Puli (VSS - magistra ekonomije; doktorat u području društvenih znanosti - polje ekonomije).",
       "odbori": [
         "Odbora za turizam",
         "Odbora za regionalni razvoj i fondove Europske unije"
       ],
+      "duznosti": "Predsjednica Odbora za turizam (od 24.05.2024.) Članica Odbora za regionalni razvoj i fondove Europske unije (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/radolovic-sanja-11-saziv"
     },
     "994-ursa-raukar-gamulin": {
@@ -1312,12 +1633,15 @@
       "stranka": "Možemo! – Politička platforma",
       "izborna": "VI. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena u Zagrebu 18. svibnja 1960. godine. Diplomirala na Akademiji dramskih umjetnosti Sveučilišta u Zagrebu (VSS - diplomirana glumica).",
       "odbori": [
         "Odbora za informiranje, informatizaciju i medije",
         "Odbora za pravosuđe",
         "Odbora za međuparlamentarnu suradnju",
         "Izvršnog odbora Nacionalne grupe Hrvatskoga sabora pri Interparlamentarnoj uniji"
       ],
+      "duznosti": "Potpredsjednica Odbora za informiranje, informatizaciju i medije (od 24.05.2024.) Članica Odbora za pravosuđe (od 24.05.2024.) Članica Odbora za međuparlamentarnu suradnju (od 21.06.2024.) Članica Izvršnog odbora Nacionalne grupe Hrvatskoga sabora pri Interparlamentarnoj uniji (od 21.06.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/raukar-gamulin-ursa-11-saziv"
     },
     "984-zeljko-reiner": {
@@ -1325,11 +1649,14 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "I. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 28. svibnja 1953. u Zagrebu. Završio Medicinski fakultet Sveučilišta u Zagrebu (VSS - doktor medicine/liječnik, specijalist interne medicine, akademik, sveučilišni nastavnik).",
       "odbori": [
         "Odbora za vanjsku politiku",
         "Odbora za međuparlamentarnu suradnju",
         "Izvršnog odbora Nacionalne grupe Hrvatskoga sabora pri Interparlamentarnoj uniji"
       ],
+      "duznosti": "potpredsjednik Sabora (od 16.05.2024.) Član Odbora za vanjsku politiku (od 24.05.2024.) Član Odbora za međuparlamentarnu suradnju (od 21.06.2024.) Član Izvršnog odbora Nacionalne grupe Hrvatskoga sabora pri Interparlamentarnoj uniji (od 21.06.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/reiner-zeljko-11-saziv"
     },
     "1411-tonci-restovic": {
@@ -1337,12 +1664,15 @@
       "stranka": "Socijaldemokratska partija Hrvatske",
       "izborna": "IX. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 13. prosinca 1976. u Šibeniku. Diplomirao na Pravnom fakultetu Sveučilišta u Zagrebu (VSS - diplomirani pravnik).",
       "odbori": [
         "Odbora za Ustav, Poslovnik i politički sustav",
         "Odbora za zakonodavstvo",
         "Odbora za pravosuđe",
         "Državnoodvjetničkog vijeća iz reda zastupnika"
       ],
+      "duznosti": "Član Odbora za Ustav, Poslovnik i politički sustav (od 24.05.2024.) Član Odbora za zakonodavstvo (od 16.05.2024.) Član Odbora za pravosuđe (od 24.05.2024.) Član Državnoodvjetničkog vijeća iz reda zastupnika (od 12.07.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/restovic-tonci-11-saziv"
     },
     "1490-ivana-ribaric-majanovic": {
@@ -1350,10 +1680,13 @@
       "stranka": "Socijaldemokratska partija Hrvatske",
       "izborna": "V. izborna jedinica",
       "mandat": "21.06.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena je 26. studenoga 1984. u Novoj Gradiški. Završila Šumarski fakultet Sveučilišta u Zagrebu (VSS - diplomirana inženjerka šumarstva).",
       "odbori": [
         "Odbora za poljoprivredu",
         "Odbora za izbor, imenovanja i upravne poslove"
       ],
+      "duznosti": "Članica Odbora za poljoprivredu (od 12.07.2024.) Članica Odbora za izbor, imenovanja i upravne poslove (od 12.07.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/ribaric-majanovic-ivana-11-saziv"
     },
     "1494-anelka-salopek": {
@@ -1361,12 +1694,15 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "VII. izborna jedinica",
       "mandat": "12.07.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena je 25. siječnja 1972. u Ogulinu. Diplomirala na Učiteljskom fakultetu Sveučilišta u Zagrebu (VSS – magistra primarnog obrazovanja, mag. prim. educ.).",
       "odbori": [
         "Odbora za rad, mirovinski sustav i socijalno partnerstvo",
         "Odbora za obrazovanje, znanost i kulturu",
         "Odbora za informiranje, informatizaciju i medije",
         "Odbora za ravnopravnost spolova"
       ],
+      "duznosti": "Članica Odbora za rad, mirovinski sustav i socijalno partnerstvo (od 06.06.2025.) Članica Odbora za obrazovanje, znanost i kulturu (od 21.11.2025.) Članica Odbora za informiranje, informatizaciju i medije (od 11.10.2024.) Članica Odbora za ravnopravnost spolova (od 11.10.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/salopek-andelka-11-saziv"
     },
     "925-ante-sanader": {
@@ -1374,12 +1710,15 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "IX. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 17. svibnja 1960. u Dugobabama, Klis. Završio Fakultet elektrotehnike, strojarstva i brodogradnje Sveučilišta u Splitu (VSS - diplomirani inženjer elektrotehnike).",
       "odbori": [
         "Odbora za Ustav, Poslovnik i politički sustav",
         "Odbora za unutarnju politiku i nacionalnu sigurnost",
         "Odbora za zaštitu okoliša i prirode",
         "Savjeta za robne zalihe iz reda zastupnika"
       ],
+      "duznosti": "Član Odbora za Ustav, Poslovnik i politički sustav (od 16.05.2024.) Član Odbora za unutarnju politiku i nacionalnu sigurnost (od 24.05.2024.) Član Odbora za zaštitu okoliša i prirode (od 12.07.2024.) Član Savjeta za robne zalihe iz reda zastupnika (od 12.07.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/sanader-ante-11-saziv"
     },
     "846-marija-selak-raspudic": {
@@ -1387,12 +1726,15 @@
       "stranka": "nezavisni zastupnici",
       "izborna": "I. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena je 14. ožujka 1982. u Zagrebu. Završila studij filozofije i hrvatskog jezika i književnosti na Filozofskom fakultetu Sveučilišta u Zagrebu gdje je završila i poslijediplomski doktorski studij iz filozofije (VSS - profesorica filozofije, hrvatskog jezika i književnosti; doktorat u području humanističkih znanosti - polje filozofije; sveučilišna nastavnica).",
       "odbori": [
         "Odbora za europske poslove",
         "Odbora za rad, mirovinski sustav i socijalno partnerstvo",
         "Odbora za prostorno uređenje i graditeljstvo",
         "Odbora za zaštitu okoliša i prirode"
       ],
+      "duznosti": "Članica Odbora za europske poslove (od 24.05.2024.) Članica Odbora za rad, mirovinski sustav i socijalno partnerstvo (od 24.05.2024.) Članica Odbora za prostorno uređenje i graditeljstvo (od 15.12.2025.) Članica Odbora za zaštitu okoliša i prirode (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/selak-raspudic-marija-11-saziv"
     },
     "936-darko-sobota": {
@@ -1400,12 +1742,15 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "IV. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 3. siječnja 1965. u Kalinovcu. Završio Poljoprivredni institut za usmjereno obrazovanje i znanstveni rad Križevci (VŠS - inženjer poljoprivrede).",
       "odbori": [
         "Odbora za europske poslove",
         "Odbora za izbor, imenovanja i upravne poslove",
         "Odbora za međuparlamentarnu suradnju",
         "Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini SEECP-a"
       ],
+      "duznosti": "Član Odbora za europske poslove (od 24.05.2024.) Član Odbora za izbor, imenovanja i upravne poslove (od 16.05.2024.) Član Odbora za međuparlamentarnu suradnju (od 21.06.2024.) Član Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini SEECP-a (od 21.06.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/sobota-darko-11-saziv"
     },
     "900-stipan-saslin": {
@@ -1413,12 +1758,15 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "IV. izborna jedinica",
       "mandat": "23.05.2025.",
+      "gender": "m",
+      "zivotopis": "Rođen je 18. veljače 1964. u Dražu. Završio Visoku školu za sigurnost na radu u Zagrebu (VSS - diplomirani inženjer sigurnosti na radu).",
       "odbori": [
         "Odbora za obranu",
         "Odbora za gospodarstvo",
         "Odbora za poljoprivredu",
         "Državnog povjerenstva za procjenu šteta od prirodnih nepogoda iz reda zastupnika"
       ],
+      "duznosti": "Član Odbora za obranu (od 06.06.2025.) Član Odbora za gospodarstvo (od 20.02.2026.) Član Odbora za poljoprivredu (od 06.06.2025.) Predsjednik Državnog povjerenstva za procjenu šteta od prirodnih nepogoda iz reda zastupnika (od 26.09.2025.)",
       "source": "https://www.sabor.hr/hr/zastupnici/saslin-stipan-11-saziv"
     },
     "1498-petar-simic": {
@@ -1426,7 +1774,10 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "V. izborna jedinica",
       "mandat": "20.09.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 7. travnja 1964. u Vinkovcima. Završio Veleučilište u Požegi (inženjer poljoprivrede, bacc. ing. agr.).",
       "odbori": [],
+      "duznosti": null,
       "source": "https://www.sabor.hr/hr/zastupnici/simic-petar-11-saziv"
     },
     "851-anja-simpraga": {
@@ -1434,10 +1785,13 @@
       "stranka": "Samostalna demokratska srpska stranka",
       "izborna": "XII. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena je 23. srpnja 1987. u Kninu. Završila Agronomski fakultet Sveučilišta u Zagrebu (VSS - magistra inženjerka agronomije).",
       "odbori": [
         "Odbora za regionalni razvoj i fondove Europske unije",
         "Odbora za predstavke i pritužbe"
       ],
+      "duznosti": "Članica Odbora za regionalni razvoj i fondove Europske unije (od 24.05.2024.) Članica Odbora za predstavke i pritužbe (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/simpraga-anja-11-saziv"
     },
     "1415-maksimilijan-simrak": {
@@ -1445,6 +1799,8 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "I. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 23. kolovoza 1994. u Zagrebu. Završio Pravni fakultet Sveučilišta u Zagrebu (VSS - magistar prava).",
       "odbori": [
         "Odbora za zakonodavstvo",
         "Odbora za pravosuđe",
@@ -1453,6 +1809,7 @@
         "Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Unije za Mediteran",
         "Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini SEECP-a"
       ],
+      "duznosti": "Član Odbora za zakonodavstvo (od 16.05.2024.) Član Odbora za pravosuđe (od 24.05.2024.) Član Odbora za međuparlamentarnu suradnju (od 24.05.2024.) Član Mandatno-imunitetnog povjerenstva (od 12.07.2024.) Član Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Unije za Mediteran (od 24.05.2024.) Član Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini SEECP-a (od 21.06.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/simrak-maksimilijan-11-saziv"
     },
     "848-predrag-stromar": {
@@ -1460,10 +1817,13 @@
       "stranka": "Hrvatska narodna stranka – liberalni demokrati",
       "izborna": "III. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 13. siječnja 1969. u Varaždinu. Završio Ekonomski fakultet Sveučilišta u Zagrebu (VSS - diplomirani ekonomist).",
       "odbori": [
         "Odbora za prostorno uređenje i graditeljstvo",
         "Nadzornog odbora Hrvatske banke za obnovu i razvitak iz reda zastupnika"
       ],
+      "duznosti": "Predsjednik Odbora za prostorno uređenje i graditeljstvo (od 24.05.2024.) Član Nadzornog odbora Hrvatske banke za obnovu i razvitak iz reda zastupnika (od 12.07.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/stromar-predrag-11-saziv"
     },
     "1418-tomislav-suta": {
@@ -1471,7 +1831,10 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "X. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 7. rujna 1982. u Splitu. Završio Ekonomski fakultet Sveučilišta u Splitu (VSS - diplomirani ekonomist).",
       "odbori": [],
+      "duznosti": null,
       "source": "https://www.sabor.hr/hr/zastupnici/suta-tomislav-11-saziv"
     },
     "842-miro-totgergeli": {
@@ -1479,6 +1842,8 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "II. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 20. studenoga 1971. u Garešnici. Diplomirao te završio sveučilišni poslijediplomski znanstveni studij elektrotehnike na Fakultetu elektrotehnike i računarstva Sveučilišta u Zagrebu (VSS - diplomirani inženjer elektrotehnike, magisterij tehničkih znanosti u polju elektrotehnike).",
       "odbori": [
         "Odbora za financije i državni proračun",
         "Odbora za ljudska prava i prava nacionalnih manjina",
@@ -1486,6 +1851,7 @@
         "Odbora za izbor, imenovanja i upravne poslove",
         "Nadzornog odbora Financijske agencije iz reda zastupnika"
       ],
+      "duznosti": "Potpredsjednik Odbora za financije i državni proračun (od 24.05.2024.) Član Odbora za ljudska prava i prava nacionalnih manjina (od 21.06.2024.) Član Odbora za prostorno uređenje i graditeljstvo (od 24.05.2024.) Član Odbora za izbor, imenovanja i upravne poslove (od 16.05.2024.) Član Nadzornog odbora Financijske agencije iz reda zastupnika (od 12.07.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/totgergeli-miro-11-saziv"
     },
     "1495-zeljko-turk": {
@@ -1493,10 +1859,13 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "VI. izborna jedinica",
       "mandat": "12.07.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen 25. ožujka 1962. u Zagrebu. Diplomirao na Ekonomskom fakultetu Sveučilišta u Zagrebu (VSS – diplomirani ekonomist).",
       "odbori": [
         "Odbora za pomorstvo, promet i infrastrukturu",
         "Odbora za lokalnu i područnu (regionalnu) samoupravu"
       ],
+      "duznosti": "Član Odbora za pomorstvo, promet i infrastrukturu (od 20.09.2024.) Član Odbora za lokalnu i područnu (regionalnu) samoupravu (od 11.10.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/turk-zeljko-11-saziv"
     },
     "930-martina-vlasic-iljkic": {
@@ -1504,10 +1873,13 @@
       "stranka": "Socijaldemokratska partija Hrvatske",
       "izborna": "V. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena je 8. svibnja 1982. u Požegi. Završila studij socijalnog rada na Pravnom fakultetu Sveučilišta u Zagrebu (VSS - diplomirana socijalna radnica).",
       "odbori": [
         "Odbora za ratne veterane",
         "Odbora za zdravstvo i socijalnu politiku"
       ],
+      "duznosti": "Potpredsjednica Odbora za ratne veterane (od 24.05.2024.) Članica Odbora za zdravstvo i socijalnu politiku (od 15.07.2025.)",
       "source": "https://www.sabor.hr/hr/zastupnici/vlasic-iljkic-martina-11-saziv"
     },
     "1419-jasna-vojnic": {
@@ -1515,6 +1887,8 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "XI. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena je 31. siječnja 1979. u Subotici, Republika Srbija. Završila Filozofski fakultet Sveučilišta u Zagrebu (VSS - profesorica psihologije).",
       "odbori": [
         "Odbora za europske poslove",
         "Odbora za vanjsku politiku",
@@ -1522,6 +1896,7 @@
         "Odbora za međuparlamentarnu suradnju",
         "Izvršnog odbora Nacionalne grupe Hrvatskoga sabora pri Interparlamentarnoj uniji"
       ],
+      "duznosti": "Članica Odbora za europske poslove (od 24.05.2024.) Članica Odbora za vanjsku politiku (od 12.07.2024.) Članica Odbora za Hrvate izvan Republike Hrvatske (od 24.05.2024.) Članica Odbora za međuparlamentarnu suradnju (od 21.06.2024.) Članica Izvršnog odbora Nacionalne grupe Hrvatskoga sabora pri Interparlamentarnoj uniji (od 21.06.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/vojnic-jasna-11-saziv"
     },
     "983-vesna-vucemilovic": {
@@ -1529,11 +1904,14 @@
       "stranka": "nezavisni zastupnici",
       "izborna": "IV. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena je 20. rujna 1967. u Osijeku. Završila poslijediplomski interdisciplinarni sveučilišni studij \"Europski studiji\" na Doktorskoj školi društveno-humanističkih znanosti Sveučilišta Josipa Jurja Strossmayera u Osijeku (VSS - doktorat u području društvenih znanosti - polje ekonomije).",
       "odbori": [
         "Odbora za obitelj, mlade i sport",
         "Odbora za europske poslove",
         "Odbora za gospodarstvo"
       ],
+      "duznosti": "Predsjednica Odbora za obitelj, mlade i sport (od 24.05.2024.) Članica Odbora za europske poslove (od 06.06.2025.) Članica Odbora za gospodarstvo (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/vucemilovic-vesna-11-saziv"
     },
     "1414-mate-vukusic": {
@@ -1541,11 +1919,14 @@
       "stranka": "Socijaldemokratska partija Hrvatske",
       "izborna": "IV. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen 16. veljače 1967. u Sremskoj Mitrovici, Republika Srbija. Završio Elektrotehničku školu u Šidu (Republika Srbija) i Poljoprivrednu školu Zagreb (SSS - elektrotehničar; poljoprivredni tehničar - fitofarmaceut).",
       "odbori": [
         "Odbora za financije i državni proračun",
         "Odbora za poljoprivredu",
         "Državnog povjerenstva za procjenu šteta od prirodnih nepogoda iz reda zastupnika"
       ],
+      "duznosti": "Član Odbora za financije i državni proračun (od 24.05.2024.) Član Odbora za poljoprivredu (od 24.05.2024.) Član Državnog povjerenstva za procjenu šteta od prirodnih nepogoda iz reda zastupnika (od 12.07.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/vukusic-mate-11-saziv"
     },
     "1521-tomislav-zadro": {
@@ -1553,9 +1934,12 @@
       "stranka": "nezavisni zastupnici",
       "izborna": "V. izborna jedinica",
       "mandat": "06.06.2025.",
+      "gender": "m",
+      "zivotopis": "Rođen 6. prosinca 1972. u Vukovaru. Završio Centar za odgoj i usmjereno obrazovanje (COUO) \"Edvard Kardelj\", RJ Borovo (SSS - KV obućarski radnik).",
       "odbori": [
         "Odbora za ratne veterane"
       ],
+      "duznosti": "Član Odbora za ratne veterane (od 15.07.2025.)",
       "source": "https://www.sabor.hr/hr/zastupnici/zadro-tomislav-11-saziv"
     },
     "865-hrvoje-zekanovic": {
@@ -1563,11 +1947,14 @@
       "stranka": "Hrvatska demokršćanska stranka",
       "izborna": "IX. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 22. travnja 1974. u Šibeniku. Završio Prirodoslovno-matematički fakultet u Zagrebu (VSS - profesor geografije).",
       "odbori": [
         "Odbora za međuparlamentarnu suradnju",
         "Mandatno-imunitetnog povjerenstva",
         "Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Mediterana"
       ],
+      "duznosti": "Potpredsjednik Odbora za međuparlamentarnu suradnju (od 24.05.2024.) Član Mandatno-imunitetnog povjerenstva (od 16.05.2024.) Član Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Mediterana (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/zekanovic-hrvoje-11-saziv"
     },
     "1522-ivo-zelic": {
@@ -1575,10 +1962,13 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "IV. izborna jedinica",
       "mandat": "23.05.2025.",
+      "gender": "m",
+      "zivotopis": "Rođen 2. siječnja 1960. u mjestu Brda, Bosna i Hercegovina. Završio Fakultet agrobiotehničkih znanosti Osijek Sveučilišta Josipa Jurja Strossmayera u Osijeku (VSS - diplomirani inženjer poljoprivrede - ratar).",
       "odbori": [
         "Odbora za poljoprivredu",
         "Odbora za lokalnu i područnu (regionalnu) samoupravu"
       ],
+      "duznosti": "Član Odbora za poljoprivredu (od 06.06.2025.) Član Odbora za lokalnu i područnu (regionalnu) samoupravu (od 06.06.2025.)",
       "source": "https://www.sabor.hr/hr/zastupnici/zelic-ivo-11-saziv"
     },
     "1240-mihael-zmajlovic": {
@@ -1586,6 +1976,8 @@
       "stranka": "Socijaldemokratska partija Hrvatske",
       "izborna": "VI. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 19. siječnja 1978. u Zagrebu. Završio Ekonomski fakultet u Zagrebu (VSS - diplomirani ekonomist).",
       "odbori": [
         "Odbora za Ustav, Poslovnik i politički sustav",
         "Odbora za ljudska prava i prava nacionalnih manjina",
@@ -1593,6 +1985,7 @@
         "Odbora za međuparlamentarnu suradnju",
         "Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Organizacije za europsku sigurnost i suradnju (OESS)"
       ],
+      "duznosti": "Član Odbora za Ustav, Poslovnik i politički sustav (od 24.10.2025.) Član Odbora za ljudska prava i prava nacionalnih manjina (od 21.06.2024.) Član Odbora za zaštitu okoliša i prirode (od 24.05.2024.) Član Odbora za međuparlamentarnu suradnju (od 24.05.2024.) Voditelj Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Organizacije za europsku sigurnost i suradnju (OESS) (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/zmajlovic-mihael-11-saziv"
     },
     "1493-marin-zivkovic": {
@@ -1600,10 +1993,13 @@
       "stranka": "Možemo! – Politička platforma",
       "izborna": "VI. izborna jedinica",
       "mandat": "12.07.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 18. kolovoza 1987. u Zagrebu. Završio Fakultet političkih znanosti Sveučilišta u Zagrebu (VSS - magistar politologije).",
       "odbori": [
         "Odbora za obranu",
         "Mandatno-imunitetnog povjerenstva"
       ],
+      "duznosti": "Član Odbora za obranu (od 12.07.2024.) Član Mandatno-imunitetnog povjerenstva (od 24.10.2025.)",
       "source": "https://www.sabor.hr/hr/zastupnici/zivkovic-marin-11-saziv"
     },
     "862-nikola-grmoja": {
@@ -1611,6 +2007,8 @@
       "stranka": "Most",
       "izborna": "VI. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 28. srpnja 1981. u Metkoviću. Završio Filozofski fakultet u Zadru (VSS - profesor povijesti i sociologije).",
       "odbori": [
         "Odbora za pravosuđe",
         "Odbora za zakonodavstvo",
@@ -1618,6 +2016,7 @@
         "Mandatno-imunitetnog povjerenstva",
         "Nacionalnog vijeća za praćenje provedbe Strategije sprječavanja korupcije"
       ],
+      "duznosti": "Predsjednik Odbora za pravosuđe (od 24.05.2024.) Član Odbora za zakonodavstvo (od 24.05.2024.) Član Odbora za ravnopravnost spolova (od 24.05.2024.) Član Mandatno-imunitetnog povjerenstva (od 24.05.2024.) Član Nacionalnog vijeća za praćenje provedbe Strategije sprječavanja korupcije (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/grmoja-nikola-11-saziv"
     },
     "843-nino-raspudic": {
@@ -1625,11 +2024,14 @@
       "stranka": "nezavisni zastupnici",
       "izborna": "II. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 3. studenoga 1975. u Mostaru (Bosna i Hercegovina). Na Filozofskom fakultetu Sveučilišta u Zagrebu diplomirao, magistrirao te doktorirao (VSS - profesor filozofije, talijanskog jezika i književnosti; doktorat u području humanističkih znanosti - polje filologije; sveučilišni nastavnik).",
       "odbori": [
         "Odbora za Hrvate izvan Republike Hrvatske",
         "Odbora za predstavke i pritužbe",
         "Odbora za informiranje, informatizaciju i medije"
       ],
+      "duznosti": "Član Odbora za Hrvate izvan Republike Hrvatske (od 24.05.2024.) Član Odbora za predstavke i pritužbe (od 24.05.2024.) Član Odbora za informiranje, informatizaciju i medije (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/raspudic-nino-11-saziv"
     },
     "854-miro-bulj": {
@@ -1637,10 +2039,13 @@
       "stranka": "Most",
       "izborna": "IX. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen 11. ožujka 1972. u Sinju. Završio srednju strukovnu školu u Sinju (SSS - tekstilni radnik; umirovljeni časnik Hrvatske vojske).",
       "odbori": [
         "Odbora za lokalnu i područnu (regionalnu) samoupravu",
         "Odbora za ratne veterane"
       ],
+      "duznosti": "Predsjednik Odbora za lokalnu i područnu (regionalnu) samoupravu (od 24.05.2024.) Član Odbora za ratne veterane (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/bulj-miro-11-saziv"
     },
     "866-marin-miletic": {
@@ -1648,6 +2053,8 @@
       "stranka": "Most",
       "izborna": "VIII. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 18. rujna 1979. u Rijeci. Završio Filozofsko-teološki studij na Katoličkom bogoslovnom fakultetu Sveučilišta u Zagrebu, Područni studij u Rijeci (VSS - diplomirani teolog).",
       "odbori": [
         "Odbora za obitelj, mlade i sport",
         "Odbora za europske poslove",
@@ -1655,6 +2062,7 @@
         "Odbora za zaštitu okoliša i prirode",
         "Odbora za obrazovanje, znanost i kulturu"
       ],
+      "duznosti": "Potpredsjednik Odbora za obitelj, mlade i sport (od 24.05.2024.) Član Odbora za europske poslove (od 24.05.2024.) Član Odbora za Hrvate izvan Republike Hrvatske (od 24.05.2024.) Član Odbora za zaštitu okoliša i prirode (od 20.09.2024.) Član Odbora za obrazovanje, znanost i kulturu (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/miletic-marin-11-saziv"
     },
     "1397-branko-kolaric": {
@@ -1662,10 +2070,13 @@
       "stranka": "Socijaldemokratska partija Hrvatske",
       "izborna": "I. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 24. kolovoza 1973. u Zagrebu. Završio Medicinski fakultet Sveučilišta u Zagrebu (VSS - doktor medicine, liječnik, specijalist epidemiologije - doktorat u području biomedicine i zdravstva, polju javno zdravstvo i zdravstvena zaštita).",
       "odbori": [
         "Odbora za zakonodavstvo",
         "Odbora za zdravstvo i socijalnu politiku"
       ],
+      "duznosti": "Potpredsjednik Odbora za zakonodavstvo (od 24.05.2024.) Član Odbora za zdravstvo i socijalnu politiku (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/kolaric-branko-11-saziv"
     },
     "875-dario-zurovec": {
@@ -1673,10 +2084,13 @@
       "stranka": "Dario Zurovec - Nezavisna lista",
       "izborna": "VI. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 25. studenoga 1986. u Zagrebu. Diplomirao na Fakultetu elektrotehnike i računarstva Sveučilišta u Zagrebu. Na Ekonomskom fakultetu u Zagrebu završio sveučilišni specijalistički studij ekonomije (VSS - magistar elektrotehnike i informacijskih tehnologija, sveučilišni specijalist ekonomije).",
       "odbori": [
         "Odbora za pomorstvo, promet i infrastrukturu",
         "Odbora za međuparlamentarnu suradnju"
       ],
+      "duznosti": "Član Odbora za pomorstvo, promet i infrastrukturu (od 24.05.2024.) Član Odbora za međuparlamentarnu suradnju (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/zurovec-dario-11-saziv"
     },
     "947-marijan-pavlicek": {
@@ -1684,7 +2098,10 @@
       "stranka": "Hrvatski suverenisti",
       "izborna": "V. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 4. prosinca 1980. u Vukovaru. Završio Filozofski fakultet Sveučilišta u Zagrebu (VSS - profesor njemačkog jezika i povijesti).",
       "odbori": [],
+      "duznosti": null,
       "source": "https://www.sabor.hr/hr/zastupnici/pavlicek-marijan-11-saziv"
     },
     "945-milorad-pupovac": {
@@ -1692,6 +2109,8 @@
       "stranka": "Samostalna demokratska srpska stranka",
       "izborna": "XII. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 5. studenoga 1955. u Ceranju Donjem, Benkovac. Na Filozofskom fakultetu Sveučilišta u Zagrebu završio studij opće lingvistike i filozofije. Magistrirao na Odsjeku za filozofiju Filozofskog fakulteta Sveučilišta u Ljubljani (Slovenija) te doktorirao na Filozofskom fakultetu Sveučilišta u Zagrebu (VSS – diplomirani lingvist; profesor filozofije; doktorat u području humanističkih znanosti - polje filozofije; sveučilišni nastavnik).",
       "odbori": [
         "Odbora za ljudska prava i prava nacionalnih manjina",
         "Odbora za europske poslove",
@@ -1699,6 +2118,7 @@
         "Odbora za međuparlamentarnu suradnju",
         "Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Vijeća Europe"
       ],
+      "duznosti": "Predsjednik Odbora za ljudska prava i prava nacionalnih manjina (od 21.06.2024.) Član Odbora za europske poslove (od 24.05.2024.) Član Odbora za vanjsku politiku (od 24.05.2024.) Član Odbora za međuparlamentarnu suradnju (od 24.05.2024.) Zamjenik člana Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Vijeća Europe (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/pupovac-milorad-11-saziv"
     },
     "1417-ivan-racan": {
@@ -1706,6 +2126,8 @@
       "stranka": "Socijaldemokratska partija Hrvatske",
       "izborna": "VI. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 2. veljače 1973. u Zagrebu. Završio Obrazovni centar \"Nikola Tesla\" (SSS - matematičar-informatičar).",
       "odbori": [
         "Odbora za europske poslove",
         "Odbora za vanjsku politiku",
@@ -1713,6 +2135,7 @@
         "Odbora za informiranje, informatizaciju i medije",
         "Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Vijeća Europe"
       ],
+      "duznosti": "Potpredsjednik Odbora za europske poslove (od 24.05.2024.) Član Odbora za vanjsku politiku (od 24.05.2024.) Član Odbora za međuparlamentarnu suradnju (od 21.06.2024.) Član Odbora za informiranje, informatizaciju i medije (od 24.05.2024.) Član Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Vijeća Europe (od 21.06.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/racan-ivan-11-saziv"
     },
     "1258-ranko-ostojic": {
@@ -1720,12 +2143,15 @@
       "stranka": "Socijaldemokratska partija Hrvatske",
       "izborna": "X. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 3. listopada 1962. u Splitu. Završio Pravni fakultet u Splitu (VSS - diplomirani pravnik).",
       "odbori": [
         "Odbora za unutarnju politiku i nacionalnu sigurnost",
         "Odbora za obranu",
         "Odbora za međuparlamentarnu suradnju",
         "Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini NATO-a"
       ],
+      "duznosti": "Predsjednik Odbora za unutarnju politiku i nacionalnu sigurnost (od 24.05.2024.) Član Odbora za obranu (od 24.05.2024.) Član Odbora za međuparlamentarnu suradnju (od 21.06.2024.) Član Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini NATO-a (od 21.06.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/ostojic-ranko-11-saziv"
     },
     "976-kreso-beljak": {
@@ -1733,7 +2159,10 @@
       "stranka": "Hrvatska seljačka stranka",
       "izborna": "VI. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 22. kolovoza 1971. u Brežicama, Slovenija. Završio Prirodoslovno-matematički fakultet Sveučilišta u Zagrebu te poslijediplomski specijalistički studij vanjske politike i diplomacije na Fakultetu političkih znanosti Sveučilišta u Zagrebu (VSS - magistar edukacije geografije, sveučilišni specijalist vanjske politike i diplomacije).",
       "odbori": [],
+      "duznosti": null,
       "source": "https://www.sabor.hr/hr/zastupnici/beljak-kreso-11-saziv"
     },
     "1412-tanja-sokolic": {
@@ -1741,10 +2170,13 @@
       "stranka": "Socijaldemokratska partija Hrvatske",
       "izborna": "II. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena je 19. kolovoza 1968. u Zagrebu. Završila Prirodoslovno-matematički fakultet Sveučilišta u Zagrebu (VSS – profesorica matematike i fizike).",
       "odbori": [
         "Odbora za obitelj, mlade i sport",
         "Odbora za obrazovanje, znanost i kulturu"
       ],
+      "duznosti": "Članica Odbora za obitelj, mlade i sport (od 24.05.2024.) Članica Odbora za obrazovanje, znanost i kulturu (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/sokolic-tanja-11-saziv"
     },
     "1370-igor-peternel": {
@@ -1752,12 +2184,15 @@
       "stranka": "Dom i nacionalno okupljanje",
       "izborna": "VI. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 20. srpnja 1972. u Zagrebu. Završio Fakultet kemijskog inženjerstva i tehnologije Sveučilišta u Zagrebu (VSS - doktorat u području prirodnih znanosti, polje Kemija).",
       "odbori": [
         "Odbora za unutarnju politiku i nacionalnu sigurnost",
         "Odbora za međuparlamentarnu suradnju",
         "Izaslanstva Hrvatskoga sabora u Parlamentarnoj dimenziji Srednjoeuropske inicijative",
         "Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini NATO-a"
       ],
+      "duznosti": "Član Odbora za unutarnju politiku i nacionalnu sigurnost (od 28.03.2025.) Član Odbora za međuparlamentarnu suradnju (od 24.05.2024.) Voditelj Izaslanstva Hrvatskoga sabora u Parlamentarnoj dimenziji Srednjoeuropske inicijative (od 24.05.2024.) Zamjenik voditelja Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini NATO-a (od 15.05.2026.)",
       "source": "https://www.sabor.hr/hr/zastupnici/peternel-igor-11-saziv"
     },
     "974-zvonimir-troskot": {
@@ -1765,6 +2200,8 @@
       "stranka": "Most",
       "izborna": "VII. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 5. listopada 1984. u Zagrebu. Završio Ekonomski fakultet Sveučilišta u Zagrebu (VSS - diplomirani ekonomist).",
       "odbori": [
         "Odbora za Hrvate izvan Republike Hrvatske",
         "Odbora za obranu",
@@ -1773,6 +2210,7 @@
         "Odbora za međuparlamentarnu suradnju",
         "Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Organizacije za europsku sigurnost i suradnju (OESS)"
       ],
+      "duznosti": "Potpredsjednik Odbora za Hrvate izvan Republike Hrvatske (od 06.06.2025.) Član Odbora za obranu (od 19.06.2026.) Član Odbora za financije i državni proračun (od 24.05.2024.) Član Odbora za gospodarstvo (od 24.05.2024.) Član Odbora za međuparlamentarnu suradnju (od 24.05.2024.) Zamjenik člana Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Organizacije za europsku sigurnost i suradnju (OESS) (od 24.05.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/troskot-zvonimir-11-saziv"
     },
     "1399-miso-krsticevic": {
@@ -1780,6 +2218,8 @@
       "stranka": "Socijaldemokratska partija Hrvatske",
       "izborna": "X. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 13. ožujka 1987. u Oberhausenu (Njemačka). Završio Medicinski fakultet Sveučilišta u Splitu (VSS - doktor medicine, doktorat u području biomedicine i zdravstva; liječnik).",
       "odbori": [
         "Odbora za rad, mirovinski sustav i socijalno partnerstvo",
         "Odbora za europske poslove",
@@ -1787,6 +2227,7 @@
         "Odbora za međuparlamentarnu suradnju",
         "Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Mediterana"
       ],
+      "duznosti": "Predsjednik Odbora za rad, mirovinski sustav i socijalno partnerstvo (od 24.05.2024.) Član Odbora za europske poslove (od 24.05.2024.) Član Odbora za zdravstvo i socijalnu politiku (od 24.05.2024.) Član Odbora za međuparlamentarnu suradnju (od 21.06.2024.) Član Izaslanstva Hrvatskoga sabora u Parlamentarnoj skupštini Mediterana (od 21.06.2024.)",
       "source": "https://www.sabor.hr/hr/zastupnici/krsticevic-miso-11-saziv"
     },
     "971-sinisa-hajdas-doncic": {
@@ -1794,7 +2235,10 @@
       "stranka": "Socijaldemokratska partija Hrvatske",
       "izborna": "III. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 29. lipnja 1974. u Zaboku. Diplomirao i magistrirao na Ekonomskom fakultetu Sveučilišta u Zagrebu, stekao doktorat u području društvenih znanosti polje ekonomije na Ekonomskom fakultetu Sveučilišta u Splitu (VSS - doktorat u području društvenih znanosti polje ekonomije).",
       "odbori": [],
+      "duznosti": null,
       "source": "https://www.sabor.hr/hr/zastupnici/hajdas-doncic-sinisa-11-saziv"
     },
     "1378-damir-biloglav": {
@@ -1802,9 +2246,12 @@
       "stranka": "Dom i nacionalno okupljanje",
       "izborna": "IX. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 19. veljače 1960. u Zadru. Završio Medicinski fakultet sveučilišta u Zagrebu (VSS - doktor medicine, liječnik obiteljske medicine).",
       "odbori": [
         "Odbora za obranu"
       ],
+      "duznosti": "Član Odbora za obranu (od 28.03.2025.)",
       "source": "https://www.sabor.hr/hr/zastupnici/biloglav-damir-11-saziv"
     },
     "1519-denis-kralj": {
@@ -1812,10 +2259,13 @@
       "stranka": "Socijaldemokratska partija Hrvatske",
       "izborna": "II. izborna jedinica",
       "mandat": "06.06.2025.",
+      "gender": "m",
+      "zivotopis": "Rođen 28. rujna 1980. u Zagrebu. Diplomirao na Fakultetu političkih znanosti Sveučilišta u Zagrebu (VSS - diplomirani politolog).",
       "odbori": [
         "Odbora za rad, mirovinski sustav i socijalno partnerstvo",
         "Odbora za informiranje, informatizaciju i medije"
       ],
+      "duznosti": "Član Odbora za rad, mirovinski sustav i socijalno partnerstvo (od 20.02.2026.) Član Odbora za informiranje, informatizaciju i medije (od 15.07.2025.)",
       "source": "https://www.sabor.hr/hr/zastupnici/kralj-denis-11-saziv"
     },
     "1523-zlatko-komadina": {
@@ -1823,11 +2273,14 @@
       "stranka": "Socijaldemokratska partija Hrvatske",
       "izborna": "VIII. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 24. listopada 1958. u Ljubljani. Završio Tehnički fakultet u Rijeci (VSS - diplomirani inženjer strojarstva).",
       "odbori": [
         "Odbora za predstavke i pritužbe",
         "Odbora za turizam",
         "Odbora za pomorstvo, promet i infrastrukturu"
       ],
+      "duznosti": "Predsjednik Odbora za predstavke i pritužbe (od 27.06.2025.) Član Odbora za turizam (od 15.07.2025.) Član Odbora za pomorstvo, promet i infrastrukturu (od 27.06.2025.)",
       "source": "https://www.sabor.hr/hr/zastupnici/komadina-zlatko-11-saziv"
     },
     "897-pea-grbin": {
@@ -1835,7 +2288,10 @@
       "stranka": "Socijaldemokratska partija Hrvatske",
       "izborna": "VIII. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 24. svibnja 1979. u Puli. Završio Pravni fakultet Sveučilišta u Zagrebu (VSS - diplomirani pravnik, odvjetnik).",
       "odbori": [],
+      "duznosti": null,
       "source": "https://www.sabor.hr/hr/zastupnici/grbin-peda-11-saziv"
     },
     "1379-viktorija-knezevic": {
@@ -1843,7 +2299,10 @@
       "stranka": "Centar",
       "izborna": "X. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena 8. lipnja 1976. u Dubrovniku. Završila Pravni fakultet Sveučilišta u Zagrebu (VSS - diplomirani pravnik, odvjetnica).",
       "odbori": [],
+      "duznosti": null,
       "source": "https://www.sabor.hr/hr/zastupnici/knezevic-viktorija-11-saziv"
     },
     "1528-ivica-puljak": {
@@ -1851,7 +2310,10 @@
       "stranka": "Centar",
       "izborna": "X. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen 27. kolovoza 1969. u Splitu. Završio Fakultet elektrotehnike, strojarstva i brodogradnje Sveučilišta u Splitu (VSS - dipl. ing. elektrotehnike). Magistrirao fiziku elementarnih čestica na Odsjeku za fiziku Prirodoslovno-matematičkog fakulteta Sveučilišta u Zagrebu. Doktorirao na Sveučilištu Pierre i Marie Curie u Parizu (doktorat u području prirodnih znanosti, polju fizike, grani fizike elementarnih čestica).",
       "odbori": [],
+      "duznosti": null,
       "source": "https://www.sabor.hr/hr/zastupnici/puljak-ivica-11-saziv"
     },
     "1390-ivan-bosancic": {
@@ -1859,7 +2321,10 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "V. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 29. travnja 1980. u Vinkovcima. Završio Ekonomski fakultet Osijek Sveučilišta Josipa Jurja Strossmayera u Osijeku (VSS - magistar ekonomije, mag. oec.).",
       "odbori": [],
+      "duznosti": null,
       "source": "https://www.sabor.hr/hr/zastupnici/bosancic-ivan-11-saziv"
     },
     "1256-zeljko-jovanovic": {
@@ -1867,7 +2332,10 @@
       "stranka": "Socijaldemokratska partija Hrvatske",
       "izborna": "VIII. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 26. studenoga 1965. u Rijeci. Završio Medicinski fakultet i Ekonomski fakultet u Rijeci. Stekao doktorat s područja biomedicine i zdravstva te specijalistički magisterij iz područja marketinga menadžmenta (VSS - doktor medicine, magistar ekonomije, doktor biomedicinskih znanosti, sveučilišni nastavnik).",
       "odbori": [],
+      "duznosti": null,
       "source": "https://www.sabor.hr/hr/zastupnici/jovanovic-zeljko-11-saziv"
     },
     "1421-tomislav-golubic": {
@@ -1875,7 +2343,10 @@
       "stranka": "Socijaldemokratska partija Hrvatske",
       "izborna": "II. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 4. travnja 1984. u Koprivnici. Završio Geotehnički fakultet u Varaždinu Sveučilišta u Zagrebu (VSS - diplomirani inženjer geotehnike).",
       "odbori": [],
+      "duznosti": null,
       "source": "https://www.sabor.hr/hr/zastupnici/golubic-tomislav-11-saziv"
     },
     "901-goran-ivanovic": {
@@ -1883,7 +2354,10 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "IV. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 20. kolovoza 1967. u Osijeku. Završio srednju školu u Osijeku (SSS - prodavač).",
       "odbori": [],
+      "duznosti": null,
       "source": "https://www.sabor.hr/hr/zastupnici/ivanovic-goran-11-saziv"
     },
     "909-natasa-tramisak": {
@@ -1891,7 +2365,10 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "IV. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena 6. svibnja 1982. u Osijeku. Diplomirala na Pravnom fakultetu Osijek Sveučilišta Josipa Jurja Strossmayera u Osijeku (VSS - magistra prava).",
       "odbori": [],
+      "duznosti": null,
       "source": "https://www.sabor.hr/hr/zastupnici/tramisak-natasa-11-saziv"
     },
     "1405-ivica-lukanovic": {
@@ -1899,7 +2376,10 @@
       "stranka": "Socijaldemokratska partija Hrvatske",
       "izborna": "VII. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen je 19. siječnja 1969. u Rijeci. Završio Građevinski fakultet Sveučilišta u Rijeci (VSS - diplomirani inženjer građevinarstva).",
       "odbori": [],
+      "duznosti": null,
       "source": "https://www.sabor.hr/hr/zastupnici/lukanovic-ivica-11-saziv"
     },
     "1484-ivana-mujkic": {
@@ -1907,7 +2387,10 @@
       "stranka": "Domovinski pokret",
       "izborna": "V. izborna jedinica",
       "mandat": "17.05.2024.",
+      "gender": "f",
+      "zivotopis": "Rođena 30. prosinca 1987. u Vukovaru. Završila Ekonomski fakultet Osijek Sveučilišta Josipa Jurja Strossmayera u Osijeku (VSS - sveučilišna specijalistica ekonomije).",
       "odbori": [],
+      "duznosti": null,
       "source": "https://www.sabor.hr/hr/zastupnici/mujkic-ivana-11-saziv"
     },
     "1000-marin-piletic": {
@@ -1915,9 +2398,12 @@
       "stranka": "Hrvatska demokratska zajednica",
       "izborna": "V. izborna jedinica",
       "mandat": "16.05.2024.",
+      "gender": "m",
+      "zivotopis": "Rođen 12. siječnja 1983. godine u Novskoj. Diplomirao na Filozofskom fakultetu Sveučilišta u Zagrebu (VSS - profesor hrvatskoga jezika i književnosti i povijesti).",
       "odbori": [
         "Odbora za rad, mirovinski sustav i socijalno partnerstvo"
       ],
+      "duznosti": "Član Odbora za rad, mirovinski sustav i socijalno partnerstvo (od 15.05.2026.)",
       "source": "https://www.sabor.hr/hr/zastupnici/piletic-marin-11-saziv"
     },
     "1539-darko-vuletic": {
@@ -1925,7 +2411,10 @@
       "stranka": "Hrvatska seljačka stranka",
       "izborna": "VI. izborna jedinica",
       "mandat": "01.04.2026.",
+      "gender": "m",
+      "zivotopis": "Rođen 29. prosinca 1960. u Zagrebu. Diplomirao na Šumarskom fakultetu Sveučilišta u Zagrebu (VSS - diplomirani inženjer šumarstva).",
       "odbori": [],
+      "duznosti": null,
       "source": "https://www.sabor.hr/hr/zastupnici/vuletic-darko-11-saziv"
     },
     "1534-anteo-milos": {
@@ -1933,10 +2422,13 @@
       "stranka": "Istarski demokratski sabor",
       "izborna": "VIII. izborna jedinica",
       "mandat": "29.01.2026.",
+      "gender": "m",
+      "zivotopis": "Rođen 17. rujna 1969. u Kopru, Slovenija. Diplomirao na Fakultetu za računalstvo i informatiku Sveučilišta u Ljubljani, Slovenija. Završio MBA program pri Poslovnoj školi Cotrugli.",
       "odbori": [
         "Odbora za prostorno uređenje i graditeljstvo",
         "Odbora za regionalni razvoj i fondove Europske unije"
       ],
+      "duznosti": "Član Odbora za prostorno uređenje i graditeljstvo (od 20.02.2026.) Član Odbora za regionalni razvoj i fondove Europske unije (od 20.02.2026.)",
       "source": "https://www.sabor.hr/hr/zastupnici/milos-anteo-11-saziv"
     }
   }
