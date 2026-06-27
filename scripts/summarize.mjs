@@ -73,7 +73,9 @@ async function main() {
     if (!existsSync(path)) { console.warn(`skip (missing): ${file}`); continue; }
 
     const votes = JSON.parse(readFileSync(path, 'utf-8'));
-    const missing = votes.filter(v => v.summary == null);
+    const missing = votes
+      .filter(v => v.summary == null)
+      .sort((a, b) => new Date(b.date) - new Date(a.date));
     console.log(`${file}: ${missing.length} votes need a summary`);
 
     for (const vote of missing) {
