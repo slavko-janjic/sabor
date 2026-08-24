@@ -1,5 +1,5549 @@
 [
   {
+    "vote_id": "137115",
+    "date": "2026-08-21",
+    "session": "11. sjednica",
+    "title": "prijedlog zaključka kojim se državni inspektorat obvezuje odmah započeti nadzor i kontrolu nad svim odlagalištima otpada u republici hrvatskoj za koja postoje opravdane sumnje da sadrže opasan otpad ili otpad odlagan na nezakonit način te se obvezuje podnijeti izvješće hrvatskom saboru o rezultatu nadzora u roku tri (3) mjeseca",
+    "summary": null,
+    "proposer_type": "ostalo",
+    "proposer_name": "predsjednik republike hrvatske",
+    "proposer_color": null,
+    "result": "odbijeno",
+    "tally": {
+      "za": 64,
+      "protiv": 78,
+      "suzdrzani": 0,
+      "odsutni": 8
+    },
+    "by_club": [
+      {
+        "club": "HDZ",
+        "club_name": "Klub zastupnika Hrvatske demokratske zajednice",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "is_coalition": true,
+        "za": 0,
+        "protiv": 58,
+        "suzdrzani": 0,
+        "odsutni": 0
+      },
+      {
+        "club": "Hrvatska seljačka stranka",
+        "club_name": "Hrvatska seljačka stranka",
+        "club_slug": "985-hrvatska-seljacka-stranka",
+        "club_color": "#09a2cc",
+        "is_coalition": false,
+        "za": 0,
+        "protiv": 0,
+        "suzdrzani": 0,
+        "odsutni": 0
+      },
+      {
+        "club": "Domovinski pokret",
+        "club_name": "Klub zastupnika Domovinskog pokreta",
+        "club_slug": "957-klub-zastupnika-domovinskog-pokreta",
+        "club_color": "#06637D",
+        "is_coalition": false,
+        "za": 0,
+        "protiv": 8,
+        "suzdrzani": 0,
+        "odsutni": 0
+      },
+      {
+        "club": "SDSS",
+        "club_name": "Klub zastupnika Samostalne demokratske srpske stranke",
+        "club_slug": "969-klub-zastupnika-samostalne-demokratske-srpske-stranke",
+        "club_color": "#9D26CC",
+        "is_coalition": false,
+        "za": 3,
+        "protiv": 0,
+        "suzdrzani": 0,
+        "odsutni": 0
+      },
+      {
+        "club": "HSLS i V. Bilek",
+        "club_name": "Klub zastupnika Hrvatske socijalno-liberalne stranke i nezavisnog zastupnika Vladimira Bileka",
+        "club_slug": "1049-klub-zastupnika-hrvatske-socijalno-liberalne-stranke-i-nezavisnog-zastupnika-vladimira-bileka",
+        "club_color": "#9F9E54",
+        "is_coalition": false,
+        "za": 0,
+        "protiv": 3,
+        "suzdrzani": 0,
+        "odsutni": 0
+      },
+      {
+        "club": "Možemo!",
+        "club_name": "Klub zastupnika Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "is_coalition": false,
+        "za": 10,
+        "protiv": 0,
+        "suzdrzani": 0,
+        "odsutni": 0
+      },
+      {
+        "club": "SDP",
+        "club_name": "Klub zastupnika Socijaldemokratske partije Hrvatske",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "is_coalition": false,
+        "za": 35,
+        "protiv": 0,
+        "suzdrzani": 0,
+        "odsutni": 1
+      },
+      {
+        "club": "DOMiNO i HS",
+        "club_name": "Klub zastupnika Dom i nacionalno okupljanje i Hrvatski suverenisti",
+        "club_slug": "1172-klub-zastupnika-dom-i-nacionalno-okupljanje-i-hrvatski-suverenisti",
+        "club_color": "#09A2CC",
+        "is_coalition": false,
+        "za": 2,
+        "protiv": 0,
+        "suzdrzani": 0,
+        "odsutni": 2
+      },
+      {
+        "club": "Klub NZ",
+        "club_name": "Klub nezavisnih zastupnika",
+        "club_slug": "1135-klub-nezavisnih-zastupnika",
+        "club_color": "#E890FF",
+        "is_coalition": false,
+        "za": 2,
+        "protiv": 1,
+        "suzdrzani": 0,
+        "odsutni": 0
+      },
+      {
+        "club": "HNS i NZ",
+        "club_name": "Klub Zastupnika Hrvatske Narodne Stranke I Nezavisnih Zastupnika",
+        "club_slug": "1137-klub-zastupnika-hrvatske-narodne-stranke-i-nezavisnih-zastupnika",
+        "club_color": "#CCB899",
+        "is_coalition": false,
+        "za": 0,
+        "protiv": 3,
+        "suzdrzani": 0,
+        "odsutni": 0
+      },
+      {
+        "club": "Most i J. Jurčević",
+        "club_name": "Klub zastupnika Mosta i nezavisnog zastupnika Josipa Jurčevića",
+        "club_slug": "1043-klub-zastupnika-mosta-i-nezavisnog-zastupnika-josipa-jurcevica",
+        "club_color": "#00E1E7",
+        "is_coalition": false,
+        "za": 7,
+        "protiv": 0,
+        "suzdrzani": 0,
+        "odsutni": 1
+      },
+      {
+        "club": "HSS, GLAS, DOSIP",
+        "club_name": "Klub Zastupnika Hrvatske Seljačke Stranke, Građansko-Liberalnog Saveza I Dalije Orešković I Stranke S Imenom I Prezimenom",
+        "club_slug": "1134-klub-zastupnika-hrvatske-seljacke-stranke-graansko-liberalnog-saveza-i-dalije-oreskovic-i-stranke-s-imenom-i-prezimenom",
+        "club_color": "#FFA500",
+        "is_coalition": false,
+        "za": 0,
+        "protiv": 0,
+        "suzdrzani": 0,
+        "odsutni": 0
+      },
+      {
+        "club": "NZ i HSU",
+        "club_name": "Klub Zastupnika Nezavisni I HSU",
+        "club_slug": "1145-klub-zastupnika-nezavisni-i-hsu",
+        "club_color": "#CDCCCF",
+        "is_coalition": false,
+        "za": 0,
+        "protiv": 2,
+        "suzdrzani": 0,
+        "odsutni": 1
+      },
+      {
+        "club": "IDS, PGU, UK i ISU",
+        "club_name": "Klub Zastupnika Istarskog Demokratskog Sabora (Ids), Primorsko-Goranskog Saveza (Pgs), Unije Kvarnera (Unija) I Istarske Stranke Umirovljenika - Partito Istriano Dei Pensionati (Isu - Pip)",
+        "club_slug": "1136-klub-zastupnika-istarskog-demokratskog-sabora-ids-primorsko-goranskog-saveza-pgs-unije-kvarnera-unija-i-istarske-stranke-umirovljenika-partito-istriano-dei-pensionati-isu-pip",
+        "club_color": "#49A343",
+        "is_coalition": false,
+        "za": 1,
+        "protiv": 1,
+        "suzdrzani": 0,
+        "odsutni": 1
+      },
+      {
+        "club": "Centar, NP Sjever i GLS",
+        "club_name": "Klub zastupnika Centra, Nezavisne platforme Sjevera i Građansko-liberalnog saveza",
+        "club_slug": "1130-klub-zastupnika-centra-nezavisne-platforme-sjevera-i-graansko-liberalnog-saveza",
+        "club_color": "#FFF600",
+        "is_coalition": false,
+        "za": 3,
+        "protiv": 0,
+        "suzdrzani": 0,
+        "odsutni": 2
+      }
+    ],
+    "by_mp": [
+      {
+        "mp_name": "Krešimir Ačkar",
+        "mp_slug": "840-kresimir-ackar",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Mirela Ahmetović",
+        "mp_slug": "873-mirela-ahmetovic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Barbara Antolić Vupora",
+        "mp_slug": "1006-barbara-antolic-vupora",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Jasenka Auguštan",
+        "mp_slug": "1368-jasenka-augustan",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ante Babić",
+        "mp_slug": "1487-ante-babic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Damir Bakić",
+        "mp_slug": "934-damir-bakic",
+        "club": "Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Boška Ban",
+        "mp_slug": "1007-boska-ban",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Nikolina Baradić",
+        "mp_slug": "954-nikolina-baradic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Nevenko Barbarić",
+        "mp_slug": "953-nevenko-barbaric",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Damir Barbir",
+        "mp_slug": "1527-damir-barbir",
+        "club": "Centar, NP Sjever i GLS",
+        "club_slug": "1130-klub-zastupnika-centra-nezavisne-platforme-sjevera-i-graansko-liberalnog-saveza",
+        "club_color": "#FFF600",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Danica Baričević",
+        "mp_slug": "981-danica-baricevic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Arsen Bauk",
+        "mp_slug": "926-arsen-bauk",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Vesna Bedeković",
+        "mp_slug": "980-vesna-bedekovic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Sandra Benčić",
+        "mp_slug": "903-sandra-bencic",
+        "club": "Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Vladimir Bilek",
+        "mp_slug": "973-vladimir-bilek",
+        "club": "HSLS i V. Bilek",
+        "club_slug": "1049-klub-zastupnika-hrvatske-socijalno-liberalne-stranke-i-nezavisnog-zastupnika-vladimira-bileka",
+        "club_color": "#9F9E54",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Dubravko Bilić",
+        "mp_slug": "1389-dubravko-bilic",
+        "club": "Centar, NP Sjever i GLS",
+        "club_slug": "1130-klub-zastupnika-centra-nezavisne-platforme-sjevera-i-graansko-liberalnog-saveza",
+        "club_color": "#FFF600",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Damir Biloglav",
+        "mp_slug": "1378-damir-biloglav",
+        "club": "DOMiNO i HS",
+        "club_slug": "1172-klub-zastupnika-dom-i-nacionalno-okupljanje-i-hrvatski-suverenisti",
+        "club_color": "#09A2CC",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Sanja Bježančević",
+        "mp_slug": "1376-sanja-bjezancevic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Danijela Blažanović",
+        "mp_slug": "1371-danijela-blazanovic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Anamarija Blažević",
+        "mp_slug": "922-anamarija-blazevic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Maria Blažina",
+        "mp_slug": "1526-maria-blazina",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Josip Borić",
+        "mp_slug": "964-josip-boric",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Rada Borić",
+        "mp_slug": "956-rada-boric",
+        "club": "Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ivan Budalić",
+        "mp_slug": "869-ivan-budalic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ivan Bugarin",
+        "mp_slug": "1391-ivan-bugarin",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Miro Bulj",
+        "mp_slug": "854-miro-bulj",
+        "club": "Most i J. Jurčević",
+        "club_slug": "1043-klub-zastupnika-mosta-i-nezavisnog-zastupnika-josipa-jurcevica",
+        "club_color": "#00E1E7",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Majda Burić",
+        "mp_slug": "996-majda-buric",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Zdravka Bušić",
+        "mp_slug": "844-zdravka-busic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Marin Corva",
+        "mp_slug": "1542-marin-corva",
+        "club": "IDS, PGU, UK i ISU",
+        "club_slug": "1136-klub-zastupnika-istarskog-demokratskog-sabora-ids-primorsko-goranskog-saveza-pgs-unije-kvarnera-unija-i-istarske-stranke-umirovljenika-partito-istriano-dei-pensionati-isu-pip",
+        "club_color": "#49A343",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Anita Curiš Krok",
+        "mp_slug": "1381-anita-curis-krok",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Pero Ćosić",
+        "mp_slug": "955-pero-cosic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ivan Dabo",
+        "mp_slug": "1392-ivan-dabo",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Josip Dabro",
+        "mp_slug": "1384-josip-dabro",
+        "club": "Domovinski pokret",
+        "club_slug": "957-klub-zastupnika-domovinskog-pokreta",
+        "club_color": "#06637D",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ante Deur",
+        "mp_slug": "927-ante-deur",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Dalibor Domitrović",
+        "mp_slug": "1383-dalibor-domitrovic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Irena Dragić",
+        "mp_slug": "1385-irena-dragic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Josip Đakić",
+        "mp_slug": "861-josip-akic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Saša Đujić",
+        "mp_slug": "1234-sasa-ujic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Mato Franković",
+        "mp_slug": "871-mato-frankovic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Veselko Gabričević",
+        "mp_slug": "1393-veselko-gabricevic",
+        "club": "NZ i HSU",
+        "club_slug": "1145-klub-zastupnika-nezavisni-i-hsu",
+        "club_color": "#CDCCCF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Sabina Glasovac",
+        "mp_slug": "919-sabina-glasovac",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Željko Glavić",
+        "mp_slug": "1394-zeljko-glavic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Zoran Gregurović",
+        "mp_slug": "1141-zoran-gregurovic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Nikola Grmoja",
+        "mp_slug": "862-nikola-grmoja",
+        "club": "Most i J. Jurčević",
+        "club_slug": "1043-klub-zastupnika-mosta-i-nezavisnog-zastupnika-josipa-jurcevica",
+        "club_color": "#00E1E7",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Siniša Hajdaš Dončić",
+        "mp_slug": "971-sinisa-hajdas-doncic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Mislav Herman",
+        "mp_slug": "1420-mislav-herman",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Armin Hodžić",
+        "mp_slug": "1373-armin-hodzic",
+        "club": "HNS i NZ",
+        "club_slug": "1137-klub-zastupnika-hrvatske-narodne-stranke-i-nezavisnih-zastupnika",
+        "club_color": "#CCB899",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Dario Hrebak",
+        "mp_slug": "916-dario-hrebak",
+        "club": "HSLS i V. Bilek",
+        "club_slug": "1049-klub-zastupnika-hrvatske-socijalno-liberalne-stranke-i-nezavisnog-zastupnika-vladimira-bileka",
+        "club_color": "#9F9E54",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Kristina Ikić-Baniček",
+        "mp_slug": "1396-kristina-ikic-banicek",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Mišel Jakšić",
+        "mp_slug": "918-misel-jaksic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Gordan Jandroković",
+        "mp_slug": "938-gordan-jandrokovic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Robert Jankovics",
+        "mp_slug": "958-robert-jankovics",
+        "club": null,
+        "club_slug": null,
+        "club_color": null,
+        "vote": "against"
+      },
+      {
+        "mp_name": "Dragana Jeckov",
+        "mp_slug": "849-dragana-jeckov",
+        "club": "SDSS",
+        "club_slug": "969-klub-zastupnika-samostalne-demokratske-srpske-stranke",
+        "club_color": "#9D26CC",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ljubica Jembrih",
+        "mp_slug": "1358-ljubica-jembrih",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Tomislav Josić",
+        "mp_slug": "1386-tomislav-josic",
+        "club": "Domovinski pokret",
+        "club_slug": "957-klub-zastupnika-domovinskog-pokreta",
+        "club_color": "#06637D",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Branka Juričev-Martinčev",
+        "mp_slug": "986-branka-juricev-martincev",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Veljko Kajtazi",
+        "mp_slug": "872-veljko-kajtazi",
+        "club": "HNS i NZ",
+        "club_slug": "1137-klub-zastupnika-hrvatske-narodne-stranke-i-nezavisnih-zastupnika",
+        "club_color": "#CCB899",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Goran Kaniški",
+        "mp_slug": "1395-goran-kaniski",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Krunoslav Katičić",
+        "mp_slug": "944-krunoslav-katicic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ivana Kekin",
+        "mp_slug": "1001-ivana-kekin",
+        "club": "Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Tomislav Klarić",
+        "mp_slug": "880-tomislav-klaric",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Darko Klasić",
+        "mp_slug": "899-darko-klasic",
+        "club": "HSLS i V. Bilek",
+        "club_slug": "1049-klub-zastupnika-hrvatske-socijalno-liberalne-stranke-i-nezavisnog-zastupnika-vladimira-bileka",
+        "club_color": "#9F9E54",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Anton Kliman",
+        "mp_slug": "883-anton-kliman",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ljubomir Kolarek",
+        "mp_slug": "877-ljubomir-kolarek",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Zlatko Komadina",
+        "mp_slug": "1523-zlatko-komadina",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Magdalena Komes",
+        "mp_slug": "1004-magdalena-komes",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Denis Kralj",
+        "mp_slug": "1519-denis-kralj",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Sandra Krpan",
+        "mp_slug": "1400-sandra-krpan",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Mišo Krstičević",
+        "mp_slug": "1399-miso-krsticevic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Andro Krstulović Opara",
+        "mp_slug": "1005-andro-krstulovic-opara",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ante Kujundžić",
+        "mp_slug": "928-ante-kujundzic",
+        "club": "Most i J. Jurčević",
+        "club_slug": "1043-klub-zastupnika-mosta-i-nezavisnog-zastupnika-josipa-jurcevica",
+        "club_color": "#00E1E7",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ivica Kukavica",
+        "mp_slug": "1387-ivica-kukavica",
+        "club": "Domovinski pokret",
+        "club_slug": "957-klub-zastupnika-domovinskog-pokreta",
+        "club_color": "#06637D",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Željko Lacković",
+        "mp_slug": "1249-zeljko-lackovic",
+        "club": "NZ i HSU",
+        "club_slug": "1145-klub-zastupnika-nezavisni-i-hsu",
+        "club_color": "#CDCCCF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Boris Lalovac",
+        "mp_slug": "920-boris-lalovac",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Dubravka Lipovac Pehar",
+        "mp_slug": "1388-dubravka-lipovac-pehar",
+        "club": "Domovinski pokret",
+        "club_slug": "957-klub-zastupnika-domovinskog-pokreta",
+        "club_color": "#06637D",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Marija Lugarić",
+        "mp_slug": "1416-marija-lugaric",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ljubica Lukačić",
+        "mp_slug": "977-ljubica-lukacic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Sanda Livia Maduna",
+        "mp_slug": "1401-sanda-livia-maduna",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ivan Malenica",
+        "mp_slug": "1012-ivan-malenica",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Marin Mandarić",
+        "mp_slug": "949-marin-mandaric",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Damir Mandić",
+        "mp_slug": "1402-damir-mandic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ivana Marković",
+        "mp_slug": "1407-ivana-markovic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Miroslav Marković",
+        "mp_slug": "1406-miroslav-markovic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ivan Matić",
+        "mp_slug": "1367-ivan-matic",
+        "club": "Most i J. Jurčević",
+        "club_slug": "1043-klub-zastupnika-mosta-i-nezavisnog-zastupnika-josipa-jurcevica",
+        "club_color": "#00E1E7",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Nikola Mažar",
+        "mp_slug": "992-nikola-mazar",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ivica Mesić",
+        "mp_slug": "1492-ivica-mesic",
+        "club": "Domovinski pokret",
+        "club_slug": "957-klub-zastupnika-domovinskog-pokreta",
+        "club_color": "#06637D",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Dalibor Milan",
+        "mp_slug": "1403-dalibor-milan",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Marin Miletić",
+        "mp_slug": "866-marin-miletic",
+        "club": "Most i J. Jurčević",
+        "club_slug": "1043-klub-zastupnika-mosta-i-nezavisnog-zastupnika-josipa-jurcevica",
+        "club_color": "#00E1E7",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Mario Milinković",
+        "mp_slug": "1408-mario-milinkovic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Jelena Miloš",
+        "mp_slug": "1065-jelena-milos",
+        "club": "Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Predrag Mišić",
+        "mp_slug": "1497-predrag-misic",
+        "club": "Domovinski pokret",
+        "club_slug": "957-klub-zastupnika-domovinskog-pokreta",
+        "club_color": "#06637D",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Stipo Mlinarić",
+        "mp_slug": "912-stipo-mlinaric",
+        "club": "Domovinski pokret",
+        "club_slug": "957-klub-zastupnika-domovinskog-pokreta",
+        "club_color": "#06637D",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Matej Mostarac",
+        "mp_slug": "1520-matej-mostarac",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Dubravka Novak",
+        "mp_slug": "1365-dubravka-novak",
+        "club": "Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Dalija Orešković",
+        "mp_slug": "905-dalija-oreskovic",
+        "club": null,
+        "club_slug": null,
+        "club_color": null,
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ranko Ostojić",
+        "mp_slug": "1258-ranko-ostojic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Josip Ostrogović",
+        "mp_slug": "1404-josip-ostrogovic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Dalibor Paus",
+        "mp_slug": "1366-dalibor-paus",
+        "club": "IDS, PGU, UK i ISU",
+        "club_slug": "1136-klub-zastupnika-istarskog-demokratskog-sabora-ids-primorsko-goranskog-saveza-pgs-unije-kvarnera-unija-i-istarske-stranke-umirovljenika-partito-istriano-dei-pensionati-isu-pip",
+        "club_color": "#49A343",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Marko Pavić",
+        "mp_slug": "966-marko-pavic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ivan Penava",
+        "mp_slug": "939-ivan-penava",
+        "club": "Domovinski pokret",
+        "club_slug": "957-klub-zastupnika-domovinskog-pokreta",
+        "club_color": "#06637D",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Igor Peternel",
+        "mp_slug": "1370-igor-peternel",
+        "club": "DOMiNO i HS",
+        "club_slug": "1172-klub-zastupnika-dom-i-nacionalno-okupljanje-i-hrvatski-suverenisti",
+        "club_color": "#09A2CC",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Marijana Petir",
+        "mp_slug": "878-marijana-petir",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Božo Petrov",
+        "mp_slug": "931-bozo-petrov",
+        "club": "Most i J. Jurčević",
+        "club_slug": "1043-klub-zastupnika-mosta-i-nezavisnog-zastupnika-josipa-jurcevica",
+        "club_color": "#00E1E7",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Marin Piletić",
+        "mp_slug": "1000-marin-piletic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Boris Piližota",
+        "mp_slug": "1409-boris-pilizota",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Draženka Polović",
+        "mp_slug": "1374-drazenka-polovic",
+        "club": "Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Marijana Puljak",
+        "mp_slug": "948-marijana-puljak",
+        "club": "Centar, NP Sjever i GLS",
+        "club_slug": "1130-klub-zastupnika-centra-nezavisne-platforme-sjevera-i-graansko-liberalnog-saveza",
+        "club_color": "#FFF600",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Milorad Pupovac",
+        "mp_slug": "945-milorad-pupovac",
+        "club": "SDSS",
+        "club_slug": "969-klub-zastupnika-samostalne-demokratske-srpske-stranke",
+        "club_color": "#9D26CC",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Dario Pušić",
+        "mp_slug": "1413-dario-pusic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ana Puž Kukuljan",
+        "mp_slug": "1410-ana-puz-kukuljan",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ivan Račan",
+        "mp_slug": "1417-ivan-racan",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ivan Radić",
+        "mp_slug": "887-ivan-radic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Dušica Radojčić",
+        "mp_slug": "1380-dusica-radojcic",
+        "club": "Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Sanja Radolović",
+        "mp_slug": "961-sanja-radolovic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Nino Raspudić",
+        "mp_slug": "843-nino-raspudic",
+        "club": "Klub NZ",
+        "club_slug": "1135-klub-nezavisnih-zastupnika",
+        "club_color": "#E890FF",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Urša Raukar-Gamulin",
+        "mp_slug": "994-ursa-raukar-gamulin",
+        "club": "Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Željko Reiner",
+        "mp_slug": "984-zeljko-reiner",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Tonči Restović",
+        "mp_slug": "1411-tonci-restovic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ivana Ribarić Majanović",
+        "mp_slug": "1490-ivana-ribaric-majanovic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Anđelka Salopek",
+        "mp_slug": "1494-anelka-salopek",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ante Sanader",
+        "mp_slug": "925-ante-sanader",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Marija Selak Raspudić",
+        "mp_slug": "846-marija-selak-raspudic",
+        "club": "Klub NZ",
+        "club_slug": "1135-klub-nezavisnih-zastupnika",
+        "club_color": "#E890FF",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Darko Sobota",
+        "mp_slug": "936-darko-sobota",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Tanja Sokolić",
+        "mp_slug": "1412-tanja-sokolic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Stipan Šašlin",
+        "mp_slug": "900-stipan-saslin",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Anja Šimpraga",
+        "mp_slug": "851-anja-simpraga",
+        "club": "SDSS",
+        "club_slug": "969-klub-zastupnika-samostalne-demokratske-srpske-stranke",
+        "club_color": "#9D26CC",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Maksimilijan Šimrak",
+        "mp_slug": "1415-maksimilijan-simrak",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Predrag Štromar",
+        "mp_slug": "848-predrag-stromar",
+        "club": "HNS i NZ",
+        "club_slug": "1137-klub-zastupnika-hrvatske-narodne-stranke-i-nezavisnih-zastupnika",
+        "club_color": "#CCB899",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Tomislav Šuta",
+        "mp_slug": "1418-tomislav-suta",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Miro Totgergeli",
+        "mp_slug": "842-miro-totgergeli",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Zvonimir Troskot",
+        "mp_slug": "974-zvonimir-troskot",
+        "club": "Most i J. Jurčević",
+        "club_slug": "1043-klub-zastupnika-mosta-i-nezavisnog-zastupnika-josipa-jurcevica",
+        "club_color": "#00E1E7",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Željko Turk",
+        "mp_slug": "1495-zeljko-turk",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Martina Vlašić Iljkić",
+        "mp_slug": "930-martina-vlasic-iljkic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Jasna Vojnić",
+        "mp_slug": "1419-jasna-vojnic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Mate Vukušić",
+        "mp_slug": "1414-mate-vukusic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Darko Vuletić",
+        "mp_slug": "1539-darko-vuletic",
+        "club": null,
+        "club_slug": null,
+        "club_color": null,
+        "vote": "against"
+      },
+      {
+        "mp_name": "Tomislav Zadro",
+        "mp_slug": "1521-tomislav-zadro",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Hrvoje Zekanović",
+        "mp_slug": "865-hrvoje-zekanovic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ivo Zelić",
+        "mp_slug": "1522-ivo-zelic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Mihael Zmajlović",
+        "mp_slug": "1240-mihael-zmajlovic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Dario Zurovec",
+        "mp_slug": "875-dario-zurovec",
+        "club": "Klub NZ",
+        "club_slug": "1135-klub-nezavisnih-zastupnika",
+        "club_color": "#E890FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Marin Živković",
+        "mp_slug": "1493-marin-zivkovic",
+        "club": "Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ivica Baksa",
+        "mp_slug": "1372-ivica-baksa",
+        "club": "Centar, NP Sjever i GLS",
+        "club_slug": "1130-klub-zastupnika-centra-nezavisne-platforme-sjevera-i-graansko-liberalnog-saveza",
+        "club_color": "#FFF600",
+        "vote": "absent"
+      },
+      {
+        "mp_name": "Branko Kolarić",
+        "mp_slug": "1397-branko-kolaric",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "absent"
+      },
+      {
+        "mp_name": "Anka Mrak-Taritaš",
+        "mp_slug": "911-anka-mrak-taritas",
+        "club": "Centar, NP Sjever i GLS",
+        "club_slug": "1130-klub-zastupnika-centra-nezavisne-platforme-sjevera-i-graansko-liberalnog-saveza",
+        "club_color": "#FFF600",
+        "vote": "absent"
+      },
+      {
+        "mp_name": "Josip Jurčević",
+        "mp_slug": "1369-josip-jurcevic",
+        "club": "Most i J. Jurčević",
+        "club_slug": "1043-klub-zastupnika-mosta-i-nezavisnog-zastupnika-josipa-jurcevica",
+        "club_color": "#00E1E7",
+        "vote": "absent"
+      },
+      {
+        "mp_name": "Krešimir Čabaj",
+        "mp_slug": "1382-kresimir-cabaj",
+        "club": "DOMiNO i HS",
+        "club_slug": "1172-klub-zastupnika-dom-i-nacionalno-okupljanje-i-hrvatski-suverenisti",
+        "club_color": "#09A2CC",
+        "vote": "absent"
+      },
+      {
+        "mp_name": "Vesna Vučemilović",
+        "mp_slug": "983-vesna-vucemilovic",
+        "club": "NZ i HSU",
+        "club_slug": "1145-klub-zastupnika-nezavisni-i-hsu",
+        "club_color": "#CDCCCF",
+        "vote": "absent"
+      },
+      {
+        "mp_name": "Martin Kordić",
+        "mp_slug": "1529-martin-kordic",
+        "club": "DOMiNO i HS",
+        "club_slug": "1172-klub-zastupnika-dom-i-nacionalno-okupljanje-i-hrvatski-suverenisti",
+        "club_color": "#09A2CC",
+        "vote": "absent"
+      },
+      {
+        "mp_name": "Anteo Milos",
+        "mp_slug": "1534-anteo-milos",
+        "club": "IDS, PGU, UK i ISU",
+        "club_slug": "1136-klub-zastupnika-istarskog-demokratskog-sabora-ids-primorsko-goranskog-saveza-pgs-unije-kvarnera-unija-i-istarske-stranke-umirovljenika-partito-istriano-dei-pensionati-isu-pip",
+        "club_color": "#49A343",
+        "vote": "absent"
+      }
+    ]
+  },
+  {
+    "vote_id": "137114",
+    "date": "2026-08-21",
+    "session": "11. sjednica",
+    "title": "prijedlog zaključka kojim se vlada republike hrvatske obvezuje u roku od tri (3) dana primiti predstavnike građana i građanskih inicijativa, detaljno ih izvijestiti o stanju i planiranim mjerama te im dati sve druge informacije vezane uz odlagalište opasnog otpada u gospiću. također, vlada republike hrvatske obvezuje se kontinuirano obavještavati javnost o svim relevantnim podacima vezanim uz odlagalište opasnog otpada u gospiću",
+    "summary": null,
+    "proposer_type": "ostalo",
+    "proposer_name": "predsjednik republike hrvatske",
+    "proposer_color": null,
+    "result": "odbijeno",
+    "tally": {
+      "za": 64,
+      "protiv": 78,
+      "suzdrzani": 0,
+      "odsutni": 8
+    },
+    "by_club": [
+      {
+        "club": "HDZ",
+        "club_name": "Klub zastupnika Hrvatske demokratske zajednice",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "is_coalition": true,
+        "za": 0,
+        "protiv": 58,
+        "suzdrzani": 0,
+        "odsutni": 0
+      },
+      {
+        "club": "Hrvatska seljačka stranka",
+        "club_name": "Hrvatska seljačka stranka",
+        "club_slug": "985-hrvatska-seljacka-stranka",
+        "club_color": "#09a2cc",
+        "is_coalition": false,
+        "za": 0,
+        "protiv": 0,
+        "suzdrzani": 0,
+        "odsutni": 0
+      },
+      {
+        "club": "Domovinski pokret",
+        "club_name": "Klub zastupnika Domovinskog pokreta",
+        "club_slug": "957-klub-zastupnika-domovinskog-pokreta",
+        "club_color": "#06637D",
+        "is_coalition": false,
+        "za": 0,
+        "protiv": 8,
+        "suzdrzani": 0,
+        "odsutni": 0
+      },
+      {
+        "club": "SDSS",
+        "club_name": "Klub zastupnika Samostalne demokratske srpske stranke",
+        "club_slug": "969-klub-zastupnika-samostalne-demokratske-srpske-stranke",
+        "club_color": "#9D26CC",
+        "is_coalition": false,
+        "za": 3,
+        "protiv": 0,
+        "suzdrzani": 0,
+        "odsutni": 0
+      },
+      {
+        "club": "HSLS i V. Bilek",
+        "club_name": "Klub zastupnika Hrvatske socijalno-liberalne stranke i nezavisnog zastupnika Vladimira Bileka",
+        "club_slug": "1049-klub-zastupnika-hrvatske-socijalno-liberalne-stranke-i-nezavisnog-zastupnika-vladimira-bileka",
+        "club_color": "#9F9E54",
+        "is_coalition": false,
+        "za": 0,
+        "protiv": 3,
+        "suzdrzani": 0,
+        "odsutni": 0
+      },
+      {
+        "club": "Možemo!",
+        "club_name": "Klub zastupnika Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "is_coalition": false,
+        "za": 10,
+        "protiv": 0,
+        "suzdrzani": 0,
+        "odsutni": 0
+      },
+      {
+        "club": "SDP",
+        "club_name": "Klub zastupnika Socijaldemokratske partije Hrvatske",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "is_coalition": false,
+        "za": 35,
+        "protiv": 0,
+        "suzdrzani": 0,
+        "odsutni": 1
+      },
+      {
+        "club": "DOMiNO i HS",
+        "club_name": "Klub zastupnika Dom i nacionalno okupljanje i Hrvatski suverenisti",
+        "club_slug": "1172-klub-zastupnika-dom-i-nacionalno-okupljanje-i-hrvatski-suverenisti",
+        "club_color": "#09A2CC",
+        "is_coalition": false,
+        "za": 2,
+        "protiv": 0,
+        "suzdrzani": 0,
+        "odsutni": 2
+      },
+      {
+        "club": "Klub NZ",
+        "club_name": "Klub nezavisnih zastupnika",
+        "club_slug": "1135-klub-nezavisnih-zastupnika",
+        "club_color": "#E890FF",
+        "is_coalition": false,
+        "za": 2,
+        "protiv": 1,
+        "suzdrzani": 0,
+        "odsutni": 0
+      },
+      {
+        "club": "HNS i NZ",
+        "club_name": "Klub Zastupnika Hrvatske Narodne Stranke I Nezavisnih Zastupnika",
+        "club_slug": "1137-klub-zastupnika-hrvatske-narodne-stranke-i-nezavisnih-zastupnika",
+        "club_color": "#CCB899",
+        "is_coalition": false,
+        "za": 0,
+        "protiv": 3,
+        "suzdrzani": 0,
+        "odsutni": 0
+      },
+      {
+        "club": "Most i J. Jurčević",
+        "club_name": "Klub zastupnika Mosta i nezavisnog zastupnika Josipa Jurčevića",
+        "club_slug": "1043-klub-zastupnika-mosta-i-nezavisnog-zastupnika-josipa-jurcevica",
+        "club_color": "#00E1E7",
+        "is_coalition": false,
+        "za": 7,
+        "protiv": 0,
+        "suzdrzani": 0,
+        "odsutni": 1
+      },
+      {
+        "club": "HSS, GLAS, DOSIP",
+        "club_name": "Klub Zastupnika Hrvatske Seljačke Stranke, Građansko-Liberalnog Saveza I Dalije Orešković I Stranke S Imenom I Prezimenom",
+        "club_slug": "1134-klub-zastupnika-hrvatske-seljacke-stranke-graansko-liberalnog-saveza-i-dalije-oreskovic-i-stranke-s-imenom-i-prezimenom",
+        "club_color": "#FFA500",
+        "is_coalition": false,
+        "za": 0,
+        "protiv": 0,
+        "suzdrzani": 0,
+        "odsutni": 0
+      },
+      {
+        "club": "NZ i HSU",
+        "club_name": "Klub Zastupnika Nezavisni I HSU",
+        "club_slug": "1145-klub-zastupnika-nezavisni-i-hsu",
+        "club_color": "#CDCCCF",
+        "is_coalition": false,
+        "za": 0,
+        "protiv": 2,
+        "suzdrzani": 0,
+        "odsutni": 1
+      },
+      {
+        "club": "IDS, PGU, UK i ISU",
+        "club_name": "Klub Zastupnika Istarskog Demokratskog Sabora (Ids), Primorsko-Goranskog Saveza (Pgs), Unije Kvarnera (Unija) I Istarske Stranke Umirovljenika - Partito Istriano Dei Pensionati (Isu - Pip)",
+        "club_slug": "1136-klub-zastupnika-istarskog-demokratskog-sabora-ids-primorsko-goranskog-saveza-pgs-unije-kvarnera-unija-i-istarske-stranke-umirovljenika-partito-istriano-dei-pensionati-isu-pip",
+        "club_color": "#49A343",
+        "is_coalition": false,
+        "za": 1,
+        "protiv": 1,
+        "suzdrzani": 0,
+        "odsutni": 1
+      },
+      {
+        "club": "Centar, NP Sjever i GLS",
+        "club_name": "Klub zastupnika Centra, Nezavisne platforme Sjevera i Građansko-liberalnog saveza",
+        "club_slug": "1130-klub-zastupnika-centra-nezavisne-platforme-sjevera-i-graansko-liberalnog-saveza",
+        "club_color": "#FFF600",
+        "is_coalition": false,
+        "za": 3,
+        "protiv": 0,
+        "suzdrzani": 0,
+        "odsutni": 2
+      }
+    ],
+    "by_mp": [
+      {
+        "mp_name": "Krešimir Ačkar",
+        "mp_slug": "840-kresimir-ackar",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Mirela Ahmetović",
+        "mp_slug": "873-mirela-ahmetovic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Barbara Antolić Vupora",
+        "mp_slug": "1006-barbara-antolic-vupora",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Jasenka Auguštan",
+        "mp_slug": "1368-jasenka-augustan",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ante Babić",
+        "mp_slug": "1487-ante-babic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Damir Bakić",
+        "mp_slug": "934-damir-bakic",
+        "club": "Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Boška Ban",
+        "mp_slug": "1007-boska-ban",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Nikolina Baradić",
+        "mp_slug": "954-nikolina-baradic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Nevenko Barbarić",
+        "mp_slug": "953-nevenko-barbaric",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Damir Barbir",
+        "mp_slug": "1527-damir-barbir",
+        "club": "Centar, NP Sjever i GLS",
+        "club_slug": "1130-klub-zastupnika-centra-nezavisne-platforme-sjevera-i-graansko-liberalnog-saveza",
+        "club_color": "#FFF600",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Danica Baričević",
+        "mp_slug": "981-danica-baricevic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Arsen Bauk",
+        "mp_slug": "926-arsen-bauk",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Vesna Bedeković",
+        "mp_slug": "980-vesna-bedekovic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Sandra Benčić",
+        "mp_slug": "903-sandra-bencic",
+        "club": "Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Vladimir Bilek",
+        "mp_slug": "973-vladimir-bilek",
+        "club": "HSLS i V. Bilek",
+        "club_slug": "1049-klub-zastupnika-hrvatske-socijalno-liberalne-stranke-i-nezavisnog-zastupnika-vladimira-bileka",
+        "club_color": "#9F9E54",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Dubravko Bilić",
+        "mp_slug": "1389-dubravko-bilic",
+        "club": "Centar, NP Sjever i GLS",
+        "club_slug": "1130-klub-zastupnika-centra-nezavisne-platforme-sjevera-i-graansko-liberalnog-saveza",
+        "club_color": "#FFF600",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Damir Biloglav",
+        "mp_slug": "1378-damir-biloglav",
+        "club": "DOMiNO i HS",
+        "club_slug": "1172-klub-zastupnika-dom-i-nacionalno-okupljanje-i-hrvatski-suverenisti",
+        "club_color": "#09A2CC",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Sanja Bježančević",
+        "mp_slug": "1376-sanja-bjezancevic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Danijela Blažanović",
+        "mp_slug": "1371-danijela-blazanovic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Anamarija Blažević",
+        "mp_slug": "922-anamarija-blazevic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Maria Blažina",
+        "mp_slug": "1526-maria-blazina",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Josip Borić",
+        "mp_slug": "964-josip-boric",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Rada Borić",
+        "mp_slug": "956-rada-boric",
+        "club": "Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ivan Budalić",
+        "mp_slug": "869-ivan-budalic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ivan Bugarin",
+        "mp_slug": "1391-ivan-bugarin",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Miro Bulj",
+        "mp_slug": "854-miro-bulj",
+        "club": "Most i J. Jurčević",
+        "club_slug": "1043-klub-zastupnika-mosta-i-nezavisnog-zastupnika-josipa-jurcevica",
+        "club_color": "#00E1E7",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Majda Burić",
+        "mp_slug": "996-majda-buric",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Zdravka Bušić",
+        "mp_slug": "844-zdravka-busic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Marin Corva",
+        "mp_slug": "1542-marin-corva",
+        "club": "IDS, PGU, UK i ISU",
+        "club_slug": "1136-klub-zastupnika-istarskog-demokratskog-sabora-ids-primorsko-goranskog-saveza-pgs-unije-kvarnera-unija-i-istarske-stranke-umirovljenika-partito-istriano-dei-pensionati-isu-pip",
+        "club_color": "#49A343",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Anita Curiš Krok",
+        "mp_slug": "1381-anita-curis-krok",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Pero Ćosić",
+        "mp_slug": "955-pero-cosic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ivan Dabo",
+        "mp_slug": "1392-ivan-dabo",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Josip Dabro",
+        "mp_slug": "1384-josip-dabro",
+        "club": "Domovinski pokret",
+        "club_slug": "957-klub-zastupnika-domovinskog-pokreta",
+        "club_color": "#06637D",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ante Deur",
+        "mp_slug": "927-ante-deur",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Dalibor Domitrović",
+        "mp_slug": "1383-dalibor-domitrovic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Irena Dragić",
+        "mp_slug": "1385-irena-dragic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Josip Đakić",
+        "mp_slug": "861-josip-akic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Saša Đujić",
+        "mp_slug": "1234-sasa-ujic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Mato Franković",
+        "mp_slug": "871-mato-frankovic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Veselko Gabričević",
+        "mp_slug": "1393-veselko-gabricevic",
+        "club": "NZ i HSU",
+        "club_slug": "1145-klub-zastupnika-nezavisni-i-hsu",
+        "club_color": "#CDCCCF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Sabina Glasovac",
+        "mp_slug": "919-sabina-glasovac",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Željko Glavić",
+        "mp_slug": "1394-zeljko-glavic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Zoran Gregurović",
+        "mp_slug": "1141-zoran-gregurovic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Nikola Grmoja",
+        "mp_slug": "862-nikola-grmoja",
+        "club": "Most i J. Jurčević",
+        "club_slug": "1043-klub-zastupnika-mosta-i-nezavisnog-zastupnika-josipa-jurcevica",
+        "club_color": "#00E1E7",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Siniša Hajdaš Dončić",
+        "mp_slug": "971-sinisa-hajdas-doncic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Mislav Herman",
+        "mp_slug": "1420-mislav-herman",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Armin Hodžić",
+        "mp_slug": "1373-armin-hodzic",
+        "club": "HNS i NZ",
+        "club_slug": "1137-klub-zastupnika-hrvatske-narodne-stranke-i-nezavisnih-zastupnika",
+        "club_color": "#CCB899",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Dario Hrebak",
+        "mp_slug": "916-dario-hrebak",
+        "club": "HSLS i V. Bilek",
+        "club_slug": "1049-klub-zastupnika-hrvatske-socijalno-liberalne-stranke-i-nezavisnog-zastupnika-vladimira-bileka",
+        "club_color": "#9F9E54",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Kristina Ikić-Baniček",
+        "mp_slug": "1396-kristina-ikic-banicek",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Mišel Jakšić",
+        "mp_slug": "918-misel-jaksic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Gordan Jandroković",
+        "mp_slug": "938-gordan-jandrokovic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Robert Jankovics",
+        "mp_slug": "958-robert-jankovics",
+        "club": null,
+        "club_slug": null,
+        "club_color": null,
+        "vote": "against"
+      },
+      {
+        "mp_name": "Dragana Jeckov",
+        "mp_slug": "849-dragana-jeckov",
+        "club": "SDSS",
+        "club_slug": "969-klub-zastupnika-samostalne-demokratske-srpske-stranke",
+        "club_color": "#9D26CC",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ljubica Jembrih",
+        "mp_slug": "1358-ljubica-jembrih",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Tomislav Josić",
+        "mp_slug": "1386-tomislav-josic",
+        "club": "Domovinski pokret",
+        "club_slug": "957-klub-zastupnika-domovinskog-pokreta",
+        "club_color": "#06637D",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Branka Juričev-Martinčev",
+        "mp_slug": "986-branka-juricev-martincev",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Veljko Kajtazi",
+        "mp_slug": "872-veljko-kajtazi",
+        "club": "HNS i NZ",
+        "club_slug": "1137-klub-zastupnika-hrvatske-narodne-stranke-i-nezavisnih-zastupnika",
+        "club_color": "#CCB899",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Goran Kaniški",
+        "mp_slug": "1395-goran-kaniski",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Krunoslav Katičić",
+        "mp_slug": "944-krunoslav-katicic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ivana Kekin",
+        "mp_slug": "1001-ivana-kekin",
+        "club": "Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Tomislav Klarić",
+        "mp_slug": "880-tomislav-klaric",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Darko Klasić",
+        "mp_slug": "899-darko-klasic",
+        "club": "HSLS i V. Bilek",
+        "club_slug": "1049-klub-zastupnika-hrvatske-socijalno-liberalne-stranke-i-nezavisnog-zastupnika-vladimira-bileka",
+        "club_color": "#9F9E54",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Anton Kliman",
+        "mp_slug": "883-anton-kliman",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ljubomir Kolarek",
+        "mp_slug": "877-ljubomir-kolarek",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Zlatko Komadina",
+        "mp_slug": "1523-zlatko-komadina",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Magdalena Komes",
+        "mp_slug": "1004-magdalena-komes",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Denis Kralj",
+        "mp_slug": "1519-denis-kralj",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Sandra Krpan",
+        "mp_slug": "1400-sandra-krpan",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Mišo Krstičević",
+        "mp_slug": "1399-miso-krsticevic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Andro Krstulović Opara",
+        "mp_slug": "1005-andro-krstulovic-opara",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ante Kujundžić",
+        "mp_slug": "928-ante-kujundzic",
+        "club": "Most i J. Jurčević",
+        "club_slug": "1043-klub-zastupnika-mosta-i-nezavisnog-zastupnika-josipa-jurcevica",
+        "club_color": "#00E1E7",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ivica Kukavica",
+        "mp_slug": "1387-ivica-kukavica",
+        "club": "Domovinski pokret",
+        "club_slug": "957-klub-zastupnika-domovinskog-pokreta",
+        "club_color": "#06637D",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Željko Lacković",
+        "mp_slug": "1249-zeljko-lackovic",
+        "club": "NZ i HSU",
+        "club_slug": "1145-klub-zastupnika-nezavisni-i-hsu",
+        "club_color": "#CDCCCF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Boris Lalovac",
+        "mp_slug": "920-boris-lalovac",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Dubravka Lipovac Pehar",
+        "mp_slug": "1388-dubravka-lipovac-pehar",
+        "club": "Domovinski pokret",
+        "club_slug": "957-klub-zastupnika-domovinskog-pokreta",
+        "club_color": "#06637D",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Marija Lugarić",
+        "mp_slug": "1416-marija-lugaric",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ljubica Lukačić",
+        "mp_slug": "977-ljubica-lukacic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Sanda Livia Maduna",
+        "mp_slug": "1401-sanda-livia-maduna",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ivan Malenica",
+        "mp_slug": "1012-ivan-malenica",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Marin Mandarić",
+        "mp_slug": "949-marin-mandaric",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Damir Mandić",
+        "mp_slug": "1402-damir-mandic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ivana Marković",
+        "mp_slug": "1407-ivana-markovic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Miroslav Marković",
+        "mp_slug": "1406-miroslav-markovic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ivan Matić",
+        "mp_slug": "1367-ivan-matic",
+        "club": "Most i J. Jurčević",
+        "club_slug": "1043-klub-zastupnika-mosta-i-nezavisnog-zastupnika-josipa-jurcevica",
+        "club_color": "#00E1E7",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Nikola Mažar",
+        "mp_slug": "992-nikola-mazar",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ivica Mesić",
+        "mp_slug": "1492-ivica-mesic",
+        "club": "Domovinski pokret",
+        "club_slug": "957-klub-zastupnika-domovinskog-pokreta",
+        "club_color": "#06637D",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Dalibor Milan",
+        "mp_slug": "1403-dalibor-milan",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Marin Miletić",
+        "mp_slug": "866-marin-miletic",
+        "club": "Most i J. Jurčević",
+        "club_slug": "1043-klub-zastupnika-mosta-i-nezavisnog-zastupnika-josipa-jurcevica",
+        "club_color": "#00E1E7",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Mario Milinković",
+        "mp_slug": "1408-mario-milinkovic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Jelena Miloš",
+        "mp_slug": "1065-jelena-milos",
+        "club": "Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Predrag Mišić",
+        "mp_slug": "1497-predrag-misic",
+        "club": "Domovinski pokret",
+        "club_slug": "957-klub-zastupnika-domovinskog-pokreta",
+        "club_color": "#06637D",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Stipo Mlinarić",
+        "mp_slug": "912-stipo-mlinaric",
+        "club": "Domovinski pokret",
+        "club_slug": "957-klub-zastupnika-domovinskog-pokreta",
+        "club_color": "#06637D",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Matej Mostarac",
+        "mp_slug": "1520-matej-mostarac",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Dubravka Novak",
+        "mp_slug": "1365-dubravka-novak",
+        "club": "Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Dalija Orešković",
+        "mp_slug": "905-dalija-oreskovic",
+        "club": null,
+        "club_slug": null,
+        "club_color": null,
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ranko Ostojić",
+        "mp_slug": "1258-ranko-ostojic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Josip Ostrogović",
+        "mp_slug": "1404-josip-ostrogovic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Dalibor Paus",
+        "mp_slug": "1366-dalibor-paus",
+        "club": "IDS, PGU, UK i ISU",
+        "club_slug": "1136-klub-zastupnika-istarskog-demokratskog-sabora-ids-primorsko-goranskog-saveza-pgs-unije-kvarnera-unija-i-istarske-stranke-umirovljenika-partito-istriano-dei-pensionati-isu-pip",
+        "club_color": "#49A343",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Marko Pavić",
+        "mp_slug": "966-marko-pavic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ivan Penava",
+        "mp_slug": "939-ivan-penava",
+        "club": "Domovinski pokret",
+        "club_slug": "957-klub-zastupnika-domovinskog-pokreta",
+        "club_color": "#06637D",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Igor Peternel",
+        "mp_slug": "1370-igor-peternel",
+        "club": "DOMiNO i HS",
+        "club_slug": "1172-klub-zastupnika-dom-i-nacionalno-okupljanje-i-hrvatski-suverenisti",
+        "club_color": "#09A2CC",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Marijana Petir",
+        "mp_slug": "878-marijana-petir",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Božo Petrov",
+        "mp_slug": "931-bozo-petrov",
+        "club": "Most i J. Jurčević",
+        "club_slug": "1043-klub-zastupnika-mosta-i-nezavisnog-zastupnika-josipa-jurcevica",
+        "club_color": "#00E1E7",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Marin Piletić",
+        "mp_slug": "1000-marin-piletic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Boris Piližota",
+        "mp_slug": "1409-boris-pilizota",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Draženka Polović",
+        "mp_slug": "1374-drazenka-polovic",
+        "club": "Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Marijana Puljak",
+        "mp_slug": "948-marijana-puljak",
+        "club": "Centar, NP Sjever i GLS",
+        "club_slug": "1130-klub-zastupnika-centra-nezavisne-platforme-sjevera-i-graansko-liberalnog-saveza",
+        "club_color": "#FFF600",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Milorad Pupovac",
+        "mp_slug": "945-milorad-pupovac",
+        "club": "SDSS",
+        "club_slug": "969-klub-zastupnika-samostalne-demokratske-srpske-stranke",
+        "club_color": "#9D26CC",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Dario Pušić",
+        "mp_slug": "1413-dario-pusic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ana Puž Kukuljan",
+        "mp_slug": "1410-ana-puz-kukuljan",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ivan Račan",
+        "mp_slug": "1417-ivan-racan",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ivan Radić",
+        "mp_slug": "887-ivan-radic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Dušica Radojčić",
+        "mp_slug": "1380-dusica-radojcic",
+        "club": "Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Sanja Radolović",
+        "mp_slug": "961-sanja-radolovic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Nino Raspudić",
+        "mp_slug": "843-nino-raspudic",
+        "club": "Klub NZ",
+        "club_slug": "1135-klub-nezavisnih-zastupnika",
+        "club_color": "#E890FF",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Urša Raukar-Gamulin",
+        "mp_slug": "994-ursa-raukar-gamulin",
+        "club": "Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Željko Reiner",
+        "mp_slug": "984-zeljko-reiner",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Tonči Restović",
+        "mp_slug": "1411-tonci-restovic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ivana Ribarić Majanović",
+        "mp_slug": "1490-ivana-ribaric-majanovic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Anđelka Salopek",
+        "mp_slug": "1494-anelka-salopek",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ante Sanader",
+        "mp_slug": "925-ante-sanader",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Marija Selak Raspudić",
+        "mp_slug": "846-marija-selak-raspudic",
+        "club": "Klub NZ",
+        "club_slug": "1135-klub-nezavisnih-zastupnika",
+        "club_color": "#E890FF",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Darko Sobota",
+        "mp_slug": "936-darko-sobota",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Tanja Sokolić",
+        "mp_slug": "1412-tanja-sokolic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Stipan Šašlin",
+        "mp_slug": "900-stipan-saslin",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Anja Šimpraga",
+        "mp_slug": "851-anja-simpraga",
+        "club": "SDSS",
+        "club_slug": "969-klub-zastupnika-samostalne-demokratske-srpske-stranke",
+        "club_color": "#9D26CC",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Maksimilijan Šimrak",
+        "mp_slug": "1415-maksimilijan-simrak",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Predrag Štromar",
+        "mp_slug": "848-predrag-stromar",
+        "club": "HNS i NZ",
+        "club_slug": "1137-klub-zastupnika-hrvatske-narodne-stranke-i-nezavisnih-zastupnika",
+        "club_color": "#CCB899",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Tomislav Šuta",
+        "mp_slug": "1418-tomislav-suta",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Miro Totgergeli",
+        "mp_slug": "842-miro-totgergeli",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Zvonimir Troskot",
+        "mp_slug": "974-zvonimir-troskot",
+        "club": "Most i J. Jurčević",
+        "club_slug": "1043-klub-zastupnika-mosta-i-nezavisnog-zastupnika-josipa-jurcevica",
+        "club_color": "#00E1E7",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Željko Turk",
+        "mp_slug": "1495-zeljko-turk",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Martina Vlašić Iljkić",
+        "mp_slug": "930-martina-vlasic-iljkic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Jasna Vojnić",
+        "mp_slug": "1419-jasna-vojnic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Mate Vukušić",
+        "mp_slug": "1414-mate-vukusic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Darko Vuletić",
+        "mp_slug": "1539-darko-vuletic",
+        "club": null,
+        "club_slug": null,
+        "club_color": null,
+        "vote": "against"
+      },
+      {
+        "mp_name": "Tomislav Zadro",
+        "mp_slug": "1521-tomislav-zadro",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Hrvoje Zekanović",
+        "mp_slug": "865-hrvoje-zekanovic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ivo Zelić",
+        "mp_slug": "1522-ivo-zelic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Mihael Zmajlović",
+        "mp_slug": "1240-mihael-zmajlovic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Dario Zurovec",
+        "mp_slug": "875-dario-zurovec",
+        "club": "Klub NZ",
+        "club_slug": "1135-klub-nezavisnih-zastupnika",
+        "club_color": "#E890FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Marin Živković",
+        "mp_slug": "1493-marin-zivkovic",
+        "club": "Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ivica Baksa",
+        "mp_slug": "1372-ivica-baksa",
+        "club": "Centar, NP Sjever i GLS",
+        "club_slug": "1130-klub-zastupnika-centra-nezavisne-platforme-sjevera-i-graansko-liberalnog-saveza",
+        "club_color": "#FFF600",
+        "vote": "absent"
+      },
+      {
+        "mp_name": "Branko Kolarić",
+        "mp_slug": "1397-branko-kolaric",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "absent"
+      },
+      {
+        "mp_name": "Anka Mrak-Taritaš",
+        "mp_slug": "911-anka-mrak-taritas",
+        "club": "Centar, NP Sjever i GLS",
+        "club_slug": "1130-klub-zastupnika-centra-nezavisne-platforme-sjevera-i-graansko-liberalnog-saveza",
+        "club_color": "#FFF600",
+        "vote": "absent"
+      },
+      {
+        "mp_name": "Josip Jurčević",
+        "mp_slug": "1369-josip-jurcevic",
+        "club": "Most i J. Jurčević",
+        "club_slug": "1043-klub-zastupnika-mosta-i-nezavisnog-zastupnika-josipa-jurcevica",
+        "club_color": "#00E1E7",
+        "vote": "absent"
+      },
+      {
+        "mp_name": "Krešimir Čabaj",
+        "mp_slug": "1382-kresimir-cabaj",
+        "club": "DOMiNO i HS",
+        "club_slug": "1172-klub-zastupnika-dom-i-nacionalno-okupljanje-i-hrvatski-suverenisti",
+        "club_color": "#09A2CC",
+        "vote": "absent"
+      },
+      {
+        "mp_name": "Vesna Vučemilović",
+        "mp_slug": "983-vesna-vucemilovic",
+        "club": "NZ i HSU",
+        "club_slug": "1145-klub-zastupnika-nezavisni-i-hsu",
+        "club_color": "#CDCCCF",
+        "vote": "absent"
+      },
+      {
+        "mp_name": "Martin Kordić",
+        "mp_slug": "1529-martin-kordic",
+        "club": "DOMiNO i HS",
+        "club_slug": "1172-klub-zastupnika-dom-i-nacionalno-okupljanje-i-hrvatski-suverenisti",
+        "club_color": "#09A2CC",
+        "vote": "absent"
+      },
+      {
+        "mp_name": "Anteo Milos",
+        "mp_slug": "1534-anteo-milos",
+        "club": "IDS, PGU, UK i ISU",
+        "club_slug": "1136-klub-zastupnika-istarskog-demokratskog-sabora-ids-primorsko-goranskog-saveza-pgs-unije-kvarnera-unija-i-istarske-stranke-umirovljenika-partito-istriano-dei-pensionati-isu-pip",
+        "club_color": "#49A343",
+        "vote": "absent"
+      }
+    ]
+  },
+  {
+    "vote_id": "137113",
+    "date": "2026-08-21",
+    "session": "11. sjednica",
+    "title": "prijedlog zaključka kojim se vlada republike hrvatske obvezuje odmah, a najduže u roku od petnaest (15) dana, imenovati glavnog državnog inspektora državnog inspektorata",
+    "summary": null,
+    "proposer_type": "ostalo",
+    "proposer_name": "predsjednik republike hrvatske",
+    "proposer_color": null,
+    "result": "odbijeno",
+    "tally": {
+      "za": 64,
+      "protiv": 78,
+      "suzdrzani": 0,
+      "odsutni": 8
+    },
+    "by_club": [
+      {
+        "club": "HDZ",
+        "club_name": "Klub zastupnika Hrvatske demokratske zajednice",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "is_coalition": true,
+        "za": 0,
+        "protiv": 58,
+        "suzdrzani": 0,
+        "odsutni": 0
+      },
+      {
+        "club": "Hrvatska seljačka stranka",
+        "club_name": "Hrvatska seljačka stranka",
+        "club_slug": "985-hrvatska-seljacka-stranka",
+        "club_color": "#09a2cc",
+        "is_coalition": false,
+        "za": 0,
+        "protiv": 0,
+        "suzdrzani": 0,
+        "odsutni": 0
+      },
+      {
+        "club": "Domovinski pokret",
+        "club_name": "Klub zastupnika Domovinskog pokreta",
+        "club_slug": "957-klub-zastupnika-domovinskog-pokreta",
+        "club_color": "#06637D",
+        "is_coalition": false,
+        "za": 0,
+        "protiv": 8,
+        "suzdrzani": 0,
+        "odsutni": 0
+      },
+      {
+        "club": "SDSS",
+        "club_name": "Klub zastupnika Samostalne demokratske srpske stranke",
+        "club_slug": "969-klub-zastupnika-samostalne-demokratske-srpske-stranke",
+        "club_color": "#9D26CC",
+        "is_coalition": false,
+        "za": 3,
+        "protiv": 0,
+        "suzdrzani": 0,
+        "odsutni": 0
+      },
+      {
+        "club": "HSLS i V. Bilek",
+        "club_name": "Klub zastupnika Hrvatske socijalno-liberalne stranke i nezavisnog zastupnika Vladimira Bileka",
+        "club_slug": "1049-klub-zastupnika-hrvatske-socijalno-liberalne-stranke-i-nezavisnog-zastupnika-vladimira-bileka",
+        "club_color": "#9F9E54",
+        "is_coalition": false,
+        "za": 0,
+        "protiv": 3,
+        "suzdrzani": 0,
+        "odsutni": 0
+      },
+      {
+        "club": "Možemo!",
+        "club_name": "Klub zastupnika Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "is_coalition": false,
+        "za": 10,
+        "protiv": 0,
+        "suzdrzani": 0,
+        "odsutni": 0
+      },
+      {
+        "club": "SDP",
+        "club_name": "Klub zastupnika Socijaldemokratske partije Hrvatske",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "is_coalition": false,
+        "za": 35,
+        "protiv": 0,
+        "suzdrzani": 0,
+        "odsutni": 1
+      },
+      {
+        "club": "DOMiNO i HS",
+        "club_name": "Klub zastupnika Dom i nacionalno okupljanje i Hrvatski suverenisti",
+        "club_slug": "1172-klub-zastupnika-dom-i-nacionalno-okupljanje-i-hrvatski-suverenisti",
+        "club_color": "#09A2CC",
+        "is_coalition": false,
+        "za": 2,
+        "protiv": 0,
+        "suzdrzani": 0,
+        "odsutni": 2
+      },
+      {
+        "club": "Klub NZ",
+        "club_name": "Klub nezavisnih zastupnika",
+        "club_slug": "1135-klub-nezavisnih-zastupnika",
+        "club_color": "#E890FF",
+        "is_coalition": false,
+        "za": 2,
+        "protiv": 1,
+        "suzdrzani": 0,
+        "odsutni": 0
+      },
+      {
+        "club": "HNS i NZ",
+        "club_name": "Klub Zastupnika Hrvatske Narodne Stranke I Nezavisnih Zastupnika",
+        "club_slug": "1137-klub-zastupnika-hrvatske-narodne-stranke-i-nezavisnih-zastupnika",
+        "club_color": "#CCB899",
+        "is_coalition": false,
+        "za": 0,
+        "protiv": 3,
+        "suzdrzani": 0,
+        "odsutni": 0
+      },
+      {
+        "club": "Most i J. Jurčević",
+        "club_name": "Klub zastupnika Mosta i nezavisnog zastupnika Josipa Jurčevića",
+        "club_slug": "1043-klub-zastupnika-mosta-i-nezavisnog-zastupnika-josipa-jurcevica",
+        "club_color": "#00E1E7",
+        "is_coalition": false,
+        "za": 7,
+        "protiv": 0,
+        "suzdrzani": 0,
+        "odsutni": 1
+      },
+      {
+        "club": "HSS, GLAS, DOSIP",
+        "club_name": "Klub Zastupnika Hrvatske Seljačke Stranke, Građansko-Liberalnog Saveza I Dalije Orešković I Stranke S Imenom I Prezimenom",
+        "club_slug": "1134-klub-zastupnika-hrvatske-seljacke-stranke-graansko-liberalnog-saveza-i-dalije-oreskovic-i-stranke-s-imenom-i-prezimenom",
+        "club_color": "#FFA500",
+        "is_coalition": false,
+        "za": 0,
+        "protiv": 0,
+        "suzdrzani": 0,
+        "odsutni": 0
+      },
+      {
+        "club": "NZ i HSU",
+        "club_name": "Klub Zastupnika Nezavisni I HSU",
+        "club_slug": "1145-klub-zastupnika-nezavisni-i-hsu",
+        "club_color": "#CDCCCF",
+        "is_coalition": false,
+        "za": 0,
+        "protiv": 2,
+        "suzdrzani": 0,
+        "odsutni": 1
+      },
+      {
+        "club": "IDS, PGU, UK i ISU",
+        "club_name": "Klub Zastupnika Istarskog Demokratskog Sabora (Ids), Primorsko-Goranskog Saveza (Pgs), Unije Kvarnera (Unija) I Istarske Stranke Umirovljenika - Partito Istriano Dei Pensionati (Isu - Pip)",
+        "club_slug": "1136-klub-zastupnika-istarskog-demokratskog-sabora-ids-primorsko-goranskog-saveza-pgs-unije-kvarnera-unija-i-istarske-stranke-umirovljenika-partito-istriano-dei-pensionati-isu-pip",
+        "club_color": "#49A343",
+        "is_coalition": false,
+        "za": 1,
+        "protiv": 1,
+        "suzdrzani": 0,
+        "odsutni": 1
+      },
+      {
+        "club": "Centar, NP Sjever i GLS",
+        "club_name": "Klub zastupnika Centra, Nezavisne platforme Sjevera i Građansko-liberalnog saveza",
+        "club_slug": "1130-klub-zastupnika-centra-nezavisne-platforme-sjevera-i-graansko-liberalnog-saveza",
+        "club_color": "#FFF600",
+        "is_coalition": false,
+        "za": 3,
+        "protiv": 0,
+        "suzdrzani": 0,
+        "odsutni": 2
+      }
+    ],
+    "by_mp": [
+      {
+        "mp_name": "Krešimir Ačkar",
+        "mp_slug": "840-kresimir-ackar",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Mirela Ahmetović",
+        "mp_slug": "873-mirela-ahmetovic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Barbara Antolić Vupora",
+        "mp_slug": "1006-barbara-antolic-vupora",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Jasenka Auguštan",
+        "mp_slug": "1368-jasenka-augustan",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ante Babić",
+        "mp_slug": "1487-ante-babic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Damir Bakić",
+        "mp_slug": "934-damir-bakic",
+        "club": "Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Boška Ban",
+        "mp_slug": "1007-boska-ban",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Nikolina Baradić",
+        "mp_slug": "954-nikolina-baradic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Nevenko Barbarić",
+        "mp_slug": "953-nevenko-barbaric",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Damir Barbir",
+        "mp_slug": "1527-damir-barbir",
+        "club": "Centar, NP Sjever i GLS",
+        "club_slug": "1130-klub-zastupnika-centra-nezavisne-platforme-sjevera-i-graansko-liberalnog-saveza",
+        "club_color": "#FFF600",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Danica Baričević",
+        "mp_slug": "981-danica-baricevic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Arsen Bauk",
+        "mp_slug": "926-arsen-bauk",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Vesna Bedeković",
+        "mp_slug": "980-vesna-bedekovic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Sandra Benčić",
+        "mp_slug": "903-sandra-bencic",
+        "club": "Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Vladimir Bilek",
+        "mp_slug": "973-vladimir-bilek",
+        "club": "HSLS i V. Bilek",
+        "club_slug": "1049-klub-zastupnika-hrvatske-socijalno-liberalne-stranke-i-nezavisnog-zastupnika-vladimira-bileka",
+        "club_color": "#9F9E54",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Dubravko Bilić",
+        "mp_slug": "1389-dubravko-bilic",
+        "club": "Centar, NP Sjever i GLS",
+        "club_slug": "1130-klub-zastupnika-centra-nezavisne-platforme-sjevera-i-graansko-liberalnog-saveza",
+        "club_color": "#FFF600",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Damir Biloglav",
+        "mp_slug": "1378-damir-biloglav",
+        "club": "DOMiNO i HS",
+        "club_slug": "1172-klub-zastupnika-dom-i-nacionalno-okupljanje-i-hrvatski-suverenisti",
+        "club_color": "#09A2CC",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Sanja Bježančević",
+        "mp_slug": "1376-sanja-bjezancevic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Danijela Blažanović",
+        "mp_slug": "1371-danijela-blazanovic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Anamarija Blažević",
+        "mp_slug": "922-anamarija-blazevic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Maria Blažina",
+        "mp_slug": "1526-maria-blazina",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Josip Borić",
+        "mp_slug": "964-josip-boric",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Rada Borić",
+        "mp_slug": "956-rada-boric",
+        "club": "Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ivan Budalić",
+        "mp_slug": "869-ivan-budalic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ivan Bugarin",
+        "mp_slug": "1391-ivan-bugarin",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Miro Bulj",
+        "mp_slug": "854-miro-bulj",
+        "club": "Most i J. Jurčević",
+        "club_slug": "1043-klub-zastupnika-mosta-i-nezavisnog-zastupnika-josipa-jurcevica",
+        "club_color": "#00E1E7",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Majda Burić",
+        "mp_slug": "996-majda-buric",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Zdravka Bušić",
+        "mp_slug": "844-zdravka-busic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Marin Corva",
+        "mp_slug": "1542-marin-corva",
+        "club": "IDS, PGU, UK i ISU",
+        "club_slug": "1136-klub-zastupnika-istarskog-demokratskog-sabora-ids-primorsko-goranskog-saveza-pgs-unije-kvarnera-unija-i-istarske-stranke-umirovljenika-partito-istriano-dei-pensionati-isu-pip",
+        "club_color": "#49A343",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Anita Curiš Krok",
+        "mp_slug": "1381-anita-curis-krok",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Pero Ćosić",
+        "mp_slug": "955-pero-cosic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ivan Dabo",
+        "mp_slug": "1392-ivan-dabo",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Josip Dabro",
+        "mp_slug": "1384-josip-dabro",
+        "club": "Domovinski pokret",
+        "club_slug": "957-klub-zastupnika-domovinskog-pokreta",
+        "club_color": "#06637D",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ante Deur",
+        "mp_slug": "927-ante-deur",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Dalibor Domitrović",
+        "mp_slug": "1383-dalibor-domitrovic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Irena Dragić",
+        "mp_slug": "1385-irena-dragic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Josip Đakić",
+        "mp_slug": "861-josip-akic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Saša Đujić",
+        "mp_slug": "1234-sasa-ujic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Mato Franković",
+        "mp_slug": "871-mato-frankovic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Veselko Gabričević",
+        "mp_slug": "1393-veselko-gabricevic",
+        "club": "NZ i HSU",
+        "club_slug": "1145-klub-zastupnika-nezavisni-i-hsu",
+        "club_color": "#CDCCCF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Sabina Glasovac",
+        "mp_slug": "919-sabina-glasovac",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Željko Glavić",
+        "mp_slug": "1394-zeljko-glavic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Zoran Gregurović",
+        "mp_slug": "1141-zoran-gregurovic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Nikola Grmoja",
+        "mp_slug": "862-nikola-grmoja",
+        "club": "Most i J. Jurčević",
+        "club_slug": "1043-klub-zastupnika-mosta-i-nezavisnog-zastupnika-josipa-jurcevica",
+        "club_color": "#00E1E7",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Siniša Hajdaš Dončić",
+        "mp_slug": "971-sinisa-hajdas-doncic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Mislav Herman",
+        "mp_slug": "1420-mislav-herman",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Armin Hodžić",
+        "mp_slug": "1373-armin-hodzic",
+        "club": "HNS i NZ",
+        "club_slug": "1137-klub-zastupnika-hrvatske-narodne-stranke-i-nezavisnih-zastupnika",
+        "club_color": "#CCB899",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Dario Hrebak",
+        "mp_slug": "916-dario-hrebak",
+        "club": "HSLS i V. Bilek",
+        "club_slug": "1049-klub-zastupnika-hrvatske-socijalno-liberalne-stranke-i-nezavisnog-zastupnika-vladimira-bileka",
+        "club_color": "#9F9E54",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Kristina Ikić-Baniček",
+        "mp_slug": "1396-kristina-ikic-banicek",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Mišel Jakšić",
+        "mp_slug": "918-misel-jaksic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Gordan Jandroković",
+        "mp_slug": "938-gordan-jandrokovic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Robert Jankovics",
+        "mp_slug": "958-robert-jankovics",
+        "club": null,
+        "club_slug": null,
+        "club_color": null,
+        "vote": "against"
+      },
+      {
+        "mp_name": "Dragana Jeckov",
+        "mp_slug": "849-dragana-jeckov",
+        "club": "SDSS",
+        "club_slug": "969-klub-zastupnika-samostalne-demokratske-srpske-stranke",
+        "club_color": "#9D26CC",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ljubica Jembrih",
+        "mp_slug": "1358-ljubica-jembrih",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Tomislav Josić",
+        "mp_slug": "1386-tomislav-josic",
+        "club": "Domovinski pokret",
+        "club_slug": "957-klub-zastupnika-domovinskog-pokreta",
+        "club_color": "#06637D",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Branka Juričev-Martinčev",
+        "mp_slug": "986-branka-juricev-martincev",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Veljko Kajtazi",
+        "mp_slug": "872-veljko-kajtazi",
+        "club": "HNS i NZ",
+        "club_slug": "1137-klub-zastupnika-hrvatske-narodne-stranke-i-nezavisnih-zastupnika",
+        "club_color": "#CCB899",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Goran Kaniški",
+        "mp_slug": "1395-goran-kaniski",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Krunoslav Katičić",
+        "mp_slug": "944-krunoslav-katicic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ivana Kekin",
+        "mp_slug": "1001-ivana-kekin",
+        "club": "Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Tomislav Klarić",
+        "mp_slug": "880-tomislav-klaric",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Darko Klasić",
+        "mp_slug": "899-darko-klasic",
+        "club": "HSLS i V. Bilek",
+        "club_slug": "1049-klub-zastupnika-hrvatske-socijalno-liberalne-stranke-i-nezavisnog-zastupnika-vladimira-bileka",
+        "club_color": "#9F9E54",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Anton Kliman",
+        "mp_slug": "883-anton-kliman",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ljubomir Kolarek",
+        "mp_slug": "877-ljubomir-kolarek",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Zlatko Komadina",
+        "mp_slug": "1523-zlatko-komadina",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Magdalena Komes",
+        "mp_slug": "1004-magdalena-komes",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Denis Kralj",
+        "mp_slug": "1519-denis-kralj",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Sandra Krpan",
+        "mp_slug": "1400-sandra-krpan",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Mišo Krstičević",
+        "mp_slug": "1399-miso-krsticevic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Andro Krstulović Opara",
+        "mp_slug": "1005-andro-krstulovic-opara",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ante Kujundžić",
+        "mp_slug": "928-ante-kujundzic",
+        "club": "Most i J. Jurčević",
+        "club_slug": "1043-klub-zastupnika-mosta-i-nezavisnog-zastupnika-josipa-jurcevica",
+        "club_color": "#00E1E7",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ivica Kukavica",
+        "mp_slug": "1387-ivica-kukavica",
+        "club": "Domovinski pokret",
+        "club_slug": "957-klub-zastupnika-domovinskog-pokreta",
+        "club_color": "#06637D",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Željko Lacković",
+        "mp_slug": "1249-zeljko-lackovic",
+        "club": "NZ i HSU",
+        "club_slug": "1145-klub-zastupnika-nezavisni-i-hsu",
+        "club_color": "#CDCCCF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Boris Lalovac",
+        "mp_slug": "920-boris-lalovac",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Dubravka Lipovac Pehar",
+        "mp_slug": "1388-dubravka-lipovac-pehar",
+        "club": "Domovinski pokret",
+        "club_slug": "957-klub-zastupnika-domovinskog-pokreta",
+        "club_color": "#06637D",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Marija Lugarić",
+        "mp_slug": "1416-marija-lugaric",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ljubica Lukačić",
+        "mp_slug": "977-ljubica-lukacic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Sanda Livia Maduna",
+        "mp_slug": "1401-sanda-livia-maduna",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ivan Malenica",
+        "mp_slug": "1012-ivan-malenica",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Marin Mandarić",
+        "mp_slug": "949-marin-mandaric",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Damir Mandić",
+        "mp_slug": "1402-damir-mandic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ivana Marković",
+        "mp_slug": "1407-ivana-markovic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Miroslav Marković",
+        "mp_slug": "1406-miroslav-markovic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ivan Matić",
+        "mp_slug": "1367-ivan-matic",
+        "club": "Most i J. Jurčević",
+        "club_slug": "1043-klub-zastupnika-mosta-i-nezavisnog-zastupnika-josipa-jurcevica",
+        "club_color": "#00E1E7",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Nikola Mažar",
+        "mp_slug": "992-nikola-mazar",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ivica Mesić",
+        "mp_slug": "1492-ivica-mesic",
+        "club": "Domovinski pokret",
+        "club_slug": "957-klub-zastupnika-domovinskog-pokreta",
+        "club_color": "#06637D",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Dalibor Milan",
+        "mp_slug": "1403-dalibor-milan",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Marin Miletić",
+        "mp_slug": "866-marin-miletic",
+        "club": "Most i J. Jurčević",
+        "club_slug": "1043-klub-zastupnika-mosta-i-nezavisnog-zastupnika-josipa-jurcevica",
+        "club_color": "#00E1E7",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Mario Milinković",
+        "mp_slug": "1408-mario-milinkovic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Jelena Miloš",
+        "mp_slug": "1065-jelena-milos",
+        "club": "Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Predrag Mišić",
+        "mp_slug": "1497-predrag-misic",
+        "club": "Domovinski pokret",
+        "club_slug": "957-klub-zastupnika-domovinskog-pokreta",
+        "club_color": "#06637D",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Stipo Mlinarić",
+        "mp_slug": "912-stipo-mlinaric",
+        "club": "Domovinski pokret",
+        "club_slug": "957-klub-zastupnika-domovinskog-pokreta",
+        "club_color": "#06637D",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Matej Mostarac",
+        "mp_slug": "1520-matej-mostarac",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Dubravka Novak",
+        "mp_slug": "1365-dubravka-novak",
+        "club": "Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Dalija Orešković",
+        "mp_slug": "905-dalija-oreskovic",
+        "club": null,
+        "club_slug": null,
+        "club_color": null,
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ranko Ostojić",
+        "mp_slug": "1258-ranko-ostojic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Josip Ostrogović",
+        "mp_slug": "1404-josip-ostrogovic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Dalibor Paus",
+        "mp_slug": "1366-dalibor-paus",
+        "club": "IDS, PGU, UK i ISU",
+        "club_slug": "1136-klub-zastupnika-istarskog-demokratskog-sabora-ids-primorsko-goranskog-saveza-pgs-unije-kvarnera-unija-i-istarske-stranke-umirovljenika-partito-istriano-dei-pensionati-isu-pip",
+        "club_color": "#49A343",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Marko Pavić",
+        "mp_slug": "966-marko-pavic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ivan Penava",
+        "mp_slug": "939-ivan-penava",
+        "club": "Domovinski pokret",
+        "club_slug": "957-klub-zastupnika-domovinskog-pokreta",
+        "club_color": "#06637D",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Igor Peternel",
+        "mp_slug": "1370-igor-peternel",
+        "club": "DOMiNO i HS",
+        "club_slug": "1172-klub-zastupnika-dom-i-nacionalno-okupljanje-i-hrvatski-suverenisti",
+        "club_color": "#09A2CC",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Marijana Petir",
+        "mp_slug": "878-marijana-petir",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Božo Petrov",
+        "mp_slug": "931-bozo-petrov",
+        "club": "Most i J. Jurčević",
+        "club_slug": "1043-klub-zastupnika-mosta-i-nezavisnog-zastupnika-josipa-jurcevica",
+        "club_color": "#00E1E7",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Marin Piletić",
+        "mp_slug": "1000-marin-piletic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Boris Piližota",
+        "mp_slug": "1409-boris-pilizota",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Draženka Polović",
+        "mp_slug": "1374-drazenka-polovic",
+        "club": "Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Marijana Puljak",
+        "mp_slug": "948-marijana-puljak",
+        "club": "Centar, NP Sjever i GLS",
+        "club_slug": "1130-klub-zastupnika-centra-nezavisne-platforme-sjevera-i-graansko-liberalnog-saveza",
+        "club_color": "#FFF600",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Milorad Pupovac",
+        "mp_slug": "945-milorad-pupovac",
+        "club": "SDSS",
+        "club_slug": "969-klub-zastupnika-samostalne-demokratske-srpske-stranke",
+        "club_color": "#9D26CC",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Dario Pušić",
+        "mp_slug": "1413-dario-pusic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ana Puž Kukuljan",
+        "mp_slug": "1410-ana-puz-kukuljan",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ivan Račan",
+        "mp_slug": "1417-ivan-racan",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ivan Radić",
+        "mp_slug": "887-ivan-radic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Dušica Radojčić",
+        "mp_slug": "1380-dusica-radojcic",
+        "club": "Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Sanja Radolović",
+        "mp_slug": "961-sanja-radolovic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Nino Raspudić",
+        "mp_slug": "843-nino-raspudic",
+        "club": "Klub NZ",
+        "club_slug": "1135-klub-nezavisnih-zastupnika",
+        "club_color": "#E890FF",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Urša Raukar-Gamulin",
+        "mp_slug": "994-ursa-raukar-gamulin",
+        "club": "Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Željko Reiner",
+        "mp_slug": "984-zeljko-reiner",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Tonči Restović",
+        "mp_slug": "1411-tonci-restovic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ivana Ribarić Majanović",
+        "mp_slug": "1490-ivana-ribaric-majanovic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Anđelka Salopek",
+        "mp_slug": "1494-anelka-salopek",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ante Sanader",
+        "mp_slug": "925-ante-sanader",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Marija Selak Raspudić",
+        "mp_slug": "846-marija-selak-raspudic",
+        "club": "Klub NZ",
+        "club_slug": "1135-klub-nezavisnih-zastupnika",
+        "club_color": "#E890FF",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Darko Sobota",
+        "mp_slug": "936-darko-sobota",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Tanja Sokolić",
+        "mp_slug": "1412-tanja-sokolic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Stipan Šašlin",
+        "mp_slug": "900-stipan-saslin",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Anja Šimpraga",
+        "mp_slug": "851-anja-simpraga",
+        "club": "SDSS",
+        "club_slug": "969-klub-zastupnika-samostalne-demokratske-srpske-stranke",
+        "club_color": "#9D26CC",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Maksimilijan Šimrak",
+        "mp_slug": "1415-maksimilijan-simrak",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Predrag Štromar",
+        "mp_slug": "848-predrag-stromar",
+        "club": "HNS i NZ",
+        "club_slug": "1137-klub-zastupnika-hrvatske-narodne-stranke-i-nezavisnih-zastupnika",
+        "club_color": "#CCB899",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Tomislav Šuta",
+        "mp_slug": "1418-tomislav-suta",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Miro Totgergeli",
+        "mp_slug": "842-miro-totgergeli",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Zvonimir Troskot",
+        "mp_slug": "974-zvonimir-troskot",
+        "club": "Most i J. Jurčević",
+        "club_slug": "1043-klub-zastupnika-mosta-i-nezavisnog-zastupnika-josipa-jurcevica",
+        "club_color": "#00E1E7",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Željko Turk",
+        "mp_slug": "1495-zeljko-turk",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Martina Vlašić Iljkić",
+        "mp_slug": "930-martina-vlasic-iljkic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Jasna Vojnić",
+        "mp_slug": "1419-jasna-vojnic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Mate Vukušić",
+        "mp_slug": "1414-mate-vukusic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Darko Vuletić",
+        "mp_slug": "1539-darko-vuletic",
+        "club": null,
+        "club_slug": null,
+        "club_color": null,
+        "vote": "against"
+      },
+      {
+        "mp_name": "Tomislav Zadro",
+        "mp_slug": "1521-tomislav-zadro",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Hrvoje Zekanović",
+        "mp_slug": "865-hrvoje-zekanovic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ivo Zelić",
+        "mp_slug": "1522-ivo-zelic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Mihael Zmajlović",
+        "mp_slug": "1240-mihael-zmajlovic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Dario Zurovec",
+        "mp_slug": "875-dario-zurovec",
+        "club": "Klub NZ",
+        "club_slug": "1135-klub-nezavisnih-zastupnika",
+        "club_color": "#E890FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Marin Živković",
+        "mp_slug": "1493-marin-zivkovic",
+        "club": "Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ivica Baksa",
+        "mp_slug": "1372-ivica-baksa",
+        "club": "Centar, NP Sjever i GLS",
+        "club_slug": "1130-klub-zastupnika-centra-nezavisne-platforme-sjevera-i-graansko-liberalnog-saveza",
+        "club_color": "#FFF600",
+        "vote": "absent"
+      },
+      {
+        "mp_name": "Branko Kolarić",
+        "mp_slug": "1397-branko-kolaric",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "absent"
+      },
+      {
+        "mp_name": "Anka Mrak-Taritaš",
+        "mp_slug": "911-anka-mrak-taritas",
+        "club": "Centar, NP Sjever i GLS",
+        "club_slug": "1130-klub-zastupnika-centra-nezavisne-platforme-sjevera-i-graansko-liberalnog-saveza",
+        "club_color": "#FFF600",
+        "vote": "absent"
+      },
+      {
+        "mp_name": "Josip Jurčević",
+        "mp_slug": "1369-josip-jurcevic",
+        "club": "Most i J. Jurčević",
+        "club_slug": "1043-klub-zastupnika-mosta-i-nezavisnog-zastupnika-josipa-jurcevica",
+        "club_color": "#00E1E7",
+        "vote": "absent"
+      },
+      {
+        "mp_name": "Krešimir Čabaj",
+        "mp_slug": "1382-kresimir-cabaj",
+        "club": "DOMiNO i HS",
+        "club_slug": "1172-klub-zastupnika-dom-i-nacionalno-okupljanje-i-hrvatski-suverenisti",
+        "club_color": "#09A2CC",
+        "vote": "absent"
+      },
+      {
+        "mp_name": "Vesna Vučemilović",
+        "mp_slug": "983-vesna-vucemilovic",
+        "club": "NZ i HSU",
+        "club_slug": "1145-klub-zastupnika-nezavisni-i-hsu",
+        "club_color": "#CDCCCF",
+        "vote": "absent"
+      },
+      {
+        "mp_name": "Martin Kordić",
+        "mp_slug": "1529-martin-kordic",
+        "club": "DOMiNO i HS",
+        "club_slug": "1172-klub-zastupnika-dom-i-nacionalno-okupljanje-i-hrvatski-suverenisti",
+        "club_color": "#09A2CC",
+        "vote": "absent"
+      },
+      {
+        "mp_name": "Anteo Milos",
+        "mp_slug": "1534-anteo-milos",
+        "club": "IDS, PGU, UK i ISU",
+        "club_slug": "1136-klub-zastupnika-istarskog-demokratskog-sabora-ids-primorsko-goranskog-saveza-pgs-unije-kvarnera-unija-i-istarske-stranke-umirovljenika-partito-istriano-dei-pensionati-isu-pip",
+        "club_color": "#49A343",
+        "vote": "absent"
+      }
+    ]
+  },
+  {
+    "vote_id": "137112",
+    "date": "2026-08-21",
+    "session": "11. sjednica",
+    "title": "prijedlog zaključka kojim se vlada republike hrvatske obvezuje odmah započeti postupak trajne sanacije odlagališta opasnog otpada u gospiću te kojim se vlada republike hrvatske obvezuje osigurati stalni nadzor i kontrolu razine onečišćenja podzemnih voda i drugih promjena u okolišu povezanih s nepropisnim odlaganjem otpada kako bi se osiguralo zdravlje ljudi i spriječila trajna šteta za ljude i okoliš. vlada republike hrvatske dalje se obvezuje izvijestiti hrvatski sabor u roku od petnaest (15) dana od donošenja ovog zaključka o poduzetim mjerama te dobivenim nalazima razine onečišćenja podzemnih voda i drugih promjena u okolišu. vlada republike hrvatske dalje se obvezuje podnositi hrvatskom saboru izvješće na ovu temu svakih trideset (30) dana",
+    "summary": null,
+    "proposer_type": "ostalo",
+    "proposer_name": "predsjednik republike hrvatske",
+    "proposer_color": null,
+    "result": "odbijeno",
+    "tally": {
+      "za": 64,
+      "protiv": 78,
+      "suzdrzani": 0,
+      "odsutni": 8
+    },
+    "by_club": [
+      {
+        "club": "HDZ",
+        "club_name": "Klub zastupnika Hrvatske demokratske zajednice",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "is_coalition": true,
+        "za": 0,
+        "protiv": 58,
+        "suzdrzani": 0,
+        "odsutni": 0
+      },
+      {
+        "club": "Hrvatska seljačka stranka",
+        "club_name": "Hrvatska seljačka stranka",
+        "club_slug": "985-hrvatska-seljacka-stranka",
+        "club_color": "#09a2cc",
+        "is_coalition": false,
+        "za": 0,
+        "protiv": 0,
+        "suzdrzani": 0,
+        "odsutni": 0
+      },
+      {
+        "club": "Domovinski pokret",
+        "club_name": "Klub zastupnika Domovinskog pokreta",
+        "club_slug": "957-klub-zastupnika-domovinskog-pokreta",
+        "club_color": "#06637D",
+        "is_coalition": false,
+        "za": 0,
+        "protiv": 8,
+        "suzdrzani": 0,
+        "odsutni": 0
+      },
+      {
+        "club": "SDSS",
+        "club_name": "Klub zastupnika Samostalne demokratske srpske stranke",
+        "club_slug": "969-klub-zastupnika-samostalne-demokratske-srpske-stranke",
+        "club_color": "#9D26CC",
+        "is_coalition": false,
+        "za": 3,
+        "protiv": 0,
+        "suzdrzani": 0,
+        "odsutni": 0
+      },
+      {
+        "club": "HSLS i V. Bilek",
+        "club_name": "Klub zastupnika Hrvatske socijalno-liberalne stranke i nezavisnog zastupnika Vladimira Bileka",
+        "club_slug": "1049-klub-zastupnika-hrvatske-socijalno-liberalne-stranke-i-nezavisnog-zastupnika-vladimira-bileka",
+        "club_color": "#9F9E54",
+        "is_coalition": false,
+        "za": 0,
+        "protiv": 3,
+        "suzdrzani": 0,
+        "odsutni": 0
+      },
+      {
+        "club": "Možemo!",
+        "club_name": "Klub zastupnika Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "is_coalition": false,
+        "za": 10,
+        "protiv": 0,
+        "suzdrzani": 0,
+        "odsutni": 0
+      },
+      {
+        "club": "SDP",
+        "club_name": "Klub zastupnika Socijaldemokratske partije Hrvatske",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "is_coalition": false,
+        "za": 35,
+        "protiv": 0,
+        "suzdrzani": 0,
+        "odsutni": 1
+      },
+      {
+        "club": "DOMiNO i HS",
+        "club_name": "Klub zastupnika Dom i nacionalno okupljanje i Hrvatski suverenisti",
+        "club_slug": "1172-klub-zastupnika-dom-i-nacionalno-okupljanje-i-hrvatski-suverenisti",
+        "club_color": "#09A2CC",
+        "is_coalition": false,
+        "za": 2,
+        "protiv": 0,
+        "suzdrzani": 0,
+        "odsutni": 2
+      },
+      {
+        "club": "Klub NZ",
+        "club_name": "Klub nezavisnih zastupnika",
+        "club_slug": "1135-klub-nezavisnih-zastupnika",
+        "club_color": "#E890FF",
+        "is_coalition": false,
+        "za": 2,
+        "protiv": 1,
+        "suzdrzani": 0,
+        "odsutni": 0
+      },
+      {
+        "club": "HNS i NZ",
+        "club_name": "Klub Zastupnika Hrvatske Narodne Stranke I Nezavisnih Zastupnika",
+        "club_slug": "1137-klub-zastupnika-hrvatske-narodne-stranke-i-nezavisnih-zastupnika",
+        "club_color": "#CCB899",
+        "is_coalition": false,
+        "za": 0,
+        "protiv": 3,
+        "suzdrzani": 0,
+        "odsutni": 0
+      },
+      {
+        "club": "Most i J. Jurčević",
+        "club_name": "Klub zastupnika Mosta i nezavisnog zastupnika Josipa Jurčevića",
+        "club_slug": "1043-klub-zastupnika-mosta-i-nezavisnog-zastupnika-josipa-jurcevica",
+        "club_color": "#00E1E7",
+        "is_coalition": false,
+        "za": 7,
+        "protiv": 0,
+        "suzdrzani": 0,
+        "odsutni": 1
+      },
+      {
+        "club": "HSS, GLAS, DOSIP",
+        "club_name": "Klub Zastupnika Hrvatske Seljačke Stranke, Građansko-Liberalnog Saveza I Dalije Orešković I Stranke S Imenom I Prezimenom",
+        "club_slug": "1134-klub-zastupnika-hrvatske-seljacke-stranke-graansko-liberalnog-saveza-i-dalije-oreskovic-i-stranke-s-imenom-i-prezimenom",
+        "club_color": "#FFA500",
+        "is_coalition": false,
+        "za": 0,
+        "protiv": 0,
+        "suzdrzani": 0,
+        "odsutni": 0
+      },
+      {
+        "club": "NZ i HSU",
+        "club_name": "Klub Zastupnika Nezavisni I HSU",
+        "club_slug": "1145-klub-zastupnika-nezavisni-i-hsu",
+        "club_color": "#CDCCCF",
+        "is_coalition": false,
+        "za": 0,
+        "protiv": 2,
+        "suzdrzani": 0,
+        "odsutni": 1
+      },
+      {
+        "club": "IDS, PGU, UK i ISU",
+        "club_name": "Klub Zastupnika Istarskog Demokratskog Sabora (Ids), Primorsko-Goranskog Saveza (Pgs), Unije Kvarnera (Unija) I Istarske Stranke Umirovljenika - Partito Istriano Dei Pensionati (Isu - Pip)",
+        "club_slug": "1136-klub-zastupnika-istarskog-demokratskog-sabora-ids-primorsko-goranskog-saveza-pgs-unije-kvarnera-unija-i-istarske-stranke-umirovljenika-partito-istriano-dei-pensionati-isu-pip",
+        "club_color": "#49A343",
+        "is_coalition": false,
+        "za": 1,
+        "protiv": 1,
+        "suzdrzani": 0,
+        "odsutni": 1
+      },
+      {
+        "club": "Centar, NP Sjever i GLS",
+        "club_name": "Klub zastupnika Centra, Nezavisne platforme Sjevera i Građansko-liberalnog saveza",
+        "club_slug": "1130-klub-zastupnika-centra-nezavisne-platforme-sjevera-i-graansko-liberalnog-saveza",
+        "club_color": "#FFF600",
+        "is_coalition": false,
+        "za": 3,
+        "protiv": 0,
+        "suzdrzani": 0,
+        "odsutni": 2
+      }
+    ],
+    "by_mp": [
+      {
+        "mp_name": "Krešimir Ačkar",
+        "mp_slug": "840-kresimir-ackar",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Mirela Ahmetović",
+        "mp_slug": "873-mirela-ahmetovic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Barbara Antolić Vupora",
+        "mp_slug": "1006-barbara-antolic-vupora",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Jasenka Auguštan",
+        "mp_slug": "1368-jasenka-augustan",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ante Babić",
+        "mp_slug": "1487-ante-babic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Damir Bakić",
+        "mp_slug": "934-damir-bakic",
+        "club": "Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Boška Ban",
+        "mp_slug": "1007-boska-ban",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Nikolina Baradić",
+        "mp_slug": "954-nikolina-baradic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Nevenko Barbarić",
+        "mp_slug": "953-nevenko-barbaric",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Damir Barbir",
+        "mp_slug": "1527-damir-barbir",
+        "club": "Centar, NP Sjever i GLS",
+        "club_slug": "1130-klub-zastupnika-centra-nezavisne-platforme-sjevera-i-graansko-liberalnog-saveza",
+        "club_color": "#FFF600",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Danica Baričević",
+        "mp_slug": "981-danica-baricevic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Arsen Bauk",
+        "mp_slug": "926-arsen-bauk",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Vesna Bedeković",
+        "mp_slug": "980-vesna-bedekovic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Sandra Benčić",
+        "mp_slug": "903-sandra-bencic",
+        "club": "Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Vladimir Bilek",
+        "mp_slug": "973-vladimir-bilek",
+        "club": "HSLS i V. Bilek",
+        "club_slug": "1049-klub-zastupnika-hrvatske-socijalno-liberalne-stranke-i-nezavisnog-zastupnika-vladimira-bileka",
+        "club_color": "#9F9E54",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Dubravko Bilić",
+        "mp_slug": "1389-dubravko-bilic",
+        "club": "Centar, NP Sjever i GLS",
+        "club_slug": "1130-klub-zastupnika-centra-nezavisne-platforme-sjevera-i-graansko-liberalnog-saveza",
+        "club_color": "#FFF600",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Damir Biloglav",
+        "mp_slug": "1378-damir-biloglav",
+        "club": "DOMiNO i HS",
+        "club_slug": "1172-klub-zastupnika-dom-i-nacionalno-okupljanje-i-hrvatski-suverenisti",
+        "club_color": "#09A2CC",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Sanja Bježančević",
+        "mp_slug": "1376-sanja-bjezancevic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Danijela Blažanović",
+        "mp_slug": "1371-danijela-blazanovic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Anamarija Blažević",
+        "mp_slug": "922-anamarija-blazevic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Maria Blažina",
+        "mp_slug": "1526-maria-blazina",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Josip Borić",
+        "mp_slug": "964-josip-boric",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Rada Borić",
+        "mp_slug": "956-rada-boric",
+        "club": "Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ivan Budalić",
+        "mp_slug": "869-ivan-budalic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ivan Bugarin",
+        "mp_slug": "1391-ivan-bugarin",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Miro Bulj",
+        "mp_slug": "854-miro-bulj",
+        "club": "Most i J. Jurčević",
+        "club_slug": "1043-klub-zastupnika-mosta-i-nezavisnog-zastupnika-josipa-jurcevica",
+        "club_color": "#00E1E7",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Majda Burić",
+        "mp_slug": "996-majda-buric",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Zdravka Bušić",
+        "mp_slug": "844-zdravka-busic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Marin Corva",
+        "mp_slug": "1542-marin-corva",
+        "club": "IDS, PGU, UK i ISU",
+        "club_slug": "1136-klub-zastupnika-istarskog-demokratskog-sabora-ids-primorsko-goranskog-saveza-pgs-unije-kvarnera-unija-i-istarske-stranke-umirovljenika-partito-istriano-dei-pensionati-isu-pip",
+        "club_color": "#49A343",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Anita Curiš Krok",
+        "mp_slug": "1381-anita-curis-krok",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Pero Ćosić",
+        "mp_slug": "955-pero-cosic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ivan Dabo",
+        "mp_slug": "1392-ivan-dabo",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Josip Dabro",
+        "mp_slug": "1384-josip-dabro",
+        "club": "Domovinski pokret",
+        "club_slug": "957-klub-zastupnika-domovinskog-pokreta",
+        "club_color": "#06637D",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ante Deur",
+        "mp_slug": "927-ante-deur",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Dalibor Domitrović",
+        "mp_slug": "1383-dalibor-domitrovic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Irena Dragić",
+        "mp_slug": "1385-irena-dragic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Josip Đakić",
+        "mp_slug": "861-josip-akic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Saša Đujić",
+        "mp_slug": "1234-sasa-ujic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Mato Franković",
+        "mp_slug": "871-mato-frankovic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Veselko Gabričević",
+        "mp_slug": "1393-veselko-gabricevic",
+        "club": "NZ i HSU",
+        "club_slug": "1145-klub-zastupnika-nezavisni-i-hsu",
+        "club_color": "#CDCCCF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Sabina Glasovac",
+        "mp_slug": "919-sabina-glasovac",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Željko Glavić",
+        "mp_slug": "1394-zeljko-glavic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Zoran Gregurović",
+        "mp_slug": "1141-zoran-gregurovic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Nikola Grmoja",
+        "mp_slug": "862-nikola-grmoja",
+        "club": "Most i J. Jurčević",
+        "club_slug": "1043-klub-zastupnika-mosta-i-nezavisnog-zastupnika-josipa-jurcevica",
+        "club_color": "#00E1E7",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Siniša Hajdaš Dončić",
+        "mp_slug": "971-sinisa-hajdas-doncic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Mislav Herman",
+        "mp_slug": "1420-mislav-herman",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Armin Hodžić",
+        "mp_slug": "1373-armin-hodzic",
+        "club": "HNS i NZ",
+        "club_slug": "1137-klub-zastupnika-hrvatske-narodne-stranke-i-nezavisnih-zastupnika",
+        "club_color": "#CCB899",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Dario Hrebak",
+        "mp_slug": "916-dario-hrebak",
+        "club": "HSLS i V. Bilek",
+        "club_slug": "1049-klub-zastupnika-hrvatske-socijalno-liberalne-stranke-i-nezavisnog-zastupnika-vladimira-bileka",
+        "club_color": "#9F9E54",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Kristina Ikić-Baniček",
+        "mp_slug": "1396-kristina-ikic-banicek",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Mišel Jakšić",
+        "mp_slug": "918-misel-jaksic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Gordan Jandroković",
+        "mp_slug": "938-gordan-jandrokovic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Robert Jankovics",
+        "mp_slug": "958-robert-jankovics",
+        "club": null,
+        "club_slug": null,
+        "club_color": null,
+        "vote": "against"
+      },
+      {
+        "mp_name": "Dragana Jeckov",
+        "mp_slug": "849-dragana-jeckov",
+        "club": "SDSS",
+        "club_slug": "969-klub-zastupnika-samostalne-demokratske-srpske-stranke",
+        "club_color": "#9D26CC",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ljubica Jembrih",
+        "mp_slug": "1358-ljubica-jembrih",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Tomislav Josić",
+        "mp_slug": "1386-tomislav-josic",
+        "club": "Domovinski pokret",
+        "club_slug": "957-klub-zastupnika-domovinskog-pokreta",
+        "club_color": "#06637D",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Branka Juričev-Martinčev",
+        "mp_slug": "986-branka-juricev-martincev",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Veljko Kajtazi",
+        "mp_slug": "872-veljko-kajtazi",
+        "club": "HNS i NZ",
+        "club_slug": "1137-klub-zastupnika-hrvatske-narodne-stranke-i-nezavisnih-zastupnika",
+        "club_color": "#CCB899",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Goran Kaniški",
+        "mp_slug": "1395-goran-kaniski",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Krunoslav Katičić",
+        "mp_slug": "944-krunoslav-katicic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ivana Kekin",
+        "mp_slug": "1001-ivana-kekin",
+        "club": "Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Tomislav Klarić",
+        "mp_slug": "880-tomislav-klaric",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Darko Klasić",
+        "mp_slug": "899-darko-klasic",
+        "club": "HSLS i V. Bilek",
+        "club_slug": "1049-klub-zastupnika-hrvatske-socijalno-liberalne-stranke-i-nezavisnog-zastupnika-vladimira-bileka",
+        "club_color": "#9F9E54",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Anton Kliman",
+        "mp_slug": "883-anton-kliman",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ljubomir Kolarek",
+        "mp_slug": "877-ljubomir-kolarek",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Zlatko Komadina",
+        "mp_slug": "1523-zlatko-komadina",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Magdalena Komes",
+        "mp_slug": "1004-magdalena-komes",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Denis Kralj",
+        "mp_slug": "1519-denis-kralj",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Sandra Krpan",
+        "mp_slug": "1400-sandra-krpan",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Mišo Krstičević",
+        "mp_slug": "1399-miso-krsticevic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Andro Krstulović Opara",
+        "mp_slug": "1005-andro-krstulovic-opara",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ante Kujundžić",
+        "mp_slug": "928-ante-kujundzic",
+        "club": "Most i J. Jurčević",
+        "club_slug": "1043-klub-zastupnika-mosta-i-nezavisnog-zastupnika-josipa-jurcevica",
+        "club_color": "#00E1E7",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ivica Kukavica",
+        "mp_slug": "1387-ivica-kukavica",
+        "club": "Domovinski pokret",
+        "club_slug": "957-klub-zastupnika-domovinskog-pokreta",
+        "club_color": "#06637D",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Željko Lacković",
+        "mp_slug": "1249-zeljko-lackovic",
+        "club": "NZ i HSU",
+        "club_slug": "1145-klub-zastupnika-nezavisni-i-hsu",
+        "club_color": "#CDCCCF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Boris Lalovac",
+        "mp_slug": "920-boris-lalovac",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Dubravka Lipovac Pehar",
+        "mp_slug": "1388-dubravka-lipovac-pehar",
+        "club": "Domovinski pokret",
+        "club_slug": "957-klub-zastupnika-domovinskog-pokreta",
+        "club_color": "#06637D",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Marija Lugarić",
+        "mp_slug": "1416-marija-lugaric",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ljubica Lukačić",
+        "mp_slug": "977-ljubica-lukacic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Sanda Livia Maduna",
+        "mp_slug": "1401-sanda-livia-maduna",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ivan Malenica",
+        "mp_slug": "1012-ivan-malenica",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Marin Mandarić",
+        "mp_slug": "949-marin-mandaric",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Damir Mandić",
+        "mp_slug": "1402-damir-mandic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ivana Marković",
+        "mp_slug": "1407-ivana-markovic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Miroslav Marković",
+        "mp_slug": "1406-miroslav-markovic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ivan Matić",
+        "mp_slug": "1367-ivan-matic",
+        "club": "Most i J. Jurčević",
+        "club_slug": "1043-klub-zastupnika-mosta-i-nezavisnog-zastupnika-josipa-jurcevica",
+        "club_color": "#00E1E7",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Nikola Mažar",
+        "mp_slug": "992-nikola-mazar",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ivica Mesić",
+        "mp_slug": "1492-ivica-mesic",
+        "club": "Domovinski pokret",
+        "club_slug": "957-klub-zastupnika-domovinskog-pokreta",
+        "club_color": "#06637D",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Dalibor Milan",
+        "mp_slug": "1403-dalibor-milan",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Marin Miletić",
+        "mp_slug": "866-marin-miletic",
+        "club": "Most i J. Jurčević",
+        "club_slug": "1043-klub-zastupnika-mosta-i-nezavisnog-zastupnika-josipa-jurcevica",
+        "club_color": "#00E1E7",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Mario Milinković",
+        "mp_slug": "1408-mario-milinkovic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Jelena Miloš",
+        "mp_slug": "1065-jelena-milos",
+        "club": "Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Predrag Mišić",
+        "mp_slug": "1497-predrag-misic",
+        "club": "Domovinski pokret",
+        "club_slug": "957-klub-zastupnika-domovinskog-pokreta",
+        "club_color": "#06637D",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Stipo Mlinarić",
+        "mp_slug": "912-stipo-mlinaric",
+        "club": "Domovinski pokret",
+        "club_slug": "957-klub-zastupnika-domovinskog-pokreta",
+        "club_color": "#06637D",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Matej Mostarac",
+        "mp_slug": "1520-matej-mostarac",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Dubravka Novak",
+        "mp_slug": "1365-dubravka-novak",
+        "club": "Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Dalija Orešković",
+        "mp_slug": "905-dalija-oreskovic",
+        "club": null,
+        "club_slug": null,
+        "club_color": null,
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ranko Ostojić",
+        "mp_slug": "1258-ranko-ostojic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Josip Ostrogović",
+        "mp_slug": "1404-josip-ostrogovic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Dalibor Paus",
+        "mp_slug": "1366-dalibor-paus",
+        "club": "IDS, PGU, UK i ISU",
+        "club_slug": "1136-klub-zastupnika-istarskog-demokratskog-sabora-ids-primorsko-goranskog-saveza-pgs-unije-kvarnera-unija-i-istarske-stranke-umirovljenika-partito-istriano-dei-pensionati-isu-pip",
+        "club_color": "#49A343",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Marko Pavić",
+        "mp_slug": "966-marko-pavic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ivan Penava",
+        "mp_slug": "939-ivan-penava",
+        "club": "Domovinski pokret",
+        "club_slug": "957-klub-zastupnika-domovinskog-pokreta",
+        "club_color": "#06637D",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Igor Peternel",
+        "mp_slug": "1370-igor-peternel",
+        "club": "DOMiNO i HS",
+        "club_slug": "1172-klub-zastupnika-dom-i-nacionalno-okupljanje-i-hrvatski-suverenisti",
+        "club_color": "#09A2CC",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Marijana Petir",
+        "mp_slug": "878-marijana-petir",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Božo Petrov",
+        "mp_slug": "931-bozo-petrov",
+        "club": "Most i J. Jurčević",
+        "club_slug": "1043-klub-zastupnika-mosta-i-nezavisnog-zastupnika-josipa-jurcevica",
+        "club_color": "#00E1E7",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Marin Piletić",
+        "mp_slug": "1000-marin-piletic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Boris Piližota",
+        "mp_slug": "1409-boris-pilizota",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Draženka Polović",
+        "mp_slug": "1374-drazenka-polovic",
+        "club": "Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Marijana Puljak",
+        "mp_slug": "948-marijana-puljak",
+        "club": "Centar, NP Sjever i GLS",
+        "club_slug": "1130-klub-zastupnika-centra-nezavisne-platforme-sjevera-i-graansko-liberalnog-saveza",
+        "club_color": "#FFF600",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Milorad Pupovac",
+        "mp_slug": "945-milorad-pupovac",
+        "club": "SDSS",
+        "club_slug": "969-klub-zastupnika-samostalne-demokratske-srpske-stranke",
+        "club_color": "#9D26CC",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Dario Pušić",
+        "mp_slug": "1413-dario-pusic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ana Puž Kukuljan",
+        "mp_slug": "1410-ana-puz-kukuljan",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ivan Račan",
+        "mp_slug": "1417-ivan-racan",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ivan Radić",
+        "mp_slug": "887-ivan-radic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Dušica Radojčić",
+        "mp_slug": "1380-dusica-radojcic",
+        "club": "Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Sanja Radolović",
+        "mp_slug": "961-sanja-radolovic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Nino Raspudić",
+        "mp_slug": "843-nino-raspudic",
+        "club": "Klub NZ",
+        "club_slug": "1135-klub-nezavisnih-zastupnika",
+        "club_color": "#E890FF",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Urša Raukar-Gamulin",
+        "mp_slug": "994-ursa-raukar-gamulin",
+        "club": "Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Željko Reiner",
+        "mp_slug": "984-zeljko-reiner",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Tonči Restović",
+        "mp_slug": "1411-tonci-restovic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ivana Ribarić Majanović",
+        "mp_slug": "1490-ivana-ribaric-majanovic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Anđelka Salopek",
+        "mp_slug": "1494-anelka-salopek",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ante Sanader",
+        "mp_slug": "925-ante-sanader",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Marija Selak Raspudić",
+        "mp_slug": "846-marija-selak-raspudic",
+        "club": "Klub NZ",
+        "club_slug": "1135-klub-nezavisnih-zastupnika",
+        "club_color": "#E890FF",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Darko Sobota",
+        "mp_slug": "936-darko-sobota",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Tanja Sokolić",
+        "mp_slug": "1412-tanja-sokolic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Stipan Šašlin",
+        "mp_slug": "900-stipan-saslin",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Anja Šimpraga",
+        "mp_slug": "851-anja-simpraga",
+        "club": "SDSS",
+        "club_slug": "969-klub-zastupnika-samostalne-demokratske-srpske-stranke",
+        "club_color": "#9D26CC",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Maksimilijan Šimrak",
+        "mp_slug": "1415-maksimilijan-simrak",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Predrag Štromar",
+        "mp_slug": "848-predrag-stromar",
+        "club": "HNS i NZ",
+        "club_slug": "1137-klub-zastupnika-hrvatske-narodne-stranke-i-nezavisnih-zastupnika",
+        "club_color": "#CCB899",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Tomislav Šuta",
+        "mp_slug": "1418-tomislav-suta",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Miro Totgergeli",
+        "mp_slug": "842-miro-totgergeli",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Zvonimir Troskot",
+        "mp_slug": "974-zvonimir-troskot",
+        "club": "Most i J. Jurčević",
+        "club_slug": "1043-klub-zastupnika-mosta-i-nezavisnog-zastupnika-josipa-jurcevica",
+        "club_color": "#00E1E7",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Željko Turk",
+        "mp_slug": "1495-zeljko-turk",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Martina Vlašić Iljkić",
+        "mp_slug": "930-martina-vlasic-iljkic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Jasna Vojnić",
+        "mp_slug": "1419-jasna-vojnic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Mate Vukušić",
+        "mp_slug": "1414-mate-vukusic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Darko Vuletić",
+        "mp_slug": "1539-darko-vuletic",
+        "club": null,
+        "club_slug": null,
+        "club_color": null,
+        "vote": "against"
+      },
+      {
+        "mp_name": "Tomislav Zadro",
+        "mp_slug": "1521-tomislav-zadro",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Hrvoje Zekanović",
+        "mp_slug": "865-hrvoje-zekanovic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Ivo Zelić",
+        "mp_slug": "1522-ivo-zelic",
+        "club": "HDZ",
+        "club_slug": "979-klub-zastupnika-hrvatske-demokratske-zajednice",
+        "club_color": "#1523FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Mihael Zmajlović",
+        "mp_slug": "1240-mihael-zmajlovic",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Dario Zurovec",
+        "mp_slug": "875-dario-zurovec",
+        "club": "Klub NZ",
+        "club_slug": "1135-klub-nezavisnih-zastupnika",
+        "club_color": "#E890FF",
+        "vote": "against"
+      },
+      {
+        "mp_name": "Marin Živković",
+        "mp_slug": "1493-marin-zivkovic",
+        "club": "Možemo!",
+        "club_slug": "972-klub-zastupnika-mozemo",
+        "club_color": "#1DE900",
+        "vote": "for"
+      },
+      {
+        "mp_name": "Ivica Baksa",
+        "mp_slug": "1372-ivica-baksa",
+        "club": "Centar, NP Sjever i GLS",
+        "club_slug": "1130-klub-zastupnika-centra-nezavisne-platforme-sjevera-i-graansko-liberalnog-saveza",
+        "club_color": "#FFF600",
+        "vote": "absent"
+      },
+      {
+        "mp_name": "Branko Kolarić",
+        "mp_slug": "1397-branko-kolaric",
+        "club": "SDP",
+        "club_slug": "1009-klub-zastupnika-socijaldemokratske-partije-hrvatske",
+        "club_color": "#F04118",
+        "vote": "absent"
+      },
+      {
+        "mp_name": "Anka Mrak-Taritaš",
+        "mp_slug": "911-anka-mrak-taritas",
+        "club": "Centar, NP Sjever i GLS",
+        "club_slug": "1130-klub-zastupnika-centra-nezavisne-platforme-sjevera-i-graansko-liberalnog-saveza",
+        "club_color": "#FFF600",
+        "vote": "absent"
+      },
+      {
+        "mp_name": "Josip Jurčević",
+        "mp_slug": "1369-josip-jurcevic",
+        "club": "Most i J. Jurčević",
+        "club_slug": "1043-klub-zastupnika-mosta-i-nezavisnog-zastupnika-josipa-jurcevica",
+        "club_color": "#00E1E7",
+        "vote": "absent"
+      },
+      {
+        "mp_name": "Krešimir Čabaj",
+        "mp_slug": "1382-kresimir-cabaj",
+        "club": "DOMiNO i HS",
+        "club_slug": "1172-klub-zastupnika-dom-i-nacionalno-okupljanje-i-hrvatski-suverenisti",
+        "club_color": "#09A2CC",
+        "vote": "absent"
+      },
+      {
+        "mp_name": "Vesna Vučemilović",
+        "mp_slug": "983-vesna-vucemilovic",
+        "club": "NZ i HSU",
+        "club_slug": "1145-klub-zastupnika-nezavisni-i-hsu",
+        "club_color": "#CDCCCF",
+        "vote": "absent"
+      },
+      {
+        "mp_name": "Martin Kordić",
+        "mp_slug": "1529-martin-kordic",
+        "club": "DOMiNO i HS",
+        "club_slug": "1172-klub-zastupnika-dom-i-nacionalno-okupljanje-i-hrvatski-suverenisti",
+        "club_color": "#09A2CC",
+        "vote": "absent"
+      },
+      {
+        "mp_name": "Anteo Milos",
+        "mp_slug": "1534-anteo-milos",
+        "club": "IDS, PGU, UK i ISU",
+        "club_slug": "1136-klub-zastupnika-istarskog-demokratskog-sabora-ids-primorsko-goranskog-saveza-pgs-unije-kvarnera-unija-i-istarske-stranke-umirovljenika-partito-istriano-dei-pensionati-isu-pip",
+        "club_color": "#49A343",
+        "vote": "absent"
+      }
+    ]
+  },
+  {
     "vote_id": "137111",
     "date": "2026-07-03",
     "session": "10. sjednica",
