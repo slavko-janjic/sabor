@@ -1,5 +1,81 @@
 [
   {
+    "vote_id": "137190",
+    "date": "2026-09-25",
+    "session": "12. sjednica",
+    "title": "prijedlog zakona o izmjenama i dopunama zakona o gospodarenju otpadom, prvo čitanje, p.z.e. br. 345",
+    "summary": null,
+    "proposer_type": "vlada",
+    "proposer_name": "vlada republike hrvatske",
+    "proposer_color": null,
+    "result": "prihvaceno",
+    "tally": {
+      "za": 0,
+      "protiv": 0,
+      "suzdrzani": 0,
+      "odsutni": 0
+    },
+    "by_club": [],
+    "by_mp": []
+  },
+  {
+    "vote_id": "137189",
+    "date": "2026-09-25",
+    "session": "12. sjednica",
+    "title": "a) prijedlog odluke o razrješenju predsjednice vijeća za zaštitu tržišnog natjecanja; b) prijedlog odluke o imenovanju predsjednice vijeća za zaštitu tržišnog natjecanja",
+    "summary": null,
+    "proposer_type": "ostalo",
+    "proposer_name": null,
+    "proposer_color": null,
+    "result": "prihvaceno",
+    "tally": {
+      "za": 78,
+      "protiv": 30,
+      "suzdrzani": 0,
+      "odsutni": 43
+    },
+    "by_club": [],
+    "by_mp": []
+  },
+  {
+    "vote_id": "137188",
+    "date": "2026-09-25",
+    "session": "12. sjednica",
+    "title": "izvješće o radu programskog vijeća hrt-a i provedbi programskih načela i obveza hrt-a utvrđenih zakonom o hrt-u i ugovorom između hrvatske radiotelevizije i vlade republike hrvatske za razdoblje od 1. siječnja 2025. do 31. prosinca 2025. godine - podnositelj: programsko vijeće hrvatske radiotelevizije",
+    "summary": null,
+    "proposer_type": "ostalo",
+    "proposer_name": null,
+    "proposer_color": null,
+    "result": "prihvaceno",
+    "tally": {
+      "za": 76,
+      "protiv": 40,
+      "suzdrzani": 0,
+      "odsutni": 35
+    },
+    "by_club": [],
+    "by_mp": []
+  },
+  {
+    "vote_id": "137187",
+    "date": "2026-09-25",
+    "session": "12. sjednica",
+    "title": "godišnje izvješće o radu agencije za zaštitu tržišnog natjecanja za 2025. godinu - podnositeljica: agencija za zaštitu tržišnog natjecanja",
+    "summary": null,
+    "proposer_type": "ostalo",
+    "proposer_name": null,
+    "proposer_color": null,
+    "result": "prihvaceno",
+    "tally": {
+      "za": 78,
+      "protiv": 32,
+      "suzdrzani": 0,
+      "odsutni": 41
+    },
+    "by_club": [],
+    "by_mp": []
+  },
+  {
     "vote_id": "137148",
     "date": "2026-09-15",
     "session": "12. sjednica",
