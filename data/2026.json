@@ -1,5 +1,24 @@
 [
   {
+    "vote_id": "137192",
+    "date": "2026-09-25",
+    "session": "12. sjednica",
+    "title": "izvješće o stanju u sektoru vodnih usluga i radu vijeća za vodne usluge za 2024. - podnositelj: vijeće za vodne usluge",
+    "summary": null,
+    "proposer_type": "ostalo",
+    "proposer_name": null,
+    "proposer_color": null,
+    "result": "prihvaceno",
+    "tally": {
+      "za": 77,
+      "protiv": 8,
+      "suzdrzani": 22,
+      "odsutni": 44
+    },
+    "by_club": [],
+    "by_mp": []
+  },
+  {
     "vote_id": "137191",
     "date": "2026-09-25",
     "session": "12. sjednica",
