@@ -1,5 +1,24 @@
 [
   {
+    "vote_id": "137257",
+    "date": "2026-10-30",
+    "session": "12. sjednica",
+    "title": "prijedlog izmjena i dopuna državnog proračuna republike hrvatske za 2026. godinu i projekcija za 2027. i 2028. godinu",
+    "summary": null,
+    "proposer_type": "vlada",
+    "proposer_name": "vlada republike hrvatske",
+    "proposer_color": null,
+    "result": "prihvaceno",
+    "tally": {
+      "za": 78,
+      "protiv": 46,
+      "suzdrzani": 0,
+      "odsutni": 27
+    },
+    "by_club": [],
+    "by_mp": []
+  },
+  {
     "vote_id": "137256",
     "date": "2026-10-30",
     "session": "12. sjednica",
